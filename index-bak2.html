@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Datasheet</title>
+
+    <style>
+        body {
+            max-width: 210mm;
+            margin: auto;
+            border: 1px solid #eee;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+        }
+
+        div {
+            color: #555;
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        }
+
+        .header-box {
+            display: box;
+        }
+
+        .header-box table {
+            width: 100%;
+            background-color: #f3f3f4;
+        }
+
+        .header-box table tr.header-details table td {
+            width: 100%;
+            line-height: 16px;
+            font-size: 10px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        .header-box table tr.header-details td.website {
+            width: 30%;
+        }
+
+        .header-box table tr.header-details td.phone-email {
+            width: 20%;
+        }
+
+        .header-box table tr.header-details td.company-address {
+            width: 20%;
+        }
+
+        .header-box table tr.header-details td.logo {
+            width: 25%;
+            text-align: center;
+        }
+
+        .datasheet-box {
+            max-width: 210mm;
+            margin: auto;
+            border: 1px solid #eee;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        div.datasheet-box {
+            padding-left: 20mm;
+            padding-right: 5mm;
+            padding-bottom: 10mm;
+        }
+
+        .datasheet-box table {
+            width: 100%;
+            line-height: inherit;
+            text-align: left;
+        }
+        .datasheet-box table tr {
+            width: 100%;
+        }
+
+        .datasheet-box table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .datasheet-box table tr.top td {
+            padding-bottom: 20px;
+        }
+
+        .datasheet-box table tr.top td.title {
+            font-size: 24px;
+            line-height: 24px;
+            color: #333;
+        }
+
+        .datasheet-box table tr.information table td {
+            padding-bottom: 40px;
+            background-color: tomato;
+        }
+
+        .datasheet-box table tr.information table td:nth-child(2) {
+            text-align: right;
+        }
+
+        .datasheet-box table tr.heading td {
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        .datasheet-box table tr.details td {
+            padding-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .datasheet-box table tr.top table td {
+                width: 100%;
+                display: block;
+                text-align: center;
+            }
+
+            .datasheet-box table tr.information table td {
+                width: 100%;
+                display: block;
+                text-align: center;
+            }
+
+            div.datasheet-box {
+                padding-left: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+            }
+
+            .header-box table tr.header-details td {
+                width: 100%;
+                display: block;
+                text-align: center;
+                line-height: 12px;
+                padding-bottom: 20px;
+            }
+
+            .header-box table tr.header-details td.website {
+                width: 100%;
+            }
+
+            .header-box table tr.header-details td.phone-email {
+                width: 100%;
+            }
+
+            .header-box table tr.header-details td.company-address {
+                width: 100%;
+            }
+
+            .header-box table tr.header-details td.logo {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="header-details">
+                <td>
+                    <table>
+                        <tr>
+                            <td class="website">
+                                jooby.eu
+                            </td>
+                            <td class="phone-email">
+                                +38 (048) 717-77-77<br>
+                                sale@jooby.eu
+                            </td>
+                            <td class="company-address">
+                                4D, Nebesnoi Sotni Avenue<br>
+                                Odessa, Ukraine, 65121
+                            </td>
+                            <td class="logo">
+                                <img src="Jooby_logo_RGB_color.png" alt="Logo image"
+                                    style="height: 25px; object-fit: scale-down;">
+                        </tr>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="datasheet-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td class="title">
+                    Here will be the luminaire SKU
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        Datasheet: #123456<br>
+                        Created: Aug 10, 2020<br>
+                    </td>
+                </tr>
+            </tr>
+
+            <tr class="information">
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                Short description for the luminaire
+                            </td>
+
+                            <td>
+                                image box
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="heading">
+                <td>
+                    Payment Method
+                </td>
+
+                <td>
+                    Check #
+                </td>
+            </tr>
+
+            <tr class="details">
+                <td>
+                    Check
+                </td>
+
+                <td>
+                    1000
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

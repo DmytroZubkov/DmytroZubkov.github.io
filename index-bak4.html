@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Datasheet</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb-pro.min.css">
+    <!-- Material Design Bootstrap Ecommerce -->
+    <link rel="stylesheet" href="css/mdb.ecommerce.min.css">
+
+
+    <style>
+        body {
+            max-width: 210mm;
+            height: 297mm;
+            margin: auto;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        table {
+            text-align: left;
+            width: 100%;
+        }
+
+        table tr.heading td {
+            padding: 5px;
+            vertical-align: top;
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        table tr td {
+            padding: 3px;
+            padding-left: 5px;
+            vertical-align: top;
+            font-size: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .banner-img {
+            line-height: 0px;
+        }
+
+        .product-img {
+            box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+        }
+
+        .ldc-img {
+            line-height: 0px;
+        }
+
+
+
+        /*---------------------*/
+        .datasheet-area {
+            padding: 10mm 10mm 10mm 20mm;
+        }
+
+
+
+        /*---------------------*/
+        .title {
+            font-size: 18px;
+            line-height: 24px;
+            color: #333;
+        }
+
+        #title {
+            padding-bottom: 20px;
+        }
+
+
+        /*---------------------*/
+        .general-info-container {
+            padding-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        #short-description {
+            text-align: justify;
+            box-sizing: border-box;
+            flex: 2;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            /* border: 1px solid #ddd; */
+        }
+
+        #product-img {
+            /* width: 70mm; */
+            /* border: 1px solid #ddd; */
+        }
+
+
+
+
+        /* Detailed characteristics of the selected luminaire */
+        .lum {
+            padding-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        }
+
+        .lum-char {
+            padding-bottom: 5px;
+            padding-right: 20px;
+            box-sizing: border-box;
+            flex: 1 1 60%;
+        }
+
+        .lum-images {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .lum-ldc {
+            padding-bottom: 20px;
+        }
+
+        .lum-ldc-header {
+            padding: 5px;
+            vertical-align: top;
+            background: #eee;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        /* Filter styles */
+        .loader-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            z-index: 998;
+        }
+
+        .loader-overlay .preloader-wrapper {
+            position: fixed;
+            top: 50%;
+        }
+
+        /* Filter styles */
+    </style>
+</head>
+
+<!-- https://www.youtube.com/watch?time_continue=380&v=k32voqQhODc&feature=emb_title -->
+
+
+<body>
+    <!-- BANNER part for datasheet header -->
+    <div class="banner-img">
+        <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+    </div>
+
+    <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
+    <div class="datasheet-area">
+        <div class="title">
+            <div>
+                Jooby Avenue
+            </div>
+            <div id="title">
+                C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
+            </div>
+        </div>
+
+        <div class="general-info-container">
+            <div id="short-description" class="general-info">
+                Short description for the luminaire<br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, quam rerum? Nesciunt tempore nemo
+                deserunt? Deleniti nulla repellat quisquam maxime, impedit dignissimos nam nihil odio qui quia accusamus
+                pariatur doloribus!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, quam rerum? Nesciunt tempore nemo
+                deserunt? Deleniti nulla repellat quisquam maxime, impedit dignissimos nam nihil odio qui quia accusamus
+                pariatur doloribus!
+            </div>
+            <div id="product-img" class="general-info">
+                <img class="product-img" src="Photos/Smart/Console/SMD/C2xXX-S6-smart1-new.jpg" alt="Product image"
+                    style="width: 65mm; object-fit: scale-down; vertical-align: bottom;">
+            </div>
+        </div>
+
+        <div class="lum">
+            <div class="lum-char">
+                <table class="lum-char-table" cellpadding="0" cellspacing="0">
+                    <tr class="heading">
+                        <td>
+                            Property
+                        </td>
+                        <td>
+                            Value
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Power consumption
+                        </td>
+                        <td id="lum-power">
+                            120 W
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Input voltage
+                        </td>
+                        <td id="lum-voltage">
+                            120 - 280 V
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Input voltage frequency
+                        </td>
+                        <td id="lum-freq">
+                            50 Hz
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Power factor
+                        </td>
+                        <td id="lum-power-factor">
+                            >0.98
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Surge protection
+                        </td>
+                        <td id="lum-spc">
+                            SPC - 10 kA, controllable
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Protection class
+                        </td>
+                        <td id="lum-ip">
+                            IP66
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Electrical safety class
+                        </td>
+                        <td id="lum-elec-safety-class">
+                            I
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Environment temperature
+                        </td>
+                        <td id="lum-t-amb-working">
+                            -40°C ... +50°C
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Dimensions
+                        </td>
+                        <td id="lum-dimensions">
+                            525х250х110 mm
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Weight
+                        </td>
+                        <td id="lum-weight">
+                            8 kg
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Body technology and material
+                        </td>
+                        <td id="lum-material">
+                            die-cast aluminum alloy
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Maintenance factor
+                        </td>
+                        <td id="lum-mf">
+                            L70
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Failure rate
+                        </td>
+                        <td id="lum-fr">
+                            F50
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Lifetime
+                        </td>
+                        <td id="lum-lifetime">
+                            F50
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Warranty
+                        </td>
+                        <td id="lum-warranty">
+                            7 years
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="lum-images">
+                <div class="lum-ldc">
+                    <div class="lum-ldc-header">
+                        Light distribution | 150x60
+                    </div>
+                    <div class="ldc-img">
+                        <img src="Photos/LDCs/S6_T3.jpg" alt="Product light distribution diagram"
+                            style="width: 65mm; object-fit: scale-down;">
+                    </div>
+                </div>
+                <div class="lum-mount">
+                    <div class="lum-ldc-header">
+                        Mounting option
+                    </div>
+                    <div class="ldc-img">
+                        <img src="Photos/Horizontal.jpg" alt="Product mounting"
+                            style="width: 65mm; object-fit: scale-down;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- https://mdbootstrap.com/docs/jquery/ecommerce/design-blocks/filters/#! -->
+
+    <!-- Section: Sidebar -->
+    <section>
+
+        <!-- Section: Filters -->
+        <section>
+
+            <h1>Filters</h1>
+
+            <!-- Section: Body -->
+            <section filter="body" class="mb-4">
+                <h2 class="font-weight-bold mb-3">Body</h2>
+
+                <div class="form-check pl-0 mb-3">
+                    <input type="checkbox" class="filter-option form-check-input filled-in" condition="console"
+                        id="console" />
+                    <label class="form-check-label small text-uppercase card-link-secondary"
+                        for="console">Console</label>
+                </div>
+                <div class="form-check pl-0 mb-3">
+                    <input condition="suspended" type="checkbox" class="filter-option form-check-input filled-in"
+                        id="suspended" />
+                    <label class="form-check-label small text-uppercase card-link-secondary"
+                        for="suspended">Suspended</label>
+                </div>
+            </section>
+            <!-- Section: Condition -->
+
+
+        </section>
+        <!-- Section: Filters -->
+
+    </section>
+    <!-- Section: Sidebar -->
+    <!-- https://mdbootstrap.com/docs/jquery/ecommerce/design-blocks/filters/#! -->
+
+
+
+</body>
+
+</html>
