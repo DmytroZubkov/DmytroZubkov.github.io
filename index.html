@@ -9,12 +9,25 @@
     <style>
         body {
             max-width: 210mm;
-            height: 297mm;
             margin: auto;
             box-shadow: 0 0 5px rgba(0, 0, 0, .15);
             font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
             font-size: 12px;
             line-height: 16px;
+        }
+
+        h1 {
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+        .datasheet-area {
+            padding: 10mm 10mm 10mm 20mm;
+            /* border: 1px solid rgb(82, 76, 76); */
+            /* box-shadow: 0 0 5px rgba(0, 0, 0, .15); */
+            page-break-after: always;
         }
 
         .lum-char-table {
@@ -41,34 +54,34 @@
         /* Configuration guide table - START */
 
         .config-guide .config-table {
-            background: #9cb5d4;
+            background: #eeeeee;
             text-align: center;
             font-weight: bold;
             width: 100%;
         }
 
         .config-guide .config-table td {
-            padding: 5px;
+            padding: 3px;
             padding-left: 5px;
             font-size: 9px;
             line-height: 12px;
         }
 
         .config-guide .config-table td:nth-child(even) {
-            background-color: #7f90a7;
+            background-color: #e0e0e0;
         }
 
         .config-guide .config-table tr.heading td {
             padding: 5px;
             vertical-align: top;
             /* background: #eee; */
-            border-bottom: 2px solid #505050;
+            border-bottom: 1.5px solid #9E9E9E;
             font-size: 12px;
             font-weight: bold;
         }
 
         .config-guide .config-table tr.subheading td {
-            border-bottom: 1px solid #505050;
+            border-bottom: 1px solid #9E9E9E;
         }
 
         .config-guide .config-table tr.heading td.empty-cell {
@@ -84,30 +97,23 @@
         div.config-guide table.config-table td.config-descr-cell {
             background: #fff;
             text-align: left;
+            font-weight: normal;
         }
-
-
-
-
-
-        /* #config-guide tr.config-descr-cell td {
-            background-color: #fff;
-        } */
-
-        /* #config-guide td:nth-child(even) {
-            background-color: #eee;
-        } */
-
-        /* #config-guide td:nth-child(odd) {
-            background-color: #fbfbfb;
-        } */
 
         /* Configuration guide table - END */
 
 
-
         .banner-img {
             line-height: 0px;
+            margin-left: -20mm;
+            margin-top: -10mm;
+        }
+
+        .banner-img2 {
+            display: none;
+            line-height: 0px;
+            margin-left: -20mm;
+            margin-top: -10mm;
         }
 
         .product-img {
@@ -118,17 +124,9 @@
             line-height: 0px;
         }
 
-
-
-        /*---------------------*/
-        .datasheet-area {
-            padding: 10mm 10mm 10mm 20mm;
-        }
-
-
-
         /*---------------------*/
         .title {
+            padding-top: 20px;
             font-size: 18px;
             line-height: 24px;
             color: #333;
@@ -139,9 +137,7 @@
         }
 
         #lum-type {
-            padding-bottom: 20px;
-            font-size: 12px;
-            line-height: 16px;
+            padding-bottom: 10px;
         }
 
 
@@ -167,8 +163,6 @@
             width: 70mm;
             border: 1px solid #ddd;
         } */
-
-
 
 
         /* Detailed characteristics of the selected luminaire */
@@ -211,6 +205,16 @@
         .sidebar {
             float: left;
         }
+
+        @media print {
+            body {
+                box-shadow: none;
+            }
+
+            .banner-img2 {
+                display: block;
+            }
+        }
     </style>
 </head>
 
@@ -218,13 +222,13 @@
 
 
 <body>
-    <!-- BANNER part for datasheet header -->
-    <div class="banner-img">
-        <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
-    </div>
-
-    <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
     <div class="datasheet-area">
+        <!-- BANNER part for datasheet header -->
+        <div class="banner-img">
+            <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+        </div>
+
+        <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
         <div class="title">
             <div>
                 Jooby Avenue
@@ -232,10 +236,10 @@
             <div id="lum-sku">
                 C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
             </div>
-            <div id="lum-type">
-                SMD LED Streetlight
-            </div>
         </div>
+        <h1 id="lum-type">
+            SMD LED Streetlight
+        </h1>
 
         <div class="general-info-container">
             <div id="short-description" class="general-info">
@@ -460,310 +464,314 @@
                 </div>
             </div>
         </div>
-
-        <div>
-            <div>
-                Configuration Guide
-            </div>
-            <div>
-                Jooby Avenue C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
-            </div>
-            <div class="config-guide">
-                <table class="config-table" cellpadding="0" cellspacing="0">
-                    <tr class="heading">
-                        <td>
-                            C
-                        </td>
-                        <td>
-                            2x
-                        </td>
-                        <td>
-                            40
-                        </td>
-                        <td>
-                            S6/T3
-                        </td>
-                        <td>
-                            3K
-                        </td>
-                        <td>
-                            7
-                        </td>
-                        <td>
-                            L
-                        </td>
-                        <td>
-                            Cr
-                        </td>
-                        <td>
-                            SPC
-                        </td>
-                        <td>
-                            DL
-                        </td>
-                        <td>
-                            *
-                        </td>
-                        <td class="empty-cell"></td>
-                    </tr>
-                    <tr class="subheading">
-                        <td>Housing Type</td>
-                        <td>Modules QTY</td>
-                        <td>Single Module Power</td>
-                        <td>Lens</td>
-                        <td>CCT</td>
-                        <td>CRI</td>
-                        <td>Efficacy Category</td>
-                        <td>LED Manufacturer</td>
-                        <td>Surge Protection</td>
-                        <td>Dimming</td>
-                        <td>Mounting Type</td>
-                        <td width="130px" class="empty-cell"></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>T1<br>
-                            F1<br>
-                            F2<br>
-                            F3<br>
-                            Fw<br>
-                            R<br>
-                            Rx2
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            for span wire, 3d<br>
-                            narrow floodlight type, 2d<br>
-                            narrow floodlight type, 3d<br>
-                            wide floodlight type<br>
-                            wide floodlight type, separate<br>
-                            eye nut<br>
-                            eye nut, 2pcs
-                        </td>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>DL<br>
-                            D01<br>
-                            DEM<br>
-                            DMV
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            DALI<br>
-                            0 - 10V dimming with emergency mode<br>
-                            emergency mode dimming<br>
-                            mains voltage dimming
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>SPC</td>
-                        <td class="config-descr-cell" colspan="12">In:5kA</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            Ci<br>
-                            Os<br>
-                            Se<br>
-                            Cr<br>
-                            Sa<br>
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            Citizen Electronics Co., Ltd.<br>
-                            Osram AG.<br>
-                            Seoul Semiconductor Co., Ltd.<br>
-                            Cree Inc.<br>
-                            Samsung Electronics Co., Ltd.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            T<br>
-                            I<br>
-                            S<br>
-                            M<br>
-                            L<br>
-                            Н<br>
-                            E<br>
-                            U
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            ≥91 lm/W (tiny)<br>
-                            ≥101 lm/W (initial)<br>
-                            ≥111 lm/W (small)<br>
-                            ≥121 lm/W (medium)<br>
-                            ≥131 lm/W (large)<br>
-                            ≥141 lm/W (high)<br>
-                            ≥151 lm/W (extra)<br>
-                            ≥161 lm/W (ultra)
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            6<br>
-                            7<br>
-                            8<br>
-                            9<br>
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            60-69<br>
-                            70-79<br>
-                            80-89<br>
-                            ≥90<br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            2.7K<br>
-                            3K<br>
-                            4K<br>
-                            5K<br>
-                            5.7K<br>
-                            6.5K
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            2700К<br>
-                            3000К<br>
-                            4000К<br>
-                            5000К<br>
-                            5700К<br>
-                            6500К
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            S1<br>
-                            S2<br>
-                            S3<br>
-                            S4<br>
-                            S6/T1<br>
-                            S6/T2<br>
-                            S6/T3<br>
-                            S6/T5s<br>
-                            S6/Sc<br>
-                            F1/45<br>
-                            F1/60<br>
-                            F1/90<br>
-                            F1/120<br>
-                            F6/30<br>
-                            F6/65<br>
-                            F6/90<br>
-                            F7/18<br>
-                            F7/22<br>
-                            F7/30<br>
-                            F7/45<br>
-                            F7/1840<br>
-                            F7/115d<br>
-                            F7/125
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            asymmetrical glass lens 145°x65°<br>
-                            asymmetrical glass lens 170°x120°<br>
-                            asymmetrical glass lens 160°x80°<br>
-                            asymmetrical glass lens 150°x70°<br>
-                            28 LEDs asymmetrical lens arrays, type I<br>
-                            28 LEDs asymmetrical lens arrays, type II<br>
-                            28 LEDs asymmetrical lens arrays, type III<br>
-                            28 LEDs symmetrical lens arrays, type V<br>
-                            28 LEDs asymmetrical lens arrays, type II/III (long)<br>
-                            symmetrical glass lens 45°x45°<br>
-                            symmetrical glass lens 60°x60°<br>
-                            symmetrical glass lens 90°x90°<br>
-                            symmetrical glass lens 120°x120°<br>
-                            28 LEDs symmetrical lens arrays 30°x30°<br>
-                            28 LEDs symmetrical lens arrays 65°x65°<br>
-                            28 LEDs symmetrical lens arrays 90°x90°<br>
-                            36 LEDs symmetrical lens arrays 18°x18°<br>
-                            36 LEDs symmetrical lens arrays 22°x22°<br>
-                            36 LEDs symmetrical lens arrays 30°x30°<br>
-                            36 LEDs symmetrical lens arrays 45°x45°<br>
-                            36 LEDs symmetrical lens arrays 18°x40°<br>
-                            36 LEDs matt symmetrical lens arrays 115°x115°<br>
-                            36 LEDs symmetrical lens arrays 125°x125°
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            20 W<br>
-                            30 W<br>
-                            40 W<br>
-                            60 W<br>
-                            80 W<br>
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            Possible power for single module
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>1 to 5
-                        <td class="config-descr-cell" colspan="12">
-                            From 1 to 5 modules per fixture
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>С<br>
-                            S
-                        </td>
-                        <td class="config-descr-cell" colspan="12">
-                            Console<br>
-                            Suspended
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
     </div>
+
+    <div class="datasheet-area">
+        <!-- BANNER part for datasheet header -->
+        <div class="banner-img2">
+            <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+        </div>
+        <h1>
+            Configuration Guide
+        </h1>
+        <div>
+            Jooby Avenue C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
+        </div>
+        <div class="config-guide">
+            <table class="config-table" cellpadding="0" cellspacing="0">
+                <tr class="heading">
+                    <td>
+                        C
+                    </td>
+                    <td>
+                        2x
+                    </td>
+                    <td>
+                        40
+                    </td>
+                    <td>
+                        S6/T3
+                    </td>
+                    <td>
+                        3K
+                    </td>
+                    <td>
+                        7
+                    </td>
+                    <td>
+                        L
+                    </td>
+                    <td>
+                        Cr
+                    </td>
+                    <td>
+                        SPC
+                    </td>
+                    <td>
+                        DL
+                    </td>
+                    <td>
+                        *
+                    </td>
+                    <td class="empty-cell"></td>
+                </tr>
+                <tr class="subheading">
+                    <td>Housing Type</td>
+                    <td>Modules QTY</td>
+                    <td>Single Module Power</td>
+                    <td>Lens</td>
+                    <td>CCT</td>
+                    <td>CRI</td>
+                    <td>Efficacy Category</td>
+                    <td>LED Manufacturer</td>
+                    <td>Surge Protection</td>
+                    <td>Dimming</td>
+                    <td>Mounting Type</td>
+                    <td width="130px" class="empty-cell"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>T1<br>
+                        F1<br>
+                        F2<br>
+                        F3<br>
+                        Fw<br>
+                        R<br>
+                        Rx2
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        for span wire, 3d<br>
+                        narrow floodlight type, 2d<br>
+                        narrow floodlight type, 3d<br>
+                        wide floodlight type<br>
+                        wide floodlight type, separate<br>
+                        eye nut<br>
+                        eye nut, 2pcs
+                    </td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>DL<br>
+                        D01<br>
+                        DEM<br>
+                        DMV
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        DALI<br>
+                        0 - 10V dimming with emergency mode<br>
+                        emergency mode dimming<br>
+                        mains voltage dimming
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>SPC</td>
+                    <td class="config-descr-cell" colspan="12">In:5kA</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        Ci<br>
+                        Os<br>
+                        Se<br>
+                        Cr<br>
+                        Sa<br>
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        Citizen Electronics Co., Ltd.<br>
+                        Osram AG.<br>
+                        Seoul Semiconductor Co., Ltd.<br>
+                        Cree Inc.<br>
+                        Samsung Electronics Co., Ltd.
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        T<br>
+                        I<br>
+                        S<br>
+                        M<br>
+                        L<br>
+                        Н<br>
+                        E<br>
+                        U
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        ≥91 lm/W (tiny)<br>
+                        ≥101 lm/W (initial)<br>
+                        ≥111 lm/W (small)<br>
+                        ≥121 lm/W (medium)<br>
+                        ≥131 lm/W (large)<br>
+                        ≥141 lm/W (high)<br>
+                        ≥151 lm/W (extra)<br>
+                        ≥161 lm/W (ultra)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        6<br>
+                        7<br>
+                        8<br>
+                        9<br>
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        60-69<br>
+                        70-79<br>
+                        80-89<br>
+                        ≥90<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        2.7K<br>
+                        3K<br>
+                        4K<br>
+                        5K<br>
+                        5.7K<br>
+                        6.5K
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        2700К<br>
+                        3000К<br>
+                        4000К<br>
+                        5000К<br>
+                        5700К<br>
+                        6500К
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        S1<br>
+                        S2<br>
+                        S3<br>
+                        S4<br>
+                        S6/T1<br>
+                        S6/T2<br>
+                        S6/T3<br>
+                        S6/T5s<br>
+                        S6/Sc<br>
+                        F1/45<br>
+                        F1/60<br>
+                        F1/90<br>
+                        F1/120<br>
+                        F6/30<br>
+                        F6/65<br>
+                        F6/90<br>
+                        F7/18<br>
+                        F7/22<br>
+                        F7/30<br>
+                        F7/45<br>
+                        F7/1840<br>
+                        F7/115d<br>
+                        F7/125
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        asymmetrical glass lens 145°x65°<br>
+                        asymmetrical glass lens 170°x120°<br>
+                        asymmetrical glass lens 160°x80°<br>
+                        asymmetrical glass lens 150°x70°<br>
+                        28 LEDs asymmetrical lens arrays, type I<br>
+                        28 LEDs asymmetrical lens arrays, type II<br>
+                        28 LEDs asymmetrical lens arrays, type III<br>
+                        28 LEDs symmetrical lens arrays, type V<br>
+                        28 LEDs asymmetrical lens arrays, type II/III (long)<br>
+                        symmetrical glass lens 45°x45°<br>
+                        symmetrical glass lens 60°x60°<br>
+                        symmetrical glass lens 90°x90°<br>
+                        symmetrical glass lens 120°x120°<br>
+                        28 LEDs symmetrical lens arrays 30°x30°<br>
+                        28 LEDs symmetrical lens arrays 65°x65°<br>
+                        28 LEDs symmetrical lens arrays 90°x90°<br>
+                        36 LEDs symmetrical lens arrays 18°x18°<br>
+                        36 LEDs symmetrical lens arrays 22°x22°<br>
+                        36 LEDs symmetrical lens arrays 30°x30°<br>
+                        36 LEDs symmetrical lens arrays 45°x45°<br>
+                        36 LEDs symmetrical lens arrays 18°x40°<br>
+                        36 LEDs matt symmetrical lens arrays 115°x115°<br>
+                        36 LEDs symmetrical lens arrays 125°x125°
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        20 W<br>
+                        30 W<br>
+                        40 W<br>
+                        60 W<br>
+                        80 W<br>
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        Possible power for single module
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1 to 5
+                    <td class="config-descr-cell" colspan="12">
+                        From 1 to 5 modules per fixture
+                    </td>
+                </tr>
+                <tr>
+                    <td>С<br>
+                        S
+                    </td>
+                    <td class="config-descr-cell" colspan="12">
+                        Console<br>
+                        Suspended
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
 
     <!-- ------------------------------------------------------------------------------------------ -->
     <!-- Sidebar -->
