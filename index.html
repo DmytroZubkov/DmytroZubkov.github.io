@@ -8,10 +8,8 @@
 
     <style>
         body {
-            /* height: 100%; */
             max-width: 210mm;
             margin: auto;
-            /* border: 1px solid rgb(82, 76, 76); */
             box-shadow: 0 0 5px rgba(0, 0, 0, .15);
             font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
             font-size: 12px;
@@ -63,7 +61,7 @@
         }
 
         .config-guide .config-table td {
-            padding: 5px;
+            padding: 3px;
             padding-left: 5px;
             font-size: 9px;
             line-height: 12px;
@@ -77,7 +75,7 @@
             padding: 5px;
             vertical-align: top;
             /* background: #eee; */
-            border-bottom: 2px solid #9E9E9E;
+            border-bottom: 1.5px solid #9E9E9E;
             font-size: 12px;
             font-weight: bold;
         }
@@ -105,12 +103,17 @@
         /* Configuration guide table - END */
 
 
-
         .banner-img {
             line-height: 0px;
             margin-left: -20mm;
             margin-top: -10mm;
-            /* padding-bottom: 10mm; */
+        }
+
+        .banner-img2 {
+            display: none;
+            line-height: 0px;
+            margin-left: -20mm;
+            margin-top: -10mm;
         }
 
         .product-img {
@@ -162,8 +165,6 @@
         } */
 
 
-
-
         /* Detailed characteristics of the selected luminaire */
         .lum {
             padding-bottom: 10px;
@@ -203,6 +204,16 @@
         /* Sidebar styles */
         .sidebar {
             float: left;
+        }
+
+        @media print {
+            body {
+                box-shadow: none;
+            }
+
+            .banner-img2 {
+                display: block;
+            }
         }
     </style>
 </head>
@@ -457,7 +468,7 @@
 
     <div class="datasheet-area">
         <!-- BANNER part for datasheet header -->
-        <div class="banner-img">
+        <div class="banner-img2">
             <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
         <h1>
