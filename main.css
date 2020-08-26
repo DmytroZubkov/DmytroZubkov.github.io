@@ -34,6 +34,34 @@ p {
     page-break-after: always;
 }
 
+.selector {
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.selector-row {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 0;
+}
+
+.selector-description {
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+select {
+    font: inherit;
+}
+
+.selector-option {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50px;
+}
+
 #light-beam {
     display: inline-block;
 }
