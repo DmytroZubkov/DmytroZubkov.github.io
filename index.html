@@ -5,217 +5,8 @@
     <meta charset="utf-8">
     <title>Datasheet</title>
 
+    <link rel="stylesheet" href="main.css">
 
-    <style>
-        body {
-            max-width: 210mm;
-            margin: auto;
-            box-shadow: 0 0 5px rgba(0, 0, 0, .15);
-            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-            font-size: 12px;
-            line-height: 16px;
-        }
-
-        h1 {
-            font-size: 14px;
-            line-height: 16px;
-            font-weight: normal;
-            text-transform: uppercase;
-        }
-
-        .datasheet-area {
-            padding: 10mm 10mm 10mm 20mm;
-            /* border: 1px solid rgb(82, 76, 76); */
-            /* box-shadow: 0 0 5px rgba(0, 0, 0, .15); */
-            page-break-after: always;
-        }
-
-        .lum-char-table {
-            text-align: left;
-            width: 100%;
-        }
-
-        .lum-char-table tr.heading td {
-            padding: 5px;
-            vertical-align: top;
-            background: #eee;
-            border-bottom: 1px solid #ddd;
-            font-weight: bold;
-        }
-
-        .lum-char-table tr td {
-            padding: 3px;
-            padding-left: 5px;
-            vertical-align: top;
-            font-size: 12px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        /* Configuration guide table - START */
-
-        .config-guide .config-table {
-            background: #eeeeee;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-        }
-
-        .config-guide .config-table td {
-            padding: 3px;
-            padding-left: 5px;
-            font-size: 9px;
-            line-height: 12px;
-        }
-
-        .config-guide .config-table td:nth-child(even) {
-            background-color: #e0e0e0;
-        }
-
-        .config-guide .config-table tr.heading td {
-            padding: 5px;
-            vertical-align: top;
-            /* background: #eee; */
-            border-bottom: 1.5px solid #9E9E9E;
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        .config-guide .config-table tr.subheading td {
-            border-bottom: 1px solid #9E9E9E;
-        }
-
-        .config-guide .config-table tr.heading td.empty-cell {
-            background: #fff;
-            border-bottom: none;
-        }
-
-        .config-guide .config-table tr.subheading td.empty-cell {
-            background: #fff;
-            border-bottom: none;
-        }
-
-        div.config-guide table.config-table td.config-descr-cell {
-            background: #fff;
-            text-align: left;
-            font-weight: normal;
-        }
-
-        /* Configuration guide table - END */
-
-
-        .banner-img {
-            line-height: 0px;
-            margin-left: -20mm;
-            margin-top: -10mm;
-        }
-
-        .banner-img2 {
-            display: none;
-            line-height: 0px;
-            margin-left: -20mm;
-            margin-top: -10mm;
-        }
-
-        .product-img {
-            box-shadow: 0 0 5px rgba(0, 0, 0, .15);
-        }
-
-        .ldc-img {
-            line-height: 0px;
-        }
-
-        /*---------------------*/
-        .title {
-            padding-top: 20px;
-            font-size: 18px;
-            line-height: 24px;
-            color: #333;
-        }
-
-        #lum-sku {
-            padding-bottom: 10px;
-        }
-
-        #lum-type {
-            padding-bottom: 10px;
-        }
-
-
-        /*---------------------*/
-        .general-info-container {
-            padding-bottom: 20px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        #short-description {
-            text-align: justify;
-            box-sizing: border-box;
-            flex: 2;
-            padding-right: 20px;
-            padding-bottom: 10px;
-            /* border: 1px solid #ddd; */
-        }
-
-        /* #product-img {
-            width: 70mm;
-            border: 1px solid #ddd;
-        } */
-
-
-        /* Detailed characteristics of the selected luminaire */
-        .lum {
-            padding-bottom: 10px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            /* flex-direction: column; */
-        }
-
-        .lum-char {
-            padding-bottom: 5px;
-            padding-right: 20px;
-            box-sizing: border-box;
-            flex: 1 1 60%;
-        }
-
-        .lum-images {
-            flex: 1;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .lum-ldc {
-            padding-bottom: 20px;
-        }
-
-        .lum-ldc-header {
-            padding: 5px;
-            vertical-align: top;
-            background: #eee;
-            font-weight: bold;
-            border-bottom: 1px solid #ddd;
-        }
-
-        /* Sidebar styles */
-        .sidebar {
-            float: left;
-        }
-
-        @media print {
-            body {
-                box-shadow: none;
-            }
-
-            .banner-img2 {
-                display: block;
-            }
-        }
-    </style>
 </head>
 
 <!-- https://www.youtube.com/watch?time_continue=380&v=k32voqQhODc&feature=emb_title -->
@@ -243,13 +34,17 @@
 
         <div class="general-info-container">
             <div id="short-description" class="general-info">
-                Short description for the luminaire / Features<br>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, quam rerum? Nesciunt tempore nemo
-                deserunt? Deleniti nulla repellat quisquam maxime, impedit dignissimos nam nihil odio qui quia accusamus
-                pariatur doloribus!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, quam rerum? Nesciunt tempore nemo
-                deserunt? Deleniti nulla repellat quisquam maxime, impedit dignissimos nam nihil odio qui quia accusamus
-                pariatur doloribus!
+                <p>The luminaires are designed for road and street lighting, illumination of tunnels, squares, bridges, city public areas, industrial sites, parking lots etc.
+                </p>
+                <p>
+                    The Jooby Avenue Luminaires are part of Jooby Smart Lighting Solution.
+                </p>
+                <p>
+                    The Jooby Smart Lighting Solution ecosystem contains a full set of devices needed to build a smart
+                    lighting system: Avenue luminaires with control devices, outdoor motion sensors, control devices for
+                    third party luminaires, and the product list keeps growing. Please check our products list for more
+                    information.
+                </p>
             </div>
             <div id="product-img" class="general-info">
                 <img class="product-img" src="Photos/Smart/Console/SMD/C2xXX-S6-smart1-new.jpg" alt="Product image"
@@ -475,7 +270,7 @@
             Configuration Guide
         </h1>
         <div>
-            Jooby Avenue C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
+            Jooby Avenue C2x40-S6/T3-3K7L-Cr-SPC-DL
         </div>
         <div class="config-guide">
             <table class="config-table" cellpadding="0" cellspacing="0">
@@ -773,8 +568,7 @@
     </div>
 
 
-    <!-- ------------------------------------------------------------------------------------------ -->
-    <!-- Sidebar -->
+    <!-- ------------------------- -->
     <!-- Sidebar -->
 
 
