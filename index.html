@@ -19,6 +19,9 @@
             <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
 
+        <!-- Product selector panel - START-->
+        <!-- Product selector panel - END-->
+
         <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
         <div class="title">
             <div>
@@ -53,15 +56,12 @@
         </div>
 
         <div class="lum">
-            <div class="lum-char">
-                <table class="lum-char-table" cellpadding="0" cellspacing="0">
+            <div class="lum-spec">
+                <table class="lum-spec-table" cellpadding="0" cellspacing="0">
                     <tr class="heading">
                         <td colspan="2">
                             Specifications
                         </td>
-                        <!-- <td>
-                            Value
-                        </td> -->
                     </tr>
 
                     <tr>
@@ -241,7 +241,7 @@
             <div class="lum-images">
                 <div class="lum-ldc">
                     <div class="lum-ldc-header">
-                        Light distribution | 150x60
+                        Light distribution | <div id="light-beam">150°x60°</div>
                     </div>
                     <div class="ldc-img">
                         <img src="Photos/LDCs/S6_T3.jpg" alt="Product light distribution diagram"
@@ -250,7 +250,7 @@
                 </div>
                 <div class="lum-mount">
                     <div class="lum-ldc-header">
-                        Mounting option
+                        Mounting option | <div id="mounting-option">Console</div>
                     </div>
                     <div class="ldc-img">
                         <img src="Photos/Horizontal.jpg" alt="Product mounting"
@@ -512,11 +512,11 @@
                         asymmetrical glass lens 170°x120°<br>
                         asymmetrical glass lens 160°x80°<br>
                         asymmetrical glass lens 150°x70°<br>
-                        28 LEDs asymmetrical lens arrays, type I<br>
-                        28 LEDs asymmetrical lens arrays, type II<br>
-                        28 LEDs asymmetrical lens arrays, type III<br>
-                        28 LEDs symmetrical lens arrays, type V<br>
-                        28 LEDs asymmetrical lens arrays, type II/III (long)<br>
+                        28 LEDs asymmetrical lens arrays, type I (145°x80°)<br>
+                        28 LEDs asymmetrical lens arrays, type II (160°x50°)<br>
+                        28 LEDs asymmetrical lens arrays, type III (150°x60°)<br>
+                        28 LEDs symmetrical lens arrays, type V (140°)<br>
+                        28 LEDs asymmetrical lens arrays, type II/III (long, 160°x65°)<br>
                         symmetrical glass lens 45°x45°<br>
                         symmetrical glass lens 60°x60°<br>
                         symmetrical glass lens 90°x90°<br>
@@ -569,8 +569,6 @@
 
 
     <!-- ------------------------- -->
-    <!-- Sidebar -->
-
 
 
 
