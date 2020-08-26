@@ -34,12 +34,22 @@ p {
     page-break-after: always;
 }
 
-.lum-char-table {
+#light-beam {
+    display: inline-block;
+}
+
+#mounting-option {
+    display: inline-block;
+}
+
+/* Specifications table - START */
+
+.lum-spec-table {
     text-align: left;
     width: 100%;
 }
 
-.lum-char-table tr.heading td {
+.lum-spec-table tr.heading td {
     padding: 5px;
     vertical-align: top;
     background: #eee;
@@ -47,13 +57,15 @@ p {
     font-weight: bold;
 }
 
-.lum-char-table tr td {
+.lum-spec-table tr td {
     padding: 3px;
     padding-left: 5px;
     vertical-align: top;
     font-size: 12px;
     border-bottom: 1px solid #ddd;
 }
+
+/* Specifications table - END */
 
 /* Configuration guide table - START */
 
@@ -105,7 +117,7 @@ div.config-guide table.config-table td.config-descr-cell {
 
 /* Configuration guide table - END */
 
-
+/* Images style - START */
 .banner-img {
     line-height: 0px;
     margin-left: -20mm;
@@ -127,6 +139,13 @@ div.config-guide table.config-table td.config-descr-cell {
     line-height: 0px;
 }
 
+/* #product-img {
+    width: 70mm;
+    border: 1px solid #ddd;
+} */
+
+/* Images style - END */
+
 /*---------------------*/
 .general-info-container {
     padding-bottom: 20px;
@@ -135,6 +154,9 @@ div.config-guide table.config-table td.config-descr-cell {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+/* Detailed specacteristics of the selected luminaire */
 
 #short-description {
     text-align: justify;
@@ -145,23 +167,15 @@ div.config-guide table.config-table td.config-descr-cell {
     /* border: 1px solid #ddd; */
 }
 
-/* #product-img {
-    width: 70mm;
-    border: 1px solid #ddd;
-} */
-
-
-/* Detailed characteristics of the selected luminaire */
 .lum {
     padding-bottom: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
-.lum-char {
+.lum-spec {
     padding-bottom: 5px;
     padding-right: 20px;
     box-sizing: border-box;
@@ -185,11 +199,6 @@ div.config-guide table.config-table td.config-descr-cell {
     background: #eee;
     font-weight: bold;
     border-bottom: 1px solid #ddd;
-}
-
-/* Sidebar styles */
-.sidebar {
-    float: left;
 }
 
 @media print {
