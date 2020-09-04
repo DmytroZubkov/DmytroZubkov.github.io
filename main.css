@@ -59,7 +59,14 @@ select {
     left: 200px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 50px;
+    width: 60px;
+}
+
+input {
+    font: inherit;
+    /* font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px; */
 }
 
 #light-beam {
@@ -236,5 +243,9 @@ div.config-guide table.config-table td.config-descr-cell {
 
     .banner-img2 {
         display: block;
+    }
+
+    .selector {
+        display: none;
     }
 }

@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Datasheet JS test</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    <form class="selector">
+        <div class="selector-row">
+            <div class="selector-description">
+                Housing type
+            </div>
+            <select class="selector-option" id="housing" onchange="singleSelectChangeText()">
+                <option value="housing-C" selected>C</option>
+                <option value="housing-S">S</option>
+            </select>
+        </div>
+        <div class="selector-row">
+            <div class="selector-description">
+                Modules QTY
+            </div>
+            <select class="selector-option" id="module-qty" onchange="singleSelectChangeText()">
+                <option value="module-1" selected>1</option>
+                <option value="module-2">2</option>
+                <option value="module-3">3</option>
+                <option value="module-4">4</option>
+                <option value="module-5">5</option>
+            </select>
+        </div>
+        <div class="selector-row">
+            <div class="selector-description">
+                Single Module Power, W
+            </div>
+            <select class="selector-option" id="module-power" onchange="singleSelectChangeText()">
+                <option value="module-power-1" selected>20 W</option>
+                <option value="module-power-2">30 W</option>
+                <option value="module-power-3">40 W</option>
+                <option value="module-power-4">60 W</option>
+                <option value="module-power-5">80 W</option>
+            </select>
+        </div>
+        <div class="selector-row" id="combo-sku">Long string of symbols showing final SKU for the selected luminaire
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+<script>
+    // document.getElementById('combo-sku').innerHTML = 1234 + 56;
+
+    // function myFunction() {
+    //     var x = document.getElementById("module-power").value;
+    //     document.getElementById("combo-sku").innerHTML = x;
+    // }
+
+    function singleSelectChangeText() {
+        var h = document.getElementById("housing");
+        var hValue = h.options[h.selectedIndex].text;
+        document.getElementById("combo-sku").innerHTML = hValue;
+        console.log(hValue);
+        let arrSku = [];
+        arrSku.push('Orange');
+        console.log(arrSku, arrSku.length);
+    }
+    // console.log(document.getElementById('combo-sku').innerHTML = hValue + "///56");
+
+</script>
+
+</html>
