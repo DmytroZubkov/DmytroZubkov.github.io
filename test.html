@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>Hello JOOBY World!</h1>
     <form class="selector">
         <div class="selector-row">
             <div class="selector-description">
@@ -48,6 +48,44 @@
                 <option value="module-power-5">80 W</option>
             </select>
         </div>
+
+        <div class="selector-row">
+            <div class="selector-description">
+                Lens type
+            </div>
+
+            <select class="selector-option" id="lens-type" onchange="singleSelectChangeText()">
+                <optgroup label="COB Street Optics"></optgroup>
+                <option value="lens-1">S1</option>
+                <option value="lens-2">S2</option>
+                <option value="lens-3">S3</option>
+                <option value="lens-4">S4</option>
+                <optgroup label="SMD Street Optics"></optgroup>
+                <option value="lens-5">S6/T1</option>
+                <option value="lens-6">S6/T2</option>
+                <option value="lens-7" selected>S6/T3</option>
+                <option value="lens-8">S6/T5s</option>
+                <option value="lens-9">S6/Sc</option>
+                <optgroup label="COB Floodlight Optics"></optgroup>
+                <option value="lens-10">F1/45</option>
+                <option value="lens-11">F1/60</option>
+                <option value="lens-12">F1/90</option>
+                <option value="lens-13">F1/120</option>
+                <optgroup label="SMD-28 Floodlight Optics"></optgroup>
+                <option value="lens-14">F6/30</option>
+                <option value="lens-15">F6/65</option>
+                <option value="lens-16">F6/90</option>
+                <optgroup label="SMD-28 Floodlight Optics"></optgroup>
+                <option value="lens-17">F7/18</option>
+                <option value="lens-18">F7/22</option>
+                <option value="lens-19">F7/30</option>
+                <option value="lens-20">F7/45</option>
+                <option value="lens-21">F7/1840</option>
+                <option value="lens-22">F7/115d</option>
+                <option value="lens-23">F7/125</option>
+            </select>
+        </div>
+
         <div class="selector-row" id="combo-sku">Long string of symbols showing final SKU for the selected luminaire
         </div>
         <input type="submit" value="Submit">
@@ -55,24 +93,32 @@
 </body>
 
 <script>
-    // document.getElementById('combo-sku').innerHTML = 1234 + 56;
-
-    // function myFunction() {
-    //     var x = document.getElementById("module-power").value;
-    //     document.getElementById("combo-sku").innerHTML = x;
-    // }
-
     function singleSelectChangeText() {
-        var h = document.getElementById("housing");
-        var hValue = h.options[h.selectedIndex].text;
-        document.getElementById("combo-sku").innerHTML = hValue;
-        console.log(hValue);
-        let arrSku = [];
-        arrSku.push('Orange');
-        console.log(arrSku, arrSku.length);
-    }
-    // console.log(document.getElementById('combo-sku').innerHTML = hValue + "///56");
+        // https://developer.mozilla.org/ru/docs/Web/API/HTMLSelectElement
+        // Get information about the selected option
+        var selHousing = document.getElementById('housing');
+        var selHousingText = selHousing.options[selHousing.selectedIndex].text;
 
+        var selModuleQty = document.getElementById('module-qty');
+        var selModuleQtyText = selModuleQty.options[selModuleQty.selectedIndex].text;
+
+        var selModPower = document.getElementById('module-power');
+        var selModPowerText = selModPower.options[selModPower.selectedIndex].text;
+
+        var selLensType = document.getElementById('lens-type');
+        var selLensTypeText = selLensType.options[selLensType.selectedIndex].text;
+
+        document.getElementById("combo-sku").innerHTML =
+            selHousingText +
+            selModuleQtyText +
+            "x" +
+            selModPowerText.slice(0, -2) + 
+            "-" +
+            selLensTypeText;
+    }
+
+    // https://docs2.w3cub.com/dom/htmlselectelement/selectedoptions/
+    // var selectedCollection = HTMLSelectElement.selectedOptions;
 </script>
 
 </html>
