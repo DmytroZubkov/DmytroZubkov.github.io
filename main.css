@@ -34,6 +34,41 @@ p {
     page-break-after: always;
 }
 
+.selector {
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.selector-row {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 0;
+}
+
+.selector-description {
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+select {
+    font: inherit;
+}
+
+.selector-option {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60px;
+}
+
+input {
+    font: inherit;
+    /* font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px; */
+}
+
 #light-beam {
     display: inline-block;
 }
@@ -208,5 +243,9 @@ div.config-guide table.config-table td.config-descr-cell {
 
     .banner-img2 {
         display: block;
+    }
+
+    .selector {
+        display: none;
     }
 }

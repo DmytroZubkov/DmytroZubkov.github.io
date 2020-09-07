@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -20,6 +20,44 @@
         </div>
 
         <!-- Product selector panel - START-->
+        <div class="selector">
+            <div class="selector-row">
+                <div class="selector-description">
+                    Housing type
+                </div>
+                <select class="selector-option" id="housing">
+                    <option value="housing-C" selected>C</option>
+                    <option value="housing-S">S</option>
+                </select>
+            </div>
+            <div class="selector-row">
+                <div class="selector-description">
+                    Modules QTY
+                </div>
+                <select class="selector-option" id="module-qty">
+                    <option value="module-1" selected>1</option>
+                    <option value="module-2">2</option>
+                    <option value="module-3">3</option>
+                    <option value="module-4">4</option>
+                    <option value="module-5">5</option>
+                </select>
+            </div>
+            <div class="selector-row">
+                <div class="selector-description">
+                    Single Module Power, W
+                </div>
+                <select class="selector-option" id="module-power">
+                    <option value="module-power-1" selected>20 W</option>
+                    <option value="module-power-2">30 W</option>
+                    <option value="module-power-3">40 W</option>
+                    <option value="module-power-4">60 W</option>
+                    <option value="module-power-5">80 W</option>
+                </select>
+            </div>
+            <div class="selector-row" id="combo-sku">
+                C2x40
+            </div>
+        </div>
         <!-- Product selector panel - END-->
 
         <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
@@ -37,7 +75,9 @@
 
         <div class="general-info-container">
             <div id="short-description" class="general-info">
-                <p>The luminaires are designed for road and street lighting, illumination of tunnels, squares, bridges, city public areas, industrial sites, parking lots etc.
+                <p>The luminaires are designed for road and street lighting, illumination of tunnels, squares, bridges,
+                    city
+                    public areas, industrial sites, parking lots etc.
                 </p>
                 <p>
                     The Jooby Avenue Luminaires are part of Jooby Smart Lighting Solution.
@@ -570,7 +610,7 @@
 
     <!-- ------------------------- -->
 
-
+    <script src="app.js"></script>
 
 </body>
 
