@@ -27,7 +27,7 @@ function singleSelectChangeText() {
 
     let selManufType = document.getElementById('manuf');
     let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
-
+    
     let selSpcType = document.getElementById('spc');
     let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
 
@@ -36,6 +36,7 @@ function singleSelectChangeText() {
 
     let selMountType = document.getElementById('mounting');
     let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
+    let selMountTypeTxt = selMountType.options[selMountType.selectedIndex].text;
 
     let selAscType = document.getElementById('asc');
     let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
@@ -76,8 +77,15 @@ function singleSelectChangeText() {
     // let lumWarr = document.getElementById("lum-warranty");
     let lumLdcDeg = document.getElementById("light-beam-degrees");
     let lumLdcImg = document.getElementById("product-ldc-img");
+    let lumMountName = document.getElementById("mounting-option");
+    let lumMountImg = document.getElementById("mounting-img");
 
-    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
+    // These ternary operators will add "-" and " + " to SKU when necessary
+    let dashSKU3 = (SKU3 === "") ? "" : "-";
+    let dashSKU4 = (SKU4 === "") ? "" : " + ";
+    // end ternary operators
+
+    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + dashSKU3 + SKU3);
     let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
 
     if (CURRENT_SKU === undefined) {
@@ -85,13 +93,15 @@ function singleSelectChangeText() {
             el.innerHTML = "No data found for this SKU";
             el.classList.add("alertTdStyle");
         });
-        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4 + " - No data found for this SKU";
+        // if (SKU3 === "") { dashSKU3 = ""; } else { dashSKU3 = "-" };
+        // if (SKU4 === "") { dashSKU4 = ""; } else { dashSKU4 = " + "};
+        cmoboSKU.innerHTML = SKU1 + SKU2 + dashSKU3 + SKU3 + dashSKU4 + SKU4 + " - No data found for this SKU";
         // cmoboSKU.classList.add("alertTdStyle");
     } else {
         SPECS.forEach(el => {
             el.classList.remove("alertTdStyle");
         });
-        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4;
+        cmoboSKU.innerHTML = SKU1 + SKU2 + dashSKU3 + SKU3 + dashSKU4 + SKU4;
         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
         lumFlux.innerHTML = `${CURRENT_SKU.flux}` + " lm";
         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
@@ -106,6 +116,7 @@ function singleSelectChangeText() {
     // console.log(lumImgComboCode);
     // console.log(selLensTypeVal);
 
+    // Change luminaire image
     if (lumImgComboCode === "") {
         x = "img/noimg.jpg";
     } else {
@@ -130,6 +141,7 @@ function singleSelectChangeText() {
         // console.log(lumImg.src);
     };
 
+    // Change LDC image and beam value
     const CURRENT_LDC = JOOBY_LDCS.get(selLensTypeVal);
     if (CURRENT_LDC === undefined) {
         "No data";
@@ -138,14 +150,25 @@ function singleSelectChangeText() {
         lumLdcImg.src = "img/ldc/" + `${CURRENT_LDC.image}`;
     };
 
-    // let lumLdc = document.getElementById("product-ldc-img");
-    if (selMountTypeVal === "") {
-        document.getElementById("mounting-option").innerHTML = "Console";
+    // Change Mounting type image and name
+    let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console": "Pole Top";
+    let changeMount2 = (selMountTypeVal === "") ? changeMount : selMountTypeVal;
+
+    const CURRENT_MOUNTING = JOOBY_MOUNTING.get(changeMount2);
+    if (CURRENT_MOUNTING === undefined) {
+        "No data";
     } else {
-        let mountingOpt = selMountTypeVal;
-        let newMountingOpt = mountingOpt.replace(/-/, "");
-        document.getElementById("mounting-option").innerHTML = newMountingOpt;
-    }
+        lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
+        lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
+    };
+
+    // if (selMountTypeVal === "") {
+    //     document.getElementById("mounting-option").innerHTML = "Console";
+    // } else {
+    //     let mountingOpt = selMountTypeVal;
+    //     let newMountingOpt = mountingOpt.replace(/-/, "");
+    //     document.getElementById("mounting-option").innerHTML = newMountingOpt;
+    // }
 }
 
 ////////////////////
@@ -180,6 +203,20 @@ JOOBY_LDCS.set('F7/45', {beam: "45°x45°", image: "F7_45.jpg"});
 JOOBY_LDCS.set('F7/1840', {beam: "18°x40°", image: "F7_1840.jpg"});
 JOOBY_LDCS.set('F7/115d', {beam: "115°x115°", image: "F7_115d.jpg"});
 JOOBY_LDCS.set('F7/125', {beam: "125°x125°", image: "F7_125.jpg"});
+
+////////////////////
+// List of all mounting options
+////////////////////
+const JOOBY_MOUNTING = new Map();
+JOOBY_MOUNTING.set('Console', {mounting: "Console", image: "C-hor.jpg"});
+JOOBY_MOUNTING.set('Pole Top', {mounting: "Pole Top", image: "C-vert.jpg"});
+JOOBY_MOUNTING.set('T1', {mounting: "T1", image: "T1.jpg"});
+JOOBY_MOUNTING.set('F1', {mounting: "F1", image: "F1.jpg"});
+JOOBY_MOUNTING.set('F2', {mounting: "F2", image: "F2.jpg"});
+JOOBY_MOUNTING.set('F3', {mounting: "F3", image: "F3.jpg"});
+JOOBY_MOUNTING.set('Fw', {mounting: "Fw", image: "Fw.jpg"});
+JOOBY_MOUNTING.set('R', {mounting: "R", image: "R.jpg"});
+JOOBY_MOUNTING.set('Rx2', {mounting: "Rx2", image: "Rx2.jpg"});
 
 ////////////////////
 // List of all luminaire options with their characteristics
@@ -680,7 +717,7 @@ JOOBY_INFO.set('C1x40-S3-5K7H-Ci', {
     weight: "5.5",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x40-S6/SC-3K7L-Cr', {
+JOOBY_INFO.set('C1x40-S6/Sc-3K7L-Cr', {
     power: "40",
     flux: "5460",
     efficacy: "137",
@@ -691,7 +728,7 @@ JOOBY_INFO.set('C1x40-S6/SC-3K7L-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x40-S6/SC-3K8M-Cr', {
+JOOBY_INFO.set('C1x40-S6/Sc-3K8M-Cr', {
     power: "40",
     flux: "4914",
     efficacy: "123",
@@ -702,7 +739,7 @@ JOOBY_INFO.set('C1x40-S6/SC-3K8M-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x40-S6/SC-4K7H-Cr', {
+JOOBY_INFO.set('C1x40-S6/Sc-4K7H-Cr', {
     power: "40",
     flux: "5712",
     efficacy: "143",
@@ -713,7 +750,7 @@ JOOBY_INFO.set('C1x40-S6/SC-4K7H-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x40-S6/SC-4K8M-Cr', {
+JOOBY_INFO.set('C1x40-S6/Sc-4K8M-Cr', {
     power: "40",
     flux: "5208",
     efficacy: "130",
@@ -724,7 +761,7 @@ JOOBY_INFO.set('C1x40-S6/SC-4K8M-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x40-S6/SC-5K7H-Cr', {
+JOOBY_INFO.set('C1x40-S6/Sc-5K7H-Cr', {
     power: "40",
     flux: "5712",
     efficacy: "143",
@@ -1120,7 +1157,7 @@ JOOBY_INFO.set('C1x60-S3-5K7H-Ci', {
     weight: "5.5",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x60-S6/SC-3K7L-Cr', {
+JOOBY_INFO.set('C1x60-S6/Sc-3K7L-Cr', {
     power: "60",
     flux: "7938",
     efficacy: "132",
@@ -1131,7 +1168,7 @@ JOOBY_INFO.set('C1x60-S6/SC-3K7L-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x60-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C1x60-S6/Sc-3K8S-Cr', {
     power: "60",
     flux: "7182",
     efficacy: "120",
@@ -1142,7 +1179,7 @@ JOOBY_INFO.set('C1x60-S6/SC-3K8S-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x60-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C1x60-S6/Sc-4K7L-Cr', {
     power: "60",
     flux: "8316",
     efficacy: "139",
@@ -1153,7 +1190,7 @@ JOOBY_INFO.set('C1x60-S6/SC-4K7L-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x60-S6/SC-4K8M-Cr', {
+JOOBY_INFO.set('C1x60-S6/Sc-4K8M-Cr', {
     power: "60",
     flux: "7560",
     efficacy: "126",
@@ -1164,7 +1201,7 @@ JOOBY_INFO.set('C1x60-S6/SC-4K8M-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x60-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C1x60-S6/Sc-5K7L-Cr', {
     power: "60",
     flux: "8316",
     efficacy: "139",
@@ -1560,7 +1597,7 @@ JOOBY_INFO.set('C1x80-S3-5K7H-Ci', {
     weight: "5.5",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x80-S6/SC-3K7M-Cr', {
+JOOBY_INFO.set('C1x80-S6/Sc-3K7M-Cr', {
     power: "80",
     flux: "10080",
     efficacy: "126",
@@ -1571,7 +1608,7 @@ JOOBY_INFO.set('C1x80-S6/SC-3K7M-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x80-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C1x80-S6/Sc-3K8S-Cr', {
     power: "80",
     flux: "9072",
     efficacy: "113",
@@ -1582,7 +1619,7 @@ JOOBY_INFO.set('C1x80-S6/SC-3K8S-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x80-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C1x80-S6/Sc-4K7L-Cr', {
     power: "80",
     flux: "10584",
     efficacy: "132",
@@ -1593,7 +1630,7 @@ JOOBY_INFO.set('C1x80-S6/SC-4K7L-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x80-S6/SC-4K8S-Cr', {
+JOOBY_INFO.set('C1x80-S6/Sc-4K8S-Cr', {
     power: "80",
     flux: "9576",
     efficacy: "120",
@@ -1604,7 +1641,7 @@ JOOBY_INFO.set('C1x80-S6/SC-4K8S-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C1x80-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C1x80-S6/Sc-5K7L-Cr', {
     power: "80",
     flux: "10584",
     efficacy: "132",
@@ -1835,7 +1872,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-5K7L-Cr', {
     weight: "5.3",
     sailing: "0.07"
 });
-JOOBY_INFO.set('C2x40-S6/SC-3K7L-Cr', {
+JOOBY_INFO.set('C2x40-S6/Sc-3K7L-Cr', {
     power: "80",
     flux: "10920",
     efficacy: "137",
@@ -1846,7 +1883,7 @@ JOOBY_INFO.set('C2x40-S6/SC-3K7L-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x40-S6/SC-3K8M-Cr', {
+JOOBY_INFO.set('C2x40-S6/Sc-3K8M-Cr', {
     power: "80",
     flux: "9828",
     efficacy: "123",
@@ -1857,7 +1894,7 @@ JOOBY_INFO.set('C2x40-S6/SC-3K8M-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x40-S6/SC-4K7H-Cr', {
+JOOBY_INFO.set('C2x40-S6/Sc-4K7H-Cr', {
     power: "80",
     flux: "11424",
     efficacy: "143",
@@ -1868,7 +1905,7 @@ JOOBY_INFO.set('C2x40-S6/SC-4K7H-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x40-S6/SC-4K8M-Cr', {
+JOOBY_INFO.set('C2x40-S6/Sc-4K8M-Cr', {
     power: "80",
     flux: "10584",
     efficacy: "132",
@@ -1879,7 +1916,7 @@ JOOBY_INFO.set('C2x40-S6/SC-4K8M-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x40-S6/SC-5K7H-Cr', {
+JOOBY_INFO.set('C2x40-S6/Sc-5K7H-Cr', {
     power: "80",
     flux: "11424",
     efficacy: "143",
@@ -2275,7 +2312,7 @@ JOOBY_INFO.set('C2x60-S3-5K7H-Ci', {
     weight: "8.4",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x60-S6/SC-3K7L-Cr', {
+JOOBY_INFO.set('C2x60-S6/Sc-3K7L-Cr', {
     power: "120",
     flux: "15876",
     efficacy: "132",
@@ -2286,7 +2323,7 @@ JOOBY_INFO.set('C2x60-S6/SC-3K7L-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x60-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C2x60-S6/Sc-3K8S-Cr', {
     power: "120",
     flux: "14364",
     efficacy: "120",
@@ -2297,7 +2334,7 @@ JOOBY_INFO.set('C2x60-S6/SC-3K8S-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x60-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C2x60-S6/Sc-4K7L-Cr', {
     power: "120",
     flux: "16632",
     efficacy: "139",
@@ -2308,7 +2345,7 @@ JOOBY_INFO.set('C2x60-S6/SC-4K7L-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x60-S6/SC-4K8M-Cr', {
+JOOBY_INFO.set('C2x60-S6/Sc-4K8M-Cr', {
     power: "120",
     flux: "15120",
     efficacy: "126",
@@ -2319,7 +2356,7 @@ JOOBY_INFO.set('C2x60-S6/SC-4K8M-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x60-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C2x60-S6/Sc-5K7L-Cr', {
     power: "120",
     flux: "16632",
     efficacy: "139",
@@ -2715,7 +2752,7 @@ JOOBY_INFO.set('C2x80-S3-5K7H-Ci', {
     weight: "8.4",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x80-S6/SC-3K7M-Cr', {
+JOOBY_INFO.set('C2x80-S6/Sc-3K7M-Cr', {
     power: "160",
     flux: "20160",
     efficacy: "126",
@@ -2726,7 +2763,7 @@ JOOBY_INFO.set('C2x80-S6/SC-3K7M-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x80-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C2x80-S6/Sc-3K8S-Cr', {
     power: "160",
     flux: "18144",
     efficacy: "113",
@@ -2737,7 +2774,7 @@ JOOBY_INFO.set('C2x80-S6/SC-3K8S-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x80-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C2x80-S6/Sc-4K7L-Cr', {
     power: "160",
     flux: "21168",
     efficacy: "132",
@@ -2748,7 +2785,7 @@ JOOBY_INFO.set('C2x80-S6/SC-4K7L-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x80-S6/SC-4K8S-Cr', {
+JOOBY_INFO.set('C2x80-S6/Sc-4K8S-Cr', {
     power: "160",
     flux: "19152",
     efficacy: "120",
@@ -2759,7 +2796,7 @@ JOOBY_INFO.set('C2x80-S6/SC-4K8S-Cr', {
     weight: "8",
     sailing: "0.103"
 });
-JOOBY_INFO.set('C2x80-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C2x80-S6/Sc-5K7L-Cr', {
     power: "160",
     flux: "21168",
     efficacy: "132",
@@ -3155,7 +3192,7 @@ JOOBY_INFO.set('C3x60-S3-5K7H-Ci', {
     weight: "11.3",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x60-S6/SC-3K7L-Cr', {
+JOOBY_INFO.set('C3x60-S6/Sc-3K7L-Cr', {
     power: "180",
     flux: "23814",
     efficacy: "132",
@@ -3166,7 +3203,7 @@ JOOBY_INFO.set('C3x60-S6/SC-3K7L-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x60-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C3x60-S6/Sc-3K8S-Cr', {
     power: "180",
     flux: "21546",
     efficacy: "120",
@@ -3177,7 +3214,7 @@ JOOBY_INFO.set('C3x60-S6/SC-3K8S-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x60-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C3x60-S6/Sc-4K7L-Cr', {
     power: "180",
     flux: "24948",
     efficacy: "139",
@@ -3188,7 +3225,7 @@ JOOBY_INFO.set('C3x60-S6/SC-4K7L-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x60-S6/SC-4K8M-Cr', {
+JOOBY_INFO.set('C3x60-S6/Sc-4K8M-Cr', {
     power: "180",
     flux: "22680",
     efficacy: "126",
@@ -3199,7 +3236,7 @@ JOOBY_INFO.set('C3x60-S6/SC-4K8M-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x60-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C3x60-S6/Sc-5K7L-Cr', {
     power: "180",
     flux: "24948",
     efficacy: "139",
@@ -3595,7 +3632,7 @@ JOOBY_INFO.set('C3x80-S3-5K7H-Ci', {
     weight: "11.3",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x80-S6/SC-3K7M-Cr', {
+JOOBY_INFO.set('C3x80-S6/Sc-3K7M-Cr', {
     power: "240",
     flux: "30240",
     efficacy: "126",
@@ -3606,7 +3643,7 @@ JOOBY_INFO.set('C3x80-S6/SC-3K7M-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x80-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C3x80-S6/Sc-3K8S-Cr', {
     power: "240",
     flux: "27216",
     efficacy: "113",
@@ -3617,7 +3654,7 @@ JOOBY_INFO.set('C3x80-S6/SC-3K8S-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x80-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C3x80-S6/Sc-4K7L-Cr', {
     power: "240",
     flux: "31752",
     efficacy: "132",
@@ -3628,7 +3665,7 @@ JOOBY_INFO.set('C3x80-S6/SC-4K7L-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x80-S6/SC-4K8S-Cr', {
+JOOBY_INFO.set('C3x80-S6/Sc-4K8S-Cr', {
     power: "240",
     flux: "28728",
     efficacy: "120",
@@ -3639,7 +3676,7 @@ JOOBY_INFO.set('C3x80-S6/SC-4K8S-Cr', {
     weight: "10.7",
     sailing: "0.135"
 });
-JOOBY_INFO.set('C3x80-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C3x80-S6/Sc-5K7L-Cr', {
     power: "240",
     flux: "31752",
     efficacy: "132",
@@ -4035,7 +4072,7 @@ JOOBY_INFO.set('C4x80-S3-5K7H-Ci', {
     weight: "14.2",
     sailing: "0.167"
 });
-JOOBY_INFO.set('C4x80-S6/SC-3K7M-Cr', {
+JOOBY_INFO.set('C4x80-S6/Sc-3K7M-Cr', {
     power: "320",
     flux: "40320",
     efficacy: "126",
@@ -4046,7 +4083,7 @@ JOOBY_INFO.set('C4x80-S6/SC-3K7M-Cr', {
     weight: "13.4",
     sailing: "0.167"
 });
-JOOBY_INFO.set('C4x80-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C4x80-S6/Sc-3K8S-Cr', {
     power: "320",
     flux: "36288",
     efficacy: "113",
@@ -4057,7 +4094,7 @@ JOOBY_INFO.set('C4x80-S6/SC-3K8S-Cr', {
     weight: "13.4",
     sailing: "0.167"
 });
-JOOBY_INFO.set('C4x80-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C4x80-S6/Sc-4K7L-Cr', {
     power: "320",
     flux: "42336",
     efficacy: "132",
@@ -4068,7 +4105,7 @@ JOOBY_INFO.set('C4x80-S6/SC-4K7L-Cr', {
     weight: "13.4",
     sailing: "0.167"
 });
-JOOBY_INFO.set('C4x80-S6/SC-4K8S-Cr', {
+JOOBY_INFO.set('C4x80-S6/Sc-4K8S-Cr', {
     power: "320",
     flux: "38304",
     efficacy: "120",
@@ -4079,7 +4116,7 @@ JOOBY_INFO.set('C4x80-S6/SC-4K8S-Cr', {
     weight: "13.4",
     sailing: "0.167"
 });
-JOOBY_INFO.set('C4x80-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C4x80-S6/Sc-5K7L-Cr', {
     power: "320",
     flux: "42336",
     efficacy: "132",
@@ -4475,7 +4512,7 @@ JOOBY_INFO.set('C5x80-S3-5K7H-Ci', {
     weight: "17.1",
     sailing: "0.2"
 });
-JOOBY_INFO.set('C5x80-S6/SC-3K7M-Cr', {
+JOOBY_INFO.set('C5x80-S6/Sc-3K7M-Cr', {
     power: "400",
     flux: "50400",
     efficacy: "126",
@@ -4486,7 +4523,7 @@ JOOBY_INFO.set('C5x80-S6/SC-3K7M-Cr', {
     weight: "16.1",
     sailing: "0.2"
 });
-JOOBY_INFO.set('C5x80-S6/SC-3K8S-Cr', {
+JOOBY_INFO.set('C5x80-S6/Sc-3K8S-Cr', {
     power: "400",
     flux: "45360",
     efficacy: "113",
@@ -4497,7 +4534,7 @@ JOOBY_INFO.set('C5x80-S6/SC-3K8S-Cr', {
     weight: "16.1",
     sailing: "0.2"
 });
-JOOBY_INFO.set('C5x80-S6/SC-4K7L-Cr', {
+JOOBY_INFO.set('C5x80-S6/Sc-4K7L-Cr', {
     power: "400",
     flux: "52920",
     efficacy: "132",
@@ -4508,7 +4545,7 @@ JOOBY_INFO.set('C5x80-S6/SC-4K7L-Cr', {
     weight: "16.1",
     sailing: "0.2"
 });
-JOOBY_INFO.set('C5x80-S6/SC-4K8S-Cr', {
+JOOBY_INFO.set('C5x80-S6/Sc-4K8S-Cr', {
     power: "400",
     flux: "47880",
     efficacy: "120",
@@ -4519,7 +4556,7 @@ JOOBY_INFO.set('C5x80-S6/SC-4K8S-Cr', {
     weight: "16.1",
     sailing: "0.2"
 });
-JOOBY_INFO.set('C5x80-S6/SC-5K7L-Cr', {
+JOOBY_INFO.set('C5x80-S6/Sc-5K7L-Cr', {
     power: "400",
     flux: "52920",
     efficacy: "132",
