@@ -62,7 +62,7 @@ function singleSelectChangeText() {
     // let lumPF = document.getElementById("lum-pf");
     let lumFlux = document.getElementById("lum-flux");
     let lumLmw = document.getElementById("lum-lmw");
-    // let lumDimming = document.getElementById("lum-dimming");
+    let lumDimming = document.getElementById("lum-dimming-row");
     let lumCCT = document.getElementById("lum-cct");
     let lumCRI = document.getElementById("lum-cri");
     // let lumIP = document.getElementById("lum-ip");
@@ -93,10 +93,7 @@ function singleSelectChangeText() {
             el.innerHTML = "No data found for this SKU";
             el.classList.add("alertTdStyle");
         });
-        // if (SKU3 === "") { dashSKU3 = ""; } else { dashSKU3 = "-" };
-        // if (SKU4 === "") { dashSKU4 = ""; } else { dashSKU4 = " + "};
         cmoboSKU.innerHTML = SKU1 + SKU2 + dashSKU3 + SKU3 + dashSKU4 + SKU4 + " - No data found for this SKU";
-        // cmoboSKU.classList.add("alertTdStyle");
     } else {
         SPECS.forEach(el => {
             el.classList.remove("alertTdStyle");
@@ -111,12 +108,17 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
     };
 
-    let lumImg = document.getElementById("product-img");
-    let lumImgComboCode = selHousingVal + selModuleQtyVal + selLensTypeVal + selMountTypeVal;
-    // console.log(lumImgComboCode);
-    // console.log(selLensTypeVal);
+    // Hide dimming row
+    if (selDimTypeVal === "") {
+        lumDimming.classList.add("hiddenEl");
+    } else {
+        lumDimming.classList.remove("hiddenEl");
+    };
 
     // Change luminaire image
+    let lumImg = document.getElementById("product-img");
+    let lumImgComboCode = selHousingVal + selModuleQtyVal + selLensTypeVal + selMountTypeVal;
+    
     if (lumImgComboCode === "") {
         x = "img/noimg.jpg";
     } else {
@@ -138,7 +140,6 @@ function singleSelectChangeText() {
         led = 'smd/';
         }
         lumImg.src = 'img/lum/' + asc + led + selHousingVal + selModuleQtyVal + '.jpg';
-        // console.log(lumImg.src);
     };
 
     // Change LDC image and beam value

@@ -119,6 +119,10 @@ input {
     background-size: 56.57px 56.57px;
 }
 
+.hiddenEl {
+    display: none;
+}
+
 /* Specifications table - END */
 
 
