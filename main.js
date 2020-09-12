@@ -33,6 +33,7 @@ function singleSelectChangeText() {
 
     let selDimType = document.getElementById('dimming');
     let selDimTypeVal = selDimType.options[selDimType.selectedIndex].value;
+    let selDimTypeTxt = selDimType.options[selDimType.selectedIndex].text;
 
     let selMountType = document.getElementById('mounting');
     let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
@@ -62,7 +63,8 @@ function singleSelectChangeText() {
     // let lumPF = document.getElementById("lum-pf");
     let lumFlux = document.getElementById("lum-flux");
     let lumLmw = document.getElementById("lum-lmw");
-    let lumDimming = document.getElementById("lum-dimming-row");
+    let lumDimmingRow = document.getElementById("lum-dimming-row");
+    let lumDimmingVal = document.getElementById("lum-dimming");
     let lumCCT = document.getElementById("lum-cct");
     let lumCRI = document.getElementById("lum-cri");
     // let lumIP = document.getElementById("lum-ip");
@@ -108,11 +110,13 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
     };
 
-    // Hide dimming row
+    // Hide/show dimming row, change dimming type
     if (selDimTypeVal === "") {
-        lumDimming.classList.add("hiddenEl");
+        lumDimmingRow.classList.add("hiddenEl");
     } else {
-        lumDimming.classList.remove("hiddenEl");
+        lumDimmingRow.classList.remove("hiddenEl");
+        lumDimmingVal.innerHTML = selDimTypeTxt;
+        lumDimmingVal.style.width="45%";
     };
 
     // Change luminaire image
