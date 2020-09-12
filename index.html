@@ -6,6 +6,7 @@
     <title>Datasheet</title>
 
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -16,48 +17,197 @@
     <div class="datasheet-area">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img">
-            <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+            <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
 
+
+
         <!-- Product selector panel - START-->
-        <div class="selector">
+        <form class="selector">
             <div class="selector-row">
-                <div class="selector-description">
-                    Housing type
+                <div class="selector-description-important">
+                    Housing type (!)
                 </div>
-                <select class="selector-option" id="housing">
-                    <option value="housing-C" selected>C</option>
-                    <option value="housing-S">S</option>
+                <select class="selector-option" id="housing" onchange="singleSelectChangeText()">
+                    <option value="C" selected>Console</option>
+                    <option value="S">Suspended</option>
                 </select>
             </div>
+
             <div class="selector-row">
-                <div class="selector-description">
-                    Modules QTY
+                <div class="selector-description-important">
+                    Modules QTY (!)
                 </div>
-                <select class="selector-option" id="module-qty">
-                    <option value="module-1" selected>1</option>
-                    <option value="module-2">2</option>
-                    <option value="module-3">3</option>
-                    <option value="module-4">4</option>
-                    <option value="module-5">5</option>
+                <select class="selector-option" id="module-qty" onchange="singleSelectChangeText()">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
+
             <div class="selector-row">
-                <div class="selector-description">
-                    Single Module Power, W
+                <div class="selector-description-important">
+                    Single Module Power (!)
                 </div>
-                <select class="selector-option" id="module-power">
-                    <option value="module-power-1" selected>20 W</option>
-                    <option value="module-power-2">30 W</option>
-                    <option value="module-power-3">40 W</option>
-                    <option value="module-power-4">60 W</option>
-                    <option value="module-power-5">80 W</option>
+                <select class="selector-option" id="module-power" onchange="singleSelectChangeText()">
+                    <option value="20" selected>20 W</option>
+                    <option value="30">30 W</option>
+                    <option value="40">40 W</option>
+                    <option value="60">60 W</option>
+                    <option value="80">80 W</option>
                 </select>
             </div>
-            <div class="selector-row" id="combo-sku">
-                C2x40
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    Lens type (!)
+                </div>
+                <select class="selector-option" id="lens-type" onchange="singleSelectChangeText()">
+                    <optgroup label="COB Street Optics"></optgroup>
+                    <option value="S1">S1 (145°x65°)</option>
+                    <option value="S2">S2 (170°x120°)</option>
+                    <option value="S3">S3 (160°x80°)</option>
+                    <option value="S4">S4 (150°x70°)</option>
+                    <optgroup label="SMD-28 Street Optics"></optgroup>
+                    <option value="S6/T1">S6/T1 - type I (145°x80°)</option>
+                    <option value="S6/T2">S6/T2 - type II (160°x50°)</option>
+                    <option value="S6/T3" selected>S6/T3 - type III (150°x60°)</option>
+                    <option value="S6/T5s">S6/T5s - type V (140°)</option>
+                    <option value="S6/Sc">S6/Sc - type II/III (long, 160°x65°)</option>
+                    <optgroup label="COB Floodlight Optics"></optgroup>
+                    <option value="F1/45">F1/45 (45°x45°)</option>
+                    <option value="F1/60">F1/60 (60°x60°)</option>
+                    <option value="F1/90">F1/90 (90°x90°)</option>
+                    <option value="F1/120">F1/120 (120°x120°)</option>
+                    <optgroup label="SMD-28 Floodlight Optics"></optgroup>
+                    <option value="F6/30">F6/30 (30°x30°)</option>
+                    <option value="F6/65">F6/65 (65°x65°)</option>
+                    <option value="F6/90">F6/90 (90°x90°)</option>
+                    <optgroup label="SMD-36 Floodlight Optics"></optgroup>
+                    <option value="F7/18">F7/18 (18°x18°)</option>
+                    <option value="F7/22">F7/22 (22°x22°)</option>
+                    <option value="F7/30">F7/30 (30°x30°)</option>
+                    <option value="F7/45">F7/45 (45°x45°)</option>
+                    <option value="F7/1840">F7/1840 (18°x40°)</option>
+                    <option value="F7/115d">F7/115d (115°x115°)</option>
+                    <option value="F7/125">F7/125 (125°x125°)</option>
+                </select>
             </div>
-        </div>
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    CCT (!)
+                </div>
+                <select class="selector-option" id="cct" onchange="singleSelectChangeText()">
+                    <option value="2.7K">2700K</option>
+                    <option value="3K" selected>3000K</option>
+                    <option value="4K">4000K</option>
+                    <option value="5K">5000K</option>
+                    <option value="5.7K">5700K</option>
+                    <option value="6.5K">6500K</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    CRI (!)
+                </div>
+                <select class="selector-option" id="cri" onchange="singleSelectChangeText()">
+                    <option value="6">60-69</option>
+                    <option value="7" selected>70-79</option>
+                    <option value="8">80-89</option>
+                    <option value="9">≥90</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    Efficacy Category (!)
+                </div>
+                <select class="selector-option" id="stupidLetter" onchange="singleSelectChangeText()">
+                    <option value="T">T ≥91 lm/W (tiny)</option>
+                    <option value="I">I ≥101 lm/W (initial)</option>
+                    <option value="S">S ≥111 lm/W (small)</option>
+                    <option value="M">M ≥121 lm/W (medium)</option>
+                    <option value="L" selected>L ≥131 lm/W (large)</option>
+                    <option value="H">H ≥131 lm/W (large)</option>
+                    <option value="E">E ≥141 lm/W (high)</option>
+                    <option value="U">U ≥151 lm/W (extra)</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    LED Manufacturer (!)
+                </div>
+                <select class="selector-option" id="manuf" onchange="singleSelectChangeText()">
+                    <option value="-Ci">Citizen Electronics Co., Ltd.</option>
+                    <option value="-Os">Osram AG.</option>
+                    <option value="-Se">Seoul Semiconductor Co., Ltd.</option>
+                    <option value="-Cr" selected>Cree Inc.</option>
+                    <option value="-Sa">Samsung Electronics Co., Ltd.</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description">
+                    Surge Protection
+                </div>
+                <select class="selector-option" id="spc" onchange="singleSelectChangeText()">
+                    <option value="" selected>None</option>
+                    <option value="-SPC">SPC - In:5kA</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description">
+                    Dimming
+                </div>
+                <select class="selector-option" id="dimming" onchange="singleSelectChangeText()">
+                    <option value="" selected>None</option>
+                    <option value="-DL">DL - DALI</option>
+                    <option value="-D01">D01 - 0-10V dimming with emergency mode</option>
+                    <option value="-DEM">DEM - emergency mode dimming</option>
+                    <option value="-DMV">DMV - mains voltage dimming</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description-important">
+                    Mounting type (!)
+                </div>
+                <select class="selector-option" id="mounting" onchange="singleSelectChangeText()">
+                    <option value="" selected>None / Console</option>
+                    <option value="-T1">T1 - for span wire, 3d</option>
+                    <option value="-F1">F1 - narrow floodlight type, 2d</option>
+                    <option value="-F2">F2 - narrow floodlight type, 3d</option>
+                    <option value="-F3">F3 - wide floodlight type</option>
+                    <option value="-Fw">Fw - wide floodlight type, separate</option>
+                    <option value="-R">R - eye nut</option>
+                    <option value="-Rx2">Rx2 - eye nut, 2pcs</option>
+                </select>
+            </div>
+
+            <div class="selector-row">
+                <div class="selector-description">
+                    Avenue Smart Cover
+                </div>
+                <select class="selector-option" id="asc" onchange="singleSelectChangeText()">
+                    <option value="" selected>None</option>
+                    <option value=" + ASC-LRWF">ASC-LRWF</option>
+                    <option value=" + ASC-LRWF-PC">ASC-LRWF-PC</option>
+                    <option value=" + ASC-LRWF-IR12">ASC-LRWF-IR12</option>
+                    <option value=" + ASC-LRWF-IR12-PC">ASC-LRWF-IR12-PC</option>
+                </select>
+            </div>
+
+            <div class="selector-description-important" style="padding:5px">(!) - depicts that this field is a criteria for search</div>
+
+            <!-- <div class="selector-row" id="combo-sku" style="font-size:16px; padding:5px">Long string of symbols showing
+                final SKU for the selected luminaire</div> -->
+        </form>
         <!-- Product selector panel - END-->
 
         <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
@@ -65,7 +215,7 @@
             <div>
                 Jooby Avenue
             </div>
-            <div id="lum-sku">
+            <div id="combo-sku">
                 C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
             </div>
         </div>
@@ -89,11 +239,12 @@
                     information.
                 </p>
             </div>
-            <div id="product-img" class="general-info">
-                <img class="product-img" src="Photos/Smart/Console/SMD/C2xXX-S6-smart1-new.jpg" alt="Product image"
+            <div class="general-info">
+                <img id="product-img" class="product-img" src="img/noimg.jpg" alt="Product image"
                     style="width: 65mm; object-fit: scale-down; vertical-align: bottom;">
             </div>
         </div>
+
 
         <div class="lum">
             <div class="lum-spec">
@@ -135,7 +286,7 @@
                         <td>
                             Power factor
                         </td>
-                        <td id="lum-power-factor">
+                        <td id="lum-pf">
                             >0.98
                         </td>
                     </tr>
@@ -144,7 +295,7 @@
                         <td>
                             Luminous flux
                         </td>
-                        <td id="lum-spc">
+                        <td id="lum-flux">
                             10 920 lm
                         </td>
                     </tr>
@@ -153,7 +304,7 @@
                         <td>
                             Efficacy
                         </td>
-                        <td id="lum-spc">
+                        <td id="lum-lmw">
                             137 lm/W
                         </td>
                     </tr>
@@ -162,7 +313,7 @@
                         <td>
                             Dimming options
                         </td>
-                        <td id="lum-spc">
+                        <td id="lum-dimming">
                             DALI, 0-10V
                         </td>
                     </tr>
@@ -171,7 +322,7 @@
                         <td>
                             Color temperature (CCT)
                         </td>
-                        <td id="lum-spc">
+                        <td id="lum-cct">
                             3000 K
                         </td>
                     </tr>
@@ -180,7 +331,7 @@
                         <td>
                             Color rendering index (CRI)
                         </td>
-                        <td id="lum-spc">
+                        <td id="lum-cri">
                             CRI > 70
                         </td>
                     </tr>
@@ -198,7 +349,7 @@
                         <td>
                             Electrical safety class
                         </td>
-                        <td id="lum-elec-safety-class">
+                        <td id="lum-elsafety">
                             I
                         </td>
                     </tr>
@@ -207,7 +358,7 @@
                         <td>
                             Ambient temperature range
                         </td>
-                        <td id="lum-t-amb-working">
+                        <td id="lum-t-amb">
                             -40°C ... +50°C
                         </td>
                     </tr>
@@ -252,7 +403,7 @@
                         <td>
                             Failure rate
                         </td>
-                        <td id="lum-fr">
+                        <td id="lum-failure">
                             F50
                         </td>
                     </tr>
@@ -281,19 +432,19 @@
             <div class="lum-images">
                 <div class="lum-ldc">
                     <div class="lum-ldc-header">
-                        Light distribution | <div id="light-beam">150°x60°</div>
+                        Light distribution | <span id="light-beam-degrees">150°x60°</span>
                     </div>
                     <div class="ldc-img">
-                        <img src="Photos/LDCs/S6_T3.jpg" alt="Product light distribution diagram"
+                        <img id="product-ldc-img" src="img/ldc/S6_T3.jpg" alt="Product light distribution diagram"
                             style="width: 65mm; object-fit: scale-down;">
                     </div>
                 </div>
                 <div class="lum-mount">
                     <div class="lum-ldc-header">
-                        Mounting option | <div id="mounting-option">Console</div>
+                        Mounting option | <span id="mounting-option">Console</span>
                     </div>
                     <div class="ldc-img">
-                        <img src="Photos/Horizontal.jpg" alt="Product mounting"
+                        <img id="mounting-img" src="img/mount/C-hor.jpg" alt="Product mounting"
                             style="width: 65mm; object-fit: scale-down;">
                     </div>
                 </div>
@@ -304,7 +455,7 @@
     <div class="datasheet-area">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img2">
-            <img src="photos/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+            <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
         <h1>
             Configuration Guide
@@ -409,7 +560,7 @@
                     </td>
                     <td class="config-descr-cell" colspan="12">
                         DALI<br>
-                        0 - 10V dimming with emergency mode<br>
+                        0-10V dimming with emergency mode<br>
                         emergency mode dimming<br>
                         mains voltage dimming
                     </td>
@@ -610,7 +761,7 @@
 
     <!-- ------------------------- -->
 
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
