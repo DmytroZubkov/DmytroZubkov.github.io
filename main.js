@@ -27,7 +27,7 @@ function singleSelectChangeText() {
 
     let selManufType = document.getElementById('manuf');
     let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
-
+    
     let selSpcType = document.getElementById('spc');
     let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
 
@@ -36,6 +36,7 @@ function singleSelectChangeText() {
 
     let selMountType = document.getElementById('mounting');
     let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
+    let selMountTypeTxt = selMountType.options[selMountType.selectedIndex].text;
 
     let selAscType = document.getElementById('asc');
     let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
@@ -76,6 +77,8 @@ function singleSelectChangeText() {
     // let lumWarr = document.getElementById("lum-warranty");
     let lumLdcDeg = document.getElementById("light-beam-degrees");
     let lumLdcImg = document.getElementById("product-ldc-img");
+    let lumMountName = document.getElementById("mounting-option");
+    let lumMountImg = document.getElementById("mounting-img");
 
     // These ternary operators will add "-" and " + " to SKU when necessary
     let dashSKU3 = (SKU3 === "") ? "" : "-";
@@ -113,6 +116,7 @@ function singleSelectChangeText() {
     // console.log(lumImgComboCode);
     // console.log(selLensTypeVal);
 
+    // Change luminaire image
     if (lumImgComboCode === "") {
         x = "img/noimg.jpg";
     } else {
@@ -137,6 +141,7 @@ function singleSelectChangeText() {
         // console.log(lumImg.src);
     };
 
+    // Change LDC image and beam value
     const CURRENT_LDC = JOOBY_LDCS.get(selLensTypeVal);
     if (CURRENT_LDC === undefined) {
         "No data";
@@ -145,14 +150,17 @@ function singleSelectChangeText() {
         lumLdcImg.src = "img/ldc/" + `${CURRENT_LDC.image}`;
     };
 
-    const CURRENT_MOUNTING = JOOBY_MOUNTING.get(selLensTypeVal);
-    if (CURRENT_LDC === undefined) {
+    // Change Mounting type image and name
+    let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console": "Pole Top";
+    let changeMount2 = (selMountTypeVal === "") ? changeMount : selMountTypeVal;
+
+    const CURRENT_MOUNTING = JOOBY_MOUNTING.get(changeMount2);
+    if (CURRENT_MOUNTING === undefined) {
         "No data";
     } else {
-        lumLdcDeg.innerHTML = `${CURRENT_LDC.beam}`;
-        lumLdcImg.src = "img/ldc/" + `${CURRENT_LDC.image}`;
+        lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
+        lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
-
 
     // if (selMountTypeVal === "") {
     //     document.getElementById("mounting-option").innerHTML = "Console";
@@ -200,7 +208,15 @@ JOOBY_LDCS.set('F7/125', {beam: "125°x125°", image: "F7_125.jpg"});
 // List of all mounting options
 ////////////////////
 const JOOBY_MOUNTING = new Map();
-JOOBY_MOUNTING.set('',)
+JOOBY_MOUNTING.set('Console', {mounting: "Console", image: "C-hor.jpg"});
+JOOBY_MOUNTING.set('Pole Top', {mounting: "Pole Top", image: "C-vert.jpg"});
+JOOBY_MOUNTING.set('T1', {mounting: "T1", image: "T1.jpg"});
+JOOBY_MOUNTING.set('F1', {mounting: "F1", image: "F1.jpg"});
+JOOBY_MOUNTING.set('F2', {mounting: "F2", image: "F2.jpg"});
+JOOBY_MOUNTING.set('F3', {mounting: "F3", image: "F3.jpg"});
+JOOBY_MOUNTING.set('Fw', {mounting: "Fw", image: "Fw.jpg"});
+JOOBY_MOUNTING.set('R', {mounting: "R", image: "R.jpg"});
+JOOBY_MOUNTING.set('Rx2', {mounting: "Rx2", image: "Rx2.jpg"});
 
 ////////////////////
 // List of all luminaire options with their characteristics
