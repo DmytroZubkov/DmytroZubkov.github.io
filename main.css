@@ -36,7 +36,10 @@ p {
     background-color: #fff;
 }
 
+
+/* Selector block styles START */
 .selector {
+    min-width: 260px;
     margin-top: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 0 5px rgba(0, 0, 0, .15);
@@ -44,19 +47,19 @@ p {
     padding: 5px;
 }
 .selector-row {
-    position: relative;
-    /* border-bottom: 1px solid #ddd; */
     padding: 2px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .selector-description {
-    display: inline-block;
+    flex: 1 0 50%;
 }
 
 .selector-description-important {
     font-weight: bold;
-    display: inline-block;
     background-color: #ddd;
+    flex: 1 0 50%;
 }
 
 select {
@@ -64,29 +67,37 @@ select {
 }
 
 .selector-option {
-    display: inline-block;
-    position: absolute;
-    left: 200px;
+    flex: 1 0 50%;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 230px;
 }
 
-input {
+#config-guide-checkbox {
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+#selector-row-center{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
     font: inherit;
-    /* font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 16px; */
-}
+  }
+  
+  .button:hover {
+    background-color: #eee;
+  }
 
-#light-beam {
-    display: inline-block;
-}
-
-#mounting-option {
-    display: inline-block;
-}
-
+/* Selector block styles END */
 
 
 /* Specifications table - START */
@@ -128,6 +139,9 @@ input {
 
 
 /* Configuration guide table - START */
+#configGuide {
+    display: none;
+}
 
 .config-guide .config-table {
     background: #eeeeee;
@@ -150,13 +164,13 @@ input {
 .config-guide .config-table tr.heading td {
     padding: 5px;
     vertical-align: top;
-    border-bottom: 1px solid #9E9E9E;
+    border-bottom: 0.1px solid #9E9E9E;
     font-size: 12px;
     font-weight: bold;
 }
 
 .config-guide .config-table tr.subheading td {
-    border-bottom: 1px solid #9E9E9E;
+    border-bottom: 0.1px solid #9E9E9E;
 }
 
 .config-guide .config-table tr.heading td.empty-cell {
@@ -174,7 +188,6 @@ div.config-guide table.config-table td.config-descr-cell {
     text-align: left;
     font-weight: normal;
 }
-
 /* Configuration guide table - END */
 
 /* Images style - START */
@@ -259,6 +272,18 @@ div.config-guide table.config-table td.config-descr-cell {
     background: #eee;
     font-weight: bold;
     border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 690px) {
+    .selector-description {
+        flex: 1 0 100%;
+    }
+    .selector-description-important {
+        flex: 1 0 100%;
+    }
+    .selector-option {
+        flex: 1 0 100%;
+    }
 }
 
 @media print {

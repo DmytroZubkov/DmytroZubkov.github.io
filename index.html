@@ -206,8 +206,13 @@
 
             <div class="selector-description-important" style="padding:5px">(!) - depicts that this field is a criteria for search</div>
 
-            <!-- <div class="selector-row" id="combo-sku" style="font-size:16px; padding:5px">Long string of symbols showing
-                final SKU for the selected luminaire</div> -->
+            <div class="selector-row">
+            <input type="checkbox" id="cgCheck" value="add table" onclick="addConfigGuide()">
+            <label id="config-guide-checkbox" for="addConfigGuide">Include</label>
+            
+            </div>
+            <div class="selector-row-center"><button class="button">Print this shit!</button></div>
+            
         </form>
         <!-- Product selector panel - END-->
 
@@ -217,7 +222,7 @@
                 Jooby Avenue
             </div>
             <div id="combo-sku">
-                C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC
+                <!-- C2x40-S6/T3-3K7L-Cr-SPC-DL + ASC-LRWF-IR12-PC -->
             </div>
         </div>
         <h1 id="lum-type">
@@ -453,7 +458,7 @@
         </div>
     </div>
 
-    <div class="datasheet-area">
+    <div class="datasheet-area" id="configGuide">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img2">
             <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">

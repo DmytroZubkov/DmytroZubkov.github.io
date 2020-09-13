@@ -166,14 +166,26 @@ function singleSelectChangeText() {
         lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
         lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
+    
+}
 
-    // if (selMountTypeVal === "") {
-    //     document.getElementById("mounting-option").innerHTML = "Console";
-    // } else {
-    //     let mountingOpt = selMountTypeVal;
-    //     let newMountingOpt = mountingOpt.replace(/-/, "");
-    //     document.getElementById("mounting-option").innerHTML = newMountingOpt;
-    // }
+////////////////////
+// Add/remove the Configuration Guide table
+////////////////////
+function addConfigGuide() {
+    // Get the checkbox
+    let cgCheckBox = document.getElementById("cgCheck");
+    console.log("cgCheckBox");
+    // Get the table page (div block)
+    let guidePage = document.getElementById("configGuide");
+    console.log("configGuide");
+  
+    // If the checkbox is checked, display the output text
+    if (cgCheckBox.checked == true){
+        guidePage.style.display = "block";
+    } else {
+        guidePage.style.display = "none";
+    }
 }
 
 ////////////////////
