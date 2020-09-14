@@ -134,6 +134,10 @@ select {
     display: none;
 }
 
+#cgSKU, #cgASC {
+    font-weight: bold;
+}
+
 .config-guide .config-table {
     background: #eee;
     text-align: center;
@@ -179,6 +183,7 @@ div.config-guide table.config-table td.config-descr-cell {
     text-align: left;
     font-weight: normal;
 }
+
 /* Configuration guide table - END */
 
 /* Images style - START */
@@ -222,7 +227,8 @@ div.config-guide table.config-table td.config-descr-cell {
 
 /* Detailed specacteristics of the selected luminaire */
 
-#short-description {
+#short-description, #asc-short-description {
+    min-width: 300px;
     text-align: justify;
     box-sizing: border-box;
     flex: 2;

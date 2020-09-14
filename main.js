@@ -40,6 +40,9 @@ function singleSelectChangeText() {
     let selAscType = document.getElementById('asc');
     let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
 
+
+
+
     const SKU1 = selHousingVal +
         selModuleQtyVal + "x" +
         selModPowerVal + "-" +
@@ -56,8 +59,10 @@ function singleSelectChangeText() {
     const SKU3 = ((selMountTypeVal === "") ? "" : "-") + selMountTypeVal;
     const SKU4 = ((selAscTypeVal === "") ? "" : " + ") + selAscTypeVal;
 
-    let cmoboSKU = document.getElementById("combo-sku");
 
+
+
+    let cmoboSKU = document.getElementById("combo-sku");
     let lumPower = document.getElementById("lum-power");
     // let lumVoltage = document.getElementById("lum-voltage");
     // let lumFreq = document.getElementById("lum-freq");
@@ -88,7 +93,11 @@ function singleSelectChangeText() {
     const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
     let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
 
-    // Configuration guide SKU example substitution
+
+
+
+
+    //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
     document.getElementById("cg01").innerHTML = selHousingVal;
     document.getElementById("cg02").innerHTML = selModuleQtyVal + "x";
@@ -104,6 +113,21 @@ function singleSelectChangeText() {
 
 
 
+
+
+    //Substitution to Control Device ASC description page
+    if (selAscTypeVal === "") {
+        document.getElementById("configGuideASC").style.display = "none";
+    } else {
+        document.getElementById("cgASC").innerHTML = selAscTypeVal;
+        document.getElementById("configGuideASC").style.display = "block";
+    };
+
+
+
+
+
+    //Get main data from database
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
             el.innerHTML = "No data found for this SKU";
@@ -124,6 +148,10 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
     };
 
+
+
+
+
     // Hide/show dimming row, change dimming type
     if (selDimTypeVal === "") {
         lumDimmingRow.classList.add("hiddenEl");
@@ -133,6 +161,9 @@ function singleSelectChangeText() {
         lumDimmingVal.style.width = "50%";
     };
 
+
+
+
     // Hide/show SPC row, change SPC type
     if (selSpcTypeVal === "") {
         lumSpcRow.classList.add("hiddenEl");
@@ -141,6 +172,9 @@ function singleSelectChangeText() {
         lumSpcVal.innerHTML = selSpcTypeTxt;
         lumSpcVal.style.width = "50%";
     };
+
+
+
 
     // Change luminaire image
     let lumImg = document.getElementById("product-img");
@@ -169,6 +203,11 @@ function singleSelectChangeText() {
         lumImg.src = 'img/lum/' + asc + led + selHousingVal + selModuleQtyVal + '.jpg';
     };
 
+
+
+
+
+
     // Change LDC image and beam value
     const CURRENT_LDC = JOOBY_LDCS.get(selLensTypeVal);
     if (CURRENT_LDC === undefined) {
@@ -177,6 +216,11 @@ function singleSelectChangeText() {
         lumLdcDeg.innerHTML = `${CURRENT_LDC.beam}`;
         lumLdcImg.src = "img/ldc/" + `${CURRENT_LDC.image}`;
     };
+
+
+
+
+
 
     // Change Mounting type image and name
     let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console" : "Pole Top";
@@ -189,8 +233,11 @@ function singleSelectChangeText() {
         lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
         lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
+};
 
-}
+
+
+
 
 ////////////////////
 // Add/remove the Configuration Guide table
@@ -206,8 +253,11 @@ function addConfigGuide() {
         guidePage.style.display = "block";
     } else {
         guidePage.style.display = "none";
-    }
-}
+    };
+};
+
+
+
 
 ////////////////////
 // List of all optics options
