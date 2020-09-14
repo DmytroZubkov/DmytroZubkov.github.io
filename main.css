@@ -129,10 +129,9 @@ select {
 /* Specifications table - END */
 
 
-
 /* Configuration guide table - START */
 #configGuide {
-    display: block;
+    display: none;
 }
 
 .config-guide .config-table {

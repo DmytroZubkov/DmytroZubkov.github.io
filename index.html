@@ -10,17 +10,12 @@
 
 </head>
 
-<!-- https://www.youtube.com/watch?time_continue=380&v=k32voqQhODc&feature=emb_title -->
-
-
 <body>
     <div class="datasheet-area">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img">
             <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
-
-
 
         <!-- Product selector panel - START-->
         <form class="selector">
@@ -204,14 +199,22 @@
                 </select>
             </div>
 
-            <div class="selector-description-important" style="padding:5px">(!) - depicts that this field is a criteria for search</div>
+            <div class="selector-description-important" style="padding:5px">
+                (!) - depicts that this field is a criteria for search
+            </div>
 
             <div class="selector-row">
                 <div class="selector-row">
                     <input type="checkbox" id="cgCheck" value="show table" onclick="addConfigGuide()">
-                    <label id="config-guide-checkbox" for="addConfigGuide">Include Configuration Guide page</label>
+                    <label id="config-guide-checkbox" for="addConfigGuide">
+                        Include Configuration Guide page
+                    </label>
                 </div>
-                <div><button class="button">Print this shit!</button></div>
+                <div>
+                    <button type="button" class="button" onclick="window.print()">
+                        Print this shit!
+                    </button>
+                </div>
             </div>
             
         </form>
@@ -358,6 +361,15 @@
                         </td>
                         <td id="lum-elsafety">
                             I
+                        </td>
+                    </tr>
+
+                    <tr id="lum-spc-row">
+                        <td>
+                            Surge protection
+                        </td>
+                        <td id="lum-spc">
+                            SPC - In:5kA
                         </td>
                     </tr>
 

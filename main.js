@@ -24,9 +24,10 @@ function singleSelectChangeText() {
 
     let selManufType = document.getElementById('manuf');
     let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
-    
+
     let selSpcType = document.getElementById('spc');
     let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
+    let selSpcTypeTxt = selSpcType.options[selSpcType.selectedIndex].text;
 
     let selDimType = document.getElementById('dimming');
     let selDimTypeVal = selDimType.options[selDimType.selectedIndex].value;
@@ -69,6 +70,8 @@ function singleSelectChangeText() {
     let lumCRI = document.getElementById("lum-cri");
     // let lumIP = document.getElementById("lum-ip");
     // let lumElSafety = document.getElementById("lum-elsafety");
+    let lumSpcRow = document.getElementById("lum-spc-row");
+    let lumSpcVal = document.getElementById("lum-spc");
     // let lumTamb = document.getElementById("lum-t-amb");
     let lumDimensions = document.getElementById("lum-dimensions");
     let lumWeight = document.getElementById("lum-weight");
@@ -127,32 +130,41 @@ function singleSelectChangeText() {
     } else {
         lumDimmingRow.classList.remove("hiddenEl");
         lumDimmingVal.innerHTML = selDimTypeTxt;
-        lumDimmingVal.style.width="50%";
+        lumDimmingVal.style.width = "50%";
+    };
+
+    // Hide/show SPC row, change SPC type
+    if (selSpcTypeVal === "") {
+        lumSpcRow.classList.add("hiddenEl");
+    } else {
+        lumSpcRow.classList.remove("hiddenEl");
+        lumSpcVal.innerHTML = selSpcTypeTxt;
+        lumSpcVal.style.width = "50%";
     };
 
     // Change luminaire image
     let lumImg = document.getElementById("product-img");
     let lumImgComboCode = selHousingVal + selModuleQtyVal + selLensTypeVal + selMountTypeVal;
-    
+
     if (lumImgComboCode === "") {
         x = "img/noimg.jpg";
     } else {
         if (selAscTypeVal === "") {
-        asc = 'std/';
+            asc = 'std/';
         } else {
-        asc = 'smart/';
+            asc = 'smart/';
         };
         if (selLensTypeVal === 'S1' ||
-        selLensTypeVal === 'S2' ||
-        selLensTypeVal ===  'S3' ||
-        selLensTypeVal === 'S4' ||
-        selLensTypeVal === 'F1/45' ||
-        selLensTypeVal === 'F1/60' ||
-        selLensTypeVal === 'F1/90' ||
-        selLensTypeVal === 'F1/120') {
-        led = 'cob/';
+            selLensTypeVal === 'S2' ||
+            selLensTypeVal === 'S3' ||
+            selLensTypeVal === 'S4' ||
+            selLensTypeVal === 'F1/45' ||
+            selLensTypeVal === 'F1/60' ||
+            selLensTypeVal === 'F1/90' ||
+            selLensTypeVal === 'F1/120') {
+            led = 'cob/';
         } else {
-        led = 'smd/';
+            led = 'smd/';
         }
         lumImg.src = 'img/lum/' + asc + led + selHousingVal + selModuleQtyVal + '.jpg';
     };
@@ -167,7 +179,7 @@ function singleSelectChangeText() {
     };
 
     // Change Mounting type image and name
-    let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console": "Pole Top";
+    let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console" : "Pole Top";
     let changeMount2 = (selMountTypeVal === "") ? changeMount : selMountTypeVal;
 
     const CURRENT_MOUNTING = JOOBY_MOUNTING.get(changeMount2);
@@ -177,7 +189,7 @@ function singleSelectChangeText() {
         lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
         lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
-    
+
 }
 
 ////////////////////
@@ -188,9 +200,9 @@ function addConfigGuide() {
     let cgCheckBox = document.getElementById("cgCheck");
     // Get the table page (div block)
     let guidePage = document.getElementById("configGuide");
-  
+
     // If the checkbox is checked, display the output text
-    if (cgCheckBox.checked == true){
+    if (cgCheckBox.checked == true) {
         guidePage.style.display = "block";
     } else {
         guidePage.style.display = "none";
@@ -202,47 +214,143 @@ function addConfigGuide() {
 ////////////////////
 const JOOBY_LDCS = new Map();
 // COB Street Optics
-JOOBY_LDCS.set('S1', {beam: "145°x65°", image: "S1.jpg"});
-JOOBY_LDCS.set('S2', {beam: "170°x120°", image: "S2.jpg"});
-JOOBY_LDCS.set('S3', {beam: "160°x80°", image: "S3.jpg"});
-JOOBY_LDCS.set('S4', {beam: "150°x70°", image: "S4.jpg"});
+JOOBY_LDCS.set('S1', {
+    beam: "145°x65°",
+    image: "S1.jpg"
+});
+JOOBY_LDCS.set('S2', {
+    beam: "170°x120°",
+    image: "S2.jpg"
+});
+JOOBY_LDCS.set('S3', {
+    beam: "160°x80°",
+    image: "S3.jpg"
+});
+JOOBY_LDCS.set('S4', {
+    beam: "150°x70°",
+    image: "S4.jpg"
+});
 // SMD-28 Street Optics
-JOOBY_LDCS.set('S6/T1', {beam: "145°x80°", image: "S6_T1.jpg"});
-JOOBY_LDCS.set('S6/T2', {beam: "160°x50°", image: "S6_T2.jpg"});
-JOOBY_LDCS.set('S6/T3', {beam: "150°x60°", image: "S6_T3.jpg"});
-JOOBY_LDCS.set('S6/T5s', {beam: "140°", image: "S6_T5s.jpg"});
-JOOBY_LDCS.set('S6/Sc', {beam: "160°x65°", image: "S6_Sc.jpg"});
+JOOBY_LDCS.set('S6/T1', {
+    beam: "145°x80°",
+    image: "S6_T1.jpg"
+});
+JOOBY_LDCS.set('S6/T2', {
+    beam: "160°x50°",
+    image: "S6_T2.jpg"
+});
+JOOBY_LDCS.set('S6/T3', {
+    beam: "150°x60°",
+    image: "S6_T3.jpg"
+});
+JOOBY_LDCS.set('S6/T5s', {
+    beam: "140°",
+    image: "S6_T5s.jpg"
+});
+JOOBY_LDCS.set('S6/Sc', {
+    beam: "160°x65°",
+    image: "S6_Sc.jpg"
+});
 // COB Floodlight Optics
-JOOBY_LDCS.set('F1/45', {beam: "45°x45°", image: "F1_45.jpg"});
-JOOBY_LDCS.set('F1/60', {beam: "60°x60°", image: "F1_60.jpg"});
-JOOBY_LDCS.set('F1/90', {beam: "90°x90°", image: "F1_90.jpg"});
-JOOBY_LDCS.set('F1/120', {beam: "120°x120°", image: "F1_120.jpg"});
+JOOBY_LDCS.set('F1/45', {
+    beam: "45°x45°",
+    image: "F1_45.jpg"
+});
+JOOBY_LDCS.set('F1/60', {
+    beam: "60°x60°",
+    image: "F1_60.jpg"
+});
+JOOBY_LDCS.set('F1/90', {
+    beam: "90°x90°",
+    image: "F1_90.jpg"
+});
+JOOBY_LDCS.set('F1/120', {
+    beam: "120°x120°",
+    image: "F1_120.jpg"
+});
 // SMD-28 Floodlight Optics
-JOOBY_LDCS.set('F6/30', {beam: "30°x30°", image: "F6_30.jpg"});
-JOOBY_LDCS.set('F6/65', {beam: "65°x65°", image: "F6_65.jpg"});
-JOOBY_LDCS.set('F6/90', {beam: "90°x90°", image: "F6_90.jpg"});
+JOOBY_LDCS.set('F6/30', {
+    beam: "30°x30°",
+    image: "F6_30.jpg"
+});
+JOOBY_LDCS.set('F6/65', {
+    beam: "65°x65°",
+    image: "F6_65.jpg"
+});
+JOOBY_LDCS.set('F6/90', {
+    beam: "90°x90°",
+    image: "F6_90.jpg"
+});
 // SMD-36 Floodlight Optics
-JOOBY_LDCS.set('F7/18', {beam: "18°x18°", image: "F7_18.jpg"});
-JOOBY_LDCS.set('F7/22', {beam: "22°x22°", image: "F7_22.jpg"});
-JOOBY_LDCS.set('F7/30', {beam: "30°x30°", image: "F7_30.jpg"});
-JOOBY_LDCS.set('F7/45', {beam: "45°x45°", image: "F7_45.jpg"});
-JOOBY_LDCS.set('F7/1840', {beam: "18°x40°", image: "F7_1840.jpg"});
-JOOBY_LDCS.set('F7/115d', {beam: "115°x115°", image: "F7_115d.jpg"});
-JOOBY_LDCS.set('F7/125', {beam: "125°x125°", image: "F7_125.jpg"});
+JOOBY_LDCS.set('F7/18', {
+    beam: "18°x18°",
+    image: "F7_18.jpg"
+});
+JOOBY_LDCS.set('F7/22', {
+    beam: "22°x22°",
+    image: "F7_22.jpg"
+});
+JOOBY_LDCS.set('F7/30', {
+    beam: "30°x30°",
+    image: "F7_30.jpg"
+});
+JOOBY_LDCS.set('F7/45', {
+    beam: "45°x45°",
+    image: "F7_45.jpg"
+});
+JOOBY_LDCS.set('F7/1840', {
+    beam: "18°x40°",
+    image: "F7_1840.jpg"
+});
+JOOBY_LDCS.set('F7/115d', {
+    beam: "115°x115°",
+    image: "F7_115d.jpg"
+});
+JOOBY_LDCS.set('F7/125', {
+    beam: "125°x125°",
+    image: "F7_125.jpg"
+});
 
 ////////////////////
 // List of all mounting options
 ////////////////////
 const JOOBY_MOUNTING = new Map();
-JOOBY_MOUNTING.set('Console', {mounting: "Console", image: "C-hor.jpg"});
-JOOBY_MOUNTING.set('Pole Top', {mounting: "Pole Top", image: "C-vert.jpg"});
-JOOBY_MOUNTING.set('T1', {mounting: "T1", image: "T1.jpg"});
-JOOBY_MOUNTING.set('F1', {mounting: "F1", image: "F1.jpg"});
-JOOBY_MOUNTING.set('F2', {mounting: "F2", image: "F2.jpg"});
-JOOBY_MOUNTING.set('F3', {mounting: "F3", image: "F3.jpg"});
-JOOBY_MOUNTING.set('Fw', {mounting: "Fw", image: "Fw.jpg"});
-JOOBY_MOUNTING.set('R', {mounting: "R", image: "R.jpg"});
-JOOBY_MOUNTING.set('Rx2', {mounting: "Rx2", image: "Rx2.jpg"});
+JOOBY_MOUNTING.set('Console', {
+    mounting: "Console",
+    image: "C-hor.jpg"
+});
+JOOBY_MOUNTING.set('Pole Top', {
+    mounting: "Pole Top",
+    image: "C-vert.jpg"
+});
+JOOBY_MOUNTING.set('T1', {
+    mounting: "T1",
+    image: "T1.jpg"
+});
+JOOBY_MOUNTING.set('F1', {
+    mounting: "F1",
+    image: "F1.jpg"
+});
+JOOBY_MOUNTING.set('F2', {
+    mounting: "F2",
+    image: "F2.jpg"
+});
+JOOBY_MOUNTING.set('F3', {
+    mounting: "F3",
+    image: "F3.jpg"
+});
+JOOBY_MOUNTING.set('Fw', {
+    mounting: "Fw",
+    image: "Fw.jpg"
+});
+JOOBY_MOUNTING.set('R', {
+    mounting: "R",
+    image: "R.jpg"
+});
+JOOBY_MOUNTING.set('Rx2', {
+    mounting: "Rx2",
+    image: "Rx2.jpg"
+});
 
 ////////////////////
 // List of all luminaire options with their characteristics
