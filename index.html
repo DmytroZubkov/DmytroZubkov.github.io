@@ -143,11 +143,11 @@
                     LED Manufacturer (!)
                 </div>
                 <select class="selector-option" id="manuf" onchange="singleSelectChangeText()">
-                    <option value="-Ci">Citizen Electronics Co., Ltd.</option>
-                    <option value="-Os">Osram AG.</option>
-                    <option value="-Se">Seoul Semiconductor Co., Ltd.</option>
-                    <option value="-Cr" selected>Cree Inc.</option>
-                    <option value="-Sa">Samsung Electronics Co., Ltd.</option>
+                    <option value="Ci">Citizen Electronics Co., Ltd.</option>
+                    <option value="Os">Osram AG.</option>
+                    <option value="Se">Seoul Semiconductor Co., Ltd.</option>
+                    <option value="Cr" selected>Cree Inc.</option>
+                    <option value="Sa">Samsung Electronics Co., Ltd.</option>
                 </select>
             </div>
 
@@ -157,7 +157,7 @@
                 </div>
                 <select class="selector-option" id="spc" onchange="singleSelectChangeText()">
                     <option value="" selected>None</option>
-                    <option value="-SPC">SPC - In:5kA</option>
+                    <option value="SPC">SPC - In:5kA</option>
                 </select>
             </div>
 
@@ -167,10 +167,10 @@
                 </div>
                 <select class="selector-option" id="dimming" onchange="singleSelectChangeText()">
                     <option value="" selected>None</option>
-                    <option value="-DL">DL - DALI</option>
-                    <option value="-D01">D01 - 0-10V dimming with emergency mode</option>
-                    <option value="-DEM">DEM - emergency mode dimming</option>
-                    <option value="-DMV">DMV - mains voltage dimming</option>
+                    <option value="DL">DL - DALI</option>
+                    <option value="D01">D01 - 0-10V dimming with emergency mode</option>
+                    <option value="DEM">DEM - emergency mode dimming</option>
+                    <option value="DMV">DMV - mains voltage dimming</option>
                 </select>
             </div>
 
@@ -207,11 +207,12 @@
             <div class="selector-description-important" style="padding:5px">(!) - depicts that this field is a criteria for search</div>
 
             <div class="selector-row">
-            <input type="checkbox" id="cgCheck" value="add table" onclick="addConfigGuide()">
-            <label id="config-guide-checkbox" for="addConfigGuide">Include</label>
-            
+                <div class="selector-row">
+                    <input type="checkbox" id="cgCheck" value="show table" onclick="addConfigGuide()">
+                    <label id="config-guide-checkbox" for="addConfigGuide">Include Configuration Guide page</label>
+                </div>
+                <div><button class="button">Print this shit!</button></div>
             </div>
-            <div class="selector-row-center"><button class="button">Print this shit!</button></div>
             
         </form>
         <!-- Product selector panel - END-->
@@ -467,44 +468,22 @@
             Configuration Guide
         </h1>
         <div>
-            Jooby Avenue C2x40-S6/T3-3K7L-Cr-SPC-DL
+            Jooby Avenue <span id="cgSKU">C2x40-S6/T3-3K7L-Cr-SPC-DL</span>
         </div>
         <div class="config-guide">
             <table class="config-table" cellpadding="0" cellspacing="0">
                 <tr class="heading">
-                    <td>
-                        C
-                    </td>
-                    <td>
-                        2x
-                    </td>
-                    <td>
-                        40
-                    </td>
-                    <td>
-                        S6/T3
-                    </td>
-                    <td>
-                        3K
-                    </td>
-                    <td>
-                        7
-                    </td>
-                    <td>
-                        L
-                    </td>
-                    <td>
-                        Cr
-                    </td>
-                    <td>
-                        SPC
-                    </td>
-                    <td>
-                        DL
-                    </td>
-                    <td>
-                        *
-                    </td>
+                    <td id="cg01"></td>
+                    <td id="cg02"></td>
+                    <td id="cg03"></td>
+                    <td id="cg04"></td>
+                    <td id="cg05"></td>
+                    <td id="cg06"></td>
+                    <td id="cg07"></td>
+                    <td id="cg08"></td>
+                    <td id="cg09"></td>
+                    <td id="cg10"></td>
+                    <td id="cg11"></td>
                     <td class="empty-cell"></td>
                 </tr>
                 <tr class="subheading">

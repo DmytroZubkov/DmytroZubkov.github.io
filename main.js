@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
 function singleSelectChangeText() {
-    // https://developer.mozilla.org/ru/docs/Web/API/HTMLSelectElement
-    // https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedOptions
-    // Get information about the selected option
     let selHousing = document.getElementById('housing');
     let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
 
@@ -49,11 +46,14 @@ function singleSelectChangeText() {
         selCctTypeVal +
         selCriTypeVal +
         selStdLetterTypeVal +
-        selManufTypeVal;
-    const SKU2 = selSpcTypeVal +
+        "-" + selManufTypeVal;
+    const SKU2 =
+        ((selSpcTypeVal === "") ? "" : "-") +
+        selSpcTypeVal +
+        ((selDimTypeVal === "") ? "" : "-") +
         selDimTypeVal;
-    const SKU3 = selMountTypeVal;
-    const SKU4 = selAscTypeVal;
+    const SKU3 = ((selMountTypeVal === "") ? "" : "-") + selMountTypeVal;
+    const SKU4 = ((selAscTypeVal === "") ? "" : " + ") + selAscTypeVal;
 
     let cmoboSKU = document.getElementById("combo-sku");
 
@@ -82,25 +82,36 @@ function singleSelectChangeText() {
     let lumMountName = document.getElementById("mounting-option");
     let lumMountImg = document.getElementById("mounting-img");
 
-    // These ternary operators will add "-" and " + " to SKU when necessary
-    let dashSKU3 = (SKU3 === "") ? "" : "-";
-    let dashSKU4 = (SKU4 === "") ? "" : " + ";
-    // end ternary operators
-
-    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + dashSKU3 + SKU3);
+    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
     let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
+
+    // Configuration guide SKU example substitution
+    document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
+    document.getElementById("cg01").innerHTML = selHousingVal;
+    document.getElementById("cg02").innerHTML = selModuleQtyVal + "x";
+    document.getElementById("cg03").innerHTML = selModPowerVal;
+    document.getElementById("cg04").innerHTML = selLensTypeVal;
+    document.getElementById("cg05").innerHTML = selCctTypeVal;
+    document.getElementById("cg06").innerHTML = selCriTypeVal;
+    document.getElementById("cg07").innerHTML = selStdLetterTypeVal;
+    document.getElementById("cg08").innerHTML = selManufTypeVal;
+    document.getElementById("cg09").innerHTML = selSpcTypeVal;
+    document.getElementById("cg10").innerHTML = selDimTypeVal;
+    document.getElementById("cg11").innerHTML = selMountTypeVal;
+
+
 
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
             el.innerHTML = "No data found for this SKU";
             el.classList.add("alertTdStyle");
         });
-        cmoboSKU.innerHTML = SKU1 + SKU2 + dashSKU3 + SKU3 + dashSKU4 + SKU4 + " - No data found for this SKU";
+        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4 + " - No data found for this SKU";
     } else {
         SPECS.forEach(el => {
             el.classList.remove("alertTdStyle");
         });
-        cmoboSKU.innerHTML = SKU1 + SKU2 + dashSKU3 + SKU3 + dashSKU4 + SKU4;
+        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4;
         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
         lumFlux.innerHTML = `${CURRENT_SKU.flux}` + " lm";
         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
@@ -116,7 +127,7 @@ function singleSelectChangeText() {
     } else {
         lumDimmingRow.classList.remove("hiddenEl");
         lumDimmingVal.innerHTML = selDimTypeTxt;
-        lumDimmingVal.style.width="45%";
+        lumDimmingVal.style.width="50%";
     };
 
     // Change luminaire image
@@ -175,10 +186,8 @@ function singleSelectChangeText() {
 function addConfigGuide() {
     // Get the checkbox
     let cgCheckBox = document.getElementById("cgCheck");
-    console.log("cgCheckBox");
     // Get the table page (div block)
     let guidePage = document.getElementById("configGuide");
-    console.log("configGuide");
   
     // If the checkbox is checked, display the output text
     if (cgCheckBox.checked == true){

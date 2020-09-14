@@ -50,6 +50,8 @@ p {
     padding: 2px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .selector-description {
@@ -58,7 +60,7 @@ p {
 
 .selector-description-important {
     font-weight: bold;
-    background-color: #ddd;
+    background-color: #eee;
     flex: 1 0 50%;
 }
 
@@ -72,18 +74,8 @@ select {
     border-radius: 5px;
 }
 
-#config-guide-checkbox {
-    padding-top: 2px;
-    padding-left: 4px;
-}
-
-#selector-row-center{
-    display: flex;
-    justify-content: center;
-}
-
 .button {
-    background-color: #ddd;
+    background-color: #eee;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -94,7 +86,7 @@ select {
   }
   
   .button:hover {
-    background-color: #eee;
+    background-color: #ddd;
   }
 
 /* Selector block styles END */
@@ -140,11 +132,11 @@ select {
 
 /* Configuration guide table - START */
 #configGuide {
-    display: none;
+    display: block;
 }
 
 .config-guide .config-table {
-    background: #eeeeee;
+    background: #eee;
     text-align: center;
     font-weight: bold;
     width: 100%;
