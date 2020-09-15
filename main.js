@@ -42,7 +42,6 @@ function singleSelectChangeText() {
 
 
 
-
     const SKU1 = selHousingVal +
         selModuleQtyVal + "x" +
         selModPowerVal + "-" +
@@ -59,7 +58,7 @@ function singleSelectChangeText() {
     const SKU3 = ((selMountTypeVal === "") ? "" : "-") + selMountTypeVal;
     const SKU4 = ((selAscTypeVal === "") ? "" : " + ") + selAscTypeVal;
 
-
+    
 
 
     let cmoboSKU = document.getElementById("combo-sku");
@@ -233,10 +232,27 @@ function singleSelectChangeText() {
         lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
         lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
+
+
+
+
+
+    // function searchSku() {
+    //     document.getElementById("search-button").innerHTML = "Hello World";
+    //     selHousingVal = "C";
+    //     selModuleQtyVal = "1";
+    //     selModPowerVal = "40";
+    //     selLensTypeVal = "S6/T3";
+    //     selCctTypeVal = "3K";
+    //     selCriTypeVal = "7";
+    //     selStdLetterTypeVal = "L";
+    //     selManufTypeVal = "Cr";
+    //     console.log(selHousingVal + selModuleQtyVal + "x" + selModPowerVal + "-" + selLensTypeVal + "-" + selCctTypeVal + selCriTypeVal + selStdLetterTypeVal + "-" + selManufTypeVal);
+    // };
+    // searchSku();
+
+
 };
-
-
-
 
 // Add/remove the Configuration Guide table
 function addConfigGuide() {
@@ -252,3 +268,31 @@ function addConfigGuide() {
         guidePage.style.display = "none";
     };
 };
+
+
+
+let input = document.getElementById("search-sku");
+
+// Execute a function when the user releases a key on the keyboard
+
+input.addEventListener("keyup", event => {
+    if (event.key === 13) {
+        document.getElementById("search-button").click();
+    }
+});
+
+function searchSku() {
+    let searchOK = true;
+    let a = "scurvy";
+    let b = "dog";
+    let req = input.value;
+    console.log(req);
+
+    if ( req === "" ) {
+        console.log(true);
+    } else {
+        console.log(false);
+    };
+};
+
+// window.setTimeout(searchSku(), 0);

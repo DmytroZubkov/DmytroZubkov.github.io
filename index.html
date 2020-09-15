@@ -18,13 +18,15 @@
         </div>
 
         <!-- Product selector panel - START-->
-        <form class="selector">
+        <div class="selector">
             <div class="selector-row" id="search-input">
-                    <label for="sku-search" class="selector-description" id="search-label">
+                <form>
+                    <label for="search-sku" class="selector-description" id="search-label">
                         Try to type here required SKU:
                     </label>
-                    <input type="search" class="selector-option" id="search-sku"  name="foo" aria-label="Search through site content">
-                    <button id="search-button" type="button" class="button" onclick="">Search!</button>
+                    <input type="text" class="selector-option" id="search-sku"  name="search" aria-label="Search through site content">
+                    <input type="submit" onclick="searchSku()" id="search-button" class="button" value="Search!">
+                </form>
             </div>
 
             <div class="selector-row">
@@ -225,7 +227,7 @@
                 </div>
             </div>
 
-        </form>
+        </div>
         <!-- Product selector panel - END-->
 
         <!-- This is part for main information about the luminaire - Name, SKU, short description and photo -->
