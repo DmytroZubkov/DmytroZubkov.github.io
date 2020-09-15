@@ -59,18 +59,24 @@ p {
     background-color: #eee;
 }
 
+#search-input {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
 #search-label {
     flex: 1 0 50%;
 }
 
 #search-sku {
+    height: 22px;
     flex: 1 0 50%;
     font: inherit;
 }
 
 #search-button {
     flex: 1 0 auto;
-    margin: 0 0 10px;
 }
 
 .selector-description {

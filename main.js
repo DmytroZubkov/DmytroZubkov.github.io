@@ -271,7 +271,7 @@ function addConfigGuide() {
 
 
 
-// let input = document.getElementById("search-sku");
+let input = document.getElementById("search-sku");
 
 // // Execute a function when the user releases a key on the keyboard
 
@@ -281,18 +281,18 @@ function addConfigGuide() {
 //     }
 // });
 
-// function searchSku() {
-//     let searchOK = true;
-//     let a = "scurvy";
-//     let b = "dog";
-//     let req = input.value;
-//     console.log(req);
+function searchSku() {
+    let searchOK = true;
+    let a = "scurvy";
+    let b = "dog";
+    let req = input.value;
+    console.log(req);
 
-//     if ( req === "" ) {
-//         console.log(true);
-//     } else {
-//         console.log(false);
-//     };
-// };
+    if ( req === "" ) {
+        console.log(true);
+    } else {
+        console.log(false);
+    };
+};
 
 // // window.setTimeout(searchSku(), 0);
