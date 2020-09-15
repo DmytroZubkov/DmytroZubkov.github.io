@@ -54,6 +54,24 @@ p {
     align-items: center;
 }
 
+#selector-row-important {
+    padding: 5px;
+    background-color: #eee;
+}
+
+#search-label {
+    flex: 1 0 50%;
+}
+
+#search-sku {
+    flex: 1 0 50%;
+}
+
+#search-button {
+    flex: 1 0 auto;
+    margin: 0 0 10px;
+}
+
 .selector-description {
     flex: 1 0 50%;
 }

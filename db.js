@@ -1,0 +1,37855 @@
+////////////////////
+// List of all optics options
+////////////////////
+const JOOBY_LDCS = new Map();
+// COB Street Optics
+JOOBY_LDCS.set('S1', {
+    beam: "145°x65°",
+    image: "S1.jpg"
+});
+JOOBY_LDCS.set('S2', {
+    beam: "170°x120°",
+    image: "S2.jpg"
+});
+JOOBY_LDCS.set('S3', {
+    beam: "160°x80°",
+    image: "S3.jpg"
+});
+JOOBY_LDCS.set('S4', {
+    beam: "150°x70°",
+    image: "S4.jpg"
+});
+// SMD-28 Street Optics
+JOOBY_LDCS.set('S6/T1', {
+    beam: "145°x80°",
+    image: "S6_T1.jpg"
+});
+JOOBY_LDCS.set('S6/T2', {
+    beam: "160°x50°",
+    image: "S6_T2.jpg"
+});
+JOOBY_LDCS.set('S6/T3', {
+    beam: "150°x60°",
+    image: "S6_T3.jpg"
+});
+JOOBY_LDCS.set('S6/T5s', {
+    beam: "140°",
+    image: "S6_T5s.jpg"
+});
+JOOBY_LDCS.set('S6/Sc', {
+    beam: "160°x65°",
+    image: "S6_Sc.jpg"
+});
+// COB Floodlight Optics
+JOOBY_LDCS.set('F1/45', {
+    beam: "45°x45°",
+    image: "F1_45.jpg"
+});
+JOOBY_LDCS.set('F1/60', {
+    beam: "60°x60°",
+    image: "F1_60.jpg"
+});
+JOOBY_LDCS.set('F1/90', {
+    beam: "90°x90°",
+    image: "F1_90.jpg"
+});
+JOOBY_LDCS.set('F1/120', {
+    beam: "120°x120°",
+    image: "F1_120.jpg"
+});
+// SMD-28 Floodlight Optics
+JOOBY_LDCS.set('F6/30', {
+    beam: "30°x30°",
+    image: "F6_30.jpg"
+});
+JOOBY_LDCS.set('F6/65', {
+    beam: "65°x65°",
+    image: "F6_65.jpg"
+});
+JOOBY_LDCS.set('F6/90', {
+    beam: "90°x90°",
+    image: "F6_90.jpg"
+});
+// SMD-36 Floodlight Optics
+JOOBY_LDCS.set('F7/18', {
+    beam: "18°x18°",
+    image: "F7_18.jpg"
+});
+JOOBY_LDCS.set('F7/22', {
+    beam: "22°x22°",
+    image: "F7_22.jpg"
+});
+JOOBY_LDCS.set('F7/30', {
+    beam: "30°x30°",
+    image: "F7_30.jpg"
+});
+JOOBY_LDCS.set('F7/45', {
+    beam: "45°x45°",
+    image: "F7_45.jpg"
+});
+JOOBY_LDCS.set('F7/1840', {
+    beam: "18°x40°",
+    image: "F7_1840.jpg"
+});
+JOOBY_LDCS.set('F7/115d', {
+    beam: "115°x115°",
+    image: "F7_115d.jpg"
+});
+JOOBY_LDCS.set('F7/125', {
+    beam: "125°x125°",
+    image: "F7_125.jpg"
+});
+
+////////////////////
+// List of all mounting options
+////////////////////
+const JOOBY_MOUNTING = new Map();
+JOOBY_MOUNTING.set('Console', {
+    mounting: "Console",
+    image: "C-hor.jpg"
+});
+JOOBY_MOUNTING.set('Pole Top', {
+    mounting: "Pole Top",
+    image: "C-vert.jpg"
+});
+JOOBY_MOUNTING.set('T1', {
+    mounting: "T1",
+    image: "T1.jpg"
+});
+JOOBY_MOUNTING.set('F1', {
+    mounting: "F1",
+    image: "F1.jpg"
+});
+JOOBY_MOUNTING.set('F2', {
+    mounting: "F2",
+    image: "F2.jpg"
+});
+JOOBY_MOUNTING.set('F3', {
+    mounting: "F3",
+    image: "F3.jpg"
+});
+JOOBY_MOUNTING.set('Fw', {
+    mounting: "Fw",
+    image: "Fw.jpg"
+});
+JOOBY_MOUNTING.set('R', {
+    mounting: "R",
+    image: "R.jpg"
+});
+JOOBY_MOUNTING.set('Rx2', {
+    mounting: "Rx2",
+    image: "Rx2.jpg"
+});
+
+////////////////////
+// List of all luminaire options with their characteristics
+////////////////////
+const JOOBY_INFO = new Map();
+JOOBY_INFO.set('C1x20-S1-3K7H-Ci', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S1-3K8L-Ci', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S1-4K7H-Ci', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S1-4K8L-Ci', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S1-5K7H-Ci', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S2-3K7H-Ci', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S2-3K8L-Ci', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S2-4K7H-Ci', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S2-4K8L-Ci', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S2-5K7H-Ci', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S3-3K7H-Ci', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S3-3K8L-Ci', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S3-4K7H-Ci', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S3-4K8L-Ci', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x20-S3-5K7H-Ci', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S1-3K7H-Ci', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S1-3K8L-Ci', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S1-4K7H-Ci', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S1-4K8L-Ci', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S1-5K7H-Ci', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S2-3K7H-Ci', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S2-3K8L-Ci', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S2-4K7H-Ci', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S2-4K8L-Ci', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S2-5K7H-Ci', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S3-3K7H-Ci', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S3-3K8L-Ci', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S3-4K7H-Ci', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S3-4K8L-Ci', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x30-S3-5K7H-Ci', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S1-3K7H-Ci', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S1-3K8L-Ci', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S1-4K7H-Ci', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S1-4K8L-Ci', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S1-5K7H-Ci', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S2-3K7H-Ci', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S2-3K8L-Ci', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S2-4K7H-Ci', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S2-4K8L-Ci', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S2-5K7H-Ci', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S3-3K7H-Ci', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S3-3K8L-Ci', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S3-4K7H-Ci', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S3-4K8L-Ci', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S3-5K7H-Ci', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/Sc-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/Sc-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/Sc-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/Sc-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/Sc-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T1-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T1-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T1-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T1-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T1-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T2-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T2-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T2-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T2-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T2-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T3-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T3-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T3-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T3-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T3-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T5s-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T5s-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T5s-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T5s-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T5s-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S1-3K7H-Ci', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S1-3K8L-Ci', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S1-4K7H-Ci', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S1-4K8L-Ci', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S1-5K7H-Ci', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S2-3K7H-Ci', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S2-3K8L-Ci', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S2-4K7H-Ci', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S2-4K8L-Ci', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S2-5K7H-Ci', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S3-3K7H-Ci', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S3-3K8L-Ci', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S3-4K7H-Ci', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S3-4K8L-Ci', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S3-5K7H-Ci', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/Sc-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/Sc-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/Sc-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/Sc-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/Sc-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T1-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T1-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T1-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T1-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T1-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T2-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T2-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T2-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T2-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T2-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T3-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T3-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T3-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T3-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T3-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T5s-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T5s-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T5s-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T5s-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T5s-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S1-3K7H-Ci', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S1-3K8L-Ci', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S1-4K7L-Ci', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S1-4K8L-Ci', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S1-5K7H-Ci', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S2-3K7H-Ci', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S2-3K8L-Ci', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S2-4K7H-Ci', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S2-4K8L-Ci', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S2-5K7H-Ci', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S3-3K7H-Ci', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S3-3K8L-Ci', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S3-4K7H-Ci', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S3-4K8L-Ci', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S3-5K7H-Ci', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х130",
+    weight: "5.5",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/Sc-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/Sc-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/Sc-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/Sc-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/Sc-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T1-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T1-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T1-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T1-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T1-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T2-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T2-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T2-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T2-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T2-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T3-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T3-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T3-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T3-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T3-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T5s-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T5s-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T5s-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T5s-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T5s-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C2x40-S6/Sc-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/Sc-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/Sc-4K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/Sc-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/Sc-5K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T1-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T1-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T1-4K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T1-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T1-5K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T2-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T2-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T2-4K7H-Cr', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T2-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T2-5K7H-Cr', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T3-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T3-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T3-4K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T3-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T3-5K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T5s-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T5s-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T5s-4K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T5s-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T5s-5K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S1-3K7H-Ci', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S1-3K8L-Ci', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S1-4K7H-Ci', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S1-4K8L-Ci', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S1-5K7H-Ci', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S2-3K7H-Ci', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S2-3K8L-Ci', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S2-4K7H-Ci', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S2-4K8L-Ci', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S2-5K7H-Ci', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S3-3K7H-Ci', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S3-3K8L-Ci', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S3-4K7H-Ci', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S3-4K8L-Ci', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S3-5K7H-Ci', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/Sc-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/Sc-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/Sc-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/Sc-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/Sc-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T1-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T1-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T1-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T1-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T1-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T2-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T2-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T2-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T2-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T2-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T3-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T3-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T3-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T3-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T3-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T5s-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T5s-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T5s-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T5s-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T5s-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S1-3K7H-Ci', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S1-3K8L-Ci', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S1-4K7H-Ci', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S1-4K8L-Ci', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S1-5K7H-Ci', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S2-3K7H-Ci', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S2-3K8L-Ci', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S2-4K7H-Ci', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S2-4K8L-Ci', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S2-5K7H-Ci', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S3-3K7H-Ci', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S3-3K8L-Ci', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S3-4K7H-Ci', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S3-4K8L-Ci', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S3-5K7H-Ci', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х130",
+    weight: "8.4",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/Sc-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/Sc-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/Sc-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/Sc-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/Sc-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T1-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T1-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T1-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T1-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T1-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T2-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T2-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T2-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T2-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T2-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T3-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T3-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T3-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T3-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T3-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T5s-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T5s-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T5s-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T5s-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T5s-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C3x60-S1-3K7H-Ci', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S1-3K8L-Ci', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S1-4K7H-Ci', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S1-4K8L-Ci', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S1-5K7H-Ci', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S2-3K7H-Ci', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S2-3K8L-Ci', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S2-4K7H-Ci', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S2-4K8L-Ci', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S2-5K7H-Ci', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S3-3K7H-Ci', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S3-3K8L-Ci', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S3-4K7H-Ci', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S3-4K8L-Ci', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S3-5K7H-Ci', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/Sc-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/Sc-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/Sc-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/Sc-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/Sc-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T1-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T1-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T1-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T1-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T1-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T2-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T2-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T2-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T2-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T2-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T3-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T3-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T3-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T3-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T3-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T5s-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T5s-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T5s-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T5s-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T5s-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S1-3K7H-Ci', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S1-3K8L-Ci', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S1-4K7H-Ci', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S1-4K8L-Ci', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S1-5K7H-Ci', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S2-3K7H-Ci', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S2-3K8L-Ci', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S2-4K7H-Ci', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S2-4K8L-Ci', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S2-5K7H-Ci', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S3-3K7H-Ci', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S3-3K8L-Ci', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S3-4K7H-Ci', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S3-4K8L-Ci', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S3-5K7H-Ci', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х130",
+    weight: "11.3",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/Sc-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/Sc-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/Sc-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/Sc-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/Sc-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T1-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T1-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T1-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T1-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T1-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T2-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T2-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T2-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T2-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T2-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T3-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T3-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T3-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T3-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T3-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T5s-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T5s-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T5s-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T5s-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T5s-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C4x80-S1-3K7H-Ci', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S1-3K8L-Ci', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S1-4K7H-Ci', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S1-4K8L-Ci', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S1-5K7H-Ci', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S2-3K7H-Ci', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S2-3K8L-Ci', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S2-4K7H-Ci', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S2-4K8L-Ci', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S2-5K7H-Ci', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S3-3K7H-Ci', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S3-3K8L-Ci', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S3-4K7H-Ci', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S3-4K8L-Ci', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S3-5K7H-Ci', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х130",
+    weight: "14.2",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/Sc-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/Sc-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/Sc-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/Sc-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/Sc-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T1-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T1-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T1-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T1-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T1-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T2-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T2-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T2-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T2-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T2-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T3-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T3-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T3-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T3-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T3-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T5s-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T5s-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T5s-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T5s-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T5s-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C5x80-S1-3K7H-Ci', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S1-3K8L-Ci', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S1-4K7H-Ci', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S1-4K8L-Ci', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S1-5K7H-Ci', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S2-3K7H-Ci', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S2-3K8L-Ci', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S2-4K7H-Ci', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S2-4K8L-Ci', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S2-5K7H-Ci', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S3-3K7H-Ci', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S3-3K8L-Ci', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S3-4K7H-Ci', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S3-4K8L-Ci', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S3-5K7H-Ci', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "17.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/Sc-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/Sc-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/Sc-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/Sc-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/Sc-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T1-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T1-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T1-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T1-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T1-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T2-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T2-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T2-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T2-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T2-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T3-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T3-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T3-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T3-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T3-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T5s-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T5s-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T5s-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T5s-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T5s-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-T1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-F1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-F2', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-R', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-T1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-F1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-F2', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-R', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-T1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-F1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-F2', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-R', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-R', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-T1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-F1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-F2', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-R', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-T1', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-F1', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-F2', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-R', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-T1', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-F1', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-F2', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-R', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-T1', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-F1', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-F2', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-R', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-R', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-T1', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-F1', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-F2', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-R', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-T1', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-F1', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-F2', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-R', {
+    power: "20",
+    flux: "2826",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-T1', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-F1', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-F2', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-R', {
+    power: "20",
+    flux: "2666",
+    efficacy: "133",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-T1', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-F1', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-F2', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-R', {
+    power: "20",
+    flux: "2915",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-R', {
+    power: "20",
+    flux: "2737",
+    efficacy: "137",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-T1', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-F1', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-F2', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-R', {
+    power: "20",
+    flux: "2933",
+    efficacy: "147",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-T1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-F1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-F2', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-R', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-T1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-F1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-F2', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-R', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-T1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-F1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-F2', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-R', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-R', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-T1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-F1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-F2', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-R', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K7H-Ci-T1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K7H-Ci-F1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K7H-Ci-F2', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K7H-Ci-R', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K8L-Ci-T1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K8L-Ci-F1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K8L-Ci-F2', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-3K8L-Ci-R', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K7H-Ci-T1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K7H-Ci-F1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K7H-Ci-F2', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K7H-Ci-R', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-4K8L-Ci-R', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-5K7H-Ci-T1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-5K7H-Ci-F1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-5K7H-Ci-F2', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S1-5K7H-Ci-R', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K7H-Ci-T1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K7H-Ci-F1', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K7H-Ci-F2', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K7H-Ci-R', {
+    power: "20",
+    flux: "2961",
+    efficacy: "148",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K8L-Ci-T1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K8L-Ci-F1', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K8L-Ci-F2', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-3K8L-Ci-R', {
+    power: "20",
+    flux: "2793",
+    efficacy: "140",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K7H-Ci-T1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K7H-Ci-F1', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K7H-Ci-F2', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K7H-Ci-R', {
+    power: "20",
+    flux: "3054",
+    efficacy: "153",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K8L-Ci-T1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K8L-Ci-F1', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K8L-Ci-F2', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-4K8L-Ci-R', {
+    power: "20",
+    flux: "2868",
+    efficacy: "143",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-5K7H-Ci-T1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-5K7H-Ci-F1', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-5K7H-Ci-F2', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x20-S2-5K7H-Ci-R', {
+    power: "20",
+    flux: "3072",
+    efficacy: "154",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-T1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-F1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-F2', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-R', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-T1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-F1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-F2', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-R', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-T1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-F1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-F2', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-R', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-R', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-R', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-T1', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-F1', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-F2', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-R', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-T1', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-F1', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-F2', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-R', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-T1', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-F1', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-F2', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-R', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-R', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-R', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-T1', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-F1', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-F2', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-R', {
+    power: "30",
+    flux: "4159",
+    efficacy: "139",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-T1', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-F1', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-F2', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-R', {
+    power: "30",
+    flux: "3946",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-T1', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-F1', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-F2', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-R', {
+    power: "30",
+    flux: "4293",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-R', {
+    power: "30",
+    flux: "4026",
+    efficacy: "134",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-R', {
+    power: "30",
+    flux: "4319",
+    efficacy: "144",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-T1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-F1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-F2', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-R', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-T1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-F1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-F2', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-R', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-T1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-F1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-F2', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-R', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-R', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-R', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K7H-Ci-T1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K7H-Ci-F1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K7H-Ci-F2', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K7H-Ci-R', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K8L-Ci-T1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K8L-Ci-F1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K8L-Ci-F2', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-3K8L-Ci-R', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K7H-Ci-T1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K7H-Ci-F1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K7H-Ci-F2', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K7H-Ci-R', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-4K8L-Ci-R', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S1-5K7H-Ci-R', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K7H-Ci-T1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K7H-Ci-F1', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K7H-Ci-F2', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K7H-Ci-R', {
+    power: "30",
+    flux: "4357",
+    efficacy: "145",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K8L-Ci-T1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K8L-Ci-F1', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K8L-Ci-F2', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-3K8L-Ci-R', {
+    power: "30",
+    flux: "4134",
+    efficacy: "138",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K7H-Ci-T1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K7H-Ci-F1', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K7H-Ci-F2', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K7H-Ci-R', {
+    power: "30",
+    flux: "4497",
+    efficacy: "150",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K8L-Ci-T1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K8L-Ci-F1', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K8L-Ci-F2', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-4K8L-Ci-R', {
+    power: "30",
+    flux: "4218",
+    efficacy: "141",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-5K7H-Ci-T1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-5K7H-Ci-F1', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-5K7H-Ci-F2', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x30-S2-5K7H-Ci-R', {
+    power: "30",
+    flux: "4525",
+    efficacy: "151",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-T1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-F1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-F2', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-R', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-T1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-F1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-F2', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-R', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-T1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-F1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-F2', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-R', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-R', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-T1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-F1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-F2', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-R', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-T1', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-F1', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-F2', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-R', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-T1', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-F1', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-F2', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-R', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-T1', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-F1', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-F2', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-R', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-R', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-T1', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-F1', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-F2', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-R', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-T1', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-F1', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-F2', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-R', {
+    power: "40",
+    flux: "5759",
+    efficacy: "144",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-T1', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-F1', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-F2', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-R', {
+    power: "40",
+    flux: "5439",
+    efficacy: "136",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-T1', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-F1', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-F2', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-R', {
+    power: "40",
+    flux: "5901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-R', {
+    power: "40",
+    flux: "5581",
+    efficacy: "140",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-T1', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-F1', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-F2', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-R', {
+    power: "40",
+    flux: "5972",
+    efficacy: "149",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-T1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-F1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-F2', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-R', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-T1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-F1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-F2', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-R', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-T1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-F1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-F2', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-R', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-R', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-T1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-F1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-F2', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-R', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K7H-Ci-T1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K7H-Ci-F1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K7H-Ci-F2', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K7H-Ci-R', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K8L-Ci-T1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K8L-Ci-F1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K8L-Ci-F2', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-3K8L-Ci-R', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K7H-Ci-T1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K7H-Ci-F1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K7H-Ci-F2', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K7H-Ci-R', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-4K8L-Ci-R', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-5K7H-Ci-T1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-5K7H-Ci-F1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-5K7H-Ci-F2', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S1-5K7H-Ci-R', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K7H-Ci-T1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K7H-Ci-F1', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K7H-Ci-F2', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K7H-Ci-R', {
+    power: "40",
+    flux: "6033",
+    efficacy: "151",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K8L-Ci-T1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K8L-Ci-F1', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K8L-Ci-F2', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-3K8L-Ci-R', {
+    power: "40",
+    flux: "5698",
+    efficacy: "142",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K7H-Ci-T1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K7H-Ci-F1', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K7H-Ci-F2', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K7H-Ci-R', {
+    power: "40",
+    flux: "6182",
+    efficacy: "155",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K8L-Ci-T1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K8L-Ci-F1', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K8L-Ci-F2', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-4K8L-Ci-R', {
+    power: "40",
+    flux: "5847",
+    efficacy: "146",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-5K7H-Ci-T1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-5K7H-Ci-F1', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-5K7H-Ci-F2', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S2-5K7H-Ci-R', {
+    power: "40",
+    flux: "6257",
+    efficacy: "156",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-T1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-F1', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-F2', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-R', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-T1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-F1', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-F2', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-R', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-T1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-F1', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-F2', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-R', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-T1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-F1', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-F2', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-R', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-T1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-F1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-F2', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-R', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-T1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-F1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-F2', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-R', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-T1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-F1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-F2', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-R', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-R', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-T1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-F1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-F2', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-R', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-T1', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-F1', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-F2', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-R', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-T1', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-F1', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-F2', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-R', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-T1', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-F1', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-F2', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-R', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-R', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-T1', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-F1', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-F2', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-R', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-T1', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-F1', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-F2', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-R', {
+    power: "60",
+    flux: "8372",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-T1', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-F1', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-F2', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-R', {
+    power: "60",
+    flux: "7945",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-T1', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-F1', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-F2', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-R', {
+    power: "60",
+    flux: "8638",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-R', {
+    power: "60",
+    flux: "8105",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-T1', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-F1', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-F2', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-R', {
+    power: "60",
+    flux: "8692",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-T1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-F1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-F2', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-R', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-T1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-F1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-F2', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-R', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-T1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-F1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-F2', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-R', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-R', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-T1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-F1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-F2', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-R', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-T1', {
+    power: "60",
+    flux: "6642",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-F1', {
+    power: "60",
+    flux: "6642",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-F2', {
+    power: "60",
+    flux: "6642",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-R', {
+    power: "60",
+    flux: "6642",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-T1', {
+    power: "60",
+    flux: "5886",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-F1', {
+    power: "60",
+    flux: "5886",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-F2', {
+    power: "60",
+    flux: "5886",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-R', {
+    power: "60",
+    flux: "5886",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-T1', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-F1', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-F2', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-R', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-T1', {
+    power: "60",
+    flux: "6318",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-F1', {
+    power: "60",
+    flux: "6318",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-F2', {
+    power: "60",
+    flux: "6318",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-R', {
+    power: "60",
+    flux: "6318",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-T1', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-F1', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-F2', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-R', {
+    power: "60",
+    flux: "6966",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-T1', {
+    power: "60",
+    flux: "8487",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-F1', {
+    power: "60",
+    flux: "8487",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-F2', {
+    power: "60",
+    flux: "8487",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-R', {
+    power: "60",
+    flux: "8487",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-T1', {
+    power: "60",
+    flux: "7521",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-F1', {
+    power: "60",
+    flux: "7521",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-F2', {
+    power: "60",
+    flux: "7521",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-R', {
+    power: "60",
+    flux: "7521",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-T1', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-F1', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-F2', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-R', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-T1', {
+    power: "60",
+    flux: "8073",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-F1', {
+    power: "60",
+    flux: "8073",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-F2', {
+    power: "60",
+    flux: "8073",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-R', {
+    power: "60",
+    flux: "8073",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-T1', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-F1', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-F2', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-R', {
+    power: "60",
+    flux: "8901",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-T1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-F1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-F2', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-R', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-T1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-F1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-F2', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-R', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-T1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-F1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-F2', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-R', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-T1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-F1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-F2', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-R', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-T1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-F1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-F2', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-R', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-T1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-F1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-F2', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-R', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-T1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-F1', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-F2', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-R', {
+    power: "60",
+    flux: "8064",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-T1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-F1', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-F2', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-R', {
+    power: "60",
+    flux: "6864",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-T1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-F1', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-F2', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-R', {
+    power: "60",
+    flux: "7326",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-T1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-F1', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-F2', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-R', {
+    power: "60",
+    flux: "8568",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-T1', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-F1', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-F2', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-R', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-R', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-T1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-F1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-F2', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-R', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-R', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-T1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-F1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-F2', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-R', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-T1', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-F1', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-F2', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-R', {
+    power: "60",
+    flux: "8118",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-R', {
+    power: "60",
+    flux: "7194",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-T1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-F1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-F2', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-R', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-R', {
+    power: "60",
+    flux: "7722",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-T1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-F1', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-F2', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-R', {
+    power: "60",
+    flux: "8514",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K7H-Ci-T1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K7H-Ci-F1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K7H-Ci-F2', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K7H-Ci-R', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K8L-Ci-T1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K8L-Ci-F1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K8L-Ci-F2', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-3K8L-Ci-R', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K7H-Ci-T1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K7H-Ci-F1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K7H-Ci-F2', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K7H-Ci-R', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-4K8L-Ci-R', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-5K7H-Ci-T1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-5K7H-Ci-F1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-5K7H-Ci-F2', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S1-5K7H-Ci-R', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K7H-Ci-T1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K7H-Ci-F1', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K7H-Ci-F2', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K7H-Ci-R', {
+    power: "60",
+    flux: "8770",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K8L-Ci-T1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K8L-Ci-F1', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K8L-Ci-F2', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-3K8L-Ci-R', {
+    power: "60",
+    flux: "8323",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K7H-Ci-T1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K7H-Ci-F1', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K7H-Ci-F2', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K7H-Ci-R', {
+    power: "60",
+    flux: "9050",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K8L-Ci-T1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K8L-Ci-F1', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K8L-Ci-F2', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-4K8L-Ci-R', {
+    power: "60",
+    flux: "8491",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-5K7H-Ci-T1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-5K7H-Ci-F1', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-5K7H-Ci-F2', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S2-5K7H-Ci-R', {
+    power: "60",
+    flux: "9106",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-T1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-F1', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-F2', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-R', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-T1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-F1', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-F2', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-R', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-T1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-F1', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-F2', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-R', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-T1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-F1', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-F2', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-R', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-T1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-F1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-F2', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-R', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-T1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-F1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-F2', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-R', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-T1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-F1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-F2', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-R', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-T1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-F1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-F2', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-R', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-R', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-T1', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-F1', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-F2', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-R', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-T1', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-F1', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-F2', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-R', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-T1', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-F1', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-F2', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-R', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-T1', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-F1', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-F2', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-R', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-R', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-T1', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-F1', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-F2', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-R', {
+    power: "80",
+    flux: "10878",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-T1', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-F1', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-F2', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-R', {
+    power: "80",
+    flux: "10309",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-T1', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-F1', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-F2', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-R', {
+    power: "80",
+    flux: "11162",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-T1', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-F1', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-F2', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-R', {
+    power: "80",
+    flux: "10522",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-R', {
+    power: "80",
+    flux: "11305",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-T1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-F1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-F2', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-R', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-T1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-F1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-F2', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-R', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-T1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-F1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-F2', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-R', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-T1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-F1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-F2', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-R', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-R', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-T1', {
+    power: "80",
+    flux: "8640",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-F1', {
+    power: "80",
+    flux: "8640",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-F2', {
+    power: "80",
+    flux: "8640",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-R', {
+    power: "80",
+    flux: "8640",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-T1', {
+    power: "80",
+    flux: "7704",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-F1', {
+    power: "80",
+    flux: "7704",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-F2', {
+    power: "80",
+    flux: "7704",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-R', {
+    power: "80",
+    flux: "7704",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-T1', {
+    power: "80",
+    flux: "8208",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-F1', {
+    power: "80",
+    flux: "8208",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-F2', {
+    power: "80",
+    flux: "8208",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-R', {
+    power: "80",
+    flux: "8208",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-T1', {
+    power: "80",
+    flux: "11040",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-F1', {
+    power: "80",
+    flux: "11040",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-F2', {
+    power: "80",
+    flux: "11040",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-R', {
+    power: "80",
+    flux: "11040",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9844",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9844",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9844",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-R', {
+    power: "80",
+    flux: "9844",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-R', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-T1', {
+    power: "80",
+    flux: "10488",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-F1', {
+    power: "80",
+    flux: "10488",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-F2', {
+    power: "80",
+    flux: "10488",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-R', {
+    power: "80",
+    flux: "10488",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-R', {
+    power: "80",
+    flux: "11592",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-T1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-F1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-F2', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-R', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-T1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-F1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-F2', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-R', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-T1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-F1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-F2', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-R', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-T1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-F1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-F2', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-R', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-T1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-F1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-F2', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-R', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-T1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-F1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-F2', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-R', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-T1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-F1', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-F2', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-R', {
+    power: "80",
+    flux: "10248",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-T1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-F1', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-F2', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-R', {
+    power: "80",
+    flux: "8712",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-T1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-F1', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-F2', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-R', {
+    power: "80",
+    flux: "9328",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-T1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-F1', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-F2', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-R', {
+    power: "80",
+    flux: "11172",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-R', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-R', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-T1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-F1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-F2', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-R', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-R', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-T1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-F1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-F2', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-R', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-R', {
+    power: "80",
+    flux: "10560",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-R', {
+    power: "80",
+    flux: "9416",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-T1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-F1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-F2', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-R', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-R', {
+    power: "80",
+    flux: "10032",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-T1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-F1', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-F2', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-R', {
+    power: "80",
+    flux: "11088",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K7H-Ci-T1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K7H-Ci-F1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K7H-Ci-F2', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K7H-Ci-R', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K8L-Ci-T1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K8L-Ci-F1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K8L-Ci-F2', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-3K8L-Ci-R', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K7H-Ci-T1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K7H-Ci-F1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K7H-Ci-F2', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K7H-Ci-R', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K8L-Ci-T1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K8L-Ci-F1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K8L-Ci-F2', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-4K8L-Ci-R', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S1-5K7H-Ci-R', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K7H-Ci-T1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K7H-Ci-F1', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K7H-Ci-F2', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K7H-Ci-R', {
+    power: "80",
+    flux: "11396",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K8L-Ci-T1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K8L-Ci-F1', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K8L-Ci-F2', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-3K8L-Ci-R', {
+    power: "80",
+    flux: "10800",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K7H-Ci-T1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K7H-Ci-F1', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K7H-Ci-F2', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K7H-Ci-R', {
+    power: "80",
+    flux: "11694",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K8L-Ci-T1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K8L-Ci-F1', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K8L-Ci-F2', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-4K8L-Ci-R', {
+    power: "80",
+    flux: "11024",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-5K7H-Ci-T1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х220",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-5K7H-Ci-F1', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х215",
+    weight: "4.1",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-5K7H-Ci-F2', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х290",
+    weight: "4.4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S2-5K7H-Ci-R', {
+    power: "80",
+    flux: "11843",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х175",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-T1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-F1', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-F2', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-R', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-T1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-F1', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-F2', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-R', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-T1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-F1', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-F2', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-R', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "260х250х200",
+    weight: "4",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "260х250х195",
+    weight: "3.9",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "260х250х270",
+    weight: "4.2",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-R', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "R",
+    dim: "260х250х155",
+    weight: "3.8",
+    sailing: "0.058"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-T1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-F1', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-F2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-Rx2', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-T1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-F1', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-F2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-Rx2', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-T1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-F1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-F2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-T1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-F1', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-F2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-Rx2', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-T1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-F1', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-F2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-Rx2', {
+    power: "80",
+    flux: "11676",
+    efficacy: "146",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-T1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-F1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-F2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-T1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-F1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-F2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-T1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-F1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-F2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-Rx2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-T1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-F1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-F2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-T1', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-F1', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-F2', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-Rx2', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-T1', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-F1', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-F2', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-Rx2', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-T1', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-F1', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-F2', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-T1', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-F1', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-F2', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-T1', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-F1', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-F2', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-Rx2', {
+    power: "120",
+    flux: "16743",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-T1', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-F1', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-F2', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-Rx2', {
+    power: "120",
+    flux: "15890",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-T1', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-F1', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-F2', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17277",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16210",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-T1', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-F1', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-F2', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17383",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-T1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-F1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-F2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-T1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-F1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-F2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-T1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-F1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-F2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-T1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-F1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-F2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-T1', {
+    power: "120",
+    flux: "13284",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-F1', {
+    power: "120",
+    flux: "13284",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-F2', {
+    power: "120",
+    flux: "13284",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-Rx2', {
+    power: "120",
+    flux: "13284",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-T1', {
+    power: "120",
+    flux: "11772",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-F1', {
+    power: "120",
+    flux: "11772",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-F2', {
+    power: "120",
+    flux: "11772",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-Rx2', {
+    power: "120",
+    flux: "11772",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-T1', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-F1', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-F2', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-Rx2', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-T1', {
+    power: "120",
+    flux: "12636",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-F1', {
+    power: "120",
+    flux: "12636",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-F2', {
+    power: "120",
+    flux: "12636",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-Rx2', {
+    power: "120",
+    flux: "12636",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-T1', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-F1', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-F2', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-Rx2', {
+    power: "120",
+    flux: "13932",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-T1', {
+    power: "120",
+    flux: "16974",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-F1', {
+    power: "120",
+    flux: "16974",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-F2', {
+    power: "120",
+    flux: "16974",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-Rx2', {
+    power: "120",
+    flux: "16974",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-T1', {
+    power: "120",
+    flux: "15042",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-F1', {
+    power: "120",
+    flux: "15042",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-F2', {
+    power: "120",
+    flux: "15042",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15042",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-T1', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-F1', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-F2', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-T1', {
+    power: "120",
+    flux: "16146",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-F1', {
+    power: "120",
+    flux: "16146",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-F2', {
+    power: "120",
+    flux: "16146",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-Rx2', {
+    power: "120",
+    flux: "16146",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-T1', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-F1', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-F2', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17802",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-T1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-F1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-F2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-Rx2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-T1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-F1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-F2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-Rx2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-T1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-F1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-F2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-Rx2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-T1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-F1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-F2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-Rx2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-T1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-F1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-F2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-Rx2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-T1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-F1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-F2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-Rx2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-T1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-F1', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-F2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-Rx2', {
+    power: "120",
+    flux: "16128",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-T1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-F1', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-F2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-Rx2', {
+    power: "120",
+    flux: "13728",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-T1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-F1', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-F2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-Rx2', {
+    power: "120",
+    flux: "14652",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-T1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-F1', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-F2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-Rx2', {
+    power: "120",
+    flux: "17136",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-T1', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-F1', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-F2', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-T1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-F1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-F2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-T1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-F1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-F2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-T1', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-F1', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-F2', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16236",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14388",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-T1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-F1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-F2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15444",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-T1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-F1', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-F2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-Rx2', {
+    power: "120",
+    flux: "17028",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K7H-Ci-T1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K7H-Ci-F1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K7H-Ci-F2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K8L-Ci-T1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K8L-Ci-F1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K8L-Ci-F2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-3K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K7H-Ci-T1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K7H-Ci-F1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K7H-Ci-F2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-5K7H-Ci-T1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-5K7H-Ci-F1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-5K7H-Ci-F2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S1-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K7H-Ci-T1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K7H-Ci-F1', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K7H-Ci-F2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K7H-Ci-Rx2', {
+    power: "120",
+    flux: "17541",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K8L-Ci-T1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K8L-Ci-F1', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K8L-Ci-F2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-3K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16647",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K7H-Ci-T1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K7H-Ci-F1', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K7H-Ci-F2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18099",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K8L-Ci-T1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K8L-Ci-F1', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K8L-Ci-F2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-4K8L-Ci-Rx2', {
+    power: "120",
+    flux: "16982",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-5K7H-Ci-T1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-5K7H-Ci-F1', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-5K7H-Ci-F2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S2-5K7H-Ci-Rx2', {
+    power: "120",
+    flux: "18211",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-T1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-F1', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-F2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-Rx2', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-T1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-F1', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-F2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-Rx2', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-T1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-F1', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-F2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-Rx2', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-T1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-F1', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-F2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-Rx2', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-T1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-F1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-F2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-T1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-F1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-F2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-T1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-F1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-F2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-Rx2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-T1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-F1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-F2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-T1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-F1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-F2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-T1', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-F1', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-F2', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-Rx2', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-T1', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-F1', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-F2', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-Rx2', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-T1', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-F1', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-F2', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-T1', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-F1', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-F2', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-T1', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-F1', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-F2', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-T1', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-F1', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-F2', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-Rx2', {
+    power: "160",
+    flux: "21756",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-T1', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-F1', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-F2', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-Rx2', {
+    power: "160",
+    flux: "20618",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-T1', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-F1', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-F2', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22325",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-T1', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-F1', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-F2', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21045",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-T1', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-F1', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-F2', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22609",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-T1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-F1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-F2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-T1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-F1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-F2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-T1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-F1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-F2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-T1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-F1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-F2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-T1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-F1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-F2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-T1', {
+    power: "160",
+    flux: "17280",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-F1', {
+    power: "160",
+    flux: "17280",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-F2', {
+    power: "160",
+    flux: "17280",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-Rx2', {
+    power: "160",
+    flux: "17280",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-T1', {
+    power: "160",
+    flux: "15408",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-F1', {
+    power: "160",
+    flux: "15408",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-F2', {
+    power: "160",
+    flux: "15408",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-Rx2', {
+    power: "160",
+    flux: "15408",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-T1', {
+    power: "160",
+    flux: "16416",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-F1', {
+    power: "160",
+    flux: "16416",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-F2', {
+    power: "160",
+    flux: "16416",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-Rx2', {
+    power: "160",
+    flux: "16416",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-T1', {
+    power: "160",
+    flux: "22080",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-F1', {
+    power: "160",
+    flux: "22080",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-F2', {
+    power: "160",
+    flux: "22080",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-Rx2', {
+    power: "160",
+    flux: "22080",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-T1', {
+    power: "160",
+    flux: "19688",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-F1', {
+    power: "160",
+    flux: "19688",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-F2', {
+    power: "160",
+    flux: "19688",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-Rx2', {
+    power: "160",
+    flux: "19688",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-T1', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-F1', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-F2', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-Rx2', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-T1', {
+    power: "160",
+    flux: "20976",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-F1', {
+    power: "160",
+    flux: "20976",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-F2', {
+    power: "160",
+    flux: "20976",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-Rx2', {
+    power: "160",
+    flux: "20976",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-T1', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-F1', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-F2', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-Rx2', {
+    power: "160",
+    flux: "23184",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-T1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-F1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-F2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-Rx2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-T1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-F1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-F2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-Rx2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-T1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-F1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-F2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-Rx2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-T1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-F1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-F2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-Rx2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-T1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-F1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-F2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-Rx2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-T1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-F1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-F2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-Rx2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-T1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-F1', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-F2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-Rx2', {
+    power: "160",
+    flux: "20496",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-T1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-F1', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-F2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-Rx2', {
+    power: "160",
+    flux: "17424",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-T1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-F1', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-F2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-Rx2', {
+    power: "160",
+    flux: "18656",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-T1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-F1', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-F2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-Rx2', {
+    power: "160",
+    flux: "22344",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-T1', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-F1', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-F2', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-T1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-F1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-F2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-T1', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-F1', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-F2', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-Rx2', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-T1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-F1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-F2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-T1', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-F1', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-F2', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21120",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18832",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-T1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-F1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-F2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-T1', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-F1', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-F2', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-Rx2', {
+    power: "160",
+    flux: "20064",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-T1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-F1', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-F2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "22176",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K7H-Ci-T1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K7H-Ci-F1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K7H-Ci-F2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K8L-Ci-T1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K8L-Ci-F1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K8L-Ci-F2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-3K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K7H-Ci-T1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K7H-Ci-F1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K7H-Ci-F2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K8L-Ci-T1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K8L-Ci-F1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K8L-Ci-F2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-5K7H-Ci-T1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-5K7H-Ci-F1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-5K7H-Ci-F2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S1-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K7H-Ci-T1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K7H-Ci-F1', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K7H-Ci-F2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K7H-Ci-Rx2', {
+    power: "160",
+    flux: "22792",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K8L-Ci-T1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K8L-Ci-F1', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K8L-Ci-F2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-3K8L-Ci-Rx2', {
+    power: "160",
+    flux: "21600",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K7H-Ci-T1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K7H-Ci-F1', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K7H-Ci-F2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23388",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K8L-Ci-T1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K8L-Ci-F1', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K8L-Ci-F2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-4K8L-Ci-Rx2', {
+    power: "160",
+    flux: "22047",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-5K7H-Ci-T1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х220",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-5K7H-Ci-F1', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х215",
+    weight: "7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-5K7H-Ci-F2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х290",
+    weight: "7.3",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S2-5K7H-Ci-Rx2', {
+    power: "160",
+    flux: "23686",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х175",
+    weight: "7.1",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-T1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-F1', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-F2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-Rx2', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-T1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-F1', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-F2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-Rx2', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-T1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-F1', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-F2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-Rx2', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-T1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "T1",
+    dim: "395х250х200",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-F1', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F1",
+    dim: "395х250х195",
+    weight: "6.6",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-F2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F2",
+    dim: "395х250х270",
+    weight: "6.9",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-Rx2', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "395х250х155",
+    weight: "6.7",
+    sailing: "0.09"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-F3', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-Fw', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-Rx2', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-F3', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-Fw', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-Rx2', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-F3', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-Fw', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-Rx2', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-F3', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-Fw', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-Rx2', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-F3', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-Fw', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-Rx2', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-F3', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-Fw', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-Rx2', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-F3', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-Fw', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-Rx2', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-F3', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-Fw', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-Rx2', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-F3', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-Fw', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-Rx2', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-F3', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-Fw', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-Rx2', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-F3', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-Fw', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-Rx2', {
+    power: "180",
+    flux: "25115",
+    efficacy: "140",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-F3', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-Fw', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-Rx2', {
+    power: "180",
+    flux: "23835",
+    efficacy: "132",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-F3', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-Fw', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-Rx2', {
+    power: "180",
+    flux: "25915",
+    efficacy: "144",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-F3', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-Fw', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-Rx2', {
+    power: "180",
+    flux: "24315",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-F3', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-Fw', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-Rx2', {
+    power: "180",
+    flux: "26075",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-F3', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-Fw', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-Rx2', {
+    power: "180",
+    flux: "26311",
+    efficacy: "146",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-F3', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-Fw', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-Rx2', {
+    power: "180",
+    flux: "24970",
+    efficacy: "139",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-F3', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-Fw', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-Rx2', {
+    power: "180",
+    flux: "27149",
+    efficacy: "151",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-F3', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-Fw', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-Rx2', {
+    power: "180",
+    flux: "25473",
+    efficacy: "142",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-F3', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-Fw', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-Rx2', {
+    power: "180",
+    flux: "27317",
+    efficacy: "152",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-F3', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-Fw', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-Rx2', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-F3', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-Fw', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-Rx2', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-F3', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-Fw', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-Rx2', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-F3', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-Fw', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-Rx2', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-F3', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-Fw', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-Rx2', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-F3', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-Fw', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-Rx2', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-F3', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-Fw', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-Rx2', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-F3', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-Fw', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-Rx2', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-F3', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-Fw', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-Rx2', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-F3', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-Fw', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-F3', {
+    power: "180",
+    flux: "19926",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-Fw', {
+    power: "180",
+    flux: "19926",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-Rx2', {
+    power: "180",
+    flux: "19926",
+    efficacy: "111",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-F3', {
+    power: "180",
+    flux: "17658",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-Fw', {
+    power: "180",
+    flux: "17658",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-Rx2', {
+    power: "180",
+    flux: "17658",
+    efficacy: "98",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-F3', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-Fw', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-Rx2', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-F3', {
+    power: "180",
+    flux: "18954",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-Fw', {
+    power: "180",
+    flux: "18954",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-Rx2', {
+    power: "180",
+    flux: "18954",
+    efficacy: "105",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-F3', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-Fw', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-Rx2', {
+    power: "180",
+    flux: "20898",
+    efficacy: "116",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-F3', {
+    power: "180",
+    flux: "25461",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-Fw', {
+    power: "180",
+    flux: "25461",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-Rx2', {
+    power: "180",
+    flux: "25461",
+    efficacy: "141",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-F3', {
+    power: "180",
+    flux: "22563",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-Fw', {
+    power: "180",
+    flux: "22563",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-Rx2', {
+    power: "180",
+    flux: "22563",
+    efficacy: "125",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-F3', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-Fw', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-Rx2', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-F3', {
+    power: "180",
+    flux: "24219",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-Fw', {
+    power: "180",
+    flux: "24219",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-Rx2', {
+    power: "180",
+    flux: "24219",
+    efficacy: "135",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-F3', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-Fw', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-Rx2', {
+    power: "180",
+    flux: "26703",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-F3', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-Fw', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-Rx2', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-F3', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-Fw', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-Rx2', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-F3', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-Fw', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-Rx2', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-F3', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-Fw', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-Rx2', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-F3', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-Fw', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-Rx2', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-F3', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-Fw', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-Rx2', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-F3', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-Fw', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-Rx2', {
+    power: "180",
+    flux: "24192",
+    efficacy: "134",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-F3', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-Fw', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-Rx2', {
+    power: "180",
+    flux: "20592",
+    efficacy: "114",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-F3', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-Fw', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-Rx2', {
+    power: "180",
+    flux: "21978",
+    efficacy: "122",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-F3', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-Fw', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-Rx2', {
+    power: "180",
+    flux: "25704",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-F3', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-Fw', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-F3', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-Fw', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-Rx2', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-F3', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-Fw', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-Rx2', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-F3', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-Fw', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-Rx2', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-F3', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-Fw', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-Rx2', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-F3', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-Fw', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-Rx2', {
+    power: "180",
+    flux: "24354",
+    efficacy: "135",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-F3', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-Fw', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-Rx2', {
+    power: "180",
+    flux: "21582",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-F3', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-Fw', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-Rx2', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-F3', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-Fw', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-Rx2', {
+    power: "180",
+    flux: "23166",
+    efficacy: "129",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-F3', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-Fw', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-Rx2', {
+    power: "180",
+    flux: "25542",
+    efficacy: "142",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-F3', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-Fw', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-Rx2', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-F3', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-Fw', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-Rx2', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-F3', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-Fw', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-Rx2', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-F3', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-Fw', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-Rx2', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-F3', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-Fw', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-Rx2', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-F3', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-Fw', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-Rx2', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-F3', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-Fw', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-Rx2', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-F3', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-Fw', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-Rx2', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-F3', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-Fw', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-Rx2', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-F3', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-Fw', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-Rx2', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-F3', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-Fw', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-Rx2', {
+    power: "240",
+    flux: "32634",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-F3', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-Fw', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-Rx2', {
+    power: "240",
+    flux: "30927",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-F3', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-Fw', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-Rx2', {
+    power: "240",
+    flux: "33487",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-F3', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-Fw', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-Rx2', {
+    power: "240",
+    flux: "31567",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-F3', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-Fw', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-Rx2', {
+    power: "240",
+    flux: "33914",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-F3', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-Fw', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-Rx2', {
+    power: "240",
+    flux: "34188",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-F3', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-Fw', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-Rx2', {
+    power: "240",
+    flux: "32400",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-F3', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-Fw', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-Rx2', {
+    power: "240",
+    flux: "35082",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-F3', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-Fw', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-Rx2', {
+    power: "240",
+    flux: "33071",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-F3', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x215",
+    weight: "10.4",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-Fw', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x215",
+    weight: "10.2",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-Rx2', {
+    power: "240",
+    flux: "35528",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x175",
+    weight: "9.9",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-F3', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-Fw', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-Rx2', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-F3', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-Fw', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-Rx2', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-F3', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-Fw', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-Rx2', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-F3', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-Fw', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-Rx2', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-F3', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-Fw', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-Rx2', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-F3', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-Fw', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-Rx2', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-F3', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-Fw', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-Rx2', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-F3', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-Fw', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-Rx2', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-F3', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-Fw', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-Rx2', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-F3', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-Fw', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-F3', {
+    power: "240",
+    flux: "25920",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-Fw', {
+    power: "240",
+    flux: "25920",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-Rx2', {
+    power: "240",
+    flux: "25920",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-F3', {
+    power: "240",
+    flux: "23112",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-Fw', {
+    power: "240",
+    flux: "23112",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-Rx2', {
+    power: "240",
+    flux: "23112",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-F3', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-Fw', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-Rx2', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-F3', {
+    power: "240",
+    flux: "24624",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-Fw', {
+    power: "240",
+    flux: "24624",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-Rx2', {
+    power: "240",
+    flux: "24624",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-F3', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-Fw', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-Rx2', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-F3', {
+    power: "240",
+    flux: "33120",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-Fw', {
+    power: "240",
+    flux: "33120",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-Rx2', {
+    power: "240",
+    flux: "33120",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-F3', {
+    power: "240",
+    flux: "29532",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-Fw', {
+    power: "240",
+    flux: "29532",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-Rx2', {
+    power: "240",
+    flux: "29532",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-F3', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-Fw', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-Rx2', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-F3', {
+    power: "240",
+    flux: "31464",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-Fw', {
+    power: "240",
+    flux: "31464",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-Rx2', {
+    power: "240",
+    flux: "31464",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-F3', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-Fw', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-Rx2', {
+    power: "240",
+    flux: "34776",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-F3', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-Fw', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-Rx2', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-F3', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-Fw', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-Rx2', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-F3', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-Fw', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-Rx2', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-F3', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-Fw', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-Rx2', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-F3', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-Fw', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-Rx2', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-F3', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-Fw', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-Rx2', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-F3', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-Fw', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-Rx2', {
+    power: "240",
+    flux: "30744",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-F3', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-Fw', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-Rx2', {
+    power: "240",
+    flux: "26136",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-F3', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-Fw', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-Rx2', {
+    power: "240",
+    flux: "27984",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-F3', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-Fw', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-Rx2', {
+    power: "240",
+    flux: "33516",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-F3', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-Fw', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-F3', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-Fw', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-Rx2', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-F3', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-Fw', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-Rx2', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-F3', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-Fw', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-Rx2', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-F3', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-Fw', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-Rx2', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-F3', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-Fw', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-Rx2', {
+    power: "240",
+    flux: "31680",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-F3', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-Fw', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-Rx2', {
+    power: "240",
+    flux: "28248",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-F3', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-Fw', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-Rx2', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-F3', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-Fw', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-Rx2', {
+    power: "240",
+    flux: "30096",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-F3', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "530x250x195",
+    weight: "9.8",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-Fw', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "530x250x195",
+    weight: "9.6",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-Rx2', {
+    power: "240",
+    flux: "33264",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "530x250x155",
+    weight: "9.3",
+    sailing: "0.123"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-F3', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-Fw', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-Rx2', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-F3', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-Fw', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-Rx2', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-F3', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-Fw', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-Rx2', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-F3', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-Fw', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-Rx2', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-F3', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-Fw', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-Rx2', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-F3', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-Fw', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-Rx2', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-F3', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-Fw', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-Rx2', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-F3', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-Fw', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-Rx2', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-F3', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-Fw', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-Rx2', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-F3', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-Fw', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-Rx2', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-F3', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-Fw', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-Rx2', {
+    power: "320",
+    flux: "43512",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-F3', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-Fw', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-Rx2', {
+    power: "320",
+    flux: "41237",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-F3', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-Fw', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-Rx2', {
+    power: "320",
+    flux: "44649",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-F3', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-Fw', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-Rx2', {
+    power: "320",
+    flux: "42090",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-F3', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-Fw', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-Rx2', {
+    power: "320",
+    flux: "45218",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-F3', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-Fw', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-Rx2', {
+    power: "320",
+    flux: "45584",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-F3', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-Fw', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-Rx2', {
+    power: "320",
+    flux: "43200",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-F3', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-Fw', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-Rx2', {
+    power: "320",
+    flux: "46775",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-F3', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-Fw', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-Rx2', {
+    power: "320",
+    flux: "44094",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-F3', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x215",
+    weight: "13.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-Fw', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x215",
+    weight: "13",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-Rx2', {
+    power: "320",
+    flux: "47371",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x175",
+    weight: "12.7",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-F3', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-Fw', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-Rx2', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-F3', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-Fw', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-Rx2', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-F3', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-Fw', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-Rx2', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-F3', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-Fw', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-Rx2', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-F3', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-Fw', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-Rx2', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-F3', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-Fw', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-Rx2', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-F3', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-Fw', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-Rx2', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-F3', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-Fw', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-Rx2', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-F3', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-Fw', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-Rx2', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-F3', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-Fw', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-F3', {
+    power: "320",
+    flux: "34560",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-Fw', {
+    power: "320",
+    flux: "34560",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-Rx2', {
+    power: "320",
+    flux: "34560",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-F3', {
+    power: "320",
+    flux: "30816",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-Fw', {
+    power: "320",
+    flux: "30816",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-Rx2', {
+    power: "320",
+    flux: "30816",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-F3', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-Fw', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-Rx2', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-F3', {
+    power: "320",
+    flux: "32832",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-Fw', {
+    power: "320",
+    flux: "32832",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-Rx2', {
+    power: "320",
+    flux: "32832",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-F3', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-Fw', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-Rx2', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-F3', {
+    power: "320",
+    flux: "44160",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-Fw', {
+    power: "320",
+    flux: "44160",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-Rx2', {
+    power: "320",
+    flux: "44160",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-F3', {
+    power: "320",
+    flux: "39376",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-Fw', {
+    power: "320",
+    flux: "39376",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-Rx2', {
+    power: "320",
+    flux: "39376",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-F3', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-Fw', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-Rx2', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-F3', {
+    power: "320",
+    flux: "41952",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-Fw', {
+    power: "320",
+    flux: "41952",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-Rx2', {
+    power: "320",
+    flux: "41952",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-F3', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-Fw', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-Rx2', {
+    power: "320",
+    flux: "46368",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-F3', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-Fw', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-Rx2', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-F3', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-Fw', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-Rx2', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-F3', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-Fw', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-Rx2', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-F3', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-Fw', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-Rx2', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-F3', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-Fw', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-Rx2', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-F3', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-Fw', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-Rx2', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-F3', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-Fw', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-Rx2', {
+    power: "320",
+    flux: "40992",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-F3', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-Fw', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-Rx2', {
+    power: "320",
+    flux: "34848",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-F3', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-Fw', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-Rx2', {
+    power: "320",
+    flux: "37312",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-F3', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-Fw', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-Rx2', {
+    power: "320",
+    flux: "44688",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-F3', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-Fw', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-F3', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-Fw', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-Rx2', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-F3', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-Fw', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-Rx2', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-F3', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-Fw', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-Rx2', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-F3', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-Fw', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-Rx2', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-F3', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-Fw', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-Rx2', {
+    power: "320",
+    flux: "42240",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-F3', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-Fw', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-Rx2', {
+    power: "320",
+    flux: "37664",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-F3', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-Fw', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-Rx2', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-F3', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-Fw', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-Rx2', {
+    power: "320",
+    flux: "40128",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-F3', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "665x250x195",
+    weight: "12.4",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-Fw', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "665x250x195",
+    weight: "12.2",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-Rx2', {
+    power: "320",
+    flux: "44352",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "665x250x155",
+    weight: "11.9",
+    sailing: "0.155"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-F3', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-Fw', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-Rx2', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-F3', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-Fw', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-Rx2', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-F3', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-Fw', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-Rx2', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-F3', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-Fw', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-Rx2', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-F3', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-Fw', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-Rx2', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-F3', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-Fw', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-Rx2', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-F3', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-Fw', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-Rx2', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-F3', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-Fw', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-Rx2', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-F3', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-Fw', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-Rx2', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-F3', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-Fw', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-Rx2', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-F3', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-Fw', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-Rx2', {
+    power: "400",
+    flux: "54390",
+    efficacy: "136",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-F3', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-Fw', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-Rx2', {
+    power: "400",
+    flux: "51546",
+    efficacy: "129",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-F3', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-Fw', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-Rx2', {
+    power: "400",
+    flux: "55812",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-F3', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-Fw', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-Rx2', {
+    power: "400",
+    flux: "52612",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-F3', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-Fw', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-Rx2', {
+    power: "400",
+    flux: "56523",
+    efficacy: "141",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-F3', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-Fw', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-Rx2', {
+    power: "400",
+    flux: "56980",
+    efficacy: "142",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-F3', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-Fw', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-Rx2', {
+    power: "400",
+    flux: "54000",
+    efficacy: "135",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-F3', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-Fw', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-Rx2', {
+    power: "400",
+    flux: "58469",
+    efficacy: "146",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-F3', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-Fw', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-Rx2', {
+    power: "400",
+    flux: "55118",
+    efficacy: "138",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-F3', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х215",
+    weight: "16.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-Fw', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х215",
+    weight: "15.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-Rx2', {
+    power: "400",
+    flux: "59214",
+    efficacy: "148",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х175",
+    weight: "15.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-F3', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-Fw', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-Rx2', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-F3', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-Fw', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-Rx2', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-F3', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-Fw', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-F3', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-Fw', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-Rx2', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-F3', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-Fw', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-Rx2', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-F3', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-Fw', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-F3', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "5000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-Fw', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "5000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "5000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-F3', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-Fw', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-Rx2', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-F3', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-Fw', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-Rx2', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-F3', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-Fw', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-F3', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-Fw', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-F3', {
+    power: "400",
+    flux: "43200",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-Fw', {
+    power: "400",
+    flux: "43200",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-Rx2', {
+    power: "400",
+    flux: "43200",
+    efficacy: "108",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-F3', {
+    power: "400",
+    flux: "38520",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-Fw', {
+    power: "400",
+    flux: "38520",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-Rx2', {
+    power: "400",
+    flux: "38520",
+    efficacy: "96",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-F3', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-Fw', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-Rx2', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-F3', {
+    power: "400",
+    flux: "41040",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-Fw', {
+    power: "400",
+    flux: "41040",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-Rx2', {
+    power: "400",
+    flux: "41040",
+    efficacy: "103",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-F3', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-Fw', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-Rx2', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-F3', {
+    power: "400",
+    flux: "55200",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-Fw', {
+    power: "400",
+    flux: "55200",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-Rx2', {
+    power: "400",
+    flux: "55200",
+    efficacy: "138",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-F3', {
+    power: "400",
+    flux: "49220",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-Fw', {
+    power: "400",
+    flux: "49220",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-Rx2', {
+    power: "400",
+    flux: "49220",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-F3', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-Fw', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-Rx2', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-F3', {
+    power: "400",
+    flux: "52440",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-Fw', {
+    power: "400",
+    flux: "52440",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-Rx2', {
+    power: "400",
+    flux: "52440",
+    efficacy: "131",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-F3', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-Fw', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-Rx2', {
+    power: "400",
+    flux: "57960",
+    efficacy: "145",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-F3', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-Fw', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-Rx2', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-F3', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-Fw', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-Rx2', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-F3', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-Fw', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-Rx2', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-F3', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-Fw', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-Rx2', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-F3', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-Fw', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-Rx2', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-F3', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-Fw', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-Rx2', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-F3', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-Fw', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-Rx2', {
+    power: "400",
+    flux: "51240",
+    efficacy: "128",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-F3', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-Fw', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-Rx2', {
+    power: "400",
+    flux: "43560",
+    efficacy: "109",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-F3', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-Fw', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-Rx2', {
+    power: "400",
+    flux: "46640",
+    efficacy: "117",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-F3', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-Fw', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-Rx2', {
+    power: "400",
+    flux: "55860",
+    efficacy: "140",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-F3', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-Fw', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-F3', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-Fw', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-F3', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-Fw', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-Rx2', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-F3', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-Fw', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-Rx2', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-F3', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-Fw', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-Rx2', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-F3', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-Fw', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-Rx2', {
+    power: "400",
+    flux: "52800",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-F3', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-Fw', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-Rx2', {
+    power: "400",
+    flux: "47080",
+    efficacy: "118",
+    cct: "3000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-F3', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-Fw', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-Rx2', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-F3', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-Fw', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-Rx2', {
+    power: "400",
+    flux: "50160",
+    efficacy: "125",
+    cct: "4000",
+    cri: "80",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-F3', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "F3",
+    dim: "800х250х195",
+    weight: "15.1",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-Fw', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Fw",
+    dim: "800х250х195",
+    weight: "14.9",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-Rx2', {
+    power: "400",
+    flux: "55440",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "Rx2",
+    dim: "800х250х155",
+    weight: "14.6",
+    sailing: "0.188"
+});
+JOOBY_INFO.set('C1x40-S6/T4-3K7L-Cr', {
+    power: "40",
+    flux: "5460",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T4-3K8M-Cr', {
+    power: "40",
+    flux: "4914",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T4-4K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T4-4K8M-Cr', {
+    power: "40",
+    flux: "5208",
+    efficacy: "130",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x40-S6/T4-5K7H-Cr', {
+    power: "40",
+    flux: "5712",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T4-3K7L-Cr', {
+    power: "60",
+    flux: "7938",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T4-3K8S-Cr', {
+    power: "60",
+    flux: "7182",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T4-4K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T4-4K8M-Cr', {
+    power: "60",
+    flux: "7560",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x60-S6/T4-5K7L-Cr', {
+    power: "60",
+    flux: "8316",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T4-3K7M-Cr', {
+    power: "80",
+    flux: "10080",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T4-3K8S-Cr', {
+    power: "80",
+    flux: "9072",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T4-4K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T4-4K8S-Cr', {
+    power: "80",
+    flux: "9576",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C1x80-S6/T4-5K7L-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "390х250х110",
+    weight: "5.3",
+    sailing: "0.07"
+});
+JOOBY_INFO.set('C2x40-S6/T4-3K7L-Cr', {
+    power: "80",
+    flux: "10920",
+    efficacy: "137",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T4-3K8M-Cr', {
+    power: "80",
+    flux: "9828",
+    efficacy: "123",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T4-4K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T4-4K8M-Cr', {
+    power: "80",
+    flux: "10584",
+    efficacy: "132",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x40-S6/T4-5K7H-Cr', {
+    power: "80",
+    flux: "11424",
+    efficacy: "143",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T4-3K7L-Cr', {
+    power: "120",
+    flux: "15876",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T4-3K8S-Cr', {
+    power: "120",
+    flux: "14364",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T4-4K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T4-4K8M-Cr', {
+    power: "120",
+    flux: "15120",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x60-S6/T4-5K7L-Cr', {
+    power: "120",
+    flux: "16632",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T4-3K7M-Cr', {
+    power: "160",
+    flux: "20160",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T4-3K8S-Cr', {
+    power: "160",
+    flux: "18144",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T4-4K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T4-4K8S-Cr', {
+    power: "160",
+    flux: "19152",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C2x80-S6/T4-5K7L-Cr', {
+    power: "160",
+    flux: "21168",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "525х250х110",
+    weight: "8",
+    sailing: "0.103"
+});
+JOOBY_INFO.set('C3x60-S6/T4-3K7L-Cr', {
+    power: "180",
+    flux: "23814",
+    efficacy: "132",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T4-3K8S-Cr', {
+    power: "180",
+    flux: "21546",
+    efficacy: "120",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T4-4K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T4-4K8M-Cr', {
+    power: "180",
+    flux: "22680",
+    efficacy: "126",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x60-S6/T4-5K7L-Cr', {
+    power: "180",
+    flux: "24948",
+    efficacy: "139",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T4-3K7M-Cr', {
+    power: "240",
+    flux: "30240",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T4-3K8S-Cr', {
+    power: "240",
+    flux: "27216",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T4-4K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T4-4K8S-Cr', {
+    power: "240",
+    flux: "28728",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C3x80-S6/T4-5K7L-Cr', {
+    power: "240",
+    flux: "31752",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "660х250х110",
+    weight: "10.7",
+    sailing: "0.135"
+});
+JOOBY_INFO.set('C4x80-S6/T4-3K7M-Cr', {
+    power: "320",
+    flux: "40320",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T4-3K8S-Cr', {
+    power: "320",
+    flux: "36288",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T4-4K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T4-4K8S-Cr', {
+    power: "320",
+    flux: "38304",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C4x80-S6/T4-5K7L-Cr', {
+    power: "320",
+    flux: "42336",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "790х250х110",
+    weight: "13.4",
+    sailing: "0.167"
+});
+JOOBY_INFO.set('C5x80-S6/T4-3K7M-Cr', {
+    power: "400",
+    flux: "50400",
+    efficacy: "126",
+    cct: "3000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T4-3K8S-Cr', {
+    power: "400",
+    flux: "45360",
+    efficacy: "113",
+    cct: "3000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T4-4K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "4000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T4-4K8S-Cr', {
+    power: "400",
+    flux: "47880",
+    efficacy: "120",
+    cct: "4000",
+    cri: "80",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});
+JOOBY_INFO.set('C5x80-S6/T4-5K7L-Cr', {
+    power: "400",
+    flux: "52920",
+    efficacy: "132",
+    cct: "5000",
+    cri: "70",
+    mounting: "",
+    dim: "925х250х130",
+    weight: "16.1",
+    sailing: "0.2"
+});

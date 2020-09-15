@@ -19,6 +19,14 @@
 
         <!-- Product selector panel - START-->
         <form class="selector">
+            <div class="selector-row" id="search-input">
+                    <label for="sku-search" class="selector-description" id="search-label">
+                        Try to type here required SKU:
+                    </label>
+                    <input type="search" class="selector-option" id="search-sku"  name="foo" aria-label="Search through site content">
+                    <button id="search-button" type="button" class="button" onclick="">Search!</button>
+            </div>
+
             <div class="selector-row">
                 <div class="selector-description-important">
                     Housing type (!)
@@ -199,14 +207,14 @@
                 </select>
             </div>
 
-            <div class="selector-description-important" style="padding:5px">
+            <div class="selector-row" id="selector-row-important">
                 (!) - depicts that this field is a criteria for search
             </div>
 
             <div class="selector-row">
                 <div class="selector-row">
-                    <input type="checkbox" id="cgCheck" value="show table" onclick="addConfigGuide()">
-                    <label id="config-guide-checkbox" for="addConfigGuide">
+                    <label id="config-guide-checkbox" for="cgCheck">
+                        <input type="checkbox" id="cgCheck" value="show table" onclick="addConfigGuide()">
                         Include Configuration Guide page
                     </label>
                 </div>
@@ -785,7 +793,7 @@
             </div>
             <div class="general-info">
                 <img id="asc-img-1" class="product-img" src="img/ASC/smart6.jpg" alt="Product image"
-                    style="width: 100mm; object-fit: scale-down; vertical-align: bottom;">
+                    style="width: 80mm; object-fit: scale-down; vertical-align: bottom;">
             </div>
         </div>
         <div class="config-guide">
@@ -839,7 +847,7 @@
 
 
     <!-- ------------------------- -->
-
+    <script src="db.js"></script>
     <script src="main.js"></script>
 
 </body>
