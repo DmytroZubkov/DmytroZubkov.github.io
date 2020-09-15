@@ -65,6 +65,7 @@ p {
 
 #search-sku {
     flex: 1 0 50%;
+    font: inherit;
 }
 
 #search-button {
