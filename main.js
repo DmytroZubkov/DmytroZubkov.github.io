@@ -1,43 +1,88 @@
+const HOUSING_OPTIONS = [
+    {id: "C" , label: "Console"},
+    {id: "S" , label: "Suspended"},
+];
+
+const MODULE_QTY_OPTIONS = [
+    {id: "1" , label: "1 - module"},
+    {id: "2" , label: "2 - module"},
+    {id: "3" , label: "3 - module"},
+    {id: "4" , label: "4 - module"},
+    {id: "5" , label: "5 - module"},
+];
+
+const MODULE_POWER_OPTIONS = [
+    {id: "20" , label: "20 W"},
+    {id: "30" , label: "30 W"},
+    {id: "40" , label: "40 W"},
+    {id: "60" , label: "60 W"},
+    {id: "80" , label: "80 W"},
+];
+
+https://stackoverflow.com/questions/22266171/javascript-html-select-add-optgroup-and-option-dynamically
+
+let selHousing = document.getElementById('housing');
+let selModuleQty = document.getElementById('module-qty');
+let selModPower = document.getElementById('module-power');
+let selLensType = document.getElementById('lens-type');
+let selCctType = document.getElementById('cct');
+let selCriType = document.getElementById('cri');
+let selStdLetterType = document.getElementById('stupidLetter');
+let selManufType = document.getElementById('manuf');
+let selSpcType = document.getElementById('spc');
+let selDimType = document.getElementById('dimming');
+let selMountType = document.getElementById('mounting');
+let selAscType = document.getElementById('asc');
+
+document.addEventListener('DOMContentLoaded', init, false);
+
+function init() {
+    
+    HOUSING_OPTIONS.forEach((el, index) => {
+        let opt = document.createElement("option");
+        opt.value = el.id;
+        opt.text = el.label;
+        selHousing.add(opt);
+    });
+
+    MODULE_QTY_OPTIONS.forEach((el, index) => {
+        let opt = document.createElement("option");
+        opt.value = el.id;
+        opt.text = el.label;
+        selModuleQty.add(opt);
+    });
+
+    MODULE_POWER_OPTIONS.forEach((el, index) => {
+        let opt = document.createElement("option");
+        opt.value = el.id;
+        opt.text = el.label;
+        selModPower.add(opt);
+    });
+
+
+};
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
 function singleSelectChangeText() {
-    let selHousing = document.getElementById('housing');
     let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
-
-    let selModuleQty = document.getElementById('module-qty');
     let selModuleQtyVal = selModuleQty.options[selModuleQty.selectedIndex].value;
-
-    let selModPower = document.getElementById('module-power');
     let selModPowerVal = selModPower.options[selModPower.selectedIndex].value;
-
-    let selLensType = document.getElementById('lens-type');
     let selLensTypeVal = selLensType.options[selLensType.selectedIndex].value;
-
-    let selCctType = document.getElementById('cct');
     let selCctTypeVal = selCctType.options[selCctType.selectedIndex].value;
-
-    let selCriType = document.getElementById('cri');
     let selCriTypeVal = selCriType.options[selCriType.selectedIndex].value;
-
-    let selStdLetterType = document.getElementById('stupidLetter');
     let selStdLetterTypeVal = selStdLetterType.options[selStdLetterType.selectedIndex].value;
-
-    let selManufType = document.getElementById('manuf');
     let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
-
-    let selSpcType = document.getElementById('spc');
     let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
-    let selSpcTypeTxt = selSpcType.options[selSpcType.selectedIndex].text;
-
-    let selDimType = document.getElementById('dimming');
+        let selSpcTypeTxt = selSpcType.options[selSpcType.selectedIndex].text;
     let selDimTypeVal = selDimType.options[selDimType.selectedIndex].value;
-    let selDimTypeTxt = selDimType.options[selDimType.selectedIndex].text;
-
-    let selMountType = document.getElementById('mounting');
+        let selDimTypeTxt = selDimType.options[selDimType.selectedIndex].text;
     let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
-    let selMountTypeTxt = selMountType.options[selMountType.selectedIndex].text;
-
-    let selAscType = document.getElementById('asc');
+        let selMountTypeTxt = selMountType.options[selMountType.selectedIndex].text;
     let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
 
 
@@ -229,6 +274,7 @@ function singleSelectChangeText() {
     if (CURRENT_MOUNTING === undefined) {
         "No data";
     } else {
+        // add text description (like T1 or F2) and apply image link
         lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
         lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
     };
