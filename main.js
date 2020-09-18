@@ -137,7 +137,7 @@ function init() {
 
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
-function singleSelectChangeText() {
+function singleSelectChangeText(searchSku) {
     let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
     let selModuleQtyVal = selModuleQty.options[selModuleQty.selectedIndex].value;
     let selModPowerVal = selModPower.options[selModPower.selectedIndex].value;
@@ -228,8 +228,32 @@ function singleSelectChangeText() {
     };
 
 
+    // make filter for impossible body-lens combinations
+    let exclLenses, exclMount;
+    if ( selHousingVal === "C" ) {
+        exclLenses = [ "F1/45", "F1/60", "F1/90", "F1/120", "F6/30", "F6/65", "F6/90", "F7/18", "F7/22", "F7/30", "F7/45", "F7/1840", "F7/115d", "F7/125" ];
+        exclMount = [ "T1", "F1", "F2", "F3", "Fw", "R", "Rx2" ];
+    } else {
+        exclLenses = [ "S3", "S4", "S6/T3", "S6/Sc" ];
+        exclMount = [ "Console", "Pole Top" ];
+    };
+
+    for (i = 0; i < selLensType.length; i++) {
+        exclLenses.includes(selLensType.options[i].value) ?
+        selLensType.options[i].classList.add("inactive") :
+        selLensType.options[i].classList.remove("inactive");
+    };
+
+    for (i = 0; i < selMountType.length; i++) {
+        exclMount.includes(selMountType.options[i].value) ?
+        selMountType.options[i].classList.add("inactive") :
+        selMountType.options[i].classList.remove("inactive");
+    };
+
+
     //Get main data from database
 
+    //Read SKU from dropdown lists
     const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
     let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
 
@@ -253,7 +277,36 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
     };
 
+    //Read SKU from search field
+    //  C1x40-S6/T3-3K7L-Cr
+    //  S1x40-S6/T2-3K7L-Cr-T1
 
+    // let input = document.getElementById("search-sku");
+    // let button = document.getElementById("search-button");
+    // button.onclick = function() {
+    //     const CURRENT_SKU = JOOBY_INFO.get(input.value)
+    //     // console.log(input.value + " = " + SKU1 + SKU3 + " - ", input.value === SKU1);
+    //     // console.log(CURRENT_SKU);
+    //     if (CURRENT_SKU === undefined) {
+    //         SPECS.forEach(el => {
+    //             el.innerHTML = "No data found for this SKU";
+    //             el.classList.add("alertTdStyle");
+    //         });
+    //         cmoboSKU.innerHTML = input.value + " - No data found for this SKU";
+    //     } else {
+    //         SPECS.forEach(el => {
+    //             el.classList.remove("alertTdStyle");
+    //         });
+    //         cmoboSKU.innerHTML = input.value;
+    //         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
+    //         lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)}` + " lm";
+    //         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
+    //         lumCCT.innerHTML = `${CURRENT_SKU.cct}` + " K";
+    //         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
+    //         lumDimensions.innerHTML = `${CURRENT_SKU.dim}` + " mm";
+    //         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
+    //     };
+    // };
 
 
 
@@ -317,27 +370,8 @@ function singleSelectChangeText() {
     // Change Mounting type image and name
     lumMountName.innerHTML = MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).id;
     lumMountImg.src = "img/mount/" + MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).image;
-
-
-
-
-
-    // function searchSku() {
-    //     document.getElementById("search-button").innerHTML = "Hello World";
-    //     selHousingVal = "C";
-    //     selModuleQtyVal = "1";
-    //     selModPowerVal = "40";
-    //     selLensTypeVal = "S6/T3";
-    //     selCctTypeVal = "3K";
-    //     selCriTypeVal = "7";
-    //     selStdLetterTypeVal = "L";
-    //     selManufTypeVal = "Cr";
-    //     console.log(selHousingVal + selModuleQtyVal + "x" + selModPowerVal + "-" + selLensTypeVal + "-" + selCctTypeVal + selCriTypeVal + selStdLetterTypeVal + "-" + selManufTypeVal);
-    // };
-    // searchSku();
-
-
 };
+
 
 // Add/remove the Configuration Guide table
 function addConfigGuide() {
@@ -355,27 +389,18 @@ function addConfigGuide() {
 };
 
 
+// //Read SKU from search field
 
-let input = document.getElementById("search-sku");
+// let input = document.getElementById("search-sku");
 
-// // Execute a function when the user releases a key on the keyboard
-
-// input.addEventListener("keyup", event => {
-//     if (event.key === 13) {
-//         document.getElementById("search-button").click();
-//     }
-// });
-
-function searchSku() {
-    let searchOK = true;
-    let a = "scurvy";
-    let b = "dog";
-    let req = input.value;
-    console.log(req);
-
-    if (req === "") {
-        console.log(true);
-    } else {
-        console.log(false);
-    };
-};
+// function searchSku() {
+//     console.log(true);
+//     let req = input.value;
+//     // let SEARCH_SKU = JOOBY_INFO.get(req);
+//     console.log(req = SKU1 + SKU2 + SKU3 + SKU4);
+//     if (req === "") {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     };
+// };

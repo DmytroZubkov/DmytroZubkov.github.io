@@ -20,12 +20,9 @@
         <!-- Product selector panel - START-->
         <div class="selector">
             <div class="selector-row" id="search-input">
-                <!-- <label for="search-sku" class="selector-description" id="search-label">
-                        Try to find using SKU without SPC and ASC
-                    </label> -->
                 <input type="text" class="selector-option" id="search-sku" name="search"
-                    aria-label="Search through site content" placeholder="Type here required SKU">
-                <input type="button" onclick="searchSku()" id="search-button" class="button" value="Search!">
+                    aria-label="Search through site content" placeholder="Only for quick search without SPC, dimming and no pictures update">
+                <input type="button" id="search-button" class="button" value="Search!">
             </div>
 
             <div class="selector-row">
@@ -33,8 +30,6 @@
                     Housing type (!)
                 </div>
                 <select class="selector-option" id="housing" onchange="singleSelectChangeText()">
-                    <!-- <option value="C" selected>Console</option> -->
-                    <!-- <option value="S">Suspended</option> -->
                 </select>
             </div>
 
