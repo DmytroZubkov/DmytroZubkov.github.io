@@ -15,124 +15,39 @@ document.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
 
-    HOUSING_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selHousing.add(opt);
-    });
-
-    MODULE_QTY_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selModuleQty.add(opt);
-    });
-
-    MODULE_POWER_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selModPower.add(opt);
-        // make the option as selected
-        if (index == 0) {
-            opt.setAttribute('selected', true);
-        };
-    });
-
-    LENS_OPTIONS.forEach((el, index) => {
-        let gr = document.createElement("optgroup");
-            if (LENS_OPTIONS[index === 0 ? 0 : index - 1].optgr !== LENS_OPTIONS[(index)].optgr || index === 0) {
-                gr.label = el.optgr;
-                selLensType.add(gr);
+    function addSelOptions (optionsArr, selType, selectedItem) {
+        optionsArr.forEach((el, index) => {
+            if (optionsArr[index].optgr !== undefined) {
+                let gr = document.createElement("optgroup");
+                    if (optionsArr[index === 0 ? 0 : index - 1].optgr !== optionsArr[(index)].optgr || index === 0) {
+                        gr.label = el.optgr;
+                        selType.add(gr);
+                    };
             };
-        
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selLensType.add(opt);
-        // make the option as selected
-        if (index == 6) {
-            opt.setAttribute('selected', true);
-        };
-    });
+            let opt = document.createElement("option");
+            opt.value = el.id;
+            opt.text = el.label;
+            selType.add(opt);
+            if (index === selectedItem) {
+                opt.setAttribute('selected', true);
+            };
+        });
+    };
 
-    CCT_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selCctType.add(opt);
-        // make the option as selected
-        if (index == 1) {
-            opt.setAttribute('selected', true);
-        };
-    });
-
-    CRI_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selCriType.add(opt);
-        // make the option as selected
-        if (index == 1) {
-            opt.setAttribute('selected', true);
-        };
-    });
-
-    STD_LETTER_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selStdLetterType.add(opt);
-        // make the option as selected
-        if (index == 4) {
-            opt.setAttribute('selected', true);
-        };
-    });
-
-    MANUF_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selManufType.add(opt);
-        // make the option as selected
-        if (index == 3) {
-            opt.setAttribute('selected', true);
-        };
-    });
-
-    SPC_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selSpcType.add(opt);
-    });
-
-    DIMMING_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selDimType.add(opt);
-    });
-
-    MOUNT_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selMountType.add(opt);
-    });
-
-    ASC_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selAscType.add(opt);
-    });
+    addSelOptions(HOUSING_OPTIONS, selHousing, 0);
+    addSelOptions(MODULE_QTY_OPTIONS, selModuleQty, 0);
+    addSelOptions(MODULE_POWER_OPTIONS, selModPower, 2);
+    addSelOptions(LENS_OPTIONS, selLensType, 6);
+    addSelOptions(CCT_OPTIONS, selCctType, 1);
+    addSelOptions(CRI_OPTIONS, selCriType, 1);
+    addSelOptions(STD_LETTER_OPTIONS, selStdLetterType, 4);
+    addSelOptions(MANUF_OPTIONS, selManufType, 3);
+    addSelOptions(SPC_OPTIONS, selSpcType, 0);
+    addSelOptions(DIMMING_OPTIONS, selDimType, 0);
+    addSelOptions(MOUNT_OPTIONS, selMountType, 0);
+    addSelOptions(ASC_OPTIONS, selAscType, 0);
 
 };
-
-
-
 
 
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
