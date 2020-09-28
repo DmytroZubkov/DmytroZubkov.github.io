@@ -1,26 +1,3 @@
-const HOUSING_OPTIONS = [
-    {id: "C" , label: "Console"},
-    {id: "S" , label: "Suspended"},
-];
-
-const MODULE_QTY_OPTIONS = [
-    {id: "1" , label: "1 - module"},
-    {id: "2" , label: "2 - module"},
-    {id: "3" , label: "3 - module"},
-    {id: "4" , label: "4 - module"},
-    {id: "5" , label: "5 - module"},
-];
-
-const MODULE_POWER_OPTIONS = [
-    {id: "20" , label: "20 W"},
-    {id: "30" , label: "30 W"},
-    {id: "40" , label: "40 W"},
-    {id: "60" , label: "60 W"},
-    {id: "80" , label: "80 W"},
-];
-
-https://stackoverflow.com/questions/22266171/javascript-html-select-add-optgroup-and-option-dynamically
-
 let selHousing = document.getElementById('housing');
 let selModuleQty = document.getElementById('module-qty');
 let selModPower = document.getElementById('module-power');
@@ -37,38 +14,46 @@ let selAscType = document.getElementById('asc');
 document.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
-    
-    HOUSING_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selHousing.add(opt);
-    });
 
-    MODULE_QTY_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selModuleQty.add(opt);
-    });
+    // Create all dropdowns, set selected options
+    function addSelOptions(optionsArr, selType, selectedItem) {
+        optionsArr.forEach((el, index) => {
+            if (optionsArr[index].optgr !== undefined) {
+                let gr = document.createElement("optgroup");
+                    if (optionsArr[index === 0 ? 0 : index - 1].optgr !== optionsArr[(index)].optgr || index === 0) {
+                        gr.label = el.optgr;
+                        selType.add(gr);
+                    };
+            };
+            let opt = document.createElement("option");
+            opt.value = el.id;
+            opt.text = el.label;
+            selType.add(opt);
+            if (index === selectedItem) {
+                opt.setAttribute('selected', true);
+            };
+        });
+    };
 
-    MODULE_POWER_OPTIONS.forEach((el, index) => {
-        let opt = document.createElement("option");
-        opt.value = el.id;
-        opt.text = el.label;
-        selModPower.add(opt);
-    });
-
+    addSelOptions(HOUSING_OPTIONS, selHousing, 0);
+    addSelOptions(MODULE_QTY_OPTIONS, selModuleQty, 0);
+    addSelOptions(MODULE_POWER_OPTIONS, selModPower, 2);
+    addSelOptions(LENS_OPTIONS, selLensType, 6);
+    addSelOptions(CCT_OPTIONS, selCctType, 1);
+    addSelOptions(CRI_OPTIONS, selCriType, 1);
+    addSelOptions(STD_LETTER_OPTIONS, selStdLetterType, 4);
+    addSelOptions(MANUF_OPTIONS, selManufType, 3);
+    addSelOptions(SPC_OPTIONS, selSpcType, 0);
+    addSelOptions(DIMMING_OPTIONS, selDimType, 0);
+    addSelOptions(MOUNT_OPTIONS, selMountType, 0);
+    addSelOptions(ASC_OPTIONS, selAscType, 0);
 
 };
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
-function singleSelectChangeText() {
+function singleSelectChangeText(searchSku) {
     let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
     let selModuleQtyVal = selModuleQty.options[selModuleQty.selectedIndex].value;
     let selModPowerVal = selModPower.options[selModPower.selectedIndex].value;
@@ -78,11 +63,8 @@ function singleSelectChangeText() {
     let selStdLetterTypeVal = selStdLetterType.options[selStdLetterType.selectedIndex].value;
     let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
     let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
-        let selSpcTypeTxt = selSpcType.options[selSpcType.selectedIndex].text;
     let selDimTypeVal = selDimType.options[selDimType.selectedIndex].value;
-        let selDimTypeTxt = selDimType.options[selDimType.selectedIndex].text;
     let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
-        let selMountTypeTxt = selMountType.options[selMountType.selectedIndex].text;
     let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
 
 
@@ -100,10 +82,10 @@ function singleSelectChangeText() {
         selSpcTypeVal +
         ((selDimTypeVal === "") ? "" : "-") +
         selDimTypeVal;
-    const SKU3 = ((selMountTypeVal === "") ? "" : "-") + selMountTypeVal;
+    const SKU3 = ((selMountTypeVal === "Console" || selMountTypeVal === "Pole Top") ? "" : "-" + selMountTypeVal);
     const SKU4 = ((selAscTypeVal === "") ? "" : " + ") + selAscTypeVal;
 
-    
+
 
 
     let cmoboSKU = document.getElementById("combo-sku");
@@ -134,12 +116,6 @@ function singleSelectChangeText() {
     let lumMountName = document.getElementById("mounting-option");
     let lumMountImg = document.getElementById("mounting-img");
 
-    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
-    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
-
-
-
-
 
     //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
@@ -153,7 +129,7 @@ function singleSelectChangeText() {
     document.getElementById("cg08").innerHTML = selManufTypeVal;
     document.getElementById("cg09").innerHTML = selSpcTypeVal;
     document.getElementById("cg10").innerHTML = selDimTypeVal;
-    document.getElementById("cg11").innerHTML = selMountTypeVal;
+    document.getElementById("cg11").innerHTML = ( selMountTypeVal === "Console" || selMountTypeVal === "Pole Top" ) ? "" : selMountTypeVal;
 
 
 
@@ -168,10 +144,35 @@ function singleSelectChangeText() {
     };
 
 
+    // make filter for impossible body-lens combinations
+    let exclLenses, exclMount;
+    if ( selHousingVal === "C" ) {
+        exclLenses = [ "F1/45", "F1/60", "F1/90", "F1/120", "F6/30", "F6/65", "F6/90", "F7/18", "F7/22", "F7/30", "F7/45", "F7/1840", "F7/115d", "F7/125" ];
+        exclMount = [ "T1", "F1", "F2", "F3", "Fw", "R", "Rx2" ];
+    } else {
+        exclLenses = [ "S3", "S4", "S6/T3", "S6/Sc" ];
+        exclMount = [ "Console", "Pole Top" ];
+    };
 
+    for (i = 0; i < selLensType.length; i++) {
+        exclLenses.includes(selLensType.options[i].value) ?
+        selLensType.options[i].classList.add("inactive") :
+        selLensType.options[i].classList.remove("inactive");
+    };
+
+    for (i = 0; i < selMountType.length; i++) {
+        exclMount.includes(selMountType.options[i].value) ?
+        selMountType.options[i].classList.add("inactive") :
+        selMountType.options[i].classList.remove("inactive");
+    };
 
 
     //Get main data from database
+
+    //Read SKU from dropdown lists
+    const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
+    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
+
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
             el.innerHTML = "No data found for this SKU";
@@ -184,7 +185,7 @@ function singleSelectChangeText() {
         });
         cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4;
         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
-        lumFlux.innerHTML = `${CURRENT_SKU.flux}` + " lm";
+        lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)}` + " lm";
         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
         lumCCT.innerHTML = `${CURRENT_SKU.cct}` + " K";
         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
@@ -192,32 +193,55 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
     };
 
+    //Read SKU from search field
+    //  C1x40-S6/T3-3K7L-Cr
+    //  S1x40-S6/T2-3K7L-Cr-T1
+
+    // let input = document.getElementById("search-sku");
+    // let button = document.getElementById("search-button");
+    // button.onclick = function() {
+    //     const CURRENT_SKU = JOOBY_INFO.get(input.value)
+    //     // console.log(input.value + " = " + SKU1 + SKU3 + " - ", input.value === SKU1);
+    //     // console.log(CURRENT_SKU);
+    //     if (CURRENT_SKU === undefined) {
+    //         SPECS.forEach(el => {
+    //             el.innerHTML = "No data found for this SKU";
+    //             el.classList.add("alertTdStyle");
+    //         });
+    //         cmoboSKU.innerHTML = input.value + " - No data found for this SKU";
+    //     } else {
+    //         SPECS.forEach(el => {
+    //             el.classList.remove("alertTdStyle");
+    //         });
+    //         cmoboSKU.innerHTML = input.value;
+    //         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
+    //         lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)}` + " lm";
+    //         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
+    //         lumCCT.innerHTML = `${CURRENT_SKU.cct}` + " K";
+    //         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
+    //         lumDimensions.innerHTML = `${CURRENT_SKU.dim}` + " mm";
+    //         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
+    //     };
+    // };
 
 
 
+    // Hide/show rows in Specifications table
 
-    // Hide/show dimming row, change dimming type
-    if (selDimTypeVal === "") {
-        lumDimmingRow.classList.add("hiddenEl");
-    } else {
-        lumDimmingRow.classList.remove("hiddenEl");
-        lumDimmingVal.innerHTML = selDimTypeTxt;
-        lumDimmingVal.style.width = "50%";
+    function hideSpecRows(optionsArr, tableRow, selType, selValue) {
+        if (selType === "") {
+            tableRow.classList.add("hiddenEl");
+        } else {
+            tableRow.classList.remove("hiddenEl");
+            selValue.innerHTML = optionsArr.find( ({ id }) => id === selType ).label;
+            selValue.style.width = "50%";
+        };
     };
 
-
-
-
-    // Hide/show SPC row, change SPC type
-    if (selSpcTypeVal === "") {
-        lumSpcRow.classList.add("hiddenEl");
-    } else {
-        lumSpcRow.classList.remove("hiddenEl");
-        lumSpcVal.innerHTML = selSpcTypeTxt;
-        lumSpcVal.style.width = "50%";
-    };
-
-
+    //Hide/show dimming type
+    hideSpecRows(DIMMING_OPTIONS, lumDimmingRow, selDimTypeVal, lumDimmingVal);
+    //Hide/show SPC
+    hideSpecRows(SPC_OPTIONS, lumSpcRow, selSpcTypeVal, lumSpcVal);
 
 
     // Change luminaire image
@@ -225,7 +249,7 @@ function singleSelectChangeText() {
     let lumImgComboCode = selHousingVal + selModuleQtyVal + selLensTypeVal + selMountTypeVal;
 
     if (lumImgComboCode === "") {
-        x = "img/noimg.jpg";
+        lumImg.src = "img/noimg.jpg";
     } else {
         if (selAscTypeVal === "") {
             asc = 'std/';
@@ -248,57 +272,16 @@ function singleSelectChangeText() {
     };
 
 
-
-
-
-
     // Change LDC image and beam value
-    const CURRENT_LDC = JOOBY_LDCS.get(selLensTypeVal);
-    if (CURRENT_LDC === undefined) {
-        "No data";
-    } else {
-        lumLdcDeg.innerHTML = `${CURRENT_LDC.beam}`;
-        lumLdcImg.src = "img/ldc/" + `${CURRENT_LDC.image}`;
-    };
+    lumLdcDeg.innerHTML = LENS_OPTIONS.find( ({ id }) => id === selLensTypeVal ).beam;
+    lumLdcImg.src = "img/ldc/" + LENS_OPTIONS.find( ({ id }) => id === selLensTypeVal ).image;
 
-
-
-
-
-
+    
     // Change Mounting type image and name
-    let changeMount = (selMountTypeTxt === "None / Console (Horizontal)") ? "Console" : "Pole Top";
-    let changeMount2 = (selMountTypeVal === "") ? changeMount : selMountTypeVal;
-
-    const CURRENT_MOUNTING = JOOBY_MOUNTING.get(changeMount2);
-    if (CURRENT_MOUNTING === undefined) {
-        "No data";
-    } else {
-        // add text description (like T1 or F2) and apply image link
-        lumMountName.innerHTML = `${CURRENT_MOUNTING.mounting}`;
-        lumMountImg.src = "img/mount/" + `${CURRENT_MOUNTING.image}`;
-    };
-
-
-
-
-
-    // function searchSku() {
-    //     document.getElementById("search-button").innerHTML = "Hello World";
-    //     selHousingVal = "C";
-    //     selModuleQtyVal = "1";
-    //     selModPowerVal = "40";
-    //     selLensTypeVal = "S6/T3";
-    //     selCctTypeVal = "3K";
-    //     selCriTypeVal = "7";
-    //     selStdLetterTypeVal = "L";
-    //     selManufTypeVal = "Cr";
-    //     console.log(selHousingVal + selModuleQtyVal + "x" + selModPowerVal + "-" + selLensTypeVal + "-" + selCctTypeVal + selCriTypeVal + selStdLetterTypeVal + "-" + selManufTypeVal);
-    // };
-    // searchSku();
-
-
+    lumMountName.innerHTML = MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).id;
+    lumMountImg.src = "img/mount/" + MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).image;
 };
+
 
 // Add/remove the Configuration Guide table
 function addConfigGuide() {
@@ -314,31 +297,3 @@ function addConfigGuide() {
         guidePage.style.display = "none";
     };
 };
-
-
-
-let input = document.getElementById("search-sku");
-
-// // Execute a function when the user releases a key on the keyboard
-
-// input.addEventListener("keyup", event => {
-//     if (event.key === 13) {
-//         document.getElementById("search-button").click();
-//     }
-// });
-
-function searchSku() {
-    let searchOK = true;
-    let a = "scurvy";
-    let b = "dog";
-    let req = input.value;
-    console.log(req);
-
-    if ( req === "" ) {
-        console.log(true);
-    } else {
-        console.log(false);
-    };
-};
-
-// // window.setTimeout(searchSku(), 0);
