@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
 
-    function addSelOptions (optionsArr, selType, selectedItem) {
+    // Create all dropdowns, set selected options
+    function addSelOptions(optionsArr, selType, selectedItem) {
         optionsArr.forEach((el, index) => {
             if (optionsArr[index].optgr !== undefined) {
                 let gr = document.createElement("optgroup");
@@ -225,28 +226,22 @@ function singleSelectChangeText(searchSku) {
 
 
 
-    // Hide/show dimming row, change dimming type
-    if (selDimTypeVal === "") {
-        lumDimmingRow.classList.add("hiddenEl");
-    } else {
-        lumDimmingRow.classList.remove("hiddenEl");
-        lumDimmingVal.innerHTML = DIMMING_OPTIONS.find( ({ id }) => id === selDimTypeVal ).label;
-        lumDimmingVal.style.width = "50%";
+    // Hide/show rows in Specifications table
+
+    function hideSpecRows(optionsArr, tableRow, selType, selValue) {
+        if (selType === "") {
+            tableRow.classList.add("hiddenEl");
+        } else {
+            tableRow.classList.remove("hiddenEl");
+            selValue.innerHTML = optionsArr.find( ({ id }) => id === selType ).label;
+            selValue.style.width = "50%";
+        };
     };
 
-
-
-
-    // Hide/show SPC row, change SPC type
-    if (selSpcTypeVal === "") {
-        lumSpcRow.classList.add("hiddenEl");
-    } else {
-        lumSpcRow.classList.remove("hiddenEl");
-        lumSpcVal.innerHTML = SPC_OPTIONS.find( ({ id }) => id === selSpcTypeVal ).label;
-        lumSpcVal.style.width = "50%";
-    };
-
-
+    //Hide/show dimming type
+    hideSpecRows(DIMMING_OPTIONS, lumDimmingRow, selDimTypeVal, lumDimmingVal);
+    //Hide/show SPC
+    hideSpecRows(SPC_OPTIONS, lumSpcRow, selSpcTypeVal, lumSpcVal);
 
 
     // Change luminaire image
@@ -302,20 +297,3 @@ function addConfigGuide() {
         guidePage.style.display = "none";
     };
 };
-
-
-// //Read SKU from search field
-
-// let input = document.getElementById("search-sku");
-
-// function searchSku() {
-//     console.log(true);
-//     let req = input.value;
-//     // let SEARCH_SKU = JOOBY_INFO.get(req);
-//     console.log(req = SKU1 + SKU2 + SKU3 + SKU4);
-//     if (req === "") {
-//         console.log(true);
-//     } else {
-//         console.log(false);
-//     };
-// };
