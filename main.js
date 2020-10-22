@@ -11,6 +11,20 @@ let selDimType = document.getElementById('dimming');
 let selMountType = document.getElementById('mounting');
 let selAscType = document.getElementById('asc');
 
+let formArr = [selHousing,
+    selModuleQty,
+    selModPower,
+    selLensType,
+    selCctType,
+    selCriType,
+    selStdLetterType,
+    selManufType,
+    // selSpcType,
+    // selDimType,
+    selMountType,
+    selAscType
+];
+
 document.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
@@ -20,10 +34,10 @@ function init() {
         optionsArr.forEach((el, index) => {
             if (optionsArr[index].optgr !== undefined) {
                 let gr = document.createElement("optgroup");
-                    if (optionsArr[index === 0 ? 0 : index - 1].optgr !== optionsArr[(index)].optgr || index === 0) {
-                        gr.label = el.optgr;
-                        selType.add(gr);
-                    };
+                if (optionsArr[index === 0 ? 0 : index - 1].optgr !== optionsArr[(index)].optgr || index === 0) {
+                    gr.label = el.optgr;
+                    selType.add(gr);
+                };
             };
             let opt = document.createElement("option");
             opt.value = el.id;
@@ -53,7 +67,7 @@ function init() {
 
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
-function singleSelectChangeText(searchSku) {
+function singleSelectChangeText() {
     let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
     let selModuleQtyVal = selModuleQty.options[selModuleQty.selectedIndex].value;
     let selModPowerVal = selModPower.options[selModPower.selectedIndex].value;
@@ -90,27 +104,16 @@ function singleSelectChangeText(searchSku) {
 
     let cmoboSKU = document.getElementById("combo-sku");
     let lumPower = document.getElementById("lum-power");
-    // let lumVoltage = document.getElementById("lum-voltage");
-    // let lumFreq = document.getElementById("lum-freq");
-    // let lumPF = document.getElementById("lum-pf");
     let lumFlux = document.getElementById("lum-flux");
     let lumLmw = document.getElementById("lum-lmw");
     let lumDimmingRow = document.getElementById("lum-dimming-row");
     let lumDimmingVal = document.getElementById("lum-dimming");
     let lumCCT = document.getElementById("lum-cct");
     let lumCRI = document.getElementById("lum-cri");
-    // let lumIP = document.getElementById("lum-ip");
-    // let lumElSafety = document.getElementById("lum-elsafety");
     let lumSpcRow = document.getElementById("lum-spc-row");
     let lumSpcVal = document.getElementById("lum-spc");
-    // let lumTamb = document.getElementById("lum-t-amb");
     let lumDimensions = document.getElementById("lum-dimensions");
     let lumWeight = document.getElementById("lum-weight");
-    // let lumMaterial = document.getElementById("lum-material");
-    // let lumMF = document.getElementById("lum-mf");
-    // let lumFailure = document.getElementById("lum-failure");
-    // let lumLifetime = document.getElementById("lum-lifetime");
-    // let lumWarr = document.getElementById("lum-warranty");
     let lumLdcDeg = document.getElementById("light-beam-degrees");
     let lumLdcImg = document.getElementById("product-ldc-img");
     let lumMountName = document.getElementById("mounting-option");
@@ -145,32 +148,103 @@ function singleSelectChangeText(searchSku) {
 
 
     // make filter for impossible body-lens combinations
-    let exclLenses, exclMount;
-    if ( selHousingVal === "C" ) {
-        exclLenses = [ "F1/45", "F1/60", "F1/90", "F1/120", "F6/30", "F6/65", "F6/90", "F7/18", "F7/22", "F7/30", "F7/45", "F7/1840", "F7/115d", "F7/125" ];
-        exclMount = [ "T1", "F1", "F2", "F3", "Fw", "R", "Rx2" ];
-    } else {
-        exclLenses = [ "S3", "S4", "S6/T3", "S6/Sc" ];
-        exclMount = [ "Console", "Pole Top" ];
+    // let exclLenses, exclMount;
+    // if ( selHousingVal === "C" ) {
+    //     exclLenses = [ "F1/45", "F1/60", "F1/90", "F1/120", "F6/30", "F6/65", "F6/90", "F7/18", "F7/22", "F7/30", "F7/45", "F7/1840", "F7/115d", "F7/125" ];
+    //     exclMount = [ "T1", "F1", "F2", "F3", "Fw", "R", "Rx2" ];
+    // } else {
+    //     exclLenses = [ "S3", "S4", "S6/T3", "S6/Sc" ];
+    //     exclMount = [ "Console", "Pole Top" ];
+    // };
+
+    // for (i = 0; i < selLensType.length; i++) {
+    //     exclLenses.includes(selLensType.options[i].value) ?
+    //     selLensType.options[i].classList.add("inactive") :
+    //     selLensType.options[i].classList.remove("inactive");
+    // };
+
+    // for (i = 0; i < selMountType.length; i++) {
+    //     exclMount.includes(selMountType.options[i].value) ?
+    //     selMountType.options[i].classList.add("inactive") :
+    //     selMountType.options[i].classList.remove("inactive");
+    // };
+
+
+    // Trying to make normal filters
+    const filteredJoobyMap = new Map();
+
+    // function addMapElements(value, key)
+    // {
+    //     filteredJoobyMap.set(key, value);
+    //     if (value.housing !== selHousing.value) {
+    //         filteredJoobyMap.delete(key, value);
+    //     };
+    // };
+
+    function addMapElements(value, key) {
+
+        // - empty Map
+        // - add only those pairs of 'key: value', which contain active option
+
+        filteredJoobyMap.set(key, value);
+        function exclude(name, selOpt) {
+            if (name !== selOpt) {
+                filteredJoobyMap.delete(key, value);
+            };
+        };
+        exclude(value.housing, selHousing.value);
+        // exclude(value.modules, selModuleQty.value);
+        // exclude(value.power, selModPower.value);
+        // exclude(value.lens, selLensType.value);
+        // exclude(value.cctAbb, selCctType.value);
+        // exclude(value.criAbb, selCriType.value);
+
+
     };
 
-    for (i = 0; i < selLensType.length; i++) {
-        exclLenses.includes(selLensType.options[i].value) ?
-        selLensType.options[i].classList.add("inactive") :
-        selLensType.options[i].classList.remove("inactive");
-    };
+    JOOBY_INFO.forEach(addMapElements);
 
-    for (i = 0; i < selMountType.length; i++) {
-        exclMount.includes(selMountType.options[i].value) ?
-        selMountType.options[i].classList.add("inactive") :
-        selMountType.options[i].classList.remove("inactive");
+    function highlightMapElements(value, key) {
+        for (i = 0; i < selLensType.length; i++) {
+            console.log(value.lens, selLensType.options[i].value);
+            if (value.lens !== selLensType.options[i].value) {
+                selLensType.options[i].classList.add("inactive");
+            };
+        };
     };
+    filteredJoobyMap.forEach(highlightMapElements);
+
+    // for (let [key, value] of filteredJoobyMap) {
+    //     for (i = 0; i < selLensType.length; i++) {
+    //         if (value.lens !== selLensType.options[i].value) {
+    //             // selLensType.options[i].classList.add("inactive");
+    //         };
+    //     };
+    // };
+
+    console.log(selHousing.value);
+    console.log(selModuleQty.value);
+    console.log(selLensType.value);
+    console.log(filteredJoobyMap);
+    // console.log(JOOBY_INFO);
+
+
+
+
+
+
+
+
+
+
+
 
 
     //Get main data from database
 
     //Read SKU from dropdown lists
     const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
+
     let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
 
     if (CURRENT_SKU === undefined) {
@@ -184,13 +258,13 @@ function singleSelectChangeText(searchSku) {
             el.classList.remove("alertTdStyle");
         });
         cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4;
-        lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
-        lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)}` + " lm";
-        lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
-        lumCCT.innerHTML = `${CURRENT_SKU.cct}` + " K";
+        lumPower.innerHTML = `${CURRENT_SKU.power} W`;
+        lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)} lm`;
+        lumLmw.innerHTML = `${CURRENT_SKU.efficacy} lm/W`;
+        lumCCT.innerHTML = `${CURRENT_SKU.cct} K`;
         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
-        lumDimensions.innerHTML = `${CURRENT_SKU.dim}` + " mm";
-        lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
+        lumDimensions.innerHTML = `${CURRENT_SKU.dim} mm`;
+        lumWeight.innerHTML = `${CURRENT_SKU.weight} kg`;
     };
 
     //Read SKU from search field
