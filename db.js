@@ -137,7 +137,7 @@ JOOBY_INFO.set('C1x20-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -155,7 +155,7 @@ JOOBY_INFO.set('C1x20-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -173,7 +173,7 @@ JOOBY_INFO.set('C1x20-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -191,7 +191,7 @@ JOOBY_INFO.set('C1x20-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -209,7 +209,7 @@ JOOBY_INFO.set('C1x20-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -227,7 +227,7 @@ JOOBY_INFO.set('C1x20-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -245,7 +245,7 @@ JOOBY_INFO.set('C1x20-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -263,7 +263,7 @@ JOOBY_INFO.set('C1x20-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -281,7 +281,7 @@ JOOBY_INFO.set('C1x20-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -299,7 +299,7 @@ JOOBY_INFO.set('C1x20-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -317,7 +317,7 @@ JOOBY_INFO.set('C1x20-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -335,7 +335,7 @@ JOOBY_INFO.set('C1x20-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -353,7 +353,7 @@ JOOBY_INFO.set('C1x20-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -371,7 +371,7 @@ JOOBY_INFO.set('C1x20-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -389,7 +389,7 @@ JOOBY_INFO.set('C1x20-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -407,7 +407,7 @@ JOOBY_INFO.set('C1x30-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -425,7 +425,7 @@ JOOBY_INFO.set('C1x30-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -443,7 +443,7 @@ JOOBY_INFO.set('C1x30-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -461,7 +461,7 @@ JOOBY_INFO.set('C1x30-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -479,7 +479,7 @@ JOOBY_INFO.set('C1x30-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -497,7 +497,7 @@ JOOBY_INFO.set('C1x30-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -515,7 +515,7 @@ JOOBY_INFO.set('C1x30-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -533,7 +533,7 @@ JOOBY_INFO.set('C1x30-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -551,7 +551,7 @@ JOOBY_INFO.set('C1x30-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -569,7 +569,7 @@ JOOBY_INFO.set('C1x30-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -587,7 +587,7 @@ JOOBY_INFO.set('C1x30-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -605,7 +605,7 @@ JOOBY_INFO.set('C1x30-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -623,7 +623,7 @@ JOOBY_INFO.set('C1x30-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -641,7 +641,7 @@ JOOBY_INFO.set('C1x30-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -659,7 +659,7 @@ JOOBY_INFO.set('C1x30-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -677,7 +677,7 @@ JOOBY_INFO.set('C1x40-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -695,7 +695,7 @@ JOOBY_INFO.set('C1x40-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -713,7 +713,7 @@ JOOBY_INFO.set('C1x40-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -731,7 +731,7 @@ JOOBY_INFO.set('C1x40-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -749,7 +749,7 @@ JOOBY_INFO.set('C1x40-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -767,7 +767,7 @@ JOOBY_INFO.set('C1x40-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -785,7 +785,7 @@ JOOBY_INFO.set('C1x40-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -803,7 +803,7 @@ JOOBY_INFO.set('C1x40-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -821,7 +821,7 @@ JOOBY_INFO.set('C1x40-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -839,7 +839,7 @@ JOOBY_INFO.set('C1x40-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -857,7 +857,7 @@ JOOBY_INFO.set('C1x40-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -875,7 +875,7 @@ JOOBY_INFO.set('C1x40-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -893,7 +893,7 @@ JOOBY_INFO.set('C1x40-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -911,7 +911,7 @@ JOOBY_INFO.set('C1x40-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -929,7 +929,7 @@ JOOBY_INFO.set('C1x40-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -947,7 +947,7 @@ JOOBY_INFO.set('C1x40-S6/SC-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -965,7 +965,7 @@ JOOBY_INFO.set('C1x40-S6/SC-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -983,7 +983,7 @@ JOOBY_INFO.set('C1x40-S6/SC-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1001,7 +1001,7 @@ JOOBY_INFO.set('C1x40-S6/SC-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1019,7 +1019,7 @@ JOOBY_INFO.set('C1x40-S6/SC-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1037,7 +1037,7 @@ JOOBY_INFO.set('C1x40-S6/T1-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1055,7 +1055,7 @@ JOOBY_INFO.set('C1x40-S6/T1-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1073,7 +1073,7 @@ JOOBY_INFO.set('C1x40-S6/T1-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1091,7 +1091,7 @@ JOOBY_INFO.set('C1x40-S6/T1-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1109,7 +1109,7 @@ JOOBY_INFO.set('C1x40-S6/T1-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1127,7 +1127,7 @@ JOOBY_INFO.set('C1x40-S6/T2-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1145,7 +1145,7 @@ JOOBY_INFO.set('C1x40-S6/T2-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1163,7 +1163,7 @@ JOOBY_INFO.set('C1x40-S6/T2-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1181,7 +1181,7 @@ JOOBY_INFO.set('C1x40-S6/T2-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1199,7 +1199,7 @@ JOOBY_INFO.set('C1x40-S6/T2-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1217,7 +1217,7 @@ JOOBY_INFO.set('C1x40-S6/T3-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1235,7 +1235,7 @@ JOOBY_INFO.set('C1x40-S6/T3-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1253,7 +1253,7 @@ JOOBY_INFO.set('C1x40-S6/T3-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1271,7 +1271,7 @@ JOOBY_INFO.set('C1x40-S6/T3-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1289,7 +1289,7 @@ JOOBY_INFO.set('C1x40-S6/T3-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1307,7 +1307,7 @@ JOOBY_INFO.set('C1x40-S6/T5s-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1325,7 +1325,7 @@ JOOBY_INFO.set('C1x40-S6/T5s-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1343,7 +1343,7 @@ JOOBY_INFO.set('C1x40-S6/T5s-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1361,7 +1361,7 @@ JOOBY_INFO.set('C1x40-S6/T5s-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1379,7 +1379,7 @@ JOOBY_INFO.set('C1x40-S6/T5s-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1397,7 +1397,7 @@ JOOBY_INFO.set('C1x60-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1415,7 +1415,7 @@ JOOBY_INFO.set('C1x60-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1433,7 +1433,7 @@ JOOBY_INFO.set('C1x60-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1451,7 +1451,7 @@ JOOBY_INFO.set('C1x60-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1469,7 +1469,7 @@ JOOBY_INFO.set('C1x60-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1487,7 +1487,7 @@ JOOBY_INFO.set('C1x60-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1505,7 +1505,7 @@ JOOBY_INFO.set('C1x60-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1523,7 +1523,7 @@ JOOBY_INFO.set('C1x60-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1541,7 +1541,7 @@ JOOBY_INFO.set('C1x60-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1559,7 +1559,7 @@ JOOBY_INFO.set('C1x60-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1577,7 +1577,7 @@ JOOBY_INFO.set('C1x60-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1595,7 +1595,7 @@ JOOBY_INFO.set('C1x60-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1613,7 +1613,7 @@ JOOBY_INFO.set('C1x60-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1631,7 +1631,7 @@ JOOBY_INFO.set('C1x60-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1649,7 +1649,7 @@ JOOBY_INFO.set('C1x60-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -1667,7 +1667,7 @@ JOOBY_INFO.set('C1x60-S6/SC-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1685,7 +1685,7 @@ JOOBY_INFO.set('C1x60-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1703,7 +1703,7 @@ JOOBY_INFO.set('C1x60-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1721,7 +1721,7 @@ JOOBY_INFO.set('C1x60-S6/SC-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1739,7 +1739,7 @@ JOOBY_INFO.set('C1x60-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1757,7 +1757,7 @@ JOOBY_INFO.set('C1x60-S6/T1-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1775,7 +1775,7 @@ JOOBY_INFO.set('C1x60-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1793,7 +1793,7 @@ JOOBY_INFO.set('C1x60-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1811,7 +1811,7 @@ JOOBY_INFO.set('C1x60-S6/T1-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1829,7 +1829,7 @@ JOOBY_INFO.set('C1x60-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1847,7 +1847,7 @@ JOOBY_INFO.set('C1x60-S6/T2-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1865,7 +1865,7 @@ JOOBY_INFO.set('C1x60-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1883,7 +1883,7 @@ JOOBY_INFO.set('C1x60-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1901,7 +1901,7 @@ JOOBY_INFO.set('C1x60-S6/T2-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1919,7 +1919,7 @@ JOOBY_INFO.set('C1x60-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1937,7 +1937,7 @@ JOOBY_INFO.set('C1x60-S6/T3-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1955,7 +1955,7 @@ JOOBY_INFO.set('C1x60-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1973,7 +1973,7 @@ JOOBY_INFO.set('C1x60-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -1991,7 +1991,7 @@ JOOBY_INFO.set('C1x60-S6/T3-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2009,7 +2009,7 @@ JOOBY_INFO.set('C1x60-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2027,7 +2027,7 @@ JOOBY_INFO.set('C1x60-S6/T5s-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2045,7 +2045,7 @@ JOOBY_INFO.set('C1x60-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2063,7 +2063,7 @@ JOOBY_INFO.set('C1x60-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2081,7 +2081,7 @@ JOOBY_INFO.set('C1x60-S6/T5s-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2099,7 +2099,7 @@ JOOBY_INFO.set('C1x60-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2117,7 +2117,7 @@ JOOBY_INFO.set('C1x80-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2135,7 +2135,7 @@ JOOBY_INFO.set('C1x80-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2153,7 +2153,7 @@ JOOBY_INFO.set('C1x80-S1-4K7L-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2171,7 +2171,7 @@ JOOBY_INFO.set('C1x80-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2189,7 +2189,7 @@ JOOBY_INFO.set('C1x80-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2207,7 +2207,7 @@ JOOBY_INFO.set('C1x80-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2225,7 +2225,7 @@ JOOBY_INFO.set('C1x80-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2243,7 +2243,7 @@ JOOBY_INFO.set('C1x80-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2261,7 +2261,7 @@ JOOBY_INFO.set('C1x80-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2279,7 +2279,7 @@ JOOBY_INFO.set('C1x80-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2297,7 +2297,7 @@ JOOBY_INFO.set('C1x80-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2315,7 +2315,7 @@ JOOBY_INFO.set('C1x80-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2333,7 +2333,7 @@ JOOBY_INFO.set('C1x80-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2351,7 +2351,7 @@ JOOBY_INFO.set('C1x80-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2369,7 +2369,7 @@ JOOBY_INFO.set('C1x80-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х130 mm",
+    dim: "390х250х130",
     weight: "5,5",
     sailing: "0,07"
 });
@@ -2387,7 +2387,7 @@ JOOBY_INFO.set('C1x80-S6/SC-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2405,7 +2405,7 @@ JOOBY_INFO.set('C1x80-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2423,7 +2423,7 @@ JOOBY_INFO.set('C1x80-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2441,7 +2441,7 @@ JOOBY_INFO.set('C1x80-S6/SC-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2459,7 +2459,7 @@ JOOBY_INFO.set('C1x80-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2477,7 +2477,7 @@ JOOBY_INFO.set('C1x80-S6/T1-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2495,7 +2495,7 @@ JOOBY_INFO.set('C1x80-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2513,7 +2513,7 @@ JOOBY_INFO.set('C1x80-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2531,7 +2531,7 @@ JOOBY_INFO.set('C1x80-S6/T1-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2549,7 +2549,7 @@ JOOBY_INFO.set('C1x80-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2567,7 +2567,7 @@ JOOBY_INFO.set('C1x80-S6/T2-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2585,7 +2585,7 @@ JOOBY_INFO.set('C1x80-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2603,7 +2603,7 @@ JOOBY_INFO.set('C1x80-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2621,7 +2621,7 @@ JOOBY_INFO.set('C1x80-S6/T2-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2639,7 +2639,7 @@ JOOBY_INFO.set('C1x80-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2657,7 +2657,7 @@ JOOBY_INFO.set('C1x80-S6/T3-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2675,7 +2675,7 @@ JOOBY_INFO.set('C1x80-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2693,7 +2693,7 @@ JOOBY_INFO.set('C1x80-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2711,7 +2711,7 @@ JOOBY_INFO.set('C1x80-S6/T3-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2729,7 +2729,7 @@ JOOBY_INFO.set('C1x80-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2747,7 +2747,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2765,7 +2765,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2783,7 +2783,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2801,7 +2801,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2819,7 +2819,7 @@ JOOBY_INFO.set('C1x80-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -2837,7 +2837,7 @@ JOOBY_INFO.set('C2x40-S6/SC-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2855,7 +2855,7 @@ JOOBY_INFO.set('C2x40-S6/SC-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2873,7 +2873,7 @@ JOOBY_INFO.set('C2x40-S6/SC-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2891,7 +2891,7 @@ JOOBY_INFO.set('C2x40-S6/SC-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2909,7 +2909,7 @@ JOOBY_INFO.set('C2x40-S6/SC-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2927,7 +2927,7 @@ JOOBY_INFO.set('C2x40-S6/T1-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2945,7 +2945,7 @@ JOOBY_INFO.set('C2x40-S6/T1-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2963,7 +2963,7 @@ JOOBY_INFO.set('C2x40-S6/T1-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2981,7 +2981,7 @@ JOOBY_INFO.set('C2x40-S6/T1-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -2999,7 +2999,7 @@ JOOBY_INFO.set('C2x40-S6/T1-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3017,7 +3017,7 @@ JOOBY_INFO.set('C2x40-S6/T2-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3035,7 +3035,7 @@ JOOBY_INFO.set('C2x40-S6/T2-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3053,7 +3053,7 @@ JOOBY_INFO.set('C2x40-S6/T2-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3071,7 +3071,7 @@ JOOBY_INFO.set('C2x40-S6/T2-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3089,7 +3089,7 @@ JOOBY_INFO.set('C2x40-S6/T2-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3107,7 +3107,7 @@ JOOBY_INFO.set('C2x40-S6/T3-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3125,7 +3125,7 @@ JOOBY_INFO.set('C2x40-S6/T3-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3143,7 +3143,7 @@ JOOBY_INFO.set('C2x40-S6/T3-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3161,7 +3161,7 @@ JOOBY_INFO.set('C2x40-S6/T3-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3179,7 +3179,7 @@ JOOBY_INFO.set('C2x40-S6/T3-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3197,7 +3197,7 @@ JOOBY_INFO.set('C2x40-S6/T5s-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3215,7 +3215,7 @@ JOOBY_INFO.set('C2x40-S6/T5s-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3233,7 +3233,7 @@ JOOBY_INFO.set('C2x40-S6/T5s-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3251,7 +3251,7 @@ JOOBY_INFO.set('C2x40-S6/T5s-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3269,7 +3269,7 @@ JOOBY_INFO.set('C2x40-S6/T5s-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3287,7 +3287,7 @@ JOOBY_INFO.set('C2x60-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3305,7 +3305,7 @@ JOOBY_INFO.set('C2x60-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3323,7 +3323,7 @@ JOOBY_INFO.set('C2x60-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3341,7 +3341,7 @@ JOOBY_INFO.set('C2x60-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3359,7 +3359,7 @@ JOOBY_INFO.set('C2x60-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3377,7 +3377,7 @@ JOOBY_INFO.set('C2x60-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3395,7 +3395,7 @@ JOOBY_INFO.set('C2x60-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3413,7 +3413,7 @@ JOOBY_INFO.set('C2x60-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3431,7 +3431,7 @@ JOOBY_INFO.set('C2x60-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3449,7 +3449,7 @@ JOOBY_INFO.set('C2x60-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3467,7 +3467,7 @@ JOOBY_INFO.set('C2x60-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3485,7 +3485,7 @@ JOOBY_INFO.set('C2x60-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3503,7 +3503,7 @@ JOOBY_INFO.set('C2x60-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3521,7 +3521,7 @@ JOOBY_INFO.set('C2x60-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3539,7 +3539,7 @@ JOOBY_INFO.set('C2x60-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -3557,7 +3557,7 @@ JOOBY_INFO.set('C2x60-S6/SC-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3575,7 +3575,7 @@ JOOBY_INFO.set('C2x60-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3593,7 +3593,7 @@ JOOBY_INFO.set('C2x60-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3611,7 +3611,7 @@ JOOBY_INFO.set('C2x60-S6/SC-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3629,7 +3629,7 @@ JOOBY_INFO.set('C2x60-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3647,7 +3647,7 @@ JOOBY_INFO.set('C2x60-S6/T1-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3665,7 +3665,7 @@ JOOBY_INFO.set('C2x60-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3683,7 +3683,7 @@ JOOBY_INFO.set('C2x60-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3701,7 +3701,7 @@ JOOBY_INFO.set('C2x60-S6/T1-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3719,7 +3719,7 @@ JOOBY_INFO.set('C2x60-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3737,7 +3737,7 @@ JOOBY_INFO.set('C2x60-S6/T2-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3755,7 +3755,7 @@ JOOBY_INFO.set('C2x60-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3773,7 +3773,7 @@ JOOBY_INFO.set('C2x60-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3791,7 +3791,7 @@ JOOBY_INFO.set('C2x60-S6/T2-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3809,7 +3809,7 @@ JOOBY_INFO.set('C2x60-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3827,7 +3827,7 @@ JOOBY_INFO.set('C2x60-S6/T3-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3845,7 +3845,7 @@ JOOBY_INFO.set('C2x60-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3863,7 +3863,7 @@ JOOBY_INFO.set('C2x60-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3881,7 +3881,7 @@ JOOBY_INFO.set('C2x60-S6/T3-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3899,7 +3899,7 @@ JOOBY_INFO.set('C2x60-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3917,7 +3917,7 @@ JOOBY_INFO.set('C2x60-S6/T5s-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3935,7 +3935,7 @@ JOOBY_INFO.set('C2x60-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3953,7 +3953,7 @@ JOOBY_INFO.set('C2x60-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3971,7 +3971,7 @@ JOOBY_INFO.set('C2x60-S6/T5s-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -3989,7 +3989,7 @@ JOOBY_INFO.set('C2x60-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4007,7 +4007,7 @@ JOOBY_INFO.set('C2x80-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4025,7 +4025,7 @@ JOOBY_INFO.set('C2x80-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4043,7 +4043,7 @@ JOOBY_INFO.set('C2x80-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4061,7 +4061,7 @@ JOOBY_INFO.set('C2x80-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4079,7 +4079,7 @@ JOOBY_INFO.set('C2x80-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4097,7 +4097,7 @@ JOOBY_INFO.set('C2x80-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4115,7 +4115,7 @@ JOOBY_INFO.set('C2x80-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4133,7 +4133,7 @@ JOOBY_INFO.set('C2x80-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4151,7 +4151,7 @@ JOOBY_INFO.set('C2x80-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4169,7 +4169,7 @@ JOOBY_INFO.set('C2x80-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4187,7 +4187,7 @@ JOOBY_INFO.set('C2x80-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4205,7 +4205,7 @@ JOOBY_INFO.set('C2x80-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4223,7 +4223,7 @@ JOOBY_INFO.set('C2x80-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4241,7 +4241,7 @@ JOOBY_INFO.set('C2x80-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4259,7 +4259,7 @@ JOOBY_INFO.set('C2x80-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х130 mm",
+    dim: "525х250х130",
     weight: "8,4",
     sailing: "0,103"
 });
@@ -4277,7 +4277,7 @@ JOOBY_INFO.set('C2x80-S6/SC-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4295,7 +4295,7 @@ JOOBY_INFO.set('C2x80-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4313,7 +4313,7 @@ JOOBY_INFO.set('C2x80-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4331,7 +4331,7 @@ JOOBY_INFO.set('C2x80-S6/SC-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4349,7 +4349,7 @@ JOOBY_INFO.set('C2x80-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4367,7 +4367,7 @@ JOOBY_INFO.set('C2x80-S6/T1-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4385,7 +4385,7 @@ JOOBY_INFO.set('C2x80-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4403,7 +4403,7 @@ JOOBY_INFO.set('C2x80-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4421,7 +4421,7 @@ JOOBY_INFO.set('C2x80-S6/T1-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4439,7 +4439,7 @@ JOOBY_INFO.set('C2x80-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4457,7 +4457,7 @@ JOOBY_INFO.set('C2x80-S6/T2-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4475,7 +4475,7 @@ JOOBY_INFO.set('C2x80-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4493,7 +4493,7 @@ JOOBY_INFO.set('C2x80-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4511,7 +4511,7 @@ JOOBY_INFO.set('C2x80-S6/T2-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4529,7 +4529,7 @@ JOOBY_INFO.set('C2x80-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4547,7 +4547,7 @@ JOOBY_INFO.set('C2x80-S6/T3-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4565,7 +4565,7 @@ JOOBY_INFO.set('C2x80-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4583,7 +4583,7 @@ JOOBY_INFO.set('C2x80-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4601,7 +4601,7 @@ JOOBY_INFO.set('C2x80-S6/T3-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4619,7 +4619,7 @@ JOOBY_INFO.set('C2x80-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4637,7 +4637,7 @@ JOOBY_INFO.set('C2x80-S6/T5s-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4655,7 +4655,7 @@ JOOBY_INFO.set('C2x80-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4673,7 +4673,7 @@ JOOBY_INFO.set('C2x80-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4691,7 +4691,7 @@ JOOBY_INFO.set('C2x80-S6/T5s-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4709,7 +4709,7 @@ JOOBY_INFO.set('C2x80-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -4727,7 +4727,7 @@ JOOBY_INFO.set('C3x60-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4745,7 +4745,7 @@ JOOBY_INFO.set('C3x60-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4763,7 +4763,7 @@ JOOBY_INFO.set('C3x60-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4781,7 +4781,7 @@ JOOBY_INFO.set('C3x60-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4799,7 +4799,7 @@ JOOBY_INFO.set('C3x60-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4817,7 +4817,7 @@ JOOBY_INFO.set('C3x60-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4835,7 +4835,7 @@ JOOBY_INFO.set('C3x60-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4853,7 +4853,7 @@ JOOBY_INFO.set('C3x60-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4871,7 +4871,7 @@ JOOBY_INFO.set('C3x60-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4889,7 +4889,7 @@ JOOBY_INFO.set('C3x60-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4907,7 +4907,7 @@ JOOBY_INFO.set('C3x60-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4925,7 +4925,7 @@ JOOBY_INFO.set('C3x60-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4943,7 +4943,7 @@ JOOBY_INFO.set('C3x60-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4961,7 +4961,7 @@ JOOBY_INFO.set('C3x60-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4979,7 +4979,7 @@ JOOBY_INFO.set('C3x60-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -4997,7 +4997,7 @@ JOOBY_INFO.set('C3x60-S6/SC-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5015,7 +5015,7 @@ JOOBY_INFO.set('C3x60-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5033,7 +5033,7 @@ JOOBY_INFO.set('C3x60-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5051,7 +5051,7 @@ JOOBY_INFO.set('C3x60-S6/SC-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5069,7 +5069,7 @@ JOOBY_INFO.set('C3x60-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5087,7 +5087,7 @@ JOOBY_INFO.set('C3x60-S6/T1-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5105,7 +5105,7 @@ JOOBY_INFO.set('C3x60-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5123,7 +5123,7 @@ JOOBY_INFO.set('C3x60-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5141,7 +5141,7 @@ JOOBY_INFO.set('C3x60-S6/T1-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5159,7 +5159,7 @@ JOOBY_INFO.set('C3x60-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5177,7 +5177,7 @@ JOOBY_INFO.set('C3x60-S6/T2-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5195,7 +5195,7 @@ JOOBY_INFO.set('C3x60-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5213,7 +5213,7 @@ JOOBY_INFO.set('C3x60-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5231,7 +5231,7 @@ JOOBY_INFO.set('C3x60-S6/T2-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5249,7 +5249,7 @@ JOOBY_INFO.set('C3x60-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5267,7 +5267,7 @@ JOOBY_INFO.set('C3x60-S6/T3-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5285,7 +5285,7 @@ JOOBY_INFO.set('C3x60-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5303,7 +5303,7 @@ JOOBY_INFO.set('C3x60-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5321,7 +5321,7 @@ JOOBY_INFO.set('C3x60-S6/T3-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5339,7 +5339,7 @@ JOOBY_INFO.set('C3x60-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5357,7 +5357,7 @@ JOOBY_INFO.set('C3x60-S6/T5s-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5375,7 +5375,7 @@ JOOBY_INFO.set('C3x60-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5393,7 +5393,7 @@ JOOBY_INFO.set('C3x60-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5411,7 +5411,7 @@ JOOBY_INFO.set('C3x60-S6/T5s-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5429,7 +5429,7 @@ JOOBY_INFO.set('C3x60-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5447,7 +5447,7 @@ JOOBY_INFO.set('C3x80-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5465,7 +5465,7 @@ JOOBY_INFO.set('C3x80-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5483,7 +5483,7 @@ JOOBY_INFO.set('C3x80-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5501,7 +5501,7 @@ JOOBY_INFO.set('C3x80-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5519,7 +5519,7 @@ JOOBY_INFO.set('C3x80-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5537,7 +5537,7 @@ JOOBY_INFO.set('C3x80-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5555,7 +5555,7 @@ JOOBY_INFO.set('C3x80-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5573,7 +5573,7 @@ JOOBY_INFO.set('C3x80-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5591,7 +5591,7 @@ JOOBY_INFO.set('C3x80-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5609,7 +5609,7 @@ JOOBY_INFO.set('C3x80-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5627,7 +5627,7 @@ JOOBY_INFO.set('C3x80-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5645,7 +5645,7 @@ JOOBY_INFO.set('C3x80-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5663,7 +5663,7 @@ JOOBY_INFO.set('C3x80-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5681,7 +5681,7 @@ JOOBY_INFO.set('C3x80-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5699,7 +5699,7 @@ JOOBY_INFO.set('C3x80-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х130 mm",
+    dim: "660х250х130",
     weight: "11,3",
     sailing: "0,135"
 });
@@ -5717,7 +5717,7 @@ JOOBY_INFO.set('C3x80-S6/SC-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5735,7 +5735,7 @@ JOOBY_INFO.set('C3x80-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5753,7 +5753,7 @@ JOOBY_INFO.set('C3x80-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5771,7 +5771,7 @@ JOOBY_INFO.set('C3x80-S6/SC-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5789,7 +5789,7 @@ JOOBY_INFO.set('C3x80-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5807,7 +5807,7 @@ JOOBY_INFO.set('C3x80-S6/T1-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5825,7 +5825,7 @@ JOOBY_INFO.set('C3x80-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5843,7 +5843,7 @@ JOOBY_INFO.set('C3x80-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5861,7 +5861,7 @@ JOOBY_INFO.set('C3x80-S6/T1-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5879,7 +5879,7 @@ JOOBY_INFO.set('C3x80-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5897,7 +5897,7 @@ JOOBY_INFO.set('C3x80-S6/T2-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5915,7 +5915,7 @@ JOOBY_INFO.set('C3x80-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5933,7 +5933,7 @@ JOOBY_INFO.set('C3x80-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5951,7 +5951,7 @@ JOOBY_INFO.set('C3x80-S6/T2-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5969,7 +5969,7 @@ JOOBY_INFO.set('C3x80-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -5987,7 +5987,7 @@ JOOBY_INFO.set('C3x80-S6/T3-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6005,7 +6005,7 @@ JOOBY_INFO.set('C3x80-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6023,7 +6023,7 @@ JOOBY_INFO.set('C3x80-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6041,7 +6041,7 @@ JOOBY_INFO.set('C3x80-S6/T3-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6059,7 +6059,7 @@ JOOBY_INFO.set('C3x80-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6077,7 +6077,7 @@ JOOBY_INFO.set('C3x80-S6/T5s-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6095,7 +6095,7 @@ JOOBY_INFO.set('C3x80-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6113,7 +6113,7 @@ JOOBY_INFO.set('C3x80-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6131,7 +6131,7 @@ JOOBY_INFO.set('C3x80-S6/T5s-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6149,7 +6149,7 @@ JOOBY_INFO.set('C3x80-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -6167,7 +6167,7 @@ JOOBY_INFO.set('C4x80-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6185,7 +6185,7 @@ JOOBY_INFO.set('C4x80-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6203,7 +6203,7 @@ JOOBY_INFO.set('C4x80-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6221,7 +6221,7 @@ JOOBY_INFO.set('C4x80-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6239,7 +6239,7 @@ JOOBY_INFO.set('C4x80-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6257,7 +6257,7 @@ JOOBY_INFO.set('C4x80-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6275,7 +6275,7 @@ JOOBY_INFO.set('C4x80-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6293,7 +6293,7 @@ JOOBY_INFO.set('C4x80-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6311,7 +6311,7 @@ JOOBY_INFO.set('C4x80-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6329,7 +6329,7 @@ JOOBY_INFO.set('C4x80-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6347,7 +6347,7 @@ JOOBY_INFO.set('C4x80-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6365,7 +6365,7 @@ JOOBY_INFO.set('C4x80-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6383,7 +6383,7 @@ JOOBY_INFO.set('C4x80-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6401,7 +6401,7 @@ JOOBY_INFO.set('C4x80-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6419,7 +6419,7 @@ JOOBY_INFO.set('C4x80-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х130 mm",
+    dim: "790х250х130",
     weight: "14,2",
     sailing: "0,167"
 });
@@ -6437,7 +6437,7 @@ JOOBY_INFO.set('C4x80-S6/SC-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6455,7 +6455,7 @@ JOOBY_INFO.set('C4x80-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6473,7 +6473,7 @@ JOOBY_INFO.set('C4x80-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6491,7 +6491,7 @@ JOOBY_INFO.set('C4x80-S6/SC-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6509,7 +6509,7 @@ JOOBY_INFO.set('C4x80-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6527,7 +6527,7 @@ JOOBY_INFO.set('C4x80-S6/T1-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6545,7 +6545,7 @@ JOOBY_INFO.set('C4x80-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6563,7 +6563,7 @@ JOOBY_INFO.set('C4x80-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6581,7 +6581,7 @@ JOOBY_INFO.set('C4x80-S6/T1-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6599,7 +6599,7 @@ JOOBY_INFO.set('C4x80-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6617,7 +6617,7 @@ JOOBY_INFO.set('C4x80-S6/T2-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6635,7 +6635,7 @@ JOOBY_INFO.set('C4x80-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6653,7 +6653,7 @@ JOOBY_INFO.set('C4x80-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6671,7 +6671,7 @@ JOOBY_INFO.set('C4x80-S6/T2-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6689,7 +6689,7 @@ JOOBY_INFO.set('C4x80-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6707,7 +6707,7 @@ JOOBY_INFO.set('C4x80-S6/T3-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6725,7 +6725,7 @@ JOOBY_INFO.set('C4x80-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6743,7 +6743,7 @@ JOOBY_INFO.set('C4x80-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6761,7 +6761,7 @@ JOOBY_INFO.set('C4x80-S6/T3-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6779,7 +6779,7 @@ JOOBY_INFO.set('C4x80-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6797,7 +6797,7 @@ JOOBY_INFO.set('C4x80-S6/T5s-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6815,7 +6815,7 @@ JOOBY_INFO.set('C4x80-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6833,7 +6833,7 @@ JOOBY_INFO.set('C4x80-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6851,7 +6851,7 @@ JOOBY_INFO.set('C4x80-S6/T5s-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6869,7 +6869,7 @@ JOOBY_INFO.set('C4x80-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -6887,7 +6887,7 @@ JOOBY_INFO.set('C5x80-S1-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6905,7 +6905,7 @@ JOOBY_INFO.set('C5x80-S1-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6923,7 +6923,7 @@ JOOBY_INFO.set('C5x80-S1-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6941,7 +6941,7 @@ JOOBY_INFO.set('C5x80-S1-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6959,7 +6959,7 @@ JOOBY_INFO.set('C5x80-S1-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6977,7 +6977,7 @@ JOOBY_INFO.set('C5x80-S2-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -6995,7 +6995,7 @@ JOOBY_INFO.set('C5x80-S2-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7013,7 +7013,7 @@ JOOBY_INFO.set('C5x80-S2-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7031,7 +7031,7 @@ JOOBY_INFO.set('C5x80-S2-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7049,7 +7049,7 @@ JOOBY_INFO.set('C5x80-S2-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7067,7 +7067,7 @@ JOOBY_INFO.set('C5x80-S3-3K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7085,7 +7085,7 @@ JOOBY_INFO.set('C5x80-S3-3K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7103,7 +7103,7 @@ JOOBY_INFO.set('C5x80-S3-4K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7121,7 +7121,7 @@ JOOBY_INFO.set('C5x80-S3-4K8L-Ci', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7139,7 +7139,7 @@ JOOBY_INFO.set('C5x80-S3-5K7H-Ci', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "17,1",
     sailing: "0,2"
 });
@@ -7157,7 +7157,7 @@ JOOBY_INFO.set('C5x80-S6/SC-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7175,7 +7175,7 @@ JOOBY_INFO.set('C5x80-S6/SC-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7193,7 +7193,7 @@ JOOBY_INFO.set('C5x80-S6/SC-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7211,7 +7211,7 @@ JOOBY_INFO.set('C5x80-S6/SC-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7229,7 +7229,7 @@ JOOBY_INFO.set('C5x80-S6/SC-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7247,7 +7247,7 @@ JOOBY_INFO.set('C5x80-S6/T1-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7265,7 +7265,7 @@ JOOBY_INFO.set('C5x80-S6/T1-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7283,7 +7283,7 @@ JOOBY_INFO.set('C5x80-S6/T1-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7301,7 +7301,7 @@ JOOBY_INFO.set('C5x80-S6/T1-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7319,7 +7319,7 @@ JOOBY_INFO.set('C5x80-S6/T1-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7337,7 +7337,7 @@ JOOBY_INFO.set('C5x80-S6/T2-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7355,7 +7355,7 @@ JOOBY_INFO.set('C5x80-S6/T2-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7373,7 +7373,7 @@ JOOBY_INFO.set('C5x80-S6/T2-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7391,7 +7391,7 @@ JOOBY_INFO.set('C5x80-S6/T2-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7409,7 +7409,7 @@ JOOBY_INFO.set('C5x80-S6/T2-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7427,7 +7427,7 @@ JOOBY_INFO.set('C5x80-S6/T3-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7445,7 +7445,7 @@ JOOBY_INFO.set('C5x80-S6/T3-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7463,7 +7463,7 @@ JOOBY_INFO.set('C5x80-S6/T3-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7481,7 +7481,7 @@ JOOBY_INFO.set('C5x80-S6/T3-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7499,7 +7499,7 @@ JOOBY_INFO.set('C5x80-S6/T3-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7517,7 +7517,7 @@ JOOBY_INFO.set('C5x80-S6/T5s-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7535,7 +7535,7 @@ JOOBY_INFO.set('C5x80-S6/T5s-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7553,7 +7553,7 @@ JOOBY_INFO.set('C5x80-S6/T5s-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7571,7 +7571,7 @@ JOOBY_INFO.set('C5x80-S6/T5s-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7589,7 +7589,7 @@ JOOBY_INFO.set('C5x80-S6/T5s-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -7607,7 +7607,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7625,7 +7625,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -7643,7 +7643,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -7661,7 +7661,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -7679,7 +7679,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7697,7 +7697,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -7715,7 +7715,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -7733,7 +7733,7 @@ JOOBY_INFO.set('S1x20-F1/120-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -7751,7 +7751,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7769,7 +7769,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -7787,7 +7787,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -7805,7 +7805,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -7823,7 +7823,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7841,7 +7841,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -7859,7 +7859,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -7877,7 +7877,7 @@ JOOBY_INFO.set('S1x20-F1/120-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -7895,7 +7895,7 @@ JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7913,7 +7913,7 @@ JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -7931,7 +7931,7 @@ JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -7949,7 +7949,7 @@ JOOBY_INFO.set('S1x20-F1/120-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -7967,7 +7967,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -7985,7 +7985,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8003,7 +8003,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8021,7 +8021,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8039,7 +8039,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8057,7 +8057,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8075,7 +8075,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8093,7 +8093,7 @@ JOOBY_INFO.set('S1x20-F1/45-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8111,7 +8111,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8129,7 +8129,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8147,7 +8147,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8165,7 +8165,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8183,7 +8183,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8201,7 +8201,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8219,7 +8219,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8237,7 +8237,7 @@ JOOBY_INFO.set('S1x20-F1/45-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8255,7 +8255,7 @@ JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8273,7 +8273,7 @@ JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8291,7 +8291,7 @@ JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8309,7 +8309,7 @@ JOOBY_INFO.set('S1x20-F1/45-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8327,7 +8327,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8345,7 +8345,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8363,7 +8363,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8381,7 +8381,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8399,7 +8399,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8417,7 +8417,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8435,7 +8435,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8453,7 +8453,7 @@ JOOBY_INFO.set('S1x20-F1/60-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8471,7 +8471,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8489,7 +8489,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8507,7 +8507,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8525,7 +8525,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8543,7 +8543,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8561,7 +8561,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8579,7 +8579,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8597,7 +8597,7 @@ JOOBY_INFO.set('S1x20-F1/60-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8615,7 +8615,7 @@ JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8633,7 +8633,7 @@ JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8651,7 +8651,7 @@ JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8669,7 +8669,7 @@ JOOBY_INFO.set('S1x20-F1/60-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8687,7 +8687,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8705,7 +8705,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8723,7 +8723,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8741,7 +8741,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8759,7 +8759,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8777,7 +8777,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8795,7 +8795,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8813,7 +8813,7 @@ JOOBY_INFO.set('S1x20-F1/90-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8831,7 +8831,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8849,7 +8849,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8867,7 +8867,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8885,7 +8885,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8903,7 +8903,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8921,7 +8921,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -8939,7 +8939,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -8957,7 +8957,7 @@ JOOBY_INFO.set('S1x20-F1/90-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -8975,7 +8975,7 @@ JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -8993,7 +8993,7 @@ JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9011,7 +9011,7 @@ JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9029,7 +9029,7 @@ JOOBY_INFO.set('S1x20-F1/90-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9047,7 +9047,7 @@ JOOBY_INFO.set('S1x20-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9065,7 +9065,7 @@ JOOBY_INFO.set('S1x20-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9083,7 +9083,7 @@ JOOBY_INFO.set('S1x20-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9101,7 +9101,7 @@ JOOBY_INFO.set('S1x20-S1-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9119,7 +9119,7 @@ JOOBY_INFO.set('S1x20-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9137,7 +9137,7 @@ JOOBY_INFO.set('S1x20-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9155,7 +9155,7 @@ JOOBY_INFO.set('S1x20-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9173,7 +9173,7 @@ JOOBY_INFO.set('S1x20-S1-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9191,7 +9191,7 @@ JOOBY_INFO.set('S1x20-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9209,7 +9209,7 @@ JOOBY_INFO.set('S1x20-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9227,7 +9227,7 @@ JOOBY_INFO.set('S1x20-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9245,7 +9245,7 @@ JOOBY_INFO.set('S1x20-S1-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9263,7 +9263,7 @@ JOOBY_INFO.set('S1x20-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9281,7 +9281,7 @@ JOOBY_INFO.set('S1x20-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9299,7 +9299,7 @@ JOOBY_INFO.set('S1x20-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9317,7 +9317,7 @@ JOOBY_INFO.set('S1x20-S1-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9335,7 +9335,7 @@ JOOBY_INFO.set('S1x20-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9353,7 +9353,7 @@ JOOBY_INFO.set('S1x20-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9371,7 +9371,7 @@ JOOBY_INFO.set('S1x20-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9389,7 +9389,7 @@ JOOBY_INFO.set('S1x20-S1-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9407,7 +9407,7 @@ JOOBY_INFO.set('S1x20-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9425,7 +9425,7 @@ JOOBY_INFO.set('S1x20-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9443,7 +9443,7 @@ JOOBY_INFO.set('S1x20-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9461,7 +9461,7 @@ JOOBY_INFO.set('S1x20-S2-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9479,7 +9479,7 @@ JOOBY_INFO.set('S1x20-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9497,7 +9497,7 @@ JOOBY_INFO.set('S1x20-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9515,7 +9515,7 @@ JOOBY_INFO.set('S1x20-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9533,7 +9533,7 @@ JOOBY_INFO.set('S1x20-S2-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9551,7 +9551,7 @@ JOOBY_INFO.set('S1x20-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9569,7 +9569,7 @@ JOOBY_INFO.set('S1x20-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9587,7 +9587,7 @@ JOOBY_INFO.set('S1x20-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9605,7 +9605,7 @@ JOOBY_INFO.set('S1x20-S2-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9623,7 +9623,7 @@ JOOBY_INFO.set('S1x20-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9641,7 +9641,7 @@ JOOBY_INFO.set('S1x20-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9659,7 +9659,7 @@ JOOBY_INFO.set('S1x20-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9677,7 +9677,7 @@ JOOBY_INFO.set('S1x20-S2-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9695,7 +9695,7 @@ JOOBY_INFO.set('S1x20-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9713,7 +9713,7 @@ JOOBY_INFO.set('S1x20-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9731,7 +9731,7 @@ JOOBY_INFO.set('S1x20-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9749,7 +9749,7 @@ JOOBY_INFO.set('S1x20-S2-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9767,7 +9767,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9785,7 +9785,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9803,7 +9803,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9821,7 +9821,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9839,7 +9839,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9857,7 +9857,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9875,7 +9875,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9893,7 +9893,7 @@ JOOBY_INFO.set('S1x30-F1/120-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9911,7 +9911,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -9929,7 +9929,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -9947,7 +9947,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -9965,7 +9965,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -9983,7 +9983,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10001,7 +10001,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10019,7 +10019,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10037,7 +10037,7 @@ JOOBY_INFO.set('S1x30-F1/120-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10055,7 +10055,7 @@ JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10073,7 +10073,7 @@ JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10091,7 +10091,7 @@ JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10109,7 +10109,7 @@ JOOBY_INFO.set('S1x30-F1/120-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10127,7 +10127,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10145,7 +10145,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10163,7 +10163,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10181,7 +10181,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10199,7 +10199,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10217,7 +10217,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10235,7 +10235,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10253,7 +10253,7 @@ JOOBY_INFO.set('S1x30-F1/45-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10271,7 +10271,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10289,7 +10289,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10307,7 +10307,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10325,7 +10325,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10343,7 +10343,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10361,7 +10361,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10379,7 +10379,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10397,7 +10397,7 @@ JOOBY_INFO.set('S1x30-F1/45-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10415,7 +10415,7 @@ JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10433,7 +10433,7 @@ JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10451,7 +10451,7 @@ JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10469,7 +10469,7 @@ JOOBY_INFO.set('S1x30-F1/45-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10487,7 +10487,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10505,7 +10505,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10523,7 +10523,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10541,7 +10541,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10559,7 +10559,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10577,7 +10577,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10595,7 +10595,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10613,7 +10613,7 @@ JOOBY_INFO.set('S1x30-F1/60-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10631,7 +10631,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10649,7 +10649,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10667,7 +10667,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10685,7 +10685,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10703,7 +10703,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10721,7 +10721,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10739,7 +10739,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10757,7 +10757,7 @@ JOOBY_INFO.set('S1x30-F1/60-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10775,7 +10775,7 @@ JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10793,7 +10793,7 @@ JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10811,7 +10811,7 @@ JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10829,7 +10829,7 @@ JOOBY_INFO.set('S1x30-F1/60-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10847,7 +10847,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10865,7 +10865,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10883,7 +10883,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10901,7 +10901,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10919,7 +10919,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -10937,7 +10937,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -10955,7 +10955,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -10973,7 +10973,7 @@ JOOBY_INFO.set('S1x30-F1/90-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -10991,7 +10991,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11009,7 +11009,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11027,7 +11027,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11045,7 +11045,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11063,7 +11063,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11081,7 +11081,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11099,7 +11099,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11117,7 +11117,7 @@ JOOBY_INFO.set('S1x30-F1/90-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11135,7 +11135,7 @@ JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11153,7 +11153,7 @@ JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11171,7 +11171,7 @@ JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11189,7 +11189,7 @@ JOOBY_INFO.set('S1x30-F1/90-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11207,7 +11207,7 @@ JOOBY_INFO.set('S1x30-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11225,7 +11225,7 @@ JOOBY_INFO.set('S1x30-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11243,7 +11243,7 @@ JOOBY_INFO.set('S1x30-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11261,7 +11261,7 @@ JOOBY_INFO.set('S1x30-S1-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11279,7 +11279,7 @@ JOOBY_INFO.set('S1x30-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11297,7 +11297,7 @@ JOOBY_INFO.set('S1x30-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11315,7 +11315,7 @@ JOOBY_INFO.set('S1x30-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11333,7 +11333,7 @@ JOOBY_INFO.set('S1x30-S1-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11351,7 +11351,7 @@ JOOBY_INFO.set('S1x30-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11369,7 +11369,7 @@ JOOBY_INFO.set('S1x30-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11387,7 +11387,7 @@ JOOBY_INFO.set('S1x30-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11405,7 +11405,7 @@ JOOBY_INFO.set('S1x30-S1-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11423,7 +11423,7 @@ JOOBY_INFO.set('S1x30-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11441,7 +11441,7 @@ JOOBY_INFO.set('S1x30-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11459,7 +11459,7 @@ JOOBY_INFO.set('S1x30-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11477,7 +11477,7 @@ JOOBY_INFO.set('S1x30-S1-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11495,7 +11495,7 @@ JOOBY_INFO.set('S1x30-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11513,7 +11513,7 @@ JOOBY_INFO.set('S1x30-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11531,7 +11531,7 @@ JOOBY_INFO.set('S1x30-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11549,7 +11549,7 @@ JOOBY_INFO.set('S1x30-S1-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11567,7 +11567,7 @@ JOOBY_INFO.set('S1x30-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11585,7 +11585,7 @@ JOOBY_INFO.set('S1x30-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11603,7 +11603,7 @@ JOOBY_INFO.set('S1x30-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11621,7 +11621,7 @@ JOOBY_INFO.set('S1x30-S2-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11639,7 +11639,7 @@ JOOBY_INFO.set('S1x30-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11657,7 +11657,7 @@ JOOBY_INFO.set('S1x30-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11675,7 +11675,7 @@ JOOBY_INFO.set('S1x30-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11693,7 +11693,7 @@ JOOBY_INFO.set('S1x30-S2-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11711,7 +11711,7 @@ JOOBY_INFO.set('S1x30-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11729,7 +11729,7 @@ JOOBY_INFO.set('S1x30-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11747,7 +11747,7 @@ JOOBY_INFO.set('S1x30-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11765,7 +11765,7 @@ JOOBY_INFO.set('S1x30-S2-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11783,7 +11783,7 @@ JOOBY_INFO.set('S1x30-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11801,7 +11801,7 @@ JOOBY_INFO.set('S1x30-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11819,7 +11819,7 @@ JOOBY_INFO.set('S1x30-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11837,7 +11837,7 @@ JOOBY_INFO.set('S1x30-S2-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11855,7 +11855,7 @@ JOOBY_INFO.set('S1x30-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11873,7 +11873,7 @@ JOOBY_INFO.set('S1x30-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11891,7 +11891,7 @@ JOOBY_INFO.set('S1x30-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11909,7 +11909,7 @@ JOOBY_INFO.set('S1x30-S2-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11927,7 +11927,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -11945,7 +11945,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -11963,7 +11963,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -11981,7 +11981,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -11999,7 +11999,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12017,7 +12017,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12035,7 +12035,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12053,7 +12053,7 @@ JOOBY_INFO.set('S1x40-F1/120-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12071,7 +12071,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12089,7 +12089,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12107,7 +12107,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12125,7 +12125,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12143,7 +12143,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12161,7 +12161,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12179,7 +12179,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12197,7 +12197,7 @@ JOOBY_INFO.set('S1x40-F1/120-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12215,7 +12215,7 @@ JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12233,7 +12233,7 @@ JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12251,7 +12251,7 @@ JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12269,7 +12269,7 @@ JOOBY_INFO.set('S1x40-F1/120-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12287,7 +12287,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12305,7 +12305,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12323,7 +12323,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12341,7 +12341,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12359,7 +12359,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12377,7 +12377,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12395,7 +12395,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12413,7 +12413,7 @@ JOOBY_INFO.set('S1x40-F1/45-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12431,7 +12431,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12449,7 +12449,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12467,7 +12467,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12485,7 +12485,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12503,7 +12503,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12521,7 +12521,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12539,7 +12539,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12557,7 +12557,7 @@ JOOBY_INFO.set('S1x40-F1/45-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12575,7 +12575,7 @@ JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12593,7 +12593,7 @@ JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12611,7 +12611,7 @@ JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12629,7 +12629,7 @@ JOOBY_INFO.set('S1x40-F1/45-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12647,7 +12647,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12665,7 +12665,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12683,7 +12683,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12701,7 +12701,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12719,7 +12719,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12737,7 +12737,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12755,7 +12755,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12773,7 +12773,7 @@ JOOBY_INFO.set('S1x40-F1/60-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12791,7 +12791,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12809,7 +12809,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12827,7 +12827,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12845,7 +12845,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12863,7 +12863,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12881,7 +12881,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12899,7 +12899,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12917,7 +12917,7 @@ JOOBY_INFO.set('S1x40-F1/60-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -12935,7 +12935,7 @@ JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -12953,7 +12953,7 @@ JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -12971,7 +12971,7 @@ JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -12989,7 +12989,7 @@ JOOBY_INFO.set('S1x40-F1/60-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13007,7 +13007,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13025,7 +13025,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -13043,7 +13043,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -13061,7 +13061,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13079,7 +13079,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13097,7 +13097,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -13115,7 +13115,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -13133,7 +13133,7 @@ JOOBY_INFO.set('S1x40-F1/90-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13151,7 +13151,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13169,7 +13169,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -13187,7 +13187,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -13205,7 +13205,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13223,7 +13223,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13241,7 +13241,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -13259,7 +13259,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -13277,7 +13277,7 @@ JOOBY_INFO.set('S1x40-F1/90-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13295,7 +13295,7 @@ JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13313,7 +13313,7 @@ JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -13331,7 +13331,7 @@ JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -13349,7 +13349,7 @@ JOOBY_INFO.set('S1x40-F1/90-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -13367,7 +13367,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13385,7 +13385,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13403,7 +13403,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13421,7 +13421,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13439,7 +13439,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13457,7 +13457,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13475,7 +13475,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13493,7 +13493,7 @@ JOOBY_INFO.set('S1x40-F6/30-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13511,7 +13511,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13529,7 +13529,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13547,7 +13547,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13565,7 +13565,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13583,7 +13583,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13601,7 +13601,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13619,7 +13619,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13637,7 +13637,7 @@ JOOBY_INFO.set('S1x40-F6/30-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13655,7 +13655,7 @@ JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13673,7 +13673,7 @@ JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13691,7 +13691,7 @@ JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13709,7 +13709,7 @@ JOOBY_INFO.set('S1x40-F6/30-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13727,7 +13727,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13745,7 +13745,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13763,7 +13763,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13781,7 +13781,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13799,7 +13799,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13817,7 +13817,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13835,7 +13835,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13853,7 +13853,7 @@ JOOBY_INFO.set('S1x40-F6/65-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13871,7 +13871,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13889,7 +13889,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13907,7 +13907,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13925,7 +13925,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -13943,7 +13943,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -13961,7 +13961,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -13979,7 +13979,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -13997,7 +13997,7 @@ JOOBY_INFO.set('S1x40-F6/65-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14015,7 +14015,7 @@ JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14033,7 +14033,7 @@ JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14051,7 +14051,7 @@ JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14069,7 +14069,7 @@ JOOBY_INFO.set('S1x40-F6/65-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14087,7 +14087,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14105,7 +14105,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14123,7 +14123,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14141,7 +14141,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14159,7 +14159,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14177,7 +14177,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14195,7 +14195,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14213,7 +14213,7 @@ JOOBY_INFO.set('S1x40-F6/90-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14231,7 +14231,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14249,7 +14249,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14267,7 +14267,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14285,7 +14285,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14303,7 +14303,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14321,7 +14321,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14339,7 +14339,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14357,7 +14357,7 @@ JOOBY_INFO.set('S1x40-F6/90-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14375,7 +14375,7 @@ JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -14393,7 +14393,7 @@ JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -14411,7 +14411,7 @@ JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14429,7 +14429,7 @@ JOOBY_INFO.set('S1x40-F6/90-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -14447,7 +14447,7 @@ JOOBY_INFO.set('S1x40-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14465,7 +14465,7 @@ JOOBY_INFO.set('S1x40-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14483,7 +14483,7 @@ JOOBY_INFO.set('S1x40-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14501,7 +14501,7 @@ JOOBY_INFO.set('S1x40-S1-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14519,7 +14519,7 @@ JOOBY_INFO.set('S1x40-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14537,7 +14537,7 @@ JOOBY_INFO.set('S1x40-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14555,7 +14555,7 @@ JOOBY_INFO.set('S1x40-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14573,7 +14573,7 @@ JOOBY_INFO.set('S1x40-S1-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14591,7 +14591,7 @@ JOOBY_INFO.set('S1x40-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14609,7 +14609,7 @@ JOOBY_INFO.set('S1x40-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14627,7 +14627,7 @@ JOOBY_INFO.set('S1x40-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14645,7 +14645,7 @@ JOOBY_INFO.set('S1x40-S1-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14663,7 +14663,7 @@ JOOBY_INFO.set('S1x40-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14681,7 +14681,7 @@ JOOBY_INFO.set('S1x40-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14699,7 +14699,7 @@ JOOBY_INFO.set('S1x40-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14717,7 +14717,7 @@ JOOBY_INFO.set('S1x40-S1-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14735,7 +14735,7 @@ JOOBY_INFO.set('S1x40-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14753,7 +14753,7 @@ JOOBY_INFO.set('S1x40-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14771,7 +14771,7 @@ JOOBY_INFO.set('S1x40-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14789,7 +14789,7 @@ JOOBY_INFO.set('S1x40-S1-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14807,7 +14807,7 @@ JOOBY_INFO.set('S1x40-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14825,7 +14825,7 @@ JOOBY_INFO.set('S1x40-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14843,7 +14843,7 @@ JOOBY_INFO.set('S1x40-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14861,7 +14861,7 @@ JOOBY_INFO.set('S1x40-S2-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14879,7 +14879,7 @@ JOOBY_INFO.set('S1x40-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14897,7 +14897,7 @@ JOOBY_INFO.set('S1x40-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14915,7 +14915,7 @@ JOOBY_INFO.set('S1x40-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -14933,7 +14933,7 @@ JOOBY_INFO.set('S1x40-S2-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -14951,7 +14951,7 @@ JOOBY_INFO.set('S1x40-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -14969,7 +14969,7 @@ JOOBY_INFO.set('S1x40-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -14987,7 +14987,7 @@ JOOBY_INFO.set('S1x40-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -15005,7 +15005,7 @@ JOOBY_INFO.set('S1x40-S2-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -15023,7 +15023,7 @@ JOOBY_INFO.set('S1x40-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15041,7 +15041,7 @@ JOOBY_INFO.set('S1x40-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -15059,7 +15059,7 @@ JOOBY_INFO.set('S1x40-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -15077,7 +15077,7 @@ JOOBY_INFO.set('S1x40-S2-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -15095,7 +15095,7 @@ JOOBY_INFO.set('S1x40-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15113,7 +15113,7 @@ JOOBY_INFO.set('S1x40-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -15131,7 +15131,7 @@ JOOBY_INFO.set('S1x40-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -15149,7 +15149,7 @@ JOOBY_INFO.set('S1x40-S2-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -15167,7 +15167,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15185,7 +15185,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15203,7 +15203,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15221,7 +15221,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15239,7 +15239,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15257,7 +15257,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15275,7 +15275,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15293,7 +15293,7 @@ JOOBY_INFO.set('S1x40-S6/T1-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15311,7 +15311,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15329,7 +15329,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15347,7 +15347,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15365,7 +15365,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15383,7 +15383,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15401,7 +15401,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15419,7 +15419,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15437,7 +15437,7 @@ JOOBY_INFO.set('S1x40-S6/T1-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15455,7 +15455,7 @@ JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15473,7 +15473,7 @@ JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15491,7 +15491,7 @@ JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15509,7 +15509,7 @@ JOOBY_INFO.set('S1x40-S6/T1-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15527,7 +15527,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15545,7 +15545,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15563,7 +15563,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15581,7 +15581,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15599,7 +15599,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15617,7 +15617,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15635,7 +15635,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15653,7 +15653,7 @@ JOOBY_INFO.set('S1x40-S6/T2-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15671,7 +15671,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15689,7 +15689,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15707,7 +15707,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15725,7 +15725,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15743,7 +15743,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15761,7 +15761,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15779,7 +15779,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15797,7 +15797,7 @@ JOOBY_INFO.set('S1x40-S6/T2-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15815,7 +15815,7 @@ JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15833,7 +15833,7 @@ JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15851,7 +15851,7 @@ JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15869,7 +15869,7 @@ JOOBY_INFO.set('S1x40-S6/T2-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15887,7 +15887,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15905,7 +15905,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15923,7 +15923,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -15941,7 +15941,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -15959,7 +15959,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -15977,7 +15977,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -15995,7 +15995,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16013,7 +16013,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -16031,7 +16031,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -16049,7 +16049,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -16067,7 +16067,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16085,7 +16085,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -16103,7 +16103,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -16121,7 +16121,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -16139,7 +16139,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16157,7 +16157,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -16175,7 +16175,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -16193,7 +16193,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -16211,7 +16211,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16229,7 +16229,7 @@ JOOBY_INFO.set('S1x40-S6/T5s-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -16247,7 +16247,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16265,7 +16265,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16283,7 +16283,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16301,7 +16301,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16319,7 +16319,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16337,7 +16337,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16355,7 +16355,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16373,7 +16373,7 @@ JOOBY_INFO.set('S1x60-F1/120-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16391,7 +16391,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16409,7 +16409,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16427,7 +16427,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16445,7 +16445,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16463,7 +16463,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16481,7 +16481,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16499,7 +16499,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16517,7 +16517,7 @@ JOOBY_INFO.set('S1x60-F1/120-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16535,7 +16535,7 @@ JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16553,7 +16553,7 @@ JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16571,7 +16571,7 @@ JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16589,7 +16589,7 @@ JOOBY_INFO.set('S1x60-F1/120-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16607,7 +16607,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16625,7 +16625,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16643,7 +16643,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16661,7 +16661,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16679,7 +16679,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16697,7 +16697,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16715,7 +16715,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16733,7 +16733,7 @@ JOOBY_INFO.set('S1x60-F1/45-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16751,7 +16751,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16769,7 +16769,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16787,7 +16787,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16805,7 +16805,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16823,7 +16823,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16841,7 +16841,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16859,7 +16859,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16877,7 +16877,7 @@ JOOBY_INFO.set('S1x60-F1/45-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16895,7 +16895,7 @@ JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16913,7 +16913,7 @@ JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -16931,7 +16931,7 @@ JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -16949,7 +16949,7 @@ JOOBY_INFO.set('S1x60-F1/45-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -16967,7 +16967,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -16985,7 +16985,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17003,7 +17003,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17021,7 +17021,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17039,7 +17039,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17057,7 +17057,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17075,7 +17075,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17093,7 +17093,7 @@ JOOBY_INFO.set('S1x60-F1/60-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17111,7 +17111,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17129,7 +17129,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17147,7 +17147,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17165,7 +17165,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17183,7 +17183,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17201,7 +17201,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17219,7 +17219,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17237,7 +17237,7 @@ JOOBY_INFO.set('S1x60-F1/60-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17255,7 +17255,7 @@ JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17273,7 +17273,7 @@ JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17291,7 +17291,7 @@ JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17309,7 +17309,7 @@ JOOBY_INFO.set('S1x60-F1/60-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17327,7 +17327,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17345,7 +17345,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17363,7 +17363,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17381,7 +17381,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17399,7 +17399,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17417,7 +17417,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17435,7 +17435,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17453,7 +17453,7 @@ JOOBY_INFO.set('S1x60-F1/90-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17471,7 +17471,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17489,7 +17489,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17507,7 +17507,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17525,7 +17525,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17543,7 +17543,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17561,7 +17561,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17579,7 +17579,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17597,7 +17597,7 @@ JOOBY_INFO.set('S1x60-F1/90-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17615,7 +17615,7 @@ JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17633,7 +17633,7 @@ JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -17651,7 +17651,7 @@ JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -17669,7 +17669,7 @@ JOOBY_INFO.set('S1x60-F1/90-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -17687,7 +17687,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -17705,7 +17705,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -17723,7 +17723,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17741,7 +17741,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -17759,7 +17759,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -17777,7 +17777,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -17795,7 +17795,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17813,7 +17813,7 @@ JOOBY_INFO.set('S1x60-F6/30-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -17831,7 +17831,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -17849,7 +17849,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -17867,7 +17867,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17885,7 +17885,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -17903,7 +17903,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -17921,7 +17921,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -17939,7 +17939,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -17957,7 +17957,7 @@ JOOBY_INFO.set('S1x60-F6/30-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -17975,7 +17975,7 @@ JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -17993,7 +17993,7 @@ JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18011,7 +18011,7 @@ JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18029,7 +18029,7 @@ JOOBY_INFO.set('S1x60-F6/30-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18047,7 +18047,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18065,7 +18065,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18083,7 +18083,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18101,7 +18101,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18119,7 +18119,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18137,7 +18137,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18155,7 +18155,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18173,7 +18173,7 @@ JOOBY_INFO.set('S1x60-F6/65-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18191,7 +18191,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18209,7 +18209,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18227,7 +18227,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18245,7 +18245,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18263,7 +18263,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18281,7 +18281,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18299,7 +18299,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18317,7 +18317,7 @@ JOOBY_INFO.set('S1x60-F6/65-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18335,7 +18335,7 @@ JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18353,7 +18353,7 @@ JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18371,7 +18371,7 @@ JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18389,7 +18389,7 @@ JOOBY_INFO.set('S1x60-F6/65-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18407,7 +18407,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18425,7 +18425,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18443,7 +18443,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18461,7 +18461,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18479,7 +18479,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18497,7 +18497,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18515,7 +18515,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18533,7 +18533,7 @@ JOOBY_INFO.set('S1x60-F6/90-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18551,7 +18551,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18569,7 +18569,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18587,7 +18587,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18605,7 +18605,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18623,7 +18623,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18641,7 +18641,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18659,7 +18659,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18677,7 +18677,7 @@ JOOBY_INFO.set('S1x60-F6/90-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18695,7 +18695,7 @@ JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18713,7 +18713,7 @@ JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18731,7 +18731,7 @@ JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18749,7 +18749,7 @@ JOOBY_INFO.set('S1x60-F6/90-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18767,7 +18767,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18785,7 +18785,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18803,7 +18803,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18821,7 +18821,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K7S-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18839,7 +18839,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18857,7 +18857,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18875,7 +18875,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18893,7 +18893,7 @@ JOOBY_INFO.set('S1x60-F7/115d-3K8T-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18911,7 +18911,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -18929,7 +18929,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -18947,7 +18947,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -18965,7 +18965,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K7S-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -18983,7 +18983,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19001,7 +19001,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19019,7 +19019,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19037,7 +19037,7 @@ JOOBY_INFO.set('S1x60-F7/115d-4K8I-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19055,7 +19055,7 @@ JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19073,7 +19073,7 @@ JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19091,7 +19091,7 @@ JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19109,7 +19109,7 @@ JOOBY_INFO.set('S1x60-F7/115d-5K7S-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19127,7 +19127,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19145,7 +19145,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19163,7 +19163,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19181,7 +19181,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19199,7 +19199,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19217,7 +19217,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19235,7 +19235,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19253,7 +19253,7 @@ JOOBY_INFO.set('S1x60-F7/125-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19271,7 +19271,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19289,7 +19289,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19307,7 +19307,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19325,7 +19325,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19343,7 +19343,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19361,7 +19361,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19379,7 +19379,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19397,7 +19397,7 @@ JOOBY_INFO.set('S1x60-F7/125-4K8L-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19415,7 +19415,7 @@ JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19433,7 +19433,7 @@ JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19451,7 +19451,7 @@ JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19469,7 +19469,7 @@ JOOBY_INFO.set('S1x60-F7/125-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19487,7 +19487,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19505,7 +19505,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19523,7 +19523,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19541,7 +19541,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19559,7 +19559,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19577,7 +19577,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19595,7 +19595,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19613,7 +19613,7 @@ JOOBY_INFO.set('S1x60-F7/18-3K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19631,7 +19631,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19649,7 +19649,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19667,7 +19667,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19685,7 +19685,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19703,7 +19703,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19721,7 +19721,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19739,7 +19739,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19757,7 +19757,7 @@ JOOBY_INFO.set('S1x60-F7/1840-3K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19775,7 +19775,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19793,7 +19793,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19811,7 +19811,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19829,7 +19829,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19847,7 +19847,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19865,7 +19865,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19883,7 +19883,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19901,7 +19901,7 @@ JOOBY_INFO.set('S1x60-F7/1840-4K8M-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19919,7 +19919,7 @@ JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -19937,7 +19937,7 @@ JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -19955,7 +19955,7 @@ JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -19973,7 +19973,7 @@ JOOBY_INFO.set('S1x60-F7/1840-5K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -19991,7 +19991,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20009,7 +20009,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20027,7 +20027,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20045,7 +20045,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20063,7 +20063,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20081,7 +20081,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20099,7 +20099,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20117,7 +20117,7 @@ JOOBY_INFO.set('S1x60-F7/18-4K8M-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20135,7 +20135,7 @@ JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20153,7 +20153,7 @@ JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20171,7 +20171,7 @@ JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20189,7 +20189,7 @@ JOOBY_INFO.set('S1x60-F7/18-5K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20207,7 +20207,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20225,7 +20225,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20243,7 +20243,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20261,7 +20261,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20279,7 +20279,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20297,7 +20297,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20315,7 +20315,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20333,7 +20333,7 @@ JOOBY_INFO.set('S1x60-F7/22-3K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20351,7 +20351,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20369,7 +20369,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20387,7 +20387,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20405,7 +20405,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20423,7 +20423,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20441,7 +20441,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20459,7 +20459,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20477,7 +20477,7 @@ JOOBY_INFO.set('S1x60-F7/22-4K8M-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20495,7 +20495,7 @@ JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20513,7 +20513,7 @@ JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20531,7 +20531,7 @@ JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20549,7 +20549,7 @@ JOOBY_INFO.set('S1x60-F7/22-5K7H-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20567,7 +20567,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20585,7 +20585,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20603,7 +20603,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20621,7 +20621,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20639,7 +20639,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20657,7 +20657,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20675,7 +20675,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20693,7 +20693,7 @@ JOOBY_INFO.set('S1x60-F7/30-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20711,7 +20711,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20729,7 +20729,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20747,7 +20747,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20765,7 +20765,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20783,7 +20783,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20801,7 +20801,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20819,7 +20819,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20837,7 +20837,7 @@ JOOBY_INFO.set('S1x60-F7/30-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20855,7 +20855,7 @@ JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20873,7 +20873,7 @@ JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20891,7 +20891,7 @@ JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20909,7 +20909,7 @@ JOOBY_INFO.set('S1x60-F7/30-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20927,7 +20927,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -20945,7 +20945,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -20963,7 +20963,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -20981,7 +20981,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -20999,7 +20999,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -21017,7 +21017,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -21035,7 +21035,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21053,7 +21053,7 @@ JOOBY_INFO.set('S1x60-F7/45-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -21071,7 +21071,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -21089,7 +21089,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -21107,7 +21107,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21125,7 +21125,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -21143,7 +21143,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -21161,7 +21161,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -21179,7 +21179,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21197,7 +21197,7 @@ JOOBY_INFO.set('S1x60-F7/45-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -21215,7 +21215,7 @@ JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -21233,7 +21233,7 @@ JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -21251,7 +21251,7 @@ JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21269,7 +21269,7 @@ JOOBY_INFO.set('S1x60-F7/45-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -21287,7 +21287,7 @@ JOOBY_INFO.set('S1x60-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21305,7 +21305,7 @@ JOOBY_INFO.set('S1x60-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21323,7 +21323,7 @@ JOOBY_INFO.set('S1x60-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21341,7 +21341,7 @@ JOOBY_INFO.set('S1x60-S1-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21359,7 +21359,7 @@ JOOBY_INFO.set('S1x60-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21377,7 +21377,7 @@ JOOBY_INFO.set('S1x60-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21395,7 +21395,7 @@ JOOBY_INFO.set('S1x60-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21413,7 +21413,7 @@ JOOBY_INFO.set('S1x60-S1-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21431,7 +21431,7 @@ JOOBY_INFO.set('S1x60-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21449,7 +21449,7 @@ JOOBY_INFO.set('S1x60-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21467,7 +21467,7 @@ JOOBY_INFO.set('S1x60-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21485,7 +21485,7 @@ JOOBY_INFO.set('S1x60-S1-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21503,7 +21503,7 @@ JOOBY_INFO.set('S1x60-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21521,7 +21521,7 @@ JOOBY_INFO.set('S1x60-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21539,7 +21539,7 @@ JOOBY_INFO.set('S1x60-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21557,7 +21557,7 @@ JOOBY_INFO.set('S1x60-S1-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21575,7 +21575,7 @@ JOOBY_INFO.set('S1x60-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21593,7 +21593,7 @@ JOOBY_INFO.set('S1x60-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21611,7 +21611,7 @@ JOOBY_INFO.set('S1x60-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21629,7 +21629,7 @@ JOOBY_INFO.set('S1x60-S1-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21647,7 +21647,7 @@ JOOBY_INFO.set('S1x60-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21665,7 +21665,7 @@ JOOBY_INFO.set('S1x60-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21683,7 +21683,7 @@ JOOBY_INFO.set('S1x60-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21701,7 +21701,7 @@ JOOBY_INFO.set('S1x60-S2-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21719,7 +21719,7 @@ JOOBY_INFO.set('S1x60-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21737,7 +21737,7 @@ JOOBY_INFO.set('S1x60-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21755,7 +21755,7 @@ JOOBY_INFO.set('S1x60-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21773,7 +21773,7 @@ JOOBY_INFO.set('S1x60-S2-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21791,7 +21791,7 @@ JOOBY_INFO.set('S1x60-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21809,7 +21809,7 @@ JOOBY_INFO.set('S1x60-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21827,7 +21827,7 @@ JOOBY_INFO.set('S1x60-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21845,7 +21845,7 @@ JOOBY_INFO.set('S1x60-S2-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21863,7 +21863,7 @@ JOOBY_INFO.set('S1x60-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21881,7 +21881,7 @@ JOOBY_INFO.set('S1x60-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21899,7 +21899,7 @@ JOOBY_INFO.set('S1x60-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21917,7 +21917,7 @@ JOOBY_INFO.set('S1x60-S2-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -21935,7 +21935,7 @@ JOOBY_INFO.set('S1x60-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -21953,7 +21953,7 @@ JOOBY_INFO.set('S1x60-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -21971,7 +21971,7 @@ JOOBY_INFO.set('S1x60-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -21989,7 +21989,7 @@ JOOBY_INFO.set('S1x60-S2-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -22007,7 +22007,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22025,7 +22025,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22043,7 +22043,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22061,7 +22061,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22079,7 +22079,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22097,7 +22097,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22115,7 +22115,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22133,7 +22133,7 @@ JOOBY_INFO.set('S1x60-S6/T1-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22151,7 +22151,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22169,7 +22169,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22187,7 +22187,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22205,7 +22205,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22223,7 +22223,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22241,7 +22241,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22259,7 +22259,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22277,7 +22277,7 @@ JOOBY_INFO.set('S1x60-S6/T1-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22295,7 +22295,7 @@ JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22313,7 +22313,7 @@ JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22331,7 +22331,7 @@ JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22349,7 +22349,7 @@ JOOBY_INFO.set('S1x60-S6/T1-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22367,7 +22367,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22385,7 +22385,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22403,7 +22403,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22421,7 +22421,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22439,7 +22439,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22457,7 +22457,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22475,7 +22475,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22493,7 +22493,7 @@ JOOBY_INFO.set('S1x60-S6/T2-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22511,7 +22511,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22529,7 +22529,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22547,7 +22547,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22565,7 +22565,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22583,7 +22583,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22601,7 +22601,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22619,7 +22619,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22637,7 +22637,7 @@ JOOBY_INFO.set('S1x60-S6/T2-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22655,7 +22655,7 @@ JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22673,7 +22673,7 @@ JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22691,7 +22691,7 @@ JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22709,7 +22709,7 @@ JOOBY_INFO.set('S1x60-S6/T2-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22727,7 +22727,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22745,7 +22745,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22763,7 +22763,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22781,7 +22781,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22799,7 +22799,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22817,7 +22817,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22835,7 +22835,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22853,7 +22853,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22871,7 +22871,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22889,7 +22889,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22907,7 +22907,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22925,7 +22925,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -22943,7 +22943,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -22961,7 +22961,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -22979,7 +22979,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -22997,7 +22997,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -23015,7 +23015,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -23033,7 +23033,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -23051,7 +23051,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23069,7 +23069,7 @@ JOOBY_INFO.set('S1x60-S6/T5s-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -23087,7 +23087,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23105,7 +23105,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23123,7 +23123,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23141,7 +23141,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23159,7 +23159,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23177,7 +23177,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23195,7 +23195,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23213,7 +23213,7 @@ JOOBY_INFO.set('S1x80-F1/120-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23231,7 +23231,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23249,7 +23249,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23267,7 +23267,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23285,7 +23285,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23303,7 +23303,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23321,7 +23321,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23339,7 +23339,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23357,7 +23357,7 @@ JOOBY_INFO.set('S1x80-F1/120-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23375,7 +23375,7 @@ JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23393,7 +23393,7 @@ JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23411,7 +23411,7 @@ JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23429,7 +23429,7 @@ JOOBY_INFO.set('S1x80-F1/120-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23447,7 +23447,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23465,7 +23465,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23483,7 +23483,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23501,7 +23501,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23519,7 +23519,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23537,7 +23537,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23555,7 +23555,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23573,7 +23573,7 @@ JOOBY_INFO.set('S1x80-F1/45-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23591,7 +23591,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23609,7 +23609,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23627,7 +23627,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23645,7 +23645,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23663,7 +23663,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23681,7 +23681,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23699,7 +23699,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23717,7 +23717,7 @@ JOOBY_INFO.set('S1x80-F1/45-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23735,7 +23735,7 @@ JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23753,7 +23753,7 @@ JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23771,7 +23771,7 @@ JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23789,7 +23789,7 @@ JOOBY_INFO.set('S1x80-F1/45-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23807,7 +23807,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23825,7 +23825,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23843,7 +23843,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23861,7 +23861,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K7L-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23879,7 +23879,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23897,7 +23897,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23915,7 +23915,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -23933,7 +23933,7 @@ JOOBY_INFO.set('S1x80-F1/60-3K8M-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -23951,7 +23951,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -23969,7 +23969,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -23987,7 +23987,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24005,7 +24005,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24023,7 +24023,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24041,7 +24041,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24059,7 +24059,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24077,7 +24077,7 @@ JOOBY_INFO.set('S1x80-F1/60-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24095,7 +24095,7 @@ JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24113,7 +24113,7 @@ JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24131,7 +24131,7 @@ JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24149,7 +24149,7 @@ JOOBY_INFO.set('S1x80-F1/60-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24167,7 +24167,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24185,7 +24185,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24203,7 +24203,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24221,7 +24221,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24239,7 +24239,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24257,7 +24257,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24275,7 +24275,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24293,7 +24293,7 @@ JOOBY_INFO.set('S1x80-F1/90-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24311,7 +24311,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24329,7 +24329,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24347,7 +24347,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24365,7 +24365,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24383,7 +24383,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24401,7 +24401,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24419,7 +24419,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24437,7 +24437,7 @@ JOOBY_INFO.set('S1x80-F1/90-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24455,7 +24455,7 @@ JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24473,7 +24473,7 @@ JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -24491,7 +24491,7 @@ JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -24509,7 +24509,7 @@ JOOBY_INFO.set('S1x80-F1/90-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -24527,7 +24527,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24545,7 +24545,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24563,7 +24563,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24581,7 +24581,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24599,7 +24599,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24617,7 +24617,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24635,7 +24635,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24653,7 +24653,7 @@ JOOBY_INFO.set('S1x80-F6/30-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24671,7 +24671,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24689,7 +24689,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24707,7 +24707,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24725,7 +24725,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24743,7 +24743,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24761,7 +24761,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24779,7 +24779,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24797,7 +24797,7 @@ JOOBY_INFO.set('S1x80-F6/30-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24815,7 +24815,7 @@ JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24833,7 +24833,7 @@ JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24851,7 +24851,7 @@ JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24869,7 +24869,7 @@ JOOBY_INFO.set('S1x80-F6/30-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24887,7 +24887,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24905,7 +24905,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24923,7 +24923,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -24941,7 +24941,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -24959,7 +24959,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -24977,7 +24977,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -24995,7 +24995,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25013,7 +25013,7 @@ JOOBY_INFO.set('S1x80-F6/65-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25031,7 +25031,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25049,7 +25049,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25067,7 +25067,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25085,7 +25085,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25103,7 +25103,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25121,7 +25121,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25139,7 +25139,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25157,7 +25157,7 @@ JOOBY_INFO.set('S1x80-F6/65-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25175,7 +25175,7 @@ JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25193,7 +25193,7 @@ JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25211,7 +25211,7 @@ JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25229,7 +25229,7 @@ JOOBY_INFO.set('S1x80-F6/65-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25247,7 +25247,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25265,7 +25265,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25283,7 +25283,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25301,7 +25301,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25319,7 +25319,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25337,7 +25337,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25355,7 +25355,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25373,7 +25373,7 @@ JOOBY_INFO.set('S1x80-F6/90-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25391,7 +25391,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25409,7 +25409,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25427,7 +25427,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25445,7 +25445,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25463,7 +25463,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25481,7 +25481,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25499,7 +25499,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25517,7 +25517,7 @@ JOOBY_INFO.set('S1x80-F6/90-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25535,7 +25535,7 @@ JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25553,7 +25553,7 @@ JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25571,7 +25571,7 @@ JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25589,7 +25589,7 @@ JOOBY_INFO.set('S1x80-F6/90-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25607,7 +25607,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25625,7 +25625,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25643,7 +25643,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25661,7 +25661,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K7I-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25679,7 +25679,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25697,7 +25697,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25715,7 +25715,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25733,7 +25733,7 @@ JOOBY_INFO.set('S1x80-F7/115d-3K8T-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25751,7 +25751,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25769,7 +25769,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25787,7 +25787,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25805,7 +25805,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K7S-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25823,7 +25823,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25841,7 +25841,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25859,7 +25859,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25877,7 +25877,7 @@ JOOBY_INFO.set('S1x80-F7/115d-4K8I-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25895,7 +25895,7 @@ JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25913,7 +25913,7 @@ JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -25931,7 +25931,7 @@ JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -25949,7 +25949,7 @@ JOOBY_INFO.set('S1x80-F7/115d-5K7S-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -25967,7 +25967,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -25985,7 +25985,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26003,7 +26003,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26021,7 +26021,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26039,7 +26039,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26057,7 +26057,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26075,7 +26075,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26093,7 +26093,7 @@ JOOBY_INFO.set('S1x80-F7/125-3K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26111,7 +26111,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26129,7 +26129,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26147,7 +26147,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26165,7 +26165,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26183,7 +26183,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26201,7 +26201,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26219,7 +26219,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26237,7 +26237,7 @@ JOOBY_INFO.set('S1x80-F7/125-4K8L-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26255,7 +26255,7 @@ JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26273,7 +26273,7 @@ JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26291,7 +26291,7 @@ JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26309,7 +26309,7 @@ JOOBY_INFO.set('S1x80-F7/125-5K7H-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26327,7 +26327,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26345,7 +26345,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26363,7 +26363,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26381,7 +26381,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K7M-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26399,7 +26399,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26417,7 +26417,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26435,7 +26435,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26453,7 +26453,7 @@ JOOBY_INFO.set('S1x80-F7/18-3K8I-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26471,7 +26471,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26489,7 +26489,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26507,7 +26507,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26525,7 +26525,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K7M-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26543,7 +26543,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26561,7 +26561,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26579,7 +26579,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26597,7 +26597,7 @@ JOOBY_INFO.set('S1x80-F7/1840-3K8I-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26615,7 +26615,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26633,7 +26633,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26651,7 +26651,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26669,7 +26669,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26687,7 +26687,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26705,7 +26705,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26723,7 +26723,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26741,7 +26741,7 @@ JOOBY_INFO.set('S1x80-F7/1840-4K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26759,7 +26759,7 @@ JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26777,7 +26777,7 @@ JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26795,7 +26795,7 @@ JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26813,7 +26813,7 @@ JOOBY_INFO.set('S1x80-F7/1840-5K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26831,7 +26831,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26849,7 +26849,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26867,7 +26867,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26885,7 +26885,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26903,7 +26903,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26921,7 +26921,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -26939,7 +26939,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -26957,7 +26957,7 @@ JOOBY_INFO.set('S1x80-F7/18-4K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -26975,7 +26975,7 @@ JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -26993,7 +26993,7 @@ JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27011,7 +27011,7 @@ JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27029,7 +27029,7 @@ JOOBY_INFO.set('S1x80-F7/18-5K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27047,7 +27047,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27065,7 +27065,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27083,7 +27083,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27101,7 +27101,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K7M-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27119,7 +27119,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27137,7 +27137,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27155,7 +27155,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27173,7 +27173,7 @@ JOOBY_INFO.set('S1x80-F7/22-3K8I-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27191,7 +27191,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27209,7 +27209,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27227,7 +27227,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27245,7 +27245,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27263,7 +27263,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27281,7 +27281,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27299,7 +27299,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27317,7 +27317,7 @@ JOOBY_INFO.set('S1x80-F7/22-4K8S-Os-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27335,7 +27335,7 @@ JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27353,7 +27353,7 @@ JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27371,7 +27371,7 @@ JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27389,7 +27389,7 @@ JOOBY_INFO.set('S1x80-F7/22-5K7L-Os-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27407,7 +27407,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27425,7 +27425,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27443,7 +27443,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27461,7 +27461,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27479,7 +27479,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27497,7 +27497,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27515,7 +27515,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27533,7 +27533,7 @@ JOOBY_INFO.set('S1x80-F7/30-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27551,7 +27551,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27569,7 +27569,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27587,7 +27587,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27605,7 +27605,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27623,7 +27623,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27641,7 +27641,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27659,7 +27659,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27677,7 +27677,7 @@ JOOBY_INFO.set('S1x80-F7/30-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27695,7 +27695,7 @@ JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27713,7 +27713,7 @@ JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27731,7 +27731,7 @@ JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27749,7 +27749,7 @@ JOOBY_INFO.set('S1x80-F7/30-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27767,7 +27767,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27785,7 +27785,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27803,7 +27803,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27821,7 +27821,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27839,7 +27839,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27857,7 +27857,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27875,7 +27875,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27893,7 +27893,7 @@ JOOBY_INFO.set('S1x80-F7/45-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27911,7 +27911,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -27929,7 +27929,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -27947,7 +27947,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -27965,7 +27965,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -27983,7 +27983,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -28001,7 +28001,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -28019,7 +28019,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28037,7 +28037,7 @@ JOOBY_INFO.set('S1x80-F7/45-4K8M-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -28055,7 +28055,7 @@ JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -28073,7 +28073,7 @@ JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -28091,7 +28091,7 @@ JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28109,7 +28109,7 @@ JOOBY_INFO.set('S1x80-F7/45-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -28127,7 +28127,7 @@ JOOBY_INFO.set('S1x80-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28145,7 +28145,7 @@ JOOBY_INFO.set('S1x80-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28163,7 +28163,7 @@ JOOBY_INFO.set('S1x80-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28181,7 +28181,7 @@ JOOBY_INFO.set('S1x80-S1-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28199,7 +28199,7 @@ JOOBY_INFO.set('S1x80-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28217,7 +28217,7 @@ JOOBY_INFO.set('S1x80-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28235,7 +28235,7 @@ JOOBY_INFO.set('S1x80-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28253,7 +28253,7 @@ JOOBY_INFO.set('S1x80-S1-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28271,7 +28271,7 @@ JOOBY_INFO.set('S1x80-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28289,7 +28289,7 @@ JOOBY_INFO.set('S1x80-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28307,7 +28307,7 @@ JOOBY_INFO.set('S1x80-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28325,7 +28325,7 @@ JOOBY_INFO.set('S1x80-S1-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28343,7 +28343,7 @@ JOOBY_INFO.set('S1x80-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28361,7 +28361,7 @@ JOOBY_INFO.set('S1x80-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28379,7 +28379,7 @@ JOOBY_INFO.set('S1x80-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28397,7 +28397,7 @@ JOOBY_INFO.set('S1x80-S1-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28415,7 +28415,7 @@ JOOBY_INFO.set('S1x80-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28433,7 +28433,7 @@ JOOBY_INFO.set('S1x80-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28451,7 +28451,7 @@ JOOBY_INFO.set('S1x80-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28469,7 +28469,7 @@ JOOBY_INFO.set('S1x80-S1-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28487,7 +28487,7 @@ JOOBY_INFO.set('S1x80-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28505,7 +28505,7 @@ JOOBY_INFO.set('S1x80-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28523,7 +28523,7 @@ JOOBY_INFO.set('S1x80-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28541,7 +28541,7 @@ JOOBY_INFO.set('S1x80-S2-3K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28559,7 +28559,7 @@ JOOBY_INFO.set('S1x80-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28577,7 +28577,7 @@ JOOBY_INFO.set('S1x80-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28595,7 +28595,7 @@ JOOBY_INFO.set('S1x80-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28613,7 +28613,7 @@ JOOBY_INFO.set('S1x80-S2-3K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28631,7 +28631,7 @@ JOOBY_INFO.set('S1x80-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28649,7 +28649,7 @@ JOOBY_INFO.set('S1x80-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28667,7 +28667,7 @@ JOOBY_INFO.set('S1x80-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28685,7 +28685,7 @@ JOOBY_INFO.set('S1x80-S2-4K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28703,7 +28703,7 @@ JOOBY_INFO.set('S1x80-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28721,7 +28721,7 @@ JOOBY_INFO.set('S1x80-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28739,7 +28739,7 @@ JOOBY_INFO.set('S1x80-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28757,7 +28757,7 @@ JOOBY_INFO.set('S1x80-S2-4K8L-Ci-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28775,7 +28775,7 @@ JOOBY_INFO.set('S1x80-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х220 mm",
+    dim: "260х250х220",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28793,7 +28793,7 @@ JOOBY_INFO.set('S1x80-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х215 mm",
+    dim: "260х250х215",
     weight: "4,1",
     sailing: "0,058"
 });
@@ -28811,7 +28811,7 @@ JOOBY_INFO.set('S1x80-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х290 mm",
+    dim: "260х250х290",
     weight: "4,4",
     sailing: "0,058"
 });
@@ -28829,7 +28829,7 @@ JOOBY_INFO.set('S1x80-S2-5K7H-Ci-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х175 mm",
+    dim: "260х250х175",
     weight: "4",
     sailing: "0,058"
 });
@@ -28847,7 +28847,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -28865,7 +28865,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -28883,7 +28883,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28901,7 +28901,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -28919,7 +28919,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -28937,7 +28937,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -28955,7 +28955,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -28973,7 +28973,7 @@ JOOBY_INFO.set('S1x80-S6/T1-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -28991,7 +28991,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29009,7 +29009,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29027,7 +29027,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29045,7 +29045,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29063,7 +29063,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29081,7 +29081,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29099,7 +29099,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29117,7 +29117,7 @@ JOOBY_INFO.set('S1x80-S6/T1-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29135,7 +29135,7 @@ JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29153,7 +29153,7 @@ JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29171,7 +29171,7 @@ JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29189,7 +29189,7 @@ JOOBY_INFO.set('S1x80-S6/T1-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29207,7 +29207,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29225,7 +29225,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29243,7 +29243,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29261,7 +29261,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29279,7 +29279,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29297,7 +29297,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29315,7 +29315,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29333,7 +29333,7 @@ JOOBY_INFO.set('S1x80-S6/T2-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29351,7 +29351,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29369,7 +29369,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29387,7 +29387,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29405,7 +29405,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29423,7 +29423,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29441,7 +29441,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29459,7 +29459,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29477,7 +29477,7 @@ JOOBY_INFO.set('S1x80-S6/T2-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29495,7 +29495,7 @@ JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29513,7 +29513,7 @@ JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29531,7 +29531,7 @@ JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29549,7 +29549,7 @@ JOOBY_INFO.set('S1x80-S6/T2-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29567,7 +29567,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29585,7 +29585,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29603,7 +29603,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29621,7 +29621,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K7M-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29639,7 +29639,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29657,7 +29657,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29675,7 +29675,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29693,7 +29693,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-3K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29711,7 +29711,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29729,7 +29729,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29747,7 +29747,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29765,7 +29765,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29783,7 +29783,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29801,7 +29801,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29819,7 +29819,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29837,7 +29837,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-4K8S-Cr-R', {
     cri: "80",
     criAbb: "8",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29855,7 +29855,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "260х250х200 mm",
+    dim: "260х250х200",
     weight: "4",
     sailing: "0,058"
 });
@@ -29873,7 +29873,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "260х250х195 mm",
+    dim: "260х250х195",
     weight: "3,9",
     sailing: "0,058"
 });
@@ -29891,7 +29891,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "260х250х270 mm",
+    dim: "260х250х270",
     weight: "4,2",
     sailing: "0,058"
 });
@@ -29909,7 +29909,7 @@ JOOBY_INFO.set('S1x80-S6/T5s-5K7L-Cr-R', {
     cri: "70",
     criAbb: "7",
     mounting: "R",
-    dim: "260х250х155 mm",
+    dim: "260х250х155",
     weight: "3,8",
     sailing: "0,058"
 });
@@ -29927,7 +29927,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -29945,7 +29945,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -29963,7 +29963,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -29981,7 +29981,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -29999,7 +29999,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30017,7 +30017,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30035,7 +30035,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30053,7 +30053,7 @@ JOOBY_INFO.set('S2x40-F6/30-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30071,7 +30071,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30089,7 +30089,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30107,7 +30107,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30125,7 +30125,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30143,7 +30143,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30161,7 +30161,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30179,7 +30179,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30197,7 +30197,7 @@ JOOBY_INFO.set('S2x40-F6/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30215,7 +30215,7 @@ JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30233,7 +30233,7 @@ JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30251,7 +30251,7 @@ JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30269,7 +30269,7 @@ JOOBY_INFO.set('S2x40-F6/30-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30287,7 +30287,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30305,7 +30305,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30323,7 +30323,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30341,7 +30341,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30359,7 +30359,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30377,7 +30377,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30395,7 +30395,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30413,7 +30413,7 @@ JOOBY_INFO.set('S2x40-F6/65-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30431,7 +30431,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30449,7 +30449,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30467,7 +30467,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30485,7 +30485,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30503,7 +30503,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30521,7 +30521,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30539,7 +30539,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30557,7 +30557,7 @@ JOOBY_INFO.set('S2x40-F6/65-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30575,7 +30575,7 @@ JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30593,7 +30593,7 @@ JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30611,7 +30611,7 @@ JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30629,7 +30629,7 @@ JOOBY_INFO.set('S2x40-F6/65-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30647,7 +30647,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30665,7 +30665,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30683,7 +30683,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30701,7 +30701,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30719,7 +30719,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30737,7 +30737,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30755,7 +30755,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30773,7 +30773,7 @@ JOOBY_INFO.set('S2x40-F6/90-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30791,7 +30791,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30809,7 +30809,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30827,7 +30827,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30845,7 +30845,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30863,7 +30863,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30881,7 +30881,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30899,7 +30899,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30917,7 +30917,7 @@ JOOBY_INFO.set('S2x40-F6/90-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30935,7 +30935,7 @@ JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -30953,7 +30953,7 @@ JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -30971,7 +30971,7 @@ JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -30989,7 +30989,7 @@ JOOBY_INFO.set('S2x40-F6/90-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31007,7 +31007,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31025,7 +31025,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31043,7 +31043,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31061,7 +31061,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31079,7 +31079,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31097,7 +31097,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31115,7 +31115,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31133,7 +31133,7 @@ JOOBY_INFO.set('S2x40-S6/T1-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31151,7 +31151,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31169,7 +31169,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31187,7 +31187,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31205,7 +31205,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31223,7 +31223,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31241,7 +31241,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31259,7 +31259,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31277,7 +31277,7 @@ JOOBY_INFO.set('S2x40-S6/T1-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31295,7 +31295,7 @@ JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31313,7 +31313,7 @@ JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31331,7 +31331,7 @@ JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31349,7 +31349,7 @@ JOOBY_INFO.set('S2x40-S6/T1-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31367,7 +31367,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31385,7 +31385,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31403,7 +31403,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31421,7 +31421,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31439,7 +31439,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31457,7 +31457,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31475,7 +31475,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31493,7 +31493,7 @@ JOOBY_INFO.set('S2x40-S6/T2-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31511,7 +31511,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31529,7 +31529,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31547,7 +31547,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31565,7 +31565,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31583,7 +31583,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31601,7 +31601,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31619,7 +31619,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31637,7 +31637,7 @@ JOOBY_INFO.set('S2x40-S6/T2-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31655,7 +31655,7 @@ JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31673,7 +31673,7 @@ JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31691,7 +31691,7 @@ JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31709,7 +31709,7 @@ JOOBY_INFO.set('S2x40-S6/T2-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31727,7 +31727,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31745,7 +31745,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31763,7 +31763,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31781,7 +31781,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31799,7 +31799,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31817,7 +31817,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31835,7 +31835,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31853,7 +31853,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31871,7 +31871,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31889,7 +31889,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31907,7 +31907,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31925,7 +31925,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31943,7 +31943,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -31961,7 +31961,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -31979,7 +31979,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -31997,7 +31997,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -32015,7 +32015,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -32033,7 +32033,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -32051,7 +32051,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -32069,7 +32069,7 @@ JOOBY_INFO.set('S2x40-S6/T5s-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -32087,7 +32087,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32105,7 +32105,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32123,7 +32123,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32141,7 +32141,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32159,7 +32159,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32177,7 +32177,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32195,7 +32195,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32213,7 +32213,7 @@ JOOBY_INFO.set('S2x60-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32231,7 +32231,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32249,7 +32249,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32267,7 +32267,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32285,7 +32285,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32303,7 +32303,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32321,7 +32321,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32339,7 +32339,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32357,7 +32357,7 @@ JOOBY_INFO.set('S2x60-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32375,7 +32375,7 @@ JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32393,7 +32393,7 @@ JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32411,7 +32411,7 @@ JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32429,7 +32429,7 @@ JOOBY_INFO.set('S2x60-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32447,7 +32447,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32465,7 +32465,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32483,7 +32483,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32501,7 +32501,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32519,7 +32519,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32537,7 +32537,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32555,7 +32555,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32573,7 +32573,7 @@ JOOBY_INFO.set('S2x60-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32591,7 +32591,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32609,7 +32609,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32627,7 +32627,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32645,7 +32645,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32663,7 +32663,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32681,7 +32681,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32699,7 +32699,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32717,7 +32717,7 @@ JOOBY_INFO.set('S2x60-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32735,7 +32735,7 @@ JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32753,7 +32753,7 @@ JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32771,7 +32771,7 @@ JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32789,7 +32789,7 @@ JOOBY_INFO.set('S2x60-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32807,7 +32807,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32825,7 +32825,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32843,7 +32843,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32861,7 +32861,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32879,7 +32879,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32897,7 +32897,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32915,7 +32915,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -32933,7 +32933,7 @@ JOOBY_INFO.set('S2x60-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32951,7 +32951,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -32969,7 +32969,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -32987,7 +32987,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33005,7 +33005,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33023,7 +33023,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33041,7 +33041,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33059,7 +33059,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33077,7 +33077,7 @@ JOOBY_INFO.set('S2x60-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33095,7 +33095,7 @@ JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33113,7 +33113,7 @@ JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33131,7 +33131,7 @@ JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33149,7 +33149,7 @@ JOOBY_INFO.set('S2x60-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33167,7 +33167,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33185,7 +33185,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33203,7 +33203,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33221,7 +33221,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33239,7 +33239,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33257,7 +33257,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33275,7 +33275,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33293,7 +33293,7 @@ JOOBY_INFO.set('S2x60-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33311,7 +33311,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33329,7 +33329,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33347,7 +33347,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33365,7 +33365,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33383,7 +33383,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33401,7 +33401,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33419,7 +33419,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33437,7 +33437,7 @@ JOOBY_INFO.set('S2x60-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33455,7 +33455,7 @@ JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33473,7 +33473,7 @@ JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -33491,7 +33491,7 @@ JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -33509,7 +33509,7 @@ JOOBY_INFO.set('S2x60-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -33527,7 +33527,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33545,7 +33545,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33563,7 +33563,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33581,7 +33581,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33599,7 +33599,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33617,7 +33617,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33635,7 +33635,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33653,7 +33653,7 @@ JOOBY_INFO.set('S2x60-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33671,7 +33671,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33689,7 +33689,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33707,7 +33707,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33725,7 +33725,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33743,7 +33743,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33761,7 +33761,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33779,7 +33779,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33797,7 +33797,7 @@ JOOBY_INFO.set('S2x60-F6/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33815,7 +33815,7 @@ JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33833,7 +33833,7 @@ JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33851,7 +33851,7 @@ JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33869,7 +33869,7 @@ JOOBY_INFO.set('S2x60-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33887,7 +33887,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33905,7 +33905,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33923,7 +33923,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -33941,7 +33941,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33959,7 +33959,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -33977,7 +33977,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -33995,7 +33995,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34013,7 +34013,7 @@ JOOBY_INFO.set('S2x60-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34031,7 +34031,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34049,7 +34049,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34067,7 +34067,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34085,7 +34085,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34103,7 +34103,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34121,7 +34121,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34139,7 +34139,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34157,7 +34157,7 @@ JOOBY_INFO.set('S2x60-F6/65-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34175,7 +34175,7 @@ JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34193,7 +34193,7 @@ JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34211,7 +34211,7 @@ JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34229,7 +34229,7 @@ JOOBY_INFO.set('S2x60-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34247,7 +34247,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34265,7 +34265,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34283,7 +34283,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34301,7 +34301,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34319,7 +34319,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34337,7 +34337,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34355,7 +34355,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34373,7 +34373,7 @@ JOOBY_INFO.set('S2x60-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34391,7 +34391,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34409,7 +34409,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34427,7 +34427,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34445,7 +34445,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34463,7 +34463,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34481,7 +34481,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34499,7 +34499,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34517,7 +34517,7 @@ JOOBY_INFO.set('S2x60-F6/90-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34535,7 +34535,7 @@ JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34553,7 +34553,7 @@ JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34571,7 +34571,7 @@ JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34589,7 +34589,7 @@ JOOBY_INFO.set('S2x60-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34607,7 +34607,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34625,7 +34625,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34643,7 +34643,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34661,7 +34661,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34679,7 +34679,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34697,7 +34697,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34715,7 +34715,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34733,7 +34733,7 @@ JOOBY_INFO.set('S2x60-F7/115d-3K8T-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34751,7 +34751,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34769,7 +34769,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34787,7 +34787,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34805,7 +34805,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34823,7 +34823,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34841,7 +34841,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34859,7 +34859,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34877,7 +34877,7 @@ JOOBY_INFO.set('S2x60-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34895,7 +34895,7 @@ JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34913,7 +34913,7 @@ JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -34931,7 +34931,7 @@ JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -34949,7 +34949,7 @@ JOOBY_INFO.set('S2x60-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34967,7 +34967,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -34985,7 +34985,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35003,7 +35003,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35021,7 +35021,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35039,7 +35039,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35057,7 +35057,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35075,7 +35075,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35093,7 +35093,7 @@ JOOBY_INFO.set('S2x60-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35111,7 +35111,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35129,7 +35129,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35147,7 +35147,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35165,7 +35165,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35183,7 +35183,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35201,7 +35201,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35219,7 +35219,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35237,7 +35237,7 @@ JOOBY_INFO.set('S2x60-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35255,7 +35255,7 @@ JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35273,7 +35273,7 @@ JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35291,7 +35291,7 @@ JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35309,7 +35309,7 @@ JOOBY_INFO.set('S2x60-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35327,7 +35327,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35345,7 +35345,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35363,7 +35363,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35381,7 +35381,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35399,7 +35399,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35417,7 +35417,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35435,7 +35435,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35453,7 +35453,7 @@ JOOBY_INFO.set('S2x60-F7/18-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35471,7 +35471,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35489,7 +35489,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35507,7 +35507,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35525,7 +35525,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35543,7 +35543,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35561,7 +35561,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35579,7 +35579,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35597,7 +35597,7 @@ JOOBY_INFO.set('S2x60-F7/1840-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35615,7 +35615,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35633,7 +35633,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35651,7 +35651,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35669,7 +35669,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35687,7 +35687,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35705,7 +35705,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35723,7 +35723,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35741,7 +35741,7 @@ JOOBY_INFO.set('S2x60-F7/1840-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35759,7 +35759,7 @@ JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35777,7 +35777,7 @@ JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35795,7 +35795,7 @@ JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35813,7 +35813,7 @@ JOOBY_INFO.set('S2x60-F7/1840-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35831,7 +35831,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35849,7 +35849,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35867,7 +35867,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35885,7 +35885,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35903,7 +35903,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35921,7 +35921,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -35939,7 +35939,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -35957,7 +35957,7 @@ JOOBY_INFO.set('S2x60-F7/18-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35975,7 +35975,7 @@ JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -35993,7 +35993,7 @@ JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36011,7 +36011,7 @@ JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36029,7 +36029,7 @@ JOOBY_INFO.set('S2x60-F7/18-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36047,7 +36047,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36065,7 +36065,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36083,7 +36083,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36101,7 +36101,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36119,7 +36119,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36137,7 +36137,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36155,7 +36155,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36173,7 +36173,7 @@ JOOBY_INFO.set('S2x60-F7/22-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36191,7 +36191,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36209,7 +36209,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36227,7 +36227,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36245,7 +36245,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36263,7 +36263,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36281,7 +36281,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36299,7 +36299,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36317,7 +36317,7 @@ JOOBY_INFO.set('S2x60-F7/22-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36335,7 +36335,7 @@ JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36353,7 +36353,7 @@ JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36371,7 +36371,7 @@ JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36389,7 +36389,7 @@ JOOBY_INFO.set('S2x60-F7/22-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36407,7 +36407,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36425,7 +36425,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36443,7 +36443,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36461,7 +36461,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36479,7 +36479,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36497,7 +36497,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36515,7 +36515,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36533,7 +36533,7 @@ JOOBY_INFO.set('S2x60-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36551,7 +36551,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36569,7 +36569,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36587,7 +36587,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36605,7 +36605,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36623,7 +36623,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36641,7 +36641,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36659,7 +36659,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36677,7 +36677,7 @@ JOOBY_INFO.set('S2x60-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36695,7 +36695,7 @@ JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36713,7 +36713,7 @@ JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36731,7 +36731,7 @@ JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36749,7 +36749,7 @@ JOOBY_INFO.set('S2x60-F7/30-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36767,7 +36767,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36785,7 +36785,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36803,7 +36803,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36821,7 +36821,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36839,7 +36839,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36857,7 +36857,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36875,7 +36875,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36893,7 +36893,7 @@ JOOBY_INFO.set('S2x60-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36911,7 +36911,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36929,7 +36929,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -36947,7 +36947,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -36965,7 +36965,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -36983,7 +36983,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37001,7 +37001,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -37019,7 +37019,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -37037,7 +37037,7 @@ JOOBY_INFO.set('S2x60-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37055,7 +37055,7 @@ JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37073,7 +37073,7 @@ JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -37091,7 +37091,7 @@ JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -37109,7 +37109,7 @@ JOOBY_INFO.set('S2x60-F7/45-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37127,7 +37127,7 @@ JOOBY_INFO.set('S2x60-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37145,7 +37145,7 @@ JOOBY_INFO.set('S2x60-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37163,7 +37163,7 @@ JOOBY_INFO.set('S2x60-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37181,7 +37181,7 @@ JOOBY_INFO.set('S2x60-S1-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37199,7 +37199,7 @@ JOOBY_INFO.set('S2x60-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37217,7 +37217,7 @@ JOOBY_INFO.set('S2x60-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37235,7 +37235,7 @@ JOOBY_INFO.set('S2x60-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37253,7 +37253,7 @@ JOOBY_INFO.set('S2x60-S1-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37271,7 +37271,7 @@ JOOBY_INFO.set('S2x60-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37289,7 +37289,7 @@ JOOBY_INFO.set('S2x60-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37307,7 +37307,7 @@ JOOBY_INFO.set('S2x60-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37325,7 +37325,7 @@ JOOBY_INFO.set('S2x60-S1-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37343,7 +37343,7 @@ JOOBY_INFO.set('S2x60-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37361,7 +37361,7 @@ JOOBY_INFO.set('S2x60-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37379,7 +37379,7 @@ JOOBY_INFO.set('S2x60-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37397,7 +37397,7 @@ JOOBY_INFO.set('S2x60-S1-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37415,7 +37415,7 @@ JOOBY_INFO.set('S2x60-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37433,7 +37433,7 @@ JOOBY_INFO.set('S2x60-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37451,7 +37451,7 @@ JOOBY_INFO.set('S2x60-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37469,7 +37469,7 @@ JOOBY_INFO.set('S2x60-S1-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37487,7 +37487,7 @@ JOOBY_INFO.set('S2x60-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37505,7 +37505,7 @@ JOOBY_INFO.set('S2x60-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37523,7 +37523,7 @@ JOOBY_INFO.set('S2x60-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37541,7 +37541,7 @@ JOOBY_INFO.set('S2x60-S2-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37559,7 +37559,7 @@ JOOBY_INFO.set('S2x60-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37577,7 +37577,7 @@ JOOBY_INFO.set('S2x60-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37595,7 +37595,7 @@ JOOBY_INFO.set('S2x60-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37613,7 +37613,7 @@ JOOBY_INFO.set('S2x60-S2-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37631,7 +37631,7 @@ JOOBY_INFO.set('S2x60-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37649,7 +37649,7 @@ JOOBY_INFO.set('S2x60-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37667,7 +37667,7 @@ JOOBY_INFO.set('S2x60-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37685,7 +37685,7 @@ JOOBY_INFO.set('S2x60-S2-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37703,7 +37703,7 @@ JOOBY_INFO.set('S2x60-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37721,7 +37721,7 @@ JOOBY_INFO.set('S2x60-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37739,7 +37739,7 @@ JOOBY_INFO.set('S2x60-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37757,7 +37757,7 @@ JOOBY_INFO.set('S2x60-S2-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37775,7 +37775,7 @@ JOOBY_INFO.set('S2x60-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37793,7 +37793,7 @@ JOOBY_INFO.set('S2x60-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -37811,7 +37811,7 @@ JOOBY_INFO.set('S2x60-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -37829,7 +37829,7 @@ JOOBY_INFO.set('S2x60-S2-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -37847,7 +37847,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37865,7 +37865,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -37883,7 +37883,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -37901,7 +37901,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37919,7 +37919,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37937,7 +37937,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -37955,7 +37955,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -37973,7 +37973,7 @@ JOOBY_INFO.set('S2x60-S6/T1-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -37991,7 +37991,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38009,7 +38009,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38027,7 +38027,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38045,7 +38045,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38063,7 +38063,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38081,7 +38081,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38099,7 +38099,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38117,7 +38117,7 @@ JOOBY_INFO.set('S2x60-S6/T1-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38135,7 +38135,7 @@ JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38153,7 +38153,7 @@ JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38171,7 +38171,7 @@ JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38189,7 +38189,7 @@ JOOBY_INFO.set('S2x60-S6/T1-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38207,7 +38207,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38225,7 +38225,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38243,7 +38243,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38261,7 +38261,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38279,7 +38279,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38297,7 +38297,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38315,7 +38315,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38333,7 +38333,7 @@ JOOBY_INFO.set('S2x60-S6/T2-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38351,7 +38351,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38369,7 +38369,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38387,7 +38387,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38405,7 +38405,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38423,7 +38423,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38441,7 +38441,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38459,7 +38459,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38477,7 +38477,7 @@ JOOBY_INFO.set('S2x60-S6/T2-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38495,7 +38495,7 @@ JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38513,7 +38513,7 @@ JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38531,7 +38531,7 @@ JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38549,7 +38549,7 @@ JOOBY_INFO.set('S2x60-S6/T2-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38567,7 +38567,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38585,7 +38585,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38603,7 +38603,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38621,7 +38621,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38639,7 +38639,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38657,7 +38657,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38675,7 +38675,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38693,7 +38693,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38711,7 +38711,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38729,7 +38729,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38747,7 +38747,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38765,7 +38765,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38783,7 +38783,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38801,7 +38801,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38819,7 +38819,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38837,7 +38837,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38855,7 +38855,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38873,7 +38873,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -38891,7 +38891,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -38909,7 +38909,7 @@ JOOBY_INFO.set('S2x60-S6/T5s-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -38927,7 +38927,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -38945,7 +38945,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -38963,7 +38963,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -38981,7 +38981,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -38999,7 +38999,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39017,7 +39017,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39035,7 +39035,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39053,7 +39053,7 @@ JOOBY_INFO.set('S2x80-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39071,7 +39071,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39089,7 +39089,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39107,7 +39107,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39125,7 +39125,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39143,7 +39143,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39161,7 +39161,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39179,7 +39179,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39197,7 +39197,7 @@ JOOBY_INFO.set('S2x80-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39215,7 +39215,7 @@ JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39233,7 +39233,7 @@ JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39251,7 +39251,7 @@ JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39269,7 +39269,7 @@ JOOBY_INFO.set('S2x80-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39287,7 +39287,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39305,7 +39305,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39323,7 +39323,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39341,7 +39341,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39359,7 +39359,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39377,7 +39377,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39395,7 +39395,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39413,7 +39413,7 @@ JOOBY_INFO.set('S2x80-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39431,7 +39431,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39449,7 +39449,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39467,7 +39467,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39485,7 +39485,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39503,7 +39503,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39521,7 +39521,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39539,7 +39539,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39557,7 +39557,7 @@ JOOBY_INFO.set('S2x80-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39575,7 +39575,7 @@ JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39593,7 +39593,7 @@ JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39611,7 +39611,7 @@ JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39629,7 +39629,7 @@ JOOBY_INFO.set('S2x80-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39647,7 +39647,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39665,7 +39665,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39683,7 +39683,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39701,7 +39701,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39719,7 +39719,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39737,7 +39737,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39755,7 +39755,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39773,7 +39773,7 @@ JOOBY_INFO.set('S2x80-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39791,7 +39791,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39809,7 +39809,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39827,7 +39827,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39845,7 +39845,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39863,7 +39863,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39881,7 +39881,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39899,7 +39899,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39917,7 +39917,7 @@ JOOBY_INFO.set('S2x80-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39935,7 +39935,7 @@ JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -39953,7 +39953,7 @@ JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -39971,7 +39971,7 @@ JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -39989,7 +39989,7 @@ JOOBY_INFO.set('S2x80-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40007,7 +40007,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40025,7 +40025,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -40043,7 +40043,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -40061,7 +40061,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40079,7 +40079,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40097,7 +40097,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -40115,7 +40115,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -40133,7 +40133,7 @@ JOOBY_INFO.set('S2x80-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40151,7 +40151,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40169,7 +40169,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -40187,7 +40187,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -40205,7 +40205,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40223,7 +40223,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40241,7 +40241,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -40259,7 +40259,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -40277,7 +40277,7 @@ JOOBY_INFO.set('S2x80-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40295,7 +40295,7 @@ JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40313,7 +40313,7 @@ JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -40331,7 +40331,7 @@ JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -40349,7 +40349,7 @@ JOOBY_INFO.set('S2x80-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -40367,7 +40367,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40385,7 +40385,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40403,7 +40403,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40421,7 +40421,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40439,7 +40439,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40457,7 +40457,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40475,7 +40475,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40493,7 +40493,7 @@ JOOBY_INFO.set('S2x80-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40511,7 +40511,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40529,7 +40529,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40547,7 +40547,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40565,7 +40565,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40583,7 +40583,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40601,7 +40601,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40619,7 +40619,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40637,7 +40637,7 @@ JOOBY_INFO.set('S2x80-F6/30-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40655,7 +40655,7 @@ JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40673,7 +40673,7 @@ JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40691,7 +40691,7 @@ JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40709,7 +40709,7 @@ JOOBY_INFO.set('S2x80-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40727,7 +40727,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40745,7 +40745,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40763,7 +40763,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40781,7 +40781,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40799,7 +40799,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40817,7 +40817,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40835,7 +40835,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40853,7 +40853,7 @@ JOOBY_INFO.set('S2x80-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40871,7 +40871,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40889,7 +40889,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40907,7 +40907,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40925,7 +40925,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40943,7 +40943,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -40961,7 +40961,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -40979,7 +40979,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -40997,7 +40997,7 @@ JOOBY_INFO.set('S2x80-F6/65-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41015,7 +41015,7 @@ JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41033,7 +41033,7 @@ JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41051,7 +41051,7 @@ JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41069,7 +41069,7 @@ JOOBY_INFO.set('S2x80-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41087,7 +41087,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41105,7 +41105,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41123,7 +41123,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41141,7 +41141,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41159,7 +41159,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41177,7 +41177,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41195,7 +41195,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41213,7 +41213,7 @@ JOOBY_INFO.set('S2x80-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41231,7 +41231,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41249,7 +41249,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41267,7 +41267,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41285,7 +41285,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41303,7 +41303,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41321,7 +41321,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41339,7 +41339,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41357,7 +41357,7 @@ JOOBY_INFO.set('S2x80-F6/90-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41375,7 +41375,7 @@ JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41393,7 +41393,7 @@ JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41411,7 +41411,7 @@ JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41429,7 +41429,7 @@ JOOBY_INFO.set('S2x80-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41447,7 +41447,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41465,7 +41465,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41483,7 +41483,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41501,7 +41501,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K7I-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41519,7 +41519,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41537,7 +41537,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41555,7 +41555,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41573,7 +41573,7 @@ JOOBY_INFO.set('S2x80-F7/115d-3K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41591,7 +41591,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41609,7 +41609,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41627,7 +41627,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41645,7 +41645,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41663,7 +41663,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41681,7 +41681,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41699,7 +41699,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41717,7 +41717,7 @@ JOOBY_INFO.set('S2x80-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41735,7 +41735,7 @@ JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41753,7 +41753,7 @@ JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41771,7 +41771,7 @@ JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41789,7 +41789,7 @@ JOOBY_INFO.set('S2x80-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41807,7 +41807,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41825,7 +41825,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41843,7 +41843,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41861,7 +41861,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41879,7 +41879,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41897,7 +41897,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41915,7 +41915,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -41933,7 +41933,7 @@ JOOBY_INFO.set('S2x80-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41951,7 +41951,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -41969,7 +41969,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -41987,7 +41987,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42005,7 +42005,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42023,7 +42023,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42041,7 +42041,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42059,7 +42059,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42077,7 +42077,7 @@ JOOBY_INFO.set('S2x80-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42095,7 +42095,7 @@ JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42113,7 +42113,7 @@ JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42131,7 +42131,7 @@ JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42149,7 +42149,7 @@ JOOBY_INFO.set('S2x80-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42167,7 +42167,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42185,7 +42185,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42203,7 +42203,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42221,7 +42221,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42239,7 +42239,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42257,7 +42257,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42275,7 +42275,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42293,7 +42293,7 @@ JOOBY_INFO.set('S2x80-F7/18-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42311,7 +42311,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42329,7 +42329,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42347,7 +42347,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42365,7 +42365,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42383,7 +42383,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42401,7 +42401,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42419,7 +42419,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42437,7 +42437,7 @@ JOOBY_INFO.set('S2x80-F7/1840-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42455,7 +42455,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42473,7 +42473,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42491,7 +42491,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42509,7 +42509,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42527,7 +42527,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42545,7 +42545,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42563,7 +42563,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42581,7 +42581,7 @@ JOOBY_INFO.set('S2x80-F7/1840-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42599,7 +42599,7 @@ JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42617,7 +42617,7 @@ JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42635,7 +42635,7 @@ JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42653,7 +42653,7 @@ JOOBY_INFO.set('S2x80-F7/1840-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42671,7 +42671,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42689,7 +42689,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42707,7 +42707,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42725,7 +42725,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42743,7 +42743,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42761,7 +42761,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42779,7 +42779,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42797,7 +42797,7 @@ JOOBY_INFO.set('S2x80-F7/18-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42815,7 +42815,7 @@ JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42833,7 +42833,7 @@ JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42851,7 +42851,7 @@ JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42869,7 +42869,7 @@ JOOBY_INFO.set('S2x80-F7/18-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42887,7 +42887,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42905,7 +42905,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42923,7 +42923,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -42941,7 +42941,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42959,7 +42959,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -42977,7 +42977,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -42995,7 +42995,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43013,7 +43013,7 @@ JOOBY_INFO.set('S2x80-F7/22-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43031,7 +43031,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43049,7 +43049,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43067,7 +43067,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43085,7 +43085,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43103,7 +43103,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43121,7 +43121,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43139,7 +43139,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43157,7 +43157,7 @@ JOOBY_INFO.set('S2x80-F7/22-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43175,7 +43175,7 @@ JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43193,7 +43193,7 @@ JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43211,7 +43211,7 @@ JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43229,7 +43229,7 @@ JOOBY_INFO.set('S2x80-F7/22-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43247,7 +43247,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43265,7 +43265,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43283,7 +43283,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43301,7 +43301,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43319,7 +43319,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43337,7 +43337,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43355,7 +43355,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43373,7 +43373,7 @@ JOOBY_INFO.set('S2x80-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43391,7 +43391,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43409,7 +43409,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43427,7 +43427,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43445,7 +43445,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43463,7 +43463,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43481,7 +43481,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43499,7 +43499,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43517,7 +43517,7 @@ JOOBY_INFO.set('S2x80-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43535,7 +43535,7 @@ JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43553,7 +43553,7 @@ JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43571,7 +43571,7 @@ JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43589,7 +43589,7 @@ JOOBY_INFO.set('S2x80-F7/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43607,7 +43607,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43625,7 +43625,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43643,7 +43643,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43661,7 +43661,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43679,7 +43679,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43697,7 +43697,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43715,7 +43715,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43733,7 +43733,7 @@ JOOBY_INFO.set('S2x80-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43751,7 +43751,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43769,7 +43769,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43787,7 +43787,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43805,7 +43805,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43823,7 +43823,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43841,7 +43841,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43859,7 +43859,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43877,7 +43877,7 @@ JOOBY_INFO.set('S2x80-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43895,7 +43895,7 @@ JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43913,7 +43913,7 @@ JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -43931,7 +43931,7 @@ JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -43949,7 +43949,7 @@ JOOBY_INFO.set('S2x80-F7/45-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -43967,7 +43967,7 @@ JOOBY_INFO.set('S2x80-S1-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -43985,7 +43985,7 @@ JOOBY_INFO.set('S2x80-S1-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44003,7 +44003,7 @@ JOOBY_INFO.set('S2x80-S1-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44021,7 +44021,7 @@ JOOBY_INFO.set('S2x80-S1-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44039,7 +44039,7 @@ JOOBY_INFO.set('S2x80-S1-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44057,7 +44057,7 @@ JOOBY_INFO.set('S2x80-S1-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44075,7 +44075,7 @@ JOOBY_INFO.set('S2x80-S1-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44093,7 +44093,7 @@ JOOBY_INFO.set('S2x80-S1-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44111,7 +44111,7 @@ JOOBY_INFO.set('S2x80-S1-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44129,7 +44129,7 @@ JOOBY_INFO.set('S2x80-S1-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44147,7 +44147,7 @@ JOOBY_INFO.set('S2x80-S1-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44165,7 +44165,7 @@ JOOBY_INFO.set('S2x80-S1-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44183,7 +44183,7 @@ JOOBY_INFO.set('S2x80-S1-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44201,7 +44201,7 @@ JOOBY_INFO.set('S2x80-S1-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44219,7 +44219,7 @@ JOOBY_INFO.set('S2x80-S1-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44237,7 +44237,7 @@ JOOBY_INFO.set('S2x80-S1-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44255,7 +44255,7 @@ JOOBY_INFO.set('S2x80-S1-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44273,7 +44273,7 @@ JOOBY_INFO.set('S2x80-S1-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44291,7 +44291,7 @@ JOOBY_INFO.set('S2x80-S1-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44309,7 +44309,7 @@ JOOBY_INFO.set('S2x80-S1-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44327,7 +44327,7 @@ JOOBY_INFO.set('S2x80-S2-3K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44345,7 +44345,7 @@ JOOBY_INFO.set('S2x80-S2-3K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44363,7 +44363,7 @@ JOOBY_INFO.set('S2x80-S2-3K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44381,7 +44381,7 @@ JOOBY_INFO.set('S2x80-S2-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44399,7 +44399,7 @@ JOOBY_INFO.set('S2x80-S2-3K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44417,7 +44417,7 @@ JOOBY_INFO.set('S2x80-S2-3K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44435,7 +44435,7 @@ JOOBY_INFO.set('S2x80-S2-3K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44453,7 +44453,7 @@ JOOBY_INFO.set('S2x80-S2-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44471,7 +44471,7 @@ JOOBY_INFO.set('S2x80-S2-4K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44489,7 +44489,7 @@ JOOBY_INFO.set('S2x80-S2-4K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44507,7 +44507,7 @@ JOOBY_INFO.set('S2x80-S2-4K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44525,7 +44525,7 @@ JOOBY_INFO.set('S2x80-S2-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44543,7 +44543,7 @@ JOOBY_INFO.set('S2x80-S2-4K8L-Ci-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44561,7 +44561,7 @@ JOOBY_INFO.set('S2x80-S2-4K8L-Ci-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44579,7 +44579,7 @@ JOOBY_INFO.set('S2x80-S2-4K8L-Ci-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44597,7 +44597,7 @@ JOOBY_INFO.set('S2x80-S2-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44615,7 +44615,7 @@ JOOBY_INFO.set('S2x80-S2-5K7H-Ci-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х220 mm",
+    dim: "395х250х220",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44633,7 +44633,7 @@ JOOBY_INFO.set('S2x80-S2-5K7H-Ci-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х215 mm",
+    dim: "395х250х215",
     weight: "7",
     sailing: "0,09"
 });
@@ -44651,7 +44651,7 @@ JOOBY_INFO.set('S2x80-S2-5K7H-Ci-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х290 mm",
+    dim: "395х250х290",
     weight: "7,3",
     sailing: "0,09"
 });
@@ -44669,7 +44669,7 @@ JOOBY_INFO.set('S2x80-S2-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х175 mm",
+    dim: "395х250х175",
     weight: "7,1",
     sailing: "0,09"
 });
@@ -44687,7 +44687,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44705,7 +44705,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -44723,7 +44723,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -44741,7 +44741,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44759,7 +44759,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44777,7 +44777,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -44795,7 +44795,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -44813,7 +44813,7 @@ JOOBY_INFO.set('S2x80-S6/T1-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44831,7 +44831,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44849,7 +44849,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -44867,7 +44867,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -44885,7 +44885,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44903,7 +44903,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44921,7 +44921,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -44939,7 +44939,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -44957,7 +44957,7 @@ JOOBY_INFO.set('S2x80-S6/T1-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44975,7 +44975,7 @@ JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -44993,7 +44993,7 @@ JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45011,7 +45011,7 @@ JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45029,7 +45029,7 @@ JOOBY_INFO.set('S2x80-S6/T1-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45047,7 +45047,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45065,7 +45065,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45083,7 +45083,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45101,7 +45101,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45119,7 +45119,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45137,7 +45137,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45155,7 +45155,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45173,7 +45173,7 @@ JOOBY_INFO.set('S2x80-S6/T2-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45191,7 +45191,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45209,7 +45209,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45227,7 +45227,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45245,7 +45245,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45263,7 +45263,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45281,7 +45281,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45299,7 +45299,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45317,7 +45317,7 @@ JOOBY_INFO.set('S2x80-S6/T2-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45335,7 +45335,7 @@ JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45353,7 +45353,7 @@ JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45371,7 +45371,7 @@ JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45389,7 +45389,7 @@ JOOBY_INFO.set('S2x80-S6/T2-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45407,7 +45407,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45425,7 +45425,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45443,7 +45443,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45461,7 +45461,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45479,7 +45479,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45497,7 +45497,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45515,7 +45515,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45533,7 +45533,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45551,7 +45551,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45569,7 +45569,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45587,7 +45587,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45605,7 +45605,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45623,7 +45623,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-T1', {
     cri: "80",
     criAbb: "8",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45641,7 +45641,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-F1', {
     cri: "80",
     criAbb: "8",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45659,7 +45659,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-F2', {
     cri: "80",
     criAbb: "8",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45677,7 +45677,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45695,7 +45695,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-T1', {
     cri: "70",
     criAbb: "7",
     mounting: "T1",
-    dim: "395х250х200 mm",
+    dim: "395х250х200",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45713,7 +45713,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-F1', {
     cri: "70",
     criAbb: "7",
     mounting: "F1",
-    dim: "395х250х195 mm",
+    dim: "395х250х195",
     weight: "6,6",
     sailing: "0,09"
 });
@@ -45731,7 +45731,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-F2', {
     cri: "70",
     criAbb: "7",
     mounting: "F2",
-    dim: "395х250х270 mm",
+    dim: "395х250х270",
     weight: "6,9",
     sailing: "0,09"
 });
@@ -45749,7 +45749,7 @@ JOOBY_INFO.set('S2x80-S6/T5s-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "395х250х155 mm",
+    dim: "395х250х155",
     weight: "6,7",
     sailing: "0,09"
 });
@@ -45767,7 +45767,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -45785,7 +45785,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -45803,7 +45803,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -45821,7 +45821,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -45839,7 +45839,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -45857,7 +45857,7 @@ JOOBY_INFO.set('S3x60-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -45875,7 +45875,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -45893,7 +45893,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -45911,7 +45911,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -45929,7 +45929,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -45947,7 +45947,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -45965,7 +45965,7 @@ JOOBY_INFO.set('S3x60-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -45983,7 +45983,7 @@ JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46001,7 +46001,7 @@ JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46019,7 +46019,7 @@ JOOBY_INFO.set('S3x60-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46037,7 +46037,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46055,7 +46055,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46073,7 +46073,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46091,7 +46091,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46109,7 +46109,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46127,7 +46127,7 @@ JOOBY_INFO.set('S3x60-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46145,7 +46145,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46163,7 +46163,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46181,7 +46181,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46199,7 +46199,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46217,7 +46217,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46235,7 +46235,7 @@ JOOBY_INFO.set('S3x60-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46253,7 +46253,7 @@ JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46271,7 +46271,7 @@ JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46289,7 +46289,7 @@ JOOBY_INFO.set('S3x60-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46307,7 +46307,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46325,7 +46325,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46343,7 +46343,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46361,7 +46361,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46379,7 +46379,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46397,7 +46397,7 @@ JOOBY_INFO.set('S3x60-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46415,7 +46415,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46433,7 +46433,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46451,7 +46451,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46469,7 +46469,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46487,7 +46487,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46505,7 +46505,7 @@ JOOBY_INFO.set('S3x60-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46523,7 +46523,7 @@ JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46541,7 +46541,7 @@ JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46559,7 +46559,7 @@ JOOBY_INFO.set('S3x60-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46577,7 +46577,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46595,7 +46595,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46613,7 +46613,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46631,7 +46631,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46649,7 +46649,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46667,7 +46667,7 @@ JOOBY_INFO.set('S3x60-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46685,7 +46685,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46703,7 +46703,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46721,7 +46721,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46739,7 +46739,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46757,7 +46757,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46775,7 +46775,7 @@ JOOBY_INFO.set('S3x60-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46793,7 +46793,7 @@ JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -46811,7 +46811,7 @@ JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -46829,7 +46829,7 @@ JOOBY_INFO.set('S3x60-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -46847,7 +46847,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -46865,7 +46865,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -46883,7 +46883,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -46901,7 +46901,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -46919,7 +46919,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -46937,7 +46937,7 @@ JOOBY_INFO.set('S3x60-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -46955,7 +46955,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -46973,7 +46973,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -46991,7 +46991,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47009,7 +47009,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47027,7 +47027,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47045,7 +47045,7 @@ JOOBY_INFO.set('S3x60-F6/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47063,7 +47063,7 @@ JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47081,7 +47081,7 @@ JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47099,7 +47099,7 @@ JOOBY_INFO.set('S3x60-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47117,7 +47117,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47135,7 +47135,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47153,7 +47153,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47171,7 +47171,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47189,7 +47189,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47207,7 +47207,7 @@ JOOBY_INFO.set('S3x60-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47225,7 +47225,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47243,7 +47243,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47261,7 +47261,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47279,7 +47279,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47297,7 +47297,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47315,7 +47315,7 @@ JOOBY_INFO.set('S3x60-F6/65-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47333,7 +47333,7 @@ JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47351,7 +47351,7 @@ JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47369,7 +47369,7 @@ JOOBY_INFO.set('S3x60-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47387,7 +47387,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47405,7 +47405,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47423,7 +47423,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47441,7 +47441,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47459,7 +47459,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47477,7 +47477,7 @@ JOOBY_INFO.set('S3x60-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47495,7 +47495,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47513,7 +47513,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47531,7 +47531,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47549,7 +47549,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47567,7 +47567,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47585,7 +47585,7 @@ JOOBY_INFO.set('S3x60-F6/90-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47603,7 +47603,7 @@ JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47621,7 +47621,7 @@ JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47639,7 +47639,7 @@ JOOBY_INFO.set('S3x60-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47657,7 +47657,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47675,7 +47675,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47693,7 +47693,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47711,7 +47711,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47729,7 +47729,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47747,7 +47747,7 @@ JOOBY_INFO.set('S3x60-F7/115d-3K8T-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47765,7 +47765,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47783,7 +47783,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47801,7 +47801,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47819,7 +47819,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47837,7 +47837,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47855,7 +47855,7 @@ JOOBY_INFO.set('S3x60-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47873,7 +47873,7 @@ JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47891,7 +47891,7 @@ JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47909,7 +47909,7 @@ JOOBY_INFO.set('S3x60-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47927,7 +47927,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47945,7 +47945,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -47963,7 +47963,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -47981,7 +47981,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -47999,7 +47999,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48017,7 +48017,7 @@ JOOBY_INFO.set('S3x60-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48035,7 +48035,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48053,7 +48053,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48071,7 +48071,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48089,7 +48089,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48107,7 +48107,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48125,7 +48125,7 @@ JOOBY_INFO.set('S3x60-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48143,7 +48143,7 @@ JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48161,7 +48161,7 @@ JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48179,7 +48179,7 @@ JOOBY_INFO.set('S3x60-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48197,7 +48197,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48215,7 +48215,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48233,7 +48233,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48251,7 +48251,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48269,7 +48269,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48287,7 +48287,7 @@ JOOBY_INFO.set('S3x60-F7/18-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48305,7 +48305,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48323,7 +48323,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48341,7 +48341,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48359,7 +48359,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48377,7 +48377,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48395,7 +48395,7 @@ JOOBY_INFO.set('S3x60-F7/1840-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48413,7 +48413,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48431,7 +48431,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48449,7 +48449,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48467,7 +48467,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48485,7 +48485,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48503,7 +48503,7 @@ JOOBY_INFO.set('S3x60-F7/1840-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48521,7 +48521,7 @@ JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48539,7 +48539,7 @@ JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48557,7 +48557,7 @@ JOOBY_INFO.set('S3x60-F7/1840-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48575,7 +48575,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48593,7 +48593,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48611,7 +48611,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48629,7 +48629,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48647,7 +48647,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48665,7 +48665,7 @@ JOOBY_INFO.set('S3x60-F7/18-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48683,7 +48683,7 @@ JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48701,7 +48701,7 @@ JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48719,7 +48719,7 @@ JOOBY_INFO.set('S3x60-F7/18-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48737,7 +48737,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48755,7 +48755,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48773,7 +48773,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48791,7 +48791,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48809,7 +48809,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48827,7 +48827,7 @@ JOOBY_INFO.set('S3x60-F7/22-3K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48845,7 +48845,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48863,7 +48863,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48881,7 +48881,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48899,7 +48899,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48917,7 +48917,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48935,7 +48935,7 @@ JOOBY_INFO.set('S3x60-F7/22-4K8M-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -48953,7 +48953,7 @@ JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -48971,7 +48971,7 @@ JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -48989,7 +48989,7 @@ JOOBY_INFO.set('S3x60-F7/22-5K7H-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49007,7 +49007,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49025,7 +49025,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49043,7 +49043,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49061,7 +49061,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49079,7 +49079,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49097,7 +49097,7 @@ JOOBY_INFO.set('S3x60-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49115,7 +49115,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49133,7 +49133,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49151,7 +49151,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49169,7 +49169,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49187,7 +49187,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49205,7 +49205,7 @@ JOOBY_INFO.set('S3x60-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49223,7 +49223,7 @@ JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49241,7 +49241,7 @@ JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49259,7 +49259,7 @@ JOOBY_INFO.set('S3x60-F7/30-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49277,7 +49277,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49295,7 +49295,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49313,7 +49313,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49331,7 +49331,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49349,7 +49349,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49367,7 +49367,7 @@ JOOBY_INFO.set('S3x60-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49385,7 +49385,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49403,7 +49403,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49421,7 +49421,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49439,7 +49439,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49457,7 +49457,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49475,7 +49475,7 @@ JOOBY_INFO.set('S3x60-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49493,7 +49493,7 @@ JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -49511,7 +49511,7 @@ JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -49529,7 +49529,7 @@ JOOBY_INFO.set('S3x60-F7/45-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -49547,7 +49547,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49565,7 +49565,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49583,7 +49583,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49601,7 +49601,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49619,7 +49619,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49637,7 +49637,7 @@ JOOBY_INFO.set('S3x80-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49655,7 +49655,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49673,7 +49673,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49691,7 +49691,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49709,7 +49709,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49727,7 +49727,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49745,7 +49745,7 @@ JOOBY_INFO.set('S3x80-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49763,7 +49763,7 @@ JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49781,7 +49781,7 @@ JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49799,7 +49799,7 @@ JOOBY_INFO.set('S3x80-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49817,7 +49817,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49835,7 +49835,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49853,7 +49853,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49871,7 +49871,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49889,7 +49889,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49907,7 +49907,7 @@ JOOBY_INFO.set('S3x80-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49925,7 +49925,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49943,7 +49943,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -49961,7 +49961,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -49979,7 +49979,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -49997,7 +49997,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50015,7 +50015,7 @@ JOOBY_INFO.set('S3x80-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50033,7 +50033,7 @@ JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50051,7 +50051,7 @@ JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50069,7 +50069,7 @@ JOOBY_INFO.set('S3x80-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50087,7 +50087,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50105,7 +50105,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50123,7 +50123,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50141,7 +50141,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50159,7 +50159,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50177,7 +50177,7 @@ JOOBY_INFO.set('S3x80-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50195,7 +50195,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50213,7 +50213,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50231,7 +50231,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50249,7 +50249,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50267,7 +50267,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50285,7 +50285,7 @@ JOOBY_INFO.set('S3x80-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50303,7 +50303,7 @@ JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50321,7 +50321,7 @@ JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50339,7 +50339,7 @@ JOOBY_INFO.set('S3x80-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50357,7 +50357,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50375,7 +50375,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50393,7 +50393,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50411,7 +50411,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50429,7 +50429,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50447,7 +50447,7 @@ JOOBY_INFO.set('S3x80-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50465,7 +50465,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50483,7 +50483,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50501,7 +50501,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50519,7 +50519,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50537,7 +50537,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50555,7 +50555,7 @@ JOOBY_INFO.set('S3x80-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50573,7 +50573,7 @@ JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,4",
     sailing: "0,123"
 });
@@ -50591,7 +50591,7 @@ JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x215 mm",
+    dim: "530x250x215",
     weight: "10,2",
     sailing: "0,123"
 });
@@ -50609,7 +50609,7 @@ JOOBY_INFO.set('S3x80-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x175 mm",
+    dim: "530x250x175",
     weight: "9,9",
     sailing: "0,123"
 });
@@ -50627,7 +50627,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50645,7 +50645,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50663,7 +50663,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50681,7 +50681,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50699,7 +50699,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50717,7 +50717,7 @@ JOOBY_INFO.set('S3x80-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50735,7 +50735,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50753,7 +50753,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50771,7 +50771,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50789,7 +50789,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50807,7 +50807,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50825,7 +50825,7 @@ JOOBY_INFO.set('S3x80-F6/30-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50843,7 +50843,7 @@ JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50861,7 +50861,7 @@ JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50879,7 +50879,7 @@ JOOBY_INFO.set('S3x80-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50897,7 +50897,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50915,7 +50915,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50933,7 +50933,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -50951,7 +50951,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -50969,7 +50969,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -50987,7 +50987,7 @@ JOOBY_INFO.set('S3x80-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51005,7 +51005,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51023,7 +51023,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51041,7 +51041,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51059,7 +51059,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51077,7 +51077,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51095,7 +51095,7 @@ JOOBY_INFO.set('S3x80-F6/65-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51113,7 +51113,7 @@ JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51131,7 +51131,7 @@ JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51149,7 +51149,7 @@ JOOBY_INFO.set('S3x80-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51167,7 +51167,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51185,7 +51185,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51203,7 +51203,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51221,7 +51221,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51239,7 +51239,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51257,7 +51257,7 @@ JOOBY_INFO.set('S3x80-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51275,7 +51275,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51293,7 +51293,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51311,7 +51311,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51329,7 +51329,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51347,7 +51347,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51365,7 +51365,7 @@ JOOBY_INFO.set('S3x80-F6/90-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51383,7 +51383,7 @@ JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51401,7 +51401,7 @@ JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51419,7 +51419,7 @@ JOOBY_INFO.set('S3x80-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51437,7 +51437,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51455,7 +51455,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51473,7 +51473,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K7I-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51491,7 +51491,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51509,7 +51509,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51527,7 +51527,7 @@ JOOBY_INFO.set('S3x80-F7/115d-3K8T-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51545,7 +51545,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51563,7 +51563,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51581,7 +51581,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51599,7 +51599,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51617,7 +51617,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51635,7 +51635,7 @@ JOOBY_INFO.set('S3x80-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51653,7 +51653,7 @@ JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51671,7 +51671,7 @@ JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51689,7 +51689,7 @@ JOOBY_INFO.set('S3x80-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51707,7 +51707,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51725,7 +51725,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51743,7 +51743,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51761,7 +51761,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51779,7 +51779,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51797,7 +51797,7 @@ JOOBY_INFO.set('S3x80-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51815,7 +51815,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51833,7 +51833,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51851,7 +51851,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51869,7 +51869,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51887,7 +51887,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51905,7 +51905,7 @@ JOOBY_INFO.set('S3x80-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51923,7 +51923,7 @@ JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51941,7 +51941,7 @@ JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -51959,7 +51959,7 @@ JOOBY_INFO.set('S3x80-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -51977,7 +51977,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -51995,7 +51995,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52013,7 +52013,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52031,7 +52031,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52049,7 +52049,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52067,7 +52067,7 @@ JOOBY_INFO.set('S3x80-F7/18-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52085,7 +52085,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52103,7 +52103,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52121,7 +52121,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52139,7 +52139,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52157,7 +52157,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52175,7 +52175,7 @@ JOOBY_INFO.set('S3x80-F7/1840-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52193,7 +52193,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52211,7 +52211,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52229,7 +52229,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52247,7 +52247,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52265,7 +52265,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52283,7 +52283,7 @@ JOOBY_INFO.set('S3x80-F7/1840-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52301,7 +52301,7 @@ JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52319,7 +52319,7 @@ JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52337,7 +52337,7 @@ JOOBY_INFO.set('S3x80-F7/1840-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52355,7 +52355,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52373,7 +52373,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52391,7 +52391,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52409,7 +52409,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52427,7 +52427,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52445,7 +52445,7 @@ JOOBY_INFO.set('S3x80-F7/18-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52463,7 +52463,7 @@ JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52481,7 +52481,7 @@ JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52499,7 +52499,7 @@ JOOBY_INFO.set('S3x80-F7/18-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52517,7 +52517,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52535,7 +52535,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52553,7 +52553,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52571,7 +52571,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52589,7 +52589,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52607,7 +52607,7 @@ JOOBY_INFO.set('S3x80-F7/22-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52625,7 +52625,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52643,7 +52643,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52661,7 +52661,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52679,7 +52679,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52697,7 +52697,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52715,7 +52715,7 @@ JOOBY_INFO.set('S3x80-F7/22-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52733,7 +52733,7 @@ JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52751,7 +52751,7 @@ JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52769,7 +52769,7 @@ JOOBY_INFO.set('S3x80-F7/22-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52787,7 +52787,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52805,7 +52805,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52823,7 +52823,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52841,7 +52841,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52859,7 +52859,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52877,7 +52877,7 @@ JOOBY_INFO.set('S3x80-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52895,7 +52895,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52913,7 +52913,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52931,7 +52931,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -52949,7 +52949,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -52967,7 +52967,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -52985,7 +52985,7 @@ JOOBY_INFO.set('S3x80-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53003,7 +53003,7 @@ JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53021,7 +53021,7 @@ JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53039,7 +53039,7 @@ JOOBY_INFO.set('S3x80-F7/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53057,7 +53057,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53075,7 +53075,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53093,7 +53093,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53111,7 +53111,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53129,7 +53129,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53147,7 +53147,7 @@ JOOBY_INFO.set('S3x80-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53165,7 +53165,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53183,7 +53183,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53201,7 +53201,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53219,7 +53219,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53237,7 +53237,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53255,7 +53255,7 @@ JOOBY_INFO.set('S3x80-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53273,7 +53273,7 @@ JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,8",
     sailing: "0,123"
 });
@@ -53291,7 +53291,7 @@ JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "530x250x195 mm",
+    dim: "530x250x195",
     weight: "9,6",
     sailing: "0,123"
 });
@@ -53309,7 +53309,7 @@ JOOBY_INFO.set('S3x80-F7/45-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "530x250x155 mm",
+    dim: "530x250x155",
     weight: "9,3",
     sailing: "0,123"
 });
@@ -53327,7 +53327,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53345,7 +53345,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53363,7 +53363,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53381,7 +53381,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53399,7 +53399,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53417,7 +53417,7 @@ JOOBY_INFO.set('S4x80-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53435,7 +53435,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53453,7 +53453,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53471,7 +53471,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53489,7 +53489,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53507,7 +53507,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53525,7 +53525,7 @@ JOOBY_INFO.set('S4x80-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53543,7 +53543,7 @@ JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53561,7 +53561,7 @@ JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53579,7 +53579,7 @@ JOOBY_INFO.set('S4x80-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53597,7 +53597,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53615,7 +53615,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53633,7 +53633,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53651,7 +53651,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53669,7 +53669,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53687,7 +53687,7 @@ JOOBY_INFO.set('S4x80-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53705,7 +53705,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53723,7 +53723,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53741,7 +53741,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53759,7 +53759,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53777,7 +53777,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53795,7 +53795,7 @@ JOOBY_INFO.set('S4x80-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53813,7 +53813,7 @@ JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53831,7 +53831,7 @@ JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53849,7 +53849,7 @@ JOOBY_INFO.set('S4x80-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53867,7 +53867,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53885,7 +53885,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53903,7 +53903,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53921,7 +53921,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53939,7 +53939,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -53957,7 +53957,7 @@ JOOBY_INFO.set('S4x80-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -53975,7 +53975,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -53993,7 +53993,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54011,7 +54011,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54029,7 +54029,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54047,7 +54047,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54065,7 +54065,7 @@ JOOBY_INFO.set('S4x80-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54083,7 +54083,7 @@ JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54101,7 +54101,7 @@ JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54119,7 +54119,7 @@ JOOBY_INFO.set('S4x80-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54137,7 +54137,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54155,7 +54155,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54173,7 +54173,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54191,7 +54191,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54209,7 +54209,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54227,7 +54227,7 @@ JOOBY_INFO.set('S4x80-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54245,7 +54245,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54263,7 +54263,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54281,7 +54281,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54299,7 +54299,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54317,7 +54317,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54335,7 +54335,7 @@ JOOBY_INFO.set('S4x80-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54353,7 +54353,7 @@ JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13,2",
     sailing: "0,155"
 });
@@ -54371,7 +54371,7 @@ JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x215 mm",
+    dim: "665x250x215",
     weight: "13",
     sailing: "0,155"
 });
@@ -54389,7 +54389,7 @@ JOOBY_INFO.set('S4x80-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x175 mm",
+    dim: "665x250x175",
     weight: "12,7",
     sailing: "0,155"
 });
@@ -54407,7 +54407,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54425,7 +54425,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54443,7 +54443,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54461,7 +54461,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54479,7 +54479,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54497,7 +54497,7 @@ JOOBY_INFO.set('S4x80-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54515,7 +54515,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54533,7 +54533,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54551,7 +54551,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54569,7 +54569,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54587,7 +54587,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54605,7 +54605,7 @@ JOOBY_INFO.set('S4x80-F6/30-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54623,7 +54623,7 @@ JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54641,7 +54641,7 @@ JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54659,7 +54659,7 @@ JOOBY_INFO.set('S4x80-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54677,7 +54677,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54695,7 +54695,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54713,7 +54713,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54731,7 +54731,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54749,7 +54749,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54767,7 +54767,7 @@ JOOBY_INFO.set('S4x80-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54785,7 +54785,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54803,7 +54803,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54821,7 +54821,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54839,7 +54839,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54857,7 +54857,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54875,7 +54875,7 @@ JOOBY_INFO.set('S4x80-F6/65-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54893,7 +54893,7 @@ JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54911,7 +54911,7 @@ JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54929,7 +54929,7 @@ JOOBY_INFO.set('S4x80-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -54947,7 +54947,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -54965,7 +54965,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -54983,7 +54983,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55001,7 +55001,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55019,7 +55019,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55037,7 +55037,7 @@ JOOBY_INFO.set('S4x80-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55055,7 +55055,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55073,7 +55073,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55091,7 +55091,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55109,7 +55109,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55127,7 +55127,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55145,7 +55145,7 @@ JOOBY_INFO.set('S4x80-F6/90-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55163,7 +55163,7 @@ JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55181,7 +55181,7 @@ JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55199,7 +55199,7 @@ JOOBY_INFO.set('S4x80-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55217,7 +55217,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55235,7 +55235,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55253,7 +55253,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K7I-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55271,7 +55271,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55289,7 +55289,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55307,7 +55307,7 @@ JOOBY_INFO.set('S4x80-F7/115d-3K8T-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55325,7 +55325,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55343,7 +55343,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55361,7 +55361,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55379,7 +55379,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55397,7 +55397,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55415,7 +55415,7 @@ JOOBY_INFO.set('S4x80-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55433,7 +55433,7 @@ JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55451,7 +55451,7 @@ JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55469,7 +55469,7 @@ JOOBY_INFO.set('S4x80-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55487,7 +55487,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55505,7 +55505,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55523,7 +55523,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55541,7 +55541,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55559,7 +55559,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55577,7 +55577,7 @@ JOOBY_INFO.set('S4x80-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55595,7 +55595,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55613,7 +55613,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55631,7 +55631,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55649,7 +55649,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55667,7 +55667,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55685,7 +55685,7 @@ JOOBY_INFO.set('S4x80-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55703,7 +55703,7 @@ JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55721,7 +55721,7 @@ JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55739,7 +55739,7 @@ JOOBY_INFO.set('S4x80-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55757,7 +55757,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55775,7 +55775,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55793,7 +55793,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55811,7 +55811,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55829,7 +55829,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55847,7 +55847,7 @@ JOOBY_INFO.set('S4x80-F7/18-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55865,7 +55865,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55883,7 +55883,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55901,7 +55901,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55919,7 +55919,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55937,7 +55937,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -55955,7 +55955,7 @@ JOOBY_INFO.set('S4x80-F7/1840-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -55973,7 +55973,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -55991,7 +55991,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56009,7 +56009,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56027,7 +56027,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56045,7 +56045,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56063,7 +56063,7 @@ JOOBY_INFO.set('S4x80-F7/1840-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56081,7 +56081,7 @@ JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56099,7 +56099,7 @@ JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56117,7 +56117,7 @@ JOOBY_INFO.set('S4x80-F7/1840-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56135,7 +56135,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56153,7 +56153,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56171,7 +56171,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56189,7 +56189,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56207,7 +56207,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56225,7 +56225,7 @@ JOOBY_INFO.set('S4x80-F7/18-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56243,7 +56243,7 @@ JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56261,7 +56261,7 @@ JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56279,7 +56279,7 @@ JOOBY_INFO.set('S4x80-F7/18-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56297,7 +56297,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56315,7 +56315,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56333,7 +56333,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56351,7 +56351,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56369,7 +56369,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56387,7 +56387,7 @@ JOOBY_INFO.set('S4x80-F7/22-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56405,7 +56405,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56423,7 +56423,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56441,7 +56441,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56459,7 +56459,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56477,7 +56477,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56495,7 +56495,7 @@ JOOBY_INFO.set('S4x80-F7/22-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56513,7 +56513,7 @@ JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56531,7 +56531,7 @@ JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56549,7 +56549,7 @@ JOOBY_INFO.set('S4x80-F7/22-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56567,7 +56567,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56585,7 +56585,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56603,7 +56603,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56621,7 +56621,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56639,7 +56639,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56657,7 +56657,7 @@ JOOBY_INFO.set('S4x80-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56675,7 +56675,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56693,7 +56693,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56711,7 +56711,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56729,7 +56729,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56747,7 +56747,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56765,7 +56765,7 @@ JOOBY_INFO.set('S4x80-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56783,7 +56783,7 @@ JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56801,7 +56801,7 @@ JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56819,7 +56819,7 @@ JOOBY_INFO.set('S4x80-F7/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56837,7 +56837,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56855,7 +56855,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56873,7 +56873,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56891,7 +56891,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56909,7 +56909,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56927,7 +56927,7 @@ JOOBY_INFO.set('S4x80-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56945,7 +56945,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -56963,7 +56963,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -56981,7 +56981,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -56999,7 +56999,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -57017,7 +57017,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -57035,7 +57035,7 @@ JOOBY_INFO.set('S4x80-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -57053,7 +57053,7 @@ JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,4",
     sailing: "0,155"
 });
@@ -57071,7 +57071,7 @@ JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "665x250x195 mm",
+    dim: "665x250x195",
     weight: "12,2",
     sailing: "0,155"
 });
@@ -57089,7 +57089,7 @@ JOOBY_INFO.set('S4x80-F7/45-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "665x250x155 mm",
+    dim: "665x250x155",
     weight: "11,9",
     sailing: "0,155"
 });
@@ -57107,7 +57107,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57125,7 +57125,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57143,7 +57143,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57161,7 +57161,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57179,7 +57179,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57197,7 +57197,7 @@ JOOBY_INFO.set('S5x80-F1/120-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57215,7 +57215,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57233,7 +57233,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57251,7 +57251,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57269,7 +57269,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57287,7 +57287,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57305,7 +57305,7 @@ JOOBY_INFO.set('S5x80-F1/120-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57323,7 +57323,7 @@ JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57341,7 +57341,7 @@ JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57359,7 +57359,7 @@ JOOBY_INFO.set('S5x80-F1/120-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57377,7 +57377,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57395,7 +57395,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57413,7 +57413,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57431,7 +57431,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57449,7 +57449,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57467,7 +57467,7 @@ JOOBY_INFO.set('S5x80-F1/45-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57485,7 +57485,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57503,7 +57503,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57521,7 +57521,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57539,7 +57539,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57557,7 +57557,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57575,7 +57575,7 @@ JOOBY_INFO.set('S5x80-F1/45-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57593,7 +57593,7 @@ JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57611,7 +57611,7 @@ JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57629,7 +57629,7 @@ JOOBY_INFO.set('S5x80-F1/45-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57647,7 +57647,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57665,7 +57665,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57683,7 +57683,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K7L-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57701,7 +57701,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57719,7 +57719,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57737,7 +57737,7 @@ JOOBY_INFO.set('S5x80-F1/60-3K8M-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57755,7 +57755,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57773,7 +57773,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57791,7 +57791,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57809,7 +57809,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57827,7 +57827,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57845,7 +57845,7 @@ JOOBY_INFO.set('S5x80-F1/60-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57863,7 +57863,7 @@ JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57881,7 +57881,7 @@ JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57899,7 +57899,7 @@ JOOBY_INFO.set('S5x80-F1/60-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57917,7 +57917,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57935,7 +57935,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -57953,7 +57953,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -57971,7 +57971,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -57989,7 +57989,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -58007,7 +58007,7 @@ JOOBY_INFO.set('S5x80-F1/90-3K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -58025,7 +58025,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -58043,7 +58043,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -58061,7 +58061,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -58079,7 +58079,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -58097,7 +58097,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -58115,7 +58115,7 @@ JOOBY_INFO.set('S5x80-F1/90-4K8L-Ci-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -58133,7 +58133,7 @@ JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "16,1",
     sailing: "0,188"
 });
@@ -58151,7 +58151,7 @@ JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х215 mm",
+    dim: "800х250х215",
     weight: "15,9",
     sailing: "0,188"
 });
@@ -58169,7 +58169,7 @@ JOOBY_INFO.set('S5x80-F1/90-5K7H-Ci-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х175 mm",
+    dim: "800х250х175",
     weight: "15,6",
     sailing: "0,188"
 });
@@ -58187,7 +58187,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58205,7 +58205,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58223,7 +58223,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58241,7 +58241,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58259,7 +58259,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58277,7 +58277,7 @@ JOOBY_INFO.set('S5x80-F6/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58295,7 +58295,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58313,7 +58313,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58331,7 +58331,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58349,7 +58349,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58367,7 +58367,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58385,7 +58385,7 @@ JOOBY_INFO.set('S5x80-F6/30-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58403,7 +58403,7 @@ JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58421,7 +58421,7 @@ JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58439,7 +58439,7 @@ JOOBY_INFO.set('S5x80-F6/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58457,7 +58457,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58475,7 +58475,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58493,7 +58493,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58511,7 +58511,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58529,7 +58529,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58547,7 +58547,7 @@ JOOBY_INFO.set('S5x80-F6/65-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58565,7 +58565,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58583,7 +58583,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58601,7 +58601,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58619,7 +58619,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58637,7 +58637,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58655,7 +58655,7 @@ JOOBY_INFO.set('S5x80-F6/65-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58673,7 +58673,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58691,7 +58691,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58709,7 +58709,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58727,7 +58727,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58745,7 +58745,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58763,7 +58763,7 @@ JOOBY_INFO.set('S5x80-F6/65-5K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58781,7 +58781,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58799,7 +58799,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58817,7 +58817,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K7M-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58835,7 +58835,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58853,7 +58853,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58871,7 +58871,7 @@ JOOBY_INFO.set('S5x80-F6/90-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58889,7 +58889,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58907,7 +58907,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58925,7 +58925,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58943,7 +58943,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -58961,7 +58961,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -58979,7 +58979,7 @@ JOOBY_INFO.set('S5x80-F6/90-4K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -58997,7 +58997,7 @@ JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59015,7 +59015,7 @@ JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59033,7 +59033,7 @@ JOOBY_INFO.set('S5x80-F6/90-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59051,7 +59051,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59069,7 +59069,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59087,7 +59087,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K7I-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59105,7 +59105,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59123,7 +59123,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59141,7 +59141,7 @@ JOOBY_INFO.set('S5x80-F7/115d-3K8T-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59159,7 +59159,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59177,7 +59177,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59195,7 +59195,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59213,7 +59213,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59231,7 +59231,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59249,7 +59249,7 @@ JOOBY_INFO.set('S5x80-F7/115d-4K8I-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59267,7 +59267,7 @@ JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59285,7 +59285,7 @@ JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59303,7 +59303,7 @@ JOOBY_INFO.set('S5x80-F7/115d-5K7S-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59321,7 +59321,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59339,7 +59339,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59357,7 +59357,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59375,7 +59375,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59393,7 +59393,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59411,7 +59411,7 @@ JOOBY_INFO.set('S5x80-F7/125-3K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59429,7 +59429,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59447,7 +59447,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59465,7 +59465,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59483,7 +59483,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59501,7 +59501,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59519,7 +59519,7 @@ JOOBY_INFO.set('S5x80-F7/125-4K8L-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59537,7 +59537,7 @@ JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59555,7 +59555,7 @@ JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59573,7 +59573,7 @@ JOOBY_INFO.set('S5x80-F7/125-5K7H-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59591,7 +59591,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59609,7 +59609,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59627,7 +59627,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59645,7 +59645,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59663,7 +59663,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59681,7 +59681,7 @@ JOOBY_INFO.set('S5x80-F7/18-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59699,7 +59699,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59717,7 +59717,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59735,7 +59735,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59753,7 +59753,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59771,7 +59771,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59789,7 +59789,7 @@ JOOBY_INFO.set('S5x80-F7/1840-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59807,7 +59807,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59825,7 +59825,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59843,7 +59843,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59861,7 +59861,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59879,7 +59879,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59897,7 +59897,7 @@ JOOBY_INFO.set('S5x80-F7/1840-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59915,7 +59915,7 @@ JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59933,7 +59933,7 @@ JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -59951,7 +59951,7 @@ JOOBY_INFO.set('S5x80-F7/1840-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -59969,7 +59969,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -59987,7 +59987,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60005,7 +60005,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60023,7 +60023,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60041,7 +60041,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60059,7 +60059,7 @@ JOOBY_INFO.set('S5x80-F7/18-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60077,7 +60077,7 @@ JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60095,7 +60095,7 @@ JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60113,7 +60113,7 @@ JOOBY_INFO.set('S5x80-F7/18-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60131,7 +60131,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60149,7 +60149,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60167,7 +60167,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K7M-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60185,7 +60185,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60203,7 +60203,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60221,7 +60221,7 @@ JOOBY_INFO.set('S5x80-F7/22-3K8I-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60239,7 +60239,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60257,7 +60257,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60275,7 +60275,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60293,7 +60293,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60311,7 +60311,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60329,7 +60329,7 @@ JOOBY_INFO.set('S5x80-F7/22-4K8S-Os-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60347,7 +60347,7 @@ JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60365,7 +60365,7 @@ JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60383,7 +60383,7 @@ JOOBY_INFO.set('S5x80-F7/22-5K7L-Os-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60401,7 +60401,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60419,7 +60419,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60437,7 +60437,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60455,7 +60455,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60473,7 +60473,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60491,7 +60491,7 @@ JOOBY_INFO.set('S5x80-F7/30-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60509,7 +60509,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60527,7 +60527,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60545,7 +60545,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60563,7 +60563,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60581,7 +60581,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60599,7 +60599,7 @@ JOOBY_INFO.set('S5x80-F7/30-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60617,7 +60617,7 @@ JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60635,7 +60635,7 @@ JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60653,7 +60653,7 @@ JOOBY_INFO.set('S5x80-F7/30-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60671,7 +60671,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60689,7 +60689,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60707,7 +60707,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60725,7 +60725,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60743,7 +60743,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60761,7 +60761,7 @@ JOOBY_INFO.set('S5x80-F7/45-3K8S-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60779,7 +60779,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60797,7 +60797,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60815,7 +60815,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60833,7 +60833,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-F3', {
     cri: "80",
     criAbb: "8",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60851,7 +60851,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-Fw', {
     cri: "80",
     criAbb: "8",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60869,7 +60869,7 @@ JOOBY_INFO.set('S5x80-F7/45-4K8M-Cr-Rx2', {
     cri: "80",
     criAbb: "8",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60887,7 +60887,7 @@ JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-F3', {
     cri: "70",
     criAbb: "7",
     mounting: "F3",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "15,1",
     sailing: "0,188"
 });
@@ -60905,7 +60905,7 @@ JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-Fw', {
     cri: "70",
     criAbb: "7",
     mounting: "Fw",
-    dim: "800х250х195 mm",
+    dim: "800х250х195",
     weight: "14,9",
     sailing: "0,188"
 });
@@ -60923,7 +60923,7 @@ JOOBY_INFO.set('S5x80-F7/45-5K7L-Cr-Rx2', {
     cri: "70",
     criAbb: "7",
     mounting: "Rx2",
-    dim: "800х250х155 mm",
+    dim: "800х250х155",
     weight: "14,6",
     sailing: "0,188"
 });
@@ -60941,7 +60941,7 @@ JOOBY_INFO.set('C1x40-S6/T4-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -60959,7 +60959,7 @@ JOOBY_INFO.set('C1x40-S6/T4-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -60977,7 +60977,7 @@ JOOBY_INFO.set('C1x40-S6/T4-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -60995,7 +60995,7 @@ JOOBY_INFO.set('C1x40-S6/T4-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61013,7 +61013,7 @@ JOOBY_INFO.set('C1x40-S6/T4-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61031,7 +61031,7 @@ JOOBY_INFO.set('C1x60-S6/T4-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61049,7 +61049,7 @@ JOOBY_INFO.set('C1x60-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61067,7 +61067,7 @@ JOOBY_INFO.set('C1x60-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61085,7 +61085,7 @@ JOOBY_INFO.set('C1x60-S6/T4-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61103,7 +61103,7 @@ JOOBY_INFO.set('C1x60-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61121,7 +61121,7 @@ JOOBY_INFO.set('C1x80-S6/T4-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61139,7 +61139,7 @@ JOOBY_INFO.set('C1x80-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61157,7 +61157,7 @@ JOOBY_INFO.set('C1x80-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61175,7 +61175,7 @@ JOOBY_INFO.set('C1x80-S6/T4-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61193,7 +61193,7 @@ JOOBY_INFO.set('C1x80-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "390х250х110 mm",
+    dim: "390х250х110",
     weight: "5,3",
     sailing: "0,07"
 });
@@ -61211,7 +61211,7 @@ JOOBY_INFO.set('C2x40-S6/T4-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61229,7 +61229,7 @@ JOOBY_INFO.set('C2x40-S6/T4-3K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61247,7 +61247,7 @@ JOOBY_INFO.set('C2x40-S6/T4-4K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61265,7 +61265,7 @@ JOOBY_INFO.set('C2x40-S6/T4-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61283,7 +61283,7 @@ JOOBY_INFO.set('C2x40-S6/T4-5K7H-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61301,7 +61301,7 @@ JOOBY_INFO.set('C2x60-S6/T4-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61319,7 +61319,7 @@ JOOBY_INFO.set('C2x60-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61337,7 +61337,7 @@ JOOBY_INFO.set('C2x60-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61355,7 +61355,7 @@ JOOBY_INFO.set('C2x60-S6/T4-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61373,7 +61373,7 @@ JOOBY_INFO.set('C2x60-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61391,7 +61391,7 @@ JOOBY_INFO.set('C2x80-S6/T4-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61409,7 +61409,7 @@ JOOBY_INFO.set('C2x80-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61427,7 +61427,7 @@ JOOBY_INFO.set('C2x80-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61445,7 +61445,7 @@ JOOBY_INFO.set('C2x80-S6/T4-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61463,7 +61463,7 @@ JOOBY_INFO.set('C2x80-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "525х250х110 mm",
+    dim: "525х250х110",
     weight: "8",
     sailing: "0,103"
 });
@@ -61481,7 +61481,7 @@ JOOBY_INFO.set('C3x60-S6/T4-3K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61499,7 +61499,7 @@ JOOBY_INFO.set('C3x60-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61517,7 +61517,7 @@ JOOBY_INFO.set('C3x60-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61535,7 +61535,7 @@ JOOBY_INFO.set('C3x60-S6/T4-4K8M-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61553,7 +61553,7 @@ JOOBY_INFO.set('C3x60-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61571,7 +61571,7 @@ JOOBY_INFO.set('C3x80-S6/T4-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61589,7 +61589,7 @@ JOOBY_INFO.set('C3x80-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61607,7 +61607,7 @@ JOOBY_INFO.set('C3x80-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61625,7 +61625,7 @@ JOOBY_INFO.set('C3x80-S6/T4-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61643,7 +61643,7 @@ JOOBY_INFO.set('C3x80-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "660х250х110 mm",
+    dim: "660х250х110",
     weight: "10,7",
     sailing: "0,135"
 });
@@ -61661,7 +61661,7 @@ JOOBY_INFO.set('C4x80-S6/T4-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -61679,7 +61679,7 @@ JOOBY_INFO.set('C4x80-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -61697,7 +61697,7 @@ JOOBY_INFO.set('C4x80-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -61715,7 +61715,7 @@ JOOBY_INFO.set('C4x80-S6/T4-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -61733,7 +61733,7 @@ JOOBY_INFO.set('C4x80-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "790х250х110 mm",
+    dim: "790х250х110",
     weight: "13,4",
     sailing: "0,167"
 });
@@ -61751,7 +61751,7 @@ JOOBY_INFO.set('C5x80-S6/T4-3K7M-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -61769,7 +61769,7 @@ JOOBY_INFO.set('C5x80-S6/T4-3K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -61787,7 +61787,7 @@ JOOBY_INFO.set('C5x80-S6/T4-4K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -61805,7 +61805,7 @@ JOOBY_INFO.set('C5x80-S6/T4-4K8S-Cr', {
     cri: "80",
     criAbb: "8",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });
@@ -61823,7 +61823,7 @@ JOOBY_INFO.set('C5x80-S6/T4-5K7L-Cr', {
     cri: "70",
     criAbb: "7",
     mounting: "",
-    dim: "925х250х130 mm",
+    dim: "925х250х130",
     weight: "16,1",
     sailing: "0,2"
 });

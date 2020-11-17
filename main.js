@@ -1,4 +1,4 @@
-let selHousing = document.getElementById('housing');
+let selHousing = document.getElementById("housing");
 let selModuleQty = document.getElementById('module-qty');
 let selModPower = document.getElementById('module-power');
 let selLensType = document.getElementById('lens-type');
@@ -11,19 +11,20 @@ let selDimType = document.getElementById('dimming');
 let selMountType = document.getElementById('mounting');
 let selAscType = document.getElementById('asc');
 
-let formArr = [selHousing,
-    selModuleQty,
-    selModPower,
-    selLensType,
-    selCctType,
-    selCriType,
-    selStdLetterType,
-    selManufType,
-    // selSpcType,
-    // selDimType,
-    selMountType,
-    selAscType
-];
+// let formArr = [
+//     selHousing,
+//     selModuleQty,
+//     selModPower,
+//     selLensType,
+//     selCctType,
+//     selCriType,
+//     selStdLetterType,
+//     selManufType,
+//     // selSpcType,
+//     // selDimType,
+//     selMountType,
+//     selAscType
+// ];
 
 document.addEventListener('DOMContentLoaded', init, false);
 
@@ -64,40 +65,24 @@ function init() {
 
 };
 
-
 document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
 
 function singleSelectChangeText() {
-    let selHousingVal = selHousing.options[selHousing.selectedIndex].value;
-    let selModuleQtyVal = selModuleQty.options[selModuleQty.selectedIndex].value;
-    let selModPowerVal = selModPower.options[selModPower.selectedIndex].value;
-    let selLensTypeVal = selLensType.options[selLensType.selectedIndex].value;
-    let selCctTypeVal = selCctType.options[selCctType.selectedIndex].value;
-    let selCriTypeVal = selCriType.options[selCriType.selectedIndex].value;
-    let selStdLetterTypeVal = selStdLetterType.options[selStdLetterType.selectedIndex].value;
-    let selManufTypeVal = selManufType.options[selManufType.selectedIndex].value;
-    let selSpcTypeVal = selSpcType.options[selSpcType.selectedIndex].value;
-    let selDimTypeVal = selDimType.options[selDimType.selectedIndex].value;
-    let selMountTypeVal = selMountType.options[selMountType.selectedIndex].value;
-    let selAscTypeVal = selAscType.options[selAscType.selectedIndex].value;
-
-
-
-    const SKU1 = selHousingVal +
-        selModuleQtyVal + "x" +
-        selModPowerVal + "-" +
-        selLensTypeVal + "-" +
-        selCctTypeVal +
-        selCriTypeVal +
-        selStdLetterTypeVal +
-        "-" + selManufTypeVal;
+    const SKU1 = selHousing.value +
+        selModuleQty.value + "x" +
+        selModPower.value + "-" +
+        selLensType.value + "-" +
+        selCctType.value +
+        selCriType.value +
+        selStdLetterType.value +
+        "-" + selManufType.value;
     const SKU2 =
-        ((selSpcTypeVal === "") ? "" : "-") +
-        selSpcTypeVal +
-        ((selDimTypeVal === "") ? "" : "-") +
-        selDimTypeVal;
-    const SKU3 = ((selMountTypeVal === "Console" || selMountTypeVal === "Pole Top") ? "" : "-" + selMountTypeVal);
-    const SKU4 = ((selAscTypeVal === "") ? "" : " + ") + selAscTypeVal;
+        ((selSpcType.value === "") ? "" : "-") +
+        selSpcType.value +
+        ((selDimType.value === "") ? "" : "-") +
+        selDimType.value;
+    const SKU3 = ((selMountType.value === "Console" || selMountType.value === "Pole Top") ? "" : "-" + selMountType.value);
+    const SKU4 = ((selAscType.value === "") ? "" : " + ") + selAscType.value;
 
 
 
@@ -122,27 +107,23 @@ function singleSelectChangeText() {
 
     //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
-    document.getElementById("cg01").innerHTML = selHousingVal;
-    document.getElementById("cg02").innerHTML = selModuleQtyVal + "x";
-    document.getElementById("cg03").innerHTML = selModPowerVal;
-    document.getElementById("cg04").innerHTML = selLensTypeVal;
-    document.getElementById("cg05").innerHTML = selCctTypeVal;
-    document.getElementById("cg06").innerHTML = selCriTypeVal;
-    document.getElementById("cg07").innerHTML = selStdLetterTypeVal;
-    document.getElementById("cg08").innerHTML = selManufTypeVal;
-    document.getElementById("cg09").innerHTML = selSpcTypeVal;
-    document.getElementById("cg10").innerHTML = selDimTypeVal;
-    document.getElementById("cg11").innerHTML = ( selMountTypeVal === "Console" || selMountTypeVal === "Pole Top" ) ? "" : selMountTypeVal;
-
-
-
-
+    document.getElementById("cg01").innerHTML = selHousing.value;
+    document.getElementById("cg02").innerHTML = selModuleQty.value + "x";
+    document.getElementById("cg03").innerHTML = selModPower.value;
+    document.getElementById("cg04").innerHTML = selLensType.value;
+    document.getElementById("cg05").innerHTML = selCctType.value;
+    document.getElementById("cg06").innerHTML = selCriType.value;
+    document.getElementById("cg07").innerHTML = selStdLetterType.value;
+    document.getElementById("cg08").innerHTML = selManufType.value;
+    document.getElementById("cg09").innerHTML = selSpcType.value;
+    document.getElementById("cg10").innerHTML = selDimType.value;
+    document.getElementById("cg11").innerHTML = (selMountType.value === "Console" || selMountType.value === "Pole Top") ? "" : selMountType.value;
 
     //Substitution to Control Device ASC description page
-    if (selAscTypeVal === "") {
+    if (selAscType.value === "") {
         document.getElementById("configGuideASC").style.display = "none";
     } else {
-        document.getElementById("cgASC").innerHTML = selAscTypeVal;
+        document.getElementById("cgASC").innerHTML = selAscType.value;
         document.getElementById("configGuideASC").style.display = "block";
     };
 
@@ -170,73 +151,78 @@ function singleSelectChangeText() {
     // };
 
 
-    // Trying to make normal filters
-    const filteredJoobyMap = new Map();
 
-    // function addMapElements(value, key)
-    // {
+
+    // //////// Create a clone Map to be filtered
+    // const filteredJoobyMap = new Map();
+    // function addMapElements(value, key) {
     //     filteredJoobyMap.set(key, value);
-    //     if (value.housing !== selHousing.value) {
-    //         filteredJoobyMap.delete(key, value);
-    //     };
     // };
+    // JOOBY_INFO.forEach(addMapElements);
 
-    function addMapElements(value, key) {
-
-        // - empty Map
-        // - add only those pairs of 'key: value', which contain active option
-
-        filteredJoobyMap.set(key, value);
-        function exclude(name, selOpt) {
-            if (name !== selOpt) {
-                filteredJoobyMap.delete(key, value);
-            };
-        };
-        exclude(value.housing, selHousing.value);
-        // exclude(value.modules, selModuleQty.value);
-        // exclude(value.power, selModPower.value);
-        // exclude(value.lens, selLensType.value);
-        // exclude(value.cctAbb, selCctType.value);
-        // exclude(value.criAbb, selCriType.value);
-
-
-    };
-
-    JOOBY_INFO.forEach(addMapElements);
-
-    function highlightMapElements(value, key) {
-        for (i = 0; i < selLensType.length; i++) {
-            console.log(value.lens, selLensType.options[i].value);
-            if (value.lens !== selLensType.options[i].value) {
-                selLensType.options[i].classList.add("inactive");
-            };
-        };
-    };
-    filteredJoobyMap.forEach(highlightMapElements);
-
-    // for (let [key, value] of filteredJoobyMap) {
-    //     for (i = 0; i < selLensType.length; i++) {
-    //         if (value.lens !== selLensType.options[i].value) {
-    //             // selLensType.options[i].classList.add("inactive");
+    // //////// Create a function to delete impossible options
+    // function delOptions(value, key) {
+    //     function subst(valueMap, dropdownValue) {
+    //         if (valueMap === dropdownValue) {
+    //             filteredJoobyMap.delete(key, value);
     //         };
     //     };
+    //     // if housing selector was chanbged, apply this code:
+    //     subst(value.housing, selHousing.value);
+    //     // if modules selector was changed, apply this code
+    //     subst(value.modules, selModuleQty.value);
+    //     subst(value.power, selModPower.value);
     // };
-
-    console.log(selHousing.value);
-    console.log(selModuleQty.value);
-    console.log(selLensType.value);
-    console.log(filteredJoobyMap);
-    // console.log(JOOBY_INFO);
+    // filteredJoobyMap.forEach(delOptions);
+    // console.log(filteredJoobyMap);
+    // console.log(selHousing.value, selModuleQty.value, selModPower.value, selLensType.value);
 
 
 
 
 
+    // //////// Create a clone Map to be filtered
+    // const filteredJoobyMap = new Map();
+    // //////// Create a function to delete impossible options
+    // function addOptions(value, key) {
+    //     function subst(valueMap, dropdownValue) {
+    //         if (valueMap === dropdownValue) {
+    //             filteredJoobyMap.set(key, value);
+    //         };
+    //     };
+    //     subst(value.housing, selHousing.value);
+    //     subst(value.modules, selModuleQty.value);
+    //     subst(value.power, selModPower.value);
+    //     subst(value.lens, selLensType.value);
+    //     subst(value.cct, selCctType.value);
+    //     subst(value.cri, selModPower.value);
+    //     subst(value.letter, selStdLetterType.value);
+    //     subst(value.manuf, selManufType.value);
+    //     subst(value.mounting, selMountType.value);
+    // };
+    // JOOBY_INFO.forEach(addOptions);
+    // console.log(filteredJoobyMap);
+    // console.log(selHousing.value, selModuleQty.value, selModPower.value, selLensType.value);
 
 
 
 
-
+    // let char = [];
+    // function foo(value) {
+    //     char.push(
+    //         value.housing,
+    //         value.modules,
+    //         value.power,
+    //         value.lens,
+    //         value.cct,
+    //         value.cri,
+    //         value.letter,
+    //         value.manuf,
+    //         value.mounting);
+    // }
+    // filteredJoobyMap.forEach(foo);
+    // const set = new Set(char);
+    // console.log(Array.from(set));
 
 
 
@@ -267,37 +253,6 @@ function singleSelectChangeText() {
         lumWeight.innerHTML = `${CURRENT_SKU.weight} kg`;
     };
 
-    //Read SKU from search field
-    //  C1x40-S6/T3-3K7L-Cr
-    //  S1x40-S6/T2-3K7L-Cr-T1
-
-    // let input = document.getElementById("search-sku");
-    // let button = document.getElementById("search-button");
-    // button.onclick = function() {
-    //     const CURRENT_SKU = JOOBY_INFO.get(input.value)
-    //     // console.log(input.value + " = " + SKU1 + SKU3 + " - ", input.value === SKU1);
-    //     // console.log(CURRENT_SKU);
-    //     if (CURRENT_SKU === undefined) {
-    //         SPECS.forEach(el => {
-    //             el.innerHTML = "No data found for this SKU";
-    //             el.classList.add("alertTdStyle");
-    //         });
-    //         cmoboSKU.innerHTML = input.value + " - No data found for this SKU";
-    //     } else {
-    //         SPECS.forEach(el => {
-    //             el.classList.remove("alertTdStyle");
-    //         });
-    //         cmoboSKU.innerHTML = input.value;
-    //         lumPower.innerHTML = `${CURRENT_SKU.power}` + " W";
-    //         lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)}` + " lm";
-    //         lumLmw.innerHTML = `${CURRENT_SKU.efficacy}` + " lm/W";
-    //         lumCCT.innerHTML = `${CURRENT_SKU.cct}` + " K";
-    //         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
-    //         lumDimensions.innerHTML = `${CURRENT_SKU.dim}` + " mm";
-    //         lumWeight.innerHTML = `${CURRENT_SKU.weight}` + " kg";
-    //     };
-    // };
-
 
 
     // Hide/show rows in Specifications table
@@ -307,55 +262,167 @@ function singleSelectChangeText() {
             tableRow.classList.add("hiddenEl");
         } else {
             tableRow.classList.remove("hiddenEl");
-            selValue.innerHTML = optionsArr.find( ({ id }) => id === selType ).label;
+            selValue.innerHTML = optionsArr.find(({
+                id
+            }) => id === selType).label;
             selValue.style.width = "50%";
         };
     };
 
     //Hide/show dimming type
-    hideSpecRows(DIMMING_OPTIONS, lumDimmingRow, selDimTypeVal, lumDimmingVal);
+    hideSpecRows(DIMMING_OPTIONS, lumDimmingRow, selDimType.value, lumDimmingVal);
     //Hide/show SPC
-    hideSpecRows(SPC_OPTIONS, lumSpcRow, selSpcTypeVal, lumSpcVal);
+    hideSpecRows(SPC_OPTIONS, lumSpcRow, selSpcType.value, lumSpcVal);
 
 
     // Change luminaire image
     let lumImg = document.getElementById("product-img");
-    let lumImgComboCode = selHousingVal + selModuleQtyVal + selLensTypeVal + selMountTypeVal;
+    let lumImgComboCode = selHousing.value + selModuleQty.value + selLensType.value + selMountType.value;
 
     if (lumImgComboCode === "") {
         lumImg.src = "img/noimg.jpg";
     } else {
-        if (selAscTypeVal === "") {
+        if (selAscType.value === "") {
             asc = 'std/';
         } else {
             asc = 'smart/';
         };
-        if (selLensTypeVal === 'S1' ||
-            selLensTypeVal === 'S2' ||
-            selLensTypeVal === 'S3' ||
-            selLensTypeVal === 'S4' ||
-            selLensTypeVal === 'F1/45' ||
-            selLensTypeVal === 'F1/60' ||
-            selLensTypeVal === 'F1/90' ||
-            selLensTypeVal === 'F1/120') {
+        if (selLensType.value === 'S1' ||
+            selLensType.value === 'S2' ||
+            selLensType.value === 'S3' ||
+            selLensType.value === 'S4' ||
+            selLensType.value === 'F1/45' ||
+            selLensType.value === 'F1/60' ||
+            selLensType.value === 'F1/90' ||
+            selLensType.value === 'F1/120') {
             led = 'cob/';
         } else {
             led = 'smd/';
-        }
-        lumImg.src = 'img/lum/' + asc + led + selHousingVal + selModuleQtyVal + '.jpg';
+        };
+        lumImg.src = 'img/lum/' + asc + led + selHousing.value + selModuleQty.value + '.jpg';
     };
 
 
     // Change LDC image and beam value
-    lumLdcDeg.innerHTML = LENS_OPTIONS.find( ({ id }) => id === selLensTypeVal ).beam;
-    lumLdcImg.src = "img/ldc/" + LENS_OPTIONS.find( ({ id }) => id === selLensTypeVal ).image;
+    lumLdcDeg.innerHTML = LENS_OPTIONS.find(({
+        id
+    }) => id === selLensType.value).beam;
+    lumLdcImg.src = "img/ldc/" + LENS_OPTIONS.find(({
+        id
+    }) => id === selLensType.value).image;
 
-    
+
     // Change Mounting type image and name
-    lumMountName.innerHTML = MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).id;
-    lumMountImg.src = "img/mount/" + MOUNT_OPTIONS.find( ({ id }) => id === selMountTypeVal ).image;
+    lumMountName.innerHTML = MOUNT_OPTIONS.find(({
+        id
+    }) => id === selMountType.value).id;
+    lumMountImg.src = "img/mount/" + MOUNT_OPTIONS.find(({
+        id
+    }) => id === selMountType.value).image;
+
 };
 
+
+
+//////// Create a clone Map to be filtered
+// const filteredJoobyMap = new Map();
+// function sendCopyToNewMap(value, key) {
+//     filteredJoobyMap.set(key, value);
+// };
+// JOOBY_INFO.forEach(sendCopyToNewMap);
+
+
+//////// Create a function to delete impossible options
+
+
+// selHousing.addEventListener('change', (event) => {
+
+//     function filter(value, key) {
+//         function subst(valueMap, dropdownValue) {
+//             if (valueMap === dropdownValue) {
+//                 filteredJoobyMap.set(key, value);
+//             } else if (valueMap !== dropdownValue) {
+//                 filteredJoobyMap.delete(key, value);
+//             };
+//         };
+//         subst(value.housing, selHousing.value);
+//     };
+//     JOOBY_INFO.forEach(filter);
+//     console.log(filteredJoobyMap);
+
+//     const arr = Object.values(Object.fromEntries(filteredJoobyMap));
+//     console.log(arr);
+//     console.log(arr.filter(val => val.modules === selModuleQty.value && val.lens === selLensType.value));
+
+    
+
+//     function inactivate(param) {
+//         for (i = 0; i < param.length; i++) {
+//             param.options[i].classList.add("inactive");
+//         };
+//     };
+//     inactivate(selLensType);
+// });
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+function inactConsoleMounting(){
+    if (selHousing.value === "C") {
+        selMountType.options[0].classList.remove("inactive");
+        selMountType.options[1].classList.remove("inactive");
+    } else {
+        selMountType.options[0].classList.add("inactive");
+        selMountType.options[1].classList.add("inactive");
+    };
+};
+
+
+const arr = Object.values(Object.fromEntries(JOOBY_INFO));
+
+function filter(selOption, attr){
+    
+    let filteredObj = arr.filter(val => val[attr] === selOption.value);
+    //write somehow filtered data to "result" array
+
+    function inactivate(param, prop) {
+        for (i = 0; i < param.length; i++) {
+            let drpDnVal = param.options[i].value;
+            let searchForDrpDnVal = result.find(el => el[prop] === drpDnVal);
+            param.options[i].classList.remove("inactive");
+            if (searchForDrpDnVal !== undefined) {
+            param.options[i].classList.remove("inactive");
+            } else {
+                param.options[i].classList.add("inactive");
+            };
+        };
+        return inactConsoleMounting();
+    };
+
+    inactivate(selHousing, 'housing');
+    inactivate(selModuleQty, 'modules');
+    inactivate(selModPower, 'power');
+    inactivate(selLensType, 'lens');
+    inactivate(selCctType, 'cctAbb');
+    inactivate(selCriType, 'criAbb');
+    inactivate(selStdLetterType, 'letter');
+    inactivate(selManufType, 'manuf');
+    inactivate(selMountType, 'mounting');
+
+};
+
+selHousing.addEventListener('change', (event) => {filter(selHousing, 'housing')});
+selModuleQty.addEventListener('change', (event) => {filter(selModuleQty, 'modules')});
+selModPower.addEventListener('change', (event) => {filter(selModPower, 'power')});
+selLensType.addEventListener('change', (event) => {filter(selLensType, 'lens')});
+selCctType.addEventListener('change', (event) => {filter(selCctType, 'cctAbb')});
+selCriType.addEventListener('change', (event) => {filter(selCriType, 'criAbb')});
+selStdLetterType.addEventListener('change', (event) => {filter(selStdLetterType, 'letter')});
+selManufType.addEventListener('change', (event) => {filter(selManufType, 'manuf')});
+selMountType.addEventListener('change', (event) => {filter(selMountType, 'mounting')});
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
 
 // Add/remove the Configuration Guide table
 function addConfigGuide() {
@@ -371,3 +438,229 @@ function addConfigGuide() {
         guidePage.style.display = "none";
     };
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function Filter({item, onChange}) {
+//     return (
+//       <div className="form-group-row">
+//         <label className="col-form-label" labelfor={'select_'+item.attr}>{item.attr}</label>
+//         <select className="form-control" onChange={onChange} id={'select_'+item.attr} name={item.attr}>
+//           <option value=''></option>
+//             {item.values.map(x => {
+//               return (<option key={x} value={x}>{x}</option>);
+//             })}
+//         </select>
+//       </div>
+//     );
+// };
+
+// function Filters({filters, setFilters, filterService}) {
+//   return filters.map(filter => {
+//     return <Filter key={filter.attr} item={filter} onChange={x => {
+//       let value = x.currentTarget.value;
+//       filterService.ApplyFilter(filter.attr, value);
+//       setFilters(filterService.AvailableFilters());
+//     }} />
+//   });
+// };
+
+// function FilterPanel({filterService}) {
+//     const [filters, setFilters] = useState(filterService.AvailableFilters());
+//     return <Filters filters={filters} setFilters={setFilters} filterService={filterService}/>;
+// };
+
+// function Item({item}) {
+//     return (
+//       <p>
+//         <span>{item.id}</span>
+//         <span>{item.lens} | {item.cctAbb}</span>
+//       </p>
+//     );
+// }
+  
+// function App({filterService}) {
+  
+//     const [result, setResult] = useState(filterService.Result());
+  
+//     filterService.OnFilterChanged = () => {
+//       setResult(filterService.Result());
+//     };
+  
+//     return (
+//       <div className="container">
+//         <div className="row">
+//           <div className="col-sm-2">
+//             <FilterPanel filterService={filterService}/>
+//           </div>
+//           <div className="col-lg-10">
+//             <p>Total records: {result.length}</p>
+//             <div className="overflow-auto" style={{"height" : "40em"}}>
+//               {result.map(x => {
+//                 return <Item key={x.id} item={x} />
+//               })}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     );
+// };
+
+
+// const reportWebVitals = onPerfEntry => {
+//     if (onPerfEntry && onPerfEntry instanceof Function) {
+//       import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+//         getCLS(onPerfEntry);
+//         getFID(onPerfEntry);
+//         getFCP(onPerfEntry);
+//         getLCP(onPerfEntry);
+//         getTTFB(onPerfEntry);
+//       });
+//     }
+// };
+
+
+// class ProductsFilter {
+
+//     products = [];
+//     filtered = [];
+//     filter = {};
+
+//     OnFilterChanged = function(){};
+
+//     Load = (items) => {
+//         this.products = items;
+//         this.filtered = items;
+//         this.filter = {};
+//     };
+
+//     AvailableFilters = () => {
+//         let result = [];
+//         const excludeList = ['id', 'dim', 'cctAbb', 'criAbb', 'flux', 'weight', 'sailing', 'efficacy'];
+        
+//         if (this.filtered.length > 0) {
+//             for(var name in this.filtered[0]) {
+//                 if (!excludeList.includes(name)) {
+//                     let values = this.filtered.reduce((acc, current) => {
+//                         if (acc.includes(current[name]) == false) {
+//                             acc.push(current[name]);
+//                         }
+//                         return acc;
+//                     }, []);
+        
+//                     result.push({
+//                         attr: name,
+//                         values: values
+//                     });
+//                 }
+//             }
+//         }
+//         return result;
+//     };
+
+//     ResetFilter = (attr) => {
+//         if (this.filter.hasOwnProperty(attr)) {
+//             if (attr) {
+//                 delete this.filter[attr];
+//                 this.filtered = this.DoFiltering(this.products, this.filter);
+//             }
+//             else
+//             {
+//                 this.filtered = this.products;
+//             }
+//             this.OnFilterChanged();
+//         };
+//     };
+
+//     DoFiltering(input, filter) {
+//         return input.filter(item => {
+//             for(var attr in filter) {
+//                 if (item[attr] !== filter[attr]) {
+//                     return false;
+//                 }
+//             }
+//             return true;
+//         });
+//     };
+
+//     ApplyFilter = (attr, value) => {
+//         if (attr) {
+//             if (value === "") {
+//                 this.ResetFilter(attr);
+//             }
+//             else {
+//                 if (this.filter.hasOwnProperty(attr)) {
+//                     if (value !== this.filter[attr]) {
+//                         // changing filter value
+//                         this.filter[attr] = value;
+//                         this.filtered = this.DoFiltering(this.products, this.filter);
+//                         this.OnFilterChanged();
+//                     }
+//                 }
+//                 else {
+//                     // adding filter
+//                     this.filter[attr] = value;
+//                     this.filtered = this.DoFiltering(this.filtered, this.filter);
+//                     this.OnFilterChanged();
+//                 }
+//             }
+//         }
+//     }
+
+//     Result = () => {
+//         return this.filtered;
+//     }
+
+// };
+
+// // import DataProvider from './db'
+
+// // const dataProvider = new DataProvider();
+// const filterService = new ProductsFilter();
+// const data = Object.values(Object.fromEntries(JOOBY_INFO));
+// filterService.Load(data);
+
+// console.log(filterService);
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App filterService={filterService} />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
