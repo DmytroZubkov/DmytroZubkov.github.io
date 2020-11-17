@@ -366,56 +366,47 @@ function singleSelectChangeText() {
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-// function inactConsoleMounting(){
-//     if (selHousing.value === "C") {
-//         selMountType.options[0].classList.remove("inactive");
-//         selMountType.options[1].classList.remove("inactive");
-//     } else {
-//         selMountType.options[0].classList.add("inactive");
-//         selMountType.options[1].classList.add("inactive");
-//     };
-// };
-
+function inactConsoleMounting(){
+    if (selHousing.value === "C") {
+        selMountType.options[0].classList.remove("inactive");
+        selMountType.options[1].classList.remove("inactive");
+    } else {
+        selMountType.options[0].classList.add("inactive");
+        selMountType.options[1].classList.add("inactive");
+    };
+};
 
 
 const arr = Object.values(Object.fromEntries(JOOBY_INFO));
 
 function filter(selOption, attr){
-    // debugger
+    
     let filteredObj = arr.filter(val => val[attr] === selOption.value);
-    console.log(filteredObj);
+    //write somehow filtered data to "result" array
 
-    function inactivate(param) {
+    function inactivate(param, prop) {
         for (i = 0; i < param.length; i++) {
             let drpDnVal = param.options[i].value;
-            let searchForDrpDnVal = filteredObj.find(el =>
-                el.housing === drpDnVal ||
-                el.modules === drpDnVal ||
-                el.power === drpDnVal ||
-                el.lens === drpDnVal ||
-                el.cctAbb === drpDnVal ||
-                el.criAbb === drpDnVal ||
-                el.letter === drpDnVal ||
-                el.manuf === drpDnVal ||
-                el.mounting === drpDnVal );
+            let searchForDrpDnVal = result.find(el => el[prop] === drpDnVal);
+            param.options[i].classList.remove("inactive");
             if (searchForDrpDnVal !== undefined) {
             param.options[i].classList.remove("inactive");
             } else {
                 param.options[i].classList.add("inactive");
             };
         };
-        // return inactConsoleMounting();
+        return inactConsoleMounting();
     };
 
-    inactivate(selHousing);
-    inactivate(selModuleQty);
-    inactivate(selModPower);
-    inactivate(selLensType);
-    inactivate(selCctType);
-    inactivate(selCriType);
-    inactivate(selStdLetterType);
-    inactivate(selManufType);
-    inactivate(selMountType);
+    inactivate(selHousing, 'housing');
+    inactivate(selModuleQty, 'modules');
+    inactivate(selModPower, 'power');
+    inactivate(selLensType, 'lens');
+    inactivate(selCctType, 'cctAbb');
+    inactivate(selCriType, 'criAbb');
+    inactivate(selStdLetterType, 'letter');
+    inactivate(selManufType, 'manuf');
+    inactivate(selMountType, 'mounting');
 
 };
 
