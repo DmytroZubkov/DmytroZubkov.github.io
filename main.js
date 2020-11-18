@@ -70,6 +70,7 @@ function singleSelectChangeText() {
     const SKU4 = ((selAscType.value === "") ? "" : " + ") + selAscType.value;
 
     let cmoboSKU = document.getElementById("combo-sku");
+    let lumType = document.getElementById("lum-type");
     let lumPower = document.getElementById("lum-power");
     let lumFlux = document.getElementById("lum-flux");
     let lumLmw = document.getElementById("lum-lmw");
@@ -81,11 +82,15 @@ function singleSelectChangeText() {
     let lumSpcVal = document.getElementById("lum-spc");
     let lumDimensions = document.getElementById("lum-dimensions");
     let lumWeight = document.getElementById("lum-weight");
+    let lumSailing = document.getElementById("lum-sailing");
     let lumLdcDeg = document.getElementById("light-beam-degrees");
     let lumLdcImg = document.getElementById("product-ldc-img");
     let lumMountName = document.getElementById("mounting-option");
     let lumMountImg = document.getElementById("mounting-img");
 
+    //Substitution of luminaire type
+    let lensOptionObj = LENS_OPTIONS.find(el => el.id === selLensType.value);
+    lumType.innerHTML = `${lensOptionObj.type} LED Luminaire`;
 
     //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
@@ -113,7 +118,7 @@ function singleSelectChangeText() {
     //Read SKU from dropdown lists
     const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
 
-    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
+    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight, lumSailing];
 
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
@@ -133,6 +138,7 @@ function singleSelectChangeText() {
         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
         lumDimensions.innerHTML = `${CURRENT_SKU.dim} mm`;
         lumWeight.innerHTML = `${CURRENT_SKU.weight} kg`;
+        lumSailing.innerHTML = `${CURRENT_SKU.sailing} m<sup style="font-size:0.5em;">2</sup>`;
     };
 
 

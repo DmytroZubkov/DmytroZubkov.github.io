@@ -171,6 +171,10 @@ select {
     font-weight: bold;
 }
 
+#configGuide p {
+    margin-bottom: 3px;
+}
+
 .config-guide .config-table {
     background: #eee;
     text-align: center;

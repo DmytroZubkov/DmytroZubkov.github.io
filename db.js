@@ -23,35 +23,36 @@ const MODULE_POWER_OPTIONS = [
 ];
 
 const LENS_OPTIONS = [
-    { id: "XX/XX", label: "Please select", beam: "", image: "" },
+    { id: "XX/XX", type: "Please select", label: "Please select", beam: "", image: "" },
     //COB Street Optics
-    { optgr: "COB Street Optics", id: "S1", label: "S1 (145°x65°)", beam: "145°x65°", image: "S1.jpg" },
-    { optgr: "COB Street Optics", id: "S2", label: "S2 (170°x120°)", beam: "170°x120°", image: "S2.jpg" },
-    { optgr: "COB Street Optics", id: "S3", label: "S3 (160°x80°)", beam: "160°x80°", image: "S3.jpg" },
-    { optgr: "COB Street Optics", id: "S4", label: "S4 (150°x70°)", beam: "150°x70°", image: "S4.jpg" },
+    { optgr: "COB Street Optics", id: "S1", type: "COB", label: "S1 (145°x65°)", beam: "145°x65°", image: "S1.jpg" },
+    { optgr: "COB Street Optics", id: "S2", type: "COB", label: "S2 (170°x120°)", beam: "170°x120°", image: "S2.jpg" },
+    { optgr: "COB Street Optics", id: "S3", type: "COB", label: "S3 (160°x80°)", beam: "160°x80°", image: "S3.jpg" },
+    { optgr: "COB Street Optics", id: "S4", type: "COB", label: "S4 (150°x70°)", beam: "150°x70°", image: "S4.jpg" },
     //SMD-28 Street Optics
-    { optgr: "SMD-28 Street Optics", id: "S6/T1", label: "S6/T1 - type I (145°x80°)", beam: "145°x80°", image: "S6_T1.jpg" },
-    { optgr: "SMD-28 Street Optics", id: "S6/T2", label: "S6/T2 - type II (160°x50°)", beam: "160°x50°", image: "S6_T2.jpg" },
-    { optgr: "SMD-28 Street Optics", id: "S6/T3", label: "S6/T3 - type III (150°x60°)", beam: "150°x60°", image: "S6_T3.jpg" },
-    { optgr: "SMD-28 Street Optics", id: "S6/T5s", label: "S6/T5s - type V (140°)", beam: "140°", image: "S6_T5s.jpg" },
-    { optgr: "SMD-28 Street Optics", id: "S6/Sc", label: "S6/Sc - type II/III (long, 160°x65°)", beam: "160°x65°", image: "S6_Sc.jpg"},
+    { optgr: "SMD-28 Street Optics", id: "S6/T1", type: "SMD", label: "S6/T1 - type I (145°x80°)", beam: "145°x80°", image: "S6_T1.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/T2", type: "SMD", label: "S6/T2 - type II (160°x50°)", beam: "160°x50°", image: "S6_T2.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/T3", type: "SMD", label: "S6/T3 - type III (150°x60°)", beam: "150°x60°", image: "S6_T3.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/T4", type: "SMD", label: "S6/T4 - type IV (165°x78°)", beam: "165°x78°", image: "S6_T4.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/T5s", type: "SMD", label: "S6/T5s - type V (140°)", beam: "140°", image: "S6_T5s.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/Sc", type: "SMD", label: "S6/Sc - type II/III (long, 160°x65°)", beam: "160°x65°", image: "S6_Sc.jpg"},
     //COB Floodlight Optics
-    { optgr: "COB Floodlight Optics", id: "F1/45", label: "F1/45 (45°x45°)", beam: "45°x45°", image: "F1_45.jpg" },
-    { optgr: "COB Floodlight Optics", id: "F1/60", label: "F1/60 (60°x60°)", beam: "60°x60°", image: "F1_60.jpg" },
-    { optgr: "COB Floodlight Optics", id: "F1/90", label: "F1/90 (90°x90°)", beam: "90°x90°", image: "F1_90.jpg" },
-    { optgr: "COB Floodlight Optics", id: "F1/120", label: "F1/120 (120°x120°)", beam: "120°x120°", image: "F1_120.jpg" },
+    { optgr: "COB Floodlight Optics", id: "F1/45", type: "COB", label: "F1/45 (45°x45°)", beam: "45°x45°", image: "F1_45.jpg" },
+    { optgr: "COB Floodlight Optics", id: "F1/60", type: "COB", label: "F1/60 (60°x60°)", beam: "60°x60°", image: "F1_60.jpg" },
+    { optgr: "COB Floodlight Optics", id: "F1/90", type: "COB", label: "F1/90 (90°x90°)", beam: "90°x90°", image: "F1_90.jpg" },
+    { optgr: "COB Floodlight Optics", id: "F1/120", type: "COB", label: "F1/120 (120°x120°)", beam: "120°x120°", image: "F1_120.jpg" },
     //SMD-28 Floodlight Optics
-    { optgr: "SMD-28 Floodlight Optics", id: "F6/30", label: "F6/30 (30°x30°)", beam: "30°x30°", image: "F6_30.jpg" },
-    { optgr: "SMD-28 Floodlight Optics", id: "F6/65", label: "F6/65 (65°x65°)", beam: "65°x65°", image: "F6_65.jpg" },
-    { optgr: "SMD-28 Floodlight Optics", id: "F6/90", label: "F6/90 (90°x90°)", beam: "90°x90°", image: "F6_90.jpg" },
+    { optgr: "SMD-28 Floodlight Optics", id: "F6/30", type: "SMD", label: "F6/30 (30°x30°)", beam: "30°x30°", image: "F6_30.jpg" },
+    { optgr: "SMD-28 Floodlight Optics", id: "F6/65", type: "SMD", label: "F6/65 (65°x65°)", beam: "65°x65°", image: "F6_65.jpg" },
+    { optgr: "SMD-28 Floodlight Optics", id: "F6/90", type: "SMD", label: "F6/90 (90°x90°)", beam: "90°x90°", image: "F6_90.jpg" },
     //SMD-36 Floodlight Optics
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/18", label: "F7/18 (18°x18°)", beam: "18°x18°", image: "F7_18.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/22", label: "F7/22 (22°x22°)", beam: "22°x22°", image: "F7_22.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/30", label: "F7/30 (30°x30°)", beam: "30°x30°", image: "F7_30.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/45", label: "F7/45 (45°x45°)", beam: "45°x45°", image: "F7_45.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/1840", label: "F7/1840 (18°x40°)", beam: "18°x40°", image: "F7_1840.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/115d", label: "F7/115d (115°x115°)", beam: "115°x115°", image: "F7_115d.jpg" },
-    { optgr: "SMD-36 Floodlight Optics", id: "F7/125", label: "F7/125 (125°x125°)", beam: "125°x125°", image: "F7_125.jpg" }
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/18", type: "SMD", label: "F7/18 (18°x18°)", beam: "18°x18°", image: "F7_18.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/22", type: "SMD", label: "F7/22 (22°x22°)", beam: "22°x22°", image: "F7_22.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/30", type: "SMD", label: "F7/30 (30°x30°)", beam: "30°x30°", image: "F7_30.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/45", type: "SMD", label: "F7/45 (45°x45°)", beam: "45°x45°", image: "F7_45.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/1840", type: "SMD", label: "F7/1840 (18°x40°)", beam: "18°x40°", image: "F7_1840.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/115d", type: "SMD", label: "F7/115d (115°x115°)", beam: "115°x115°", image: "F7_115d.jpg" },
+    { optgr: "SMD-36 Floodlight Optics", id: "F7/125", type: "SMD", label: "F7/125 (125°x125°)", beam: "125°x125°", image: "F7_125.jpg" }
 ];
 
 const CCT_OPTIONS = [
