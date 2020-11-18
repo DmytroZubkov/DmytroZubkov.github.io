@@ -81,6 +81,7 @@ function singleSelectChangeText() {
     let lumSpcVal = document.getElementById("lum-spc");
     let lumDimensions = document.getElementById("lum-dimensions");
     let lumWeight = document.getElementById("lum-weight");
+    let lumSailing = document.getElementById("lum-sailing");
     let lumLdcDeg = document.getElementById("light-beam-degrees");
     let lumLdcImg = document.getElementById("product-ldc-img");
     let lumMountName = document.getElementById("mounting-option");
@@ -113,7 +114,7 @@ function singleSelectChangeText() {
     //Read SKU from dropdown lists
     const CURRENT_SKU = JOOBY_INFO.get(SKU1 + SKU3);
 
-    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight];
+    let SPECS = [cmoboSKU, lumPower, lumFlux, lumLmw, lumCCT, lumCRI, lumDimensions, lumWeight, lumSailing];
 
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
@@ -133,6 +134,7 @@ function singleSelectChangeText() {
         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
         lumDimensions.innerHTML = `${CURRENT_SKU.dim} mm`;
         lumWeight.innerHTML = `${CURRENT_SKU.weight} kg`;
+        lumSailing.innerHTML = `${CURRENT_SKU.sailing} m<sup style="font-size:0.5em;">2</sup>`;
     };
 
 

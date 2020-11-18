@@ -33,6 +33,7 @@ const LENS_OPTIONS = [
     { optgr: "SMD-28 Street Optics", id: "S6/T1", label: "S6/T1 - type I (145°x80°)", beam: "145°x80°", image: "S6_T1.jpg" },
     { optgr: "SMD-28 Street Optics", id: "S6/T2", label: "S6/T2 - type II (160°x50°)", beam: "160°x50°", image: "S6_T2.jpg" },
     { optgr: "SMD-28 Street Optics", id: "S6/T3", label: "S6/T3 - type III (150°x60°)", beam: "150°x60°", image: "S6_T3.jpg" },
+    { optgr: "SMD-28 Street Optics", id: "S6/T4", label: "S6/T4 - type IV (165°x78°)", beam: "165°x78°", image: "S6_T4.jpg" },
     { optgr: "SMD-28 Street Optics", id: "S6/T5s", label: "S6/T5s - type V (140°)", beam: "140°", image: "S6_T5s.jpg" },
     { optgr: "SMD-28 Street Optics", id: "S6/Sc", label: "S6/Sc - type II/III (long, 160°x65°)", beam: "160°x65°", image: "S6_Sc.jpg"},
     //COB Floodlight Optics
