@@ -70,6 +70,7 @@ function singleSelectChangeText() {
     const SKU4 = ((selAscType.value === "") ? "" : " + ") + selAscType.value;
 
     let cmoboSKU = document.getElementById("combo-sku");
+    let lumType = document.getElementById("lum-type");
     let lumPower = document.getElementById("lum-power");
     let lumFlux = document.getElementById("lum-flux");
     let lumLmw = document.getElementById("lum-lmw");
@@ -87,6 +88,9 @@ function singleSelectChangeText() {
     let lumMountName = document.getElementById("mounting-option");
     let lumMountImg = document.getElementById("mounting-img");
 
+    //Substitution of luminaire type
+    let lensOptionObj = LENS_OPTIONS.find(el => el.id === selLensType.value);
+    lumType.innerHTML = `${lensOptionObj.type} LED Luminaire`;
 
     //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
