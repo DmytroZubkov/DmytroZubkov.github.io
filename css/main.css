@@ -137,11 +137,16 @@ select {
 }
 
 .lum-spec-table tr td {
+    width: 60%;
     padding: 3px;
     padding-left: 5px;
     vertical-align: top;
     font-size: 12px;
     border-bottom: 1px solid #ddd;
+}
+
+.config-guide .lum-spec-table tr td {
+    width: auto;
 }
 
 .alertTdStyle {
