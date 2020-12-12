@@ -38,6 +38,10 @@ p {
 
 
 /* Selector block styles START */
+#search-input {
+    display: none;
+}
+
 .selector {
     min-width: 260px;
     margin-top: 20px;
@@ -133,6 +137,7 @@ select {
 }
 
 .lum-spec-table tr td {
+    width: 60%;
     padding: 3px;
     padding-left: 5px;
     vertical-align: top;
@@ -140,11 +145,19 @@ select {
     border-bottom: 1px solid #ddd;
 }
 
+.config-guide .lum-spec-table tr td {
+    width: auto;
+}
+
 .alertTdStyle {
     color: red;
     font-weight: bold;
     background-image: linear-gradient(135deg, #f0f0f0 25%, #ffffff 25%, #ffffff 50%, #f0f0f0 50%, #f0f0f0 75%, #ffffff 75%, #ffffff 100%);
     background-size: 56.57px 56.57px;
+}
+
+.inactive {
+    color: #9E9E9E;
 }
 
 .hiddenEl {
@@ -161,6 +174,10 @@ select {
 
 #cgSKU, #cgASC {
     font-weight: bold;
+}
+
+#configGuide p {
+    margin-bottom: 3px;
 }
 
 .config-guide .config-table {
