@@ -69,6 +69,7 @@ function singleSelectChangeText() {
     const SKU3 = ((selMountType.value === "Console" || selMountType.value === "Pole Top") ? "" : "-" + selMountType.value);
     const SKU4 = ((selAscType.value === "") ? "" : " + ") + selAscType.value;
 
+    let report = document.getElementById("report-name");
     let cmoboSKU = document.getElementById("combo-sku");
     let lumType = document.getElementById("lum-type");
     let lumPower = document.getElementById("lum-power");
@@ -141,7 +142,10 @@ function singleSelectChangeText() {
         lumSailing.innerHTML = `${CURRENT_SKU.sailing} m<sup style="font-size:0.5em;">2</sup>`;
     };
 
-
+    // Set page name
+    let combined = SKU1 + SKU2 + SKU3 + SKU4;
+    let removeSlash = combined.replace("/", "_");
+    report.innerHTML = `Jooby Avenue ${removeSlash}`;
 
     // Hide/show rows in Specifications table
     function hideSpecRows(optionsArr, tableRow, selType, selValue) {
