@@ -23,7 +23,7 @@ const MODULE_POWER_OPTIONS = [
 ];
 
 const LENS_OPTIONS = [
-    { id: "XX/XX", type: "Please select", label: "Please select", beam: "", image: "" },
+    { id: "XX/XX", type: "Please select", label: "Please select", beam: "Please select", image: "../noimg.jpg" },
     //COB Street Optics
     { optgr: "COB Street Optics", id: "S1", type: "COB", label: "S1 (145°x65°)", beam: "145°x65°", image: "S1.jpg" },
     { optgr: "COB Street Optics", id: "S2", type: "COB", label: "S2 (170°x120°)", beam: "170°x120°", image: "S2.jpg" },
@@ -108,8 +108,9 @@ const DIMMING_OPTIONS = [
 ];
 
 const MOUNT_OPTIONS = [
-    { id: "Console", label: "None / Console (Horizontal)", mounting: "Console", image: "C-hor.jpg" },
-    { id: "Pole Top", label: "None / Pole Top", mounting: "Pole Top", image: "C-vert.jpg" },
+    { id: "", label: "Please select", mounting: "Please select", image: "../noimg.jpg" },
+    { id: "Console", label: "Console (Horizontal)", mounting: "Console", image: "C-hor.jpg" },
+    { id: "Pole Top", label: "Pole Top", mounting: "Pole Top", image: "C-vert.jpg" },
     { id: "T1", label: "T1 - for span wire, 3d", mounting: "T1", image: "T1.jpg" },
     { id: "F1", label: "F1 - narrow floodlight type, 2d", mounting: "F1", image: "F1.jpg" },
     { id: "F2", label: "F2 - narrow floodlight type, 3d", mounting: "F2", image: "F2.jpg" },

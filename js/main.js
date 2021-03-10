@@ -12,6 +12,43 @@ let selMountType = document.getElementById('mounting');
 let selAscType = document.getElementById('asc');
 let optionsLeft = document.getElementById("options-left");
 
+let ENvar = {
+    fixtureName: "LED Luminaire",
+    specsNoData: "No data found for this SKU",
+    SKUnoDataComment: " - No data found for this SKU",
+    unitW: "W",
+    unitLm: "lm",
+    unitLmW: "lm/W",
+    unitCCT: "K",
+    unitMm: "mm",
+    unitKg: "kg",
+    unitSail: "m"
+};
+
+let UKvar = {
+    fixtureName: "світлодіодний світильник",
+    specsNoData: "дані відсутні",
+    SKUnoDataComment: " - дані відсутні для такої модифікації",
+    unitW: "Вт",
+    unitLm: "лм",
+    unitLmW: "лм/Вт",
+    unitCCT: "K",
+    unitMm: "мм",
+    unitKg: "кг",
+    unitSail: "м"
+};
+
+if (document.documentElement.lang === "en") {
+    console.log("english");
+    substVar = ENvar;
+    console.log(ENvar.SKUnoDataComment);
+
+} else if (document.documentElement.lang === "uk") {
+    console.log("ukrainian");
+    substVar = UKvar;
+    console.log(substVar.SKUnoDataComment);
+};
+
 document.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
@@ -50,7 +87,7 @@ function init() {
 
 };
 
-document.addEventListener('DOMContentLoaded', singleSelectChangeText, true);
+document.addEventListener('DOMContentLoaded', singleSelectChangeText, false);
 
 function singleSelectChangeText() {
     const SKU1 = selHousing.value +
@@ -66,7 +103,7 @@ function singleSelectChangeText() {
         selSpcType.value +
         ((selDimType.value === "") ? "" : "-") +
         selDimType.value;
-    const SKU3 = ((selMountType.value === "Console" || selMountType.value === "Pole Top") ? "" : "-" + selMountType.value);
+    const SKU3 = ((selMountType.value === "" || selMountType.value === "Console" || selMountType.value === "Pole Top") ? "" : "-" + selMountType.value);
     const SKU4 = ((selAscType.value === "") ? "" : " + ") + selAscType.value;
 
     let report = document.getElementById("report-name");
@@ -91,7 +128,7 @@ function singleSelectChangeText() {
 
     //Substitution of luminaire type
     let lensOptionObj = LENS_OPTIONS.find(el => el.id === selLensType.value);
-    lumType.innerHTML = `${lensOptionObj.type} LED Luminaire`;
+    lumType.innerHTML = `${lensOptionObj.type} ${substVar.fixtureName}`;
 
     //Substitution to Configuration Guide SKU example 
     document.getElementById("cgSKU").innerHTML = SKU1 + SKU2 + SKU3;
@@ -123,23 +160,23 @@ function singleSelectChangeText() {
 
     if (CURRENT_SKU === undefined) {
         SPECS.forEach(el => {
-            el.innerHTML = "No data found for this SKU";
+            el.innerHTML = substVar.specsNoData;
             el.classList.add("alertTdStyle");
         });
-        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4 + " - No data found for this SKU";
+        cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4 + substVar.SKUnoDataComment;
     } else {
         SPECS.forEach(el => {
             el.classList.remove("alertTdStyle");
         });
         cmoboSKU.innerHTML = SKU1 + SKU2 + SKU3 + SKU4;
-        lumPower.innerHTML = `${CURRENT_SKU.power} W`;
-        lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)} lm`;
-        lumLmw.innerHTML = `${CURRENT_SKU.efficacy} lm/W`;
-        lumCCT.innerHTML = `${CURRENT_SKU.cct} K`;
+        lumPower.innerHTML = `${CURRENT_SKU.power} ${substVar.unitW}`;
+        lumFlux.innerHTML = `${new Intl.NumberFormat().format(CURRENT_SKU.flux)} ${substVar.unitLm}`;
+        lumLmw.innerHTML = `${CURRENT_SKU.efficacy} ${substVar.unitLmW}`;
+        lumCCT.innerHTML = `${CURRENT_SKU.cct} ${substVar.unitCCT}`;
         lumCRI.innerHTML = `${CURRENT_SKU.cri}`;
-        lumDimensions.innerHTML = `${CURRENT_SKU.dim} mm`;
-        lumWeight.innerHTML = `${CURRENT_SKU.weight} kg`;
-        lumSailing.innerHTML = `${CURRENT_SKU.sailing} m<sup style="font-size:0.5em;">2</sup>`;
+        lumDimensions.innerHTML = `${CURRENT_SKU.dim} ${substVar.unitMm}`;
+        lumWeight.innerHTML = `${CURRENT_SKU.weight} ${substVar.unitKg}`;
+        lumSailing.innerHTML = `${CURRENT_SKU.sailing} ${substVar.unitSail}<sup style="font-size:0.5em;">2</sup>`;
     };
 
     // Set page name
@@ -169,7 +206,7 @@ function singleSelectChangeText() {
     // Change luminaire image
     let lumImg = document.getElementById("product-img");
 
-    if (selHousing.value === "X" || selModuleQty.value === "X" || selLensType.value === "X" ) {
+    if (selHousing.value === "X" || selModuleQty.value === "X" || selLensType.value === "XX/XX" ) {
         lumImg.src = "img/noimg.jpg";
     } else {
         if (selAscType.value === "") {
@@ -194,22 +231,18 @@ function singleSelectChangeText() {
 
 
     // Change LDC image and beam value
-    if (selLensType.value === 'XX/XX'){
-        lumLdcImg.src = "img/noimg.jpg"
-    } else {
     lumLdcDeg.innerHTML = LENS_OPTIONS.find(({
         id
     }) => id === selLensType.value).beam;
     lumLdcImg.src = "img/ldc/" + LENS_OPTIONS.find(({
         id
     }) => id === selLensType.value).image;
-    };
 
 
     // Change Mounting type image and name
     lumMountName.innerHTML = MOUNT_OPTIONS.find(({
         id
-    }) => id === selMountType.value).id;
+    }) => id === selMountType.value).mounting;
     lumMountImg.src = "img/mount/" + MOUNT_OPTIONS.find(({
         id
     }) => id === selMountType.value).image;
@@ -220,11 +253,11 @@ function singleSelectChangeText() {
 
 function inactConsoleMounting(){
     if (selHousing.value === "C") {
-        selMountType.options[0].classList.remove("inactive");
         selMountType.options[1].classList.remove("inactive");
+        selMountType.options[2].classList.remove("inactive");
     } else {
-        selMountType.options[0].classList.add("inactive");
         selMountType.options[1].classList.add("inactive");
+        selMountType.options[2].classList.add("inactive");
     };
 };
 
@@ -242,7 +275,7 @@ function filter(selOption, attr) {
         return result;
     };
     filter();
-    // console.log(result.length);
+
     optionsLeft.innerHTML = `Options left: ${result.length}`
 
 

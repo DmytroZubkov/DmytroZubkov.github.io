@@ -191,7 +191,7 @@ select {
     padding: 3px;
     padding-left: 5px;
     font-size: 9px;
-    line-height: 12px;
+    line-height: 11px;
 }
 
 .config-guide .config-table td:nth-child(even) {

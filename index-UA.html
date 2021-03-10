@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="utf-8">
-    <title id="report-name">Datasheet</title>
+    <title id="report-name">Технічний паспорт</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -14,23 +14,23 @@
     <div class="datasheet-area">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img">
-            <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+            <img src="img/header_ua.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
 
         <!-- Product selector panel - START-->
         <div class="selector">
             <div class="selector-row">
                 <div class="selector-description">
-                    Datasheet language <a href="#">EN</a> | <a href="index-UA.html">UA</a>
+                    Мова листка специфікацій <a href="index.html">EN</a> | <a href="#">UA</a>
                 </div>
                 <div class="selector-description" id="options-left" style="text-align: right;">
-                    Options left: 0
+                    Варіантів комбінацій залишилось: 0
                 </div>
             </div>
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Housing type (!)
+                    Тип корпусу (!)
                 </div>
                 <select class="selector-option" id="housing" onchange="singleSelectChangeText()">
                 </select>
@@ -38,7 +38,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Modules QTY (!)
+                    Кількіть модулів (!)
                 </div>
                 <select class="selector-option" id="module-qty" onchange="singleSelectChangeText()">
                 </select>
@@ -46,7 +46,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Single Module Power (!)
+                    Потужність одного модуля (!)
                 </div>
                 <select class="selector-option" id="module-power" onchange="singleSelectChangeText()">
                 </select>
@@ -54,7 +54,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Lens type (!)
+                    Тип лінзи (!)
                 </div>
                 <select class="selector-option" id="lens-type" onchange="singleSelectChangeText()">
                 </select>
@@ -62,7 +62,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    CCT (!)
+                    Корельована колірна температура (CCT) (!)
                 </div>
                 <select class="selector-option" id="cct" onchange="singleSelectChangeText()">
                 </select>
@@ -70,7 +70,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    CRI (!)
+                    Індекс кольоропередачі (CRI) (!)
                 </div>
                 <select class="selector-option" id="cri" onchange="singleSelectChangeText()">
                 </select>
@@ -78,7 +78,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Efficacy Category (!)
+                    Група світлової віддачі (!)
                 </div>
                 <select class="selector-option" id="stupidLetter" onchange="singleSelectChangeText()">
                 </select>
@@ -86,7 +86,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    LED Manufacturer (!)
+                    Виробник світлодіодів (!)
                 </div>
                 <select class="selector-option" id="manuf" onchange="singleSelectChangeText()">
                 </select>
@@ -94,7 +94,7 @@
 
             <div class="selector-row">
                 <div class="selector-description-important">
-                    Mounting type (!)
+                    Тип кріплення (!)
                 </div>
                 <select class="selector-option" id="mounting" onchange="singleSelectChangeText()">
                 </select>
@@ -102,7 +102,7 @@
 
             <div class="selector-row">
                 <div class="selector-description">
-                    Surge Protection
+                    Модуль захисту від імпульсних перенапруг
                 </div>
                 <select class="selector-option" id="spc" onchange="singleSelectChangeText()">
                 </select>
@@ -110,7 +110,7 @@
 
             <div class="selector-row">
                 <div class="selector-description">
-                    Dimming
+                    Тип регулювання потоку
                 </div>
                 <select class="selector-option" id="dimming" onchange="singleSelectChangeText()">
                 </select>
@@ -125,32 +125,22 @@
             </div>
 
             <div class="selector-row" id="selector-row-important">
-                (!) - depicts that this field is a criteria for search in database
+                (!) - вказує що це поле є критерієм для пошуку в базі
             </div>
 
             <div class="selector-row">
                 <div class="selector-row">
                     <label id="config-guide-checkbox" for="cgCheck">
                         <input type="checkbox" id="cgCheck" value="show table" onclick="addConfigGuide()">
-                        Include Configuration Guide page
+                        Додати сторінку розшифрування конфігурацій світильника
                     </label>
                 </div>
                 <div>
                     <button type="button" class="button" style="background-color: lightcoral; font-weight: bold; color: whitesmoke;" onclick="window.print()">
-                        PRINT!
+                        ДРУК!
                     </button>
                 </div>
             </div>
-
-            <!-- <form class="selector-row" id="testForm">
-                <label class="selector-description">Housing</label>
-                <select name="housingType" class="selector-option"></select>
-                <label class="selector-description">Lens</label>
-                <select name="lensType" class="selector-option"></select>
-                <label class="selector-description">Letter</label>
-                <select name="letter" class="selector-option"></select>
-            </form> -->
-
         </div>
         <!-- Product selector panel - END-->
 
@@ -164,23 +154,19 @@
             </div>
         </div>
         <h1 id="lum-type">
-            SMD LED Luminaire
+            SMD світлодіодний світильник
         </h1>
 
         <div class="general-info-container">
             <div id="short-description" class="general-info">
-                <p>The luminaires are designed for road and street lighting, illumination of tunnels, squares, bridges,
-                    city
-                    public areas, industrial sites, parking lots etc.
+                <p>
+                    Світильники призначені для дорожнього та вуличного освітлення, освітлення тунелів, площ, мостів, міських громадських просторів, промислових майданчиків, паркінгів тощо.
                 </p>
                 <p>
-                    The Jooby Avenue Luminaires are part of Jooby Smart Lighting Solution.
+                    Світильники Jooby Avenue є частиною комплексного рішення Jooby Smart Lighting Solution.
                 </p>
                 <p>
-                    The Jooby Smart Lighting Solution ecosystem contains a full set of devices needed to build a smart
-                    lighting system: Avenue luminaires with control devices, outdoor motion sensors, control devices for
-                    third party luminaires, and the product list keeps growing. Please check our products list for more
-                    information.
+                    Екосистема Jooby Smart Lighting Solution містить повний набір пристроїв, необхідних для побудови інтелектуальної системи освітлення: світильники Avenue з приладами управління, зовнішні датчики руху, пристрої управління сторонніми світильниками, і перелік продуктів постійно росте. Будь ласка, перегляньте список наих продуктів для отримання додаткової інформації.
                 </p>
             </div>
             <div class="general-info">
@@ -195,40 +181,48 @@
                 <table class="lum-spec-table" cellpadding="0" cellspacing="0">
                     <tr class="heading">
                         <td colspan="2">
-                            Specifications
+                            Технічні характеристики
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Power consumption
+                            Номінальна потужність
                         </td>
                         <td id="lum-power">
-                            80 W
+                            80 Вт
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Input voltage
+                            Номінальна напруга
                         </td>
                         <td id="lum-voltage">
-                            120 - 280 V
+                            230 В
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Діапазон напруг за яких світильник може функціонувати в короткочасному режимі
+                        </td>
+                        <td id="lum-voltage">
+                            120 - 280 В
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Input voltage frequency
+                            Частота змінного струму
                         </td>
                         <td id="lum-freq">
-                            50 Hz
+                            50 Гц
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Power factor
+                            Коефіцієнт потужності
                         </td>
                         <td id="lum-pf">
                             >0.98
@@ -237,25 +231,25 @@
 
                     <tr>
                         <td>
-                            Luminous flux
+                            Світловий потік
                         </td>
                         <td id="lum-flux">
-                            10 920 lm
+                            10 920 лм
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Efficacy
+                            Свiтлова вiддача
                         </td>
                         <td id="lum-lmw">
-                            137 lm/W
+                            137 лм/Вт
                         </td>
                     </tr>
 
                     <tr id="lum-dimming-row">
                         <td>
-                            Dimming options
+                            Варіанти регулювання потоку
                         </td>
                         <td id="lum-dimming">
                             DALI, 0-10V
@@ -264,7 +258,7 @@
 
                     <tr>
                         <td>
-                            Color temperature (CCT)
+                            Корельована колірна температура (CCT)
                         </td>
                         <td id="lum-cct">
                             3000 K
@@ -273,7 +267,7 @@
 
                     <tr>
                         <td>
-                            Color rendering index (CRI)
+                            Індекс кольоропередачі (CRI)
                         </td>
                         <td id="lum-cri">
                             CRI > 70
@@ -282,7 +276,7 @@
 
                     <tr>
                         <td>
-                            Protection class
+                            Ступінь захисту IP
                         </td>
                         <td id="lum-ip">
                             IP66
@@ -291,7 +285,7 @@
 
                     <tr>
                         <td>
-                            Electrical safety class
+                            Клас захисту від ураження струмом
                         </td>
                         <td id="lum-elsafety">
                             I
@@ -300,7 +294,7 @@
 
                     <tr id="lum-spc-row">
                         <td>
-                            Surge protection
+                            Модуль захисту від імпульсних перенапруг
                         </td>
                         <td id="lum-spc">
                             SPC - In:5kA
@@ -309,7 +303,7 @@
 
                     <tr>
                         <td>
-                            Ambient temperature range
+                            Робочий діапазон температур
                         </td>
                         <td id="lum-t-amb">
                             -40°C ... +50°C
@@ -318,16 +312,16 @@
 
                     <tr>
                         <td>
-                            Dimensions
+                            Габаритні розміри
                         </td>
                         <td id="lum-dimensions">
-                            525х250х110 mm
+                            525х250х110 мм
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Weight
+                            Вага
                         </td>
                         <td id="lum-weight">
                             8 kg
@@ -336,25 +330,25 @@
 
                     <tr>
                         <td>
-                            Sailing area
+                            Площа проекції
                         </td>
                         <td id="lum-sailing">
-                            0.5 m2
+                            0.5 м2
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Body technology and material
+                            Технологія виготовлення корпусу та матеріл
                         </td>
                         <td id="lum-material">
-                            die-cast aluminum alloy
+                            лиття під тиском, алюмінієвий сплав
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            Maintenance factor
+                            Коефіцієнт збереження світлового потоку
                         </td>
                         <td id="lum-mf">
                             L70
@@ -363,7 +357,7 @@
 
                     <tr>
                         <td>
-                            Failure rate
+                            Інтенсивність відмов
                         </td>
                         <td id="lum-failure">
                             F50
@@ -372,7 +366,7 @@
 
                     <tr>
                         <td>
-                            Lifetime
+                            Строк служби не менше
                         </td>
                         <td id="lum-lifetime">
                             100 000 h
@@ -381,10 +375,10 @@
 
                     <tr>
                         <td>
-                            Warranty
+                            Гарантія
                         </td>
                         <td id="lum-warranty">
-                            7 years
+                            7 років
                         </td>
                     </tr>
 
@@ -394,7 +388,7 @@
             <div class="lum-images">
                 <div class="lum-ldc">
                     <div class="lum-ldc-header">
-                        Light distribution | <span id="light-beam-degrees"></span>
+                        Крива сили світла | <span id="light-beam-degrees"></span>
                     </div>
                     <div class="ldc-img">
                         <img id="product-ldc-img" alt="Product light distribution diagram"
@@ -403,7 +397,7 @@
                 </div>
                 <div class="lum-mount">
                     <div class="lum-ldc-header">
-                        Mounting option | <span id="mounting-option">Console</span>
+                        Кріплення | <span id="mounting-option">Консоль</span>
                     </div>
                     <div class="ldc-img">
                         <img id="mounting-img" src="img/mount/C-hor.jpg" alt="Product mounting"
@@ -418,7 +412,7 @@
     <div class="datasheet-area" id="configGuideASC">
         <!-- BANNER part for datasheet header -->
         <div class="banner-img2">
-            <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+            <img src="img/header_ua.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
         </div>
 
         <div class="title">
@@ -428,17 +422,15 @@
         </div>
 
         <h1>
-            Avenue Smart Cover - Control Device
+            Пристрій контролю Avenue Smart Cover
         </h1>
 
         <div class="general-info-container">
             <div id="asc-short-description" class="general-info">
-                <p></p>
-                <p>Avenue Smart Cover option allows to monitor and control the luminaire by Jooby CMS control software
-                    for setting up yearly calendar operation program, arranging operation with light and motion sensors,
-                    monitor the light status and collect operation data. Avenue Smart Cover can provide a variety of
-                    optional built in sensors.
+                <p>
+                    Опція Avenue Smart Cover дозволяє моніторити стан світильника та керувати ним за допомогою програмного забезпечення Jooby CMS, яке надає можливість встановлювати річну програму роботи календаря, організувати роботу з датчиками світла та руху, контролювати стан освітлення та збирати дані про роботу освітлювальної установки.
                 </p>
+                <p>Avenue Smart Cover може забезпечити використання різних опціональних вбудованих датчиків.</p>
             </div>
             <div class="general-info">
                 <img id="asc-img-1" class="product-img" src="img/ASC/smart6.jpg" alt="Product image"
@@ -448,59 +440,59 @@
         <div class="config-guide">
             <table class="lum-spec-table" cellpadding="0" cellspacing="0">
                 <tr class="heading">
-                    <td style="width:25%">Option code</td>
-                    <td>Connection technology</td>
-                    <td>Auxiliary interface</td>
-                    <td>Built-in light sensor</td>
-                    <td>Built-in PIR motion sensor</td>
-                    <td>Recommended installation height, m</td>
+                    <td style="width:25%">Код опції</td>
+                    <td>Технологія підключення</td>
+                    <td>Допоміжний інтерфейс</td>
+                    <td>Вбудований датчик освітленості</td>
+                    <td>Вбудований інфрачервоний датчик руху</td>
+                    <td>Рекомендована висота встановлення, м</td>
                 </tr>
                 <tr>
                     <td>ASC-LRWF</td>
                     <td>LoRaWAN</td>
                     <td>Wi-Fi</td>
-                    <td>no</td>
-                    <td>no</td>
-                    <td>any</td>
+                    <td>ні</td>
+                    <td>ні</td>
+                    <td>будь-яка</td>
                 </tr>
 
                 <tr>
                     <td>ASC-LRWF-GPS <sup style="font-size:0.5em;">(1)</sup></td>
                     <td>LoRaWAN</td>
                     <td>Wi-Fi</td>
-                    <td>no</td>
-                    <td>no</td>
-                    <td>any</td>
+                    <td>ні</td>
+                    <td>ні</td>
+                    <td>будь-яка</td>
                 </tr>
 
                 <tr>
                     <td>ASC-LRWF-PC</td>
                     <td>LoRaWAN</td>
                     <td>Wi-Fi</td>
-                    <td>yes</td>
-                    <td>no</td>
-                    <td>any</td>
+                    <td>так</td>
+                    <td>ні</td>
+                    <td>будь-яка</td>
                 </tr>
 
                 <tr>
                     <td>ASC-LRWF-IR12</td>
                     <td>LoRaWAN</td>
                     <td>Wi-Fi</td>
-                    <td>no</td>
-                    <td>yes</td>
+                    <td>ні</td>
+                    <td>так</td>
                     <td>4-12</td>
                 </tr>
                 <tr>
                     <td>ASC-LRWF-IR12-PC</td>
                     <td>LoRaWAN</td>
                     <td>Wi-Fi</td>
-                    <td>yes</td>
-                    <td>yes</td>
+                    <td>так</td>
+                    <td>так</td>
                     <td>4-12</td>
                 </tr>
             </table>
             <u>Note:</u><br>
-            <sup style="font-size:0.5em;">(1)</sup> GPS means integrated GPS module to determine location of the luminaire and define precise astronomical date and time for this specific place.
+            <sup style="font-size:0.5em;">(1)</sup> GPS означає вбудований модуль GPS для визначення місця розташування світильника та визначення точної астрономічної дати та часу для цього конкретного місця.
         </div>
     </div>
     <!-- CONTROL DEVICE END -->
@@ -509,10 +501,10 @@
         <div class="datasheet-area" id="configGuide">
             <!-- BANNER part for datasheet header -->
             <div class="banner-img2">
-                <img src="img/header.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
+                <img src="img/header_ua.png" alt="Header image" style="width: 210mm; object-fit: scale scale-down;">
             </div>
             <h1>
-                Configuration Guide
+                Довідник конфігурацій
             </h1>
             <p>
                 Jooby Avenue <span id="cgSKU"></span>
@@ -534,17 +526,17 @@
                         <td class="empty-cell"></td>
                     </tr>
                     <tr class="subheading">
-                        <td>Housing Type</td>
-                        <td>Modules QTY</td>
-                        <td>Single Module Power</td>
-                        <td>Lens</td>
+                        <td>Тип корпусу</td>
+                        <td>Кількіть модулів</td>
+                        <td>Потужність одного модуля</td>
+                        <td>Тип лінзи</td>
                         <td>CCT</td>
                         <td>CRI</td>
-                        <td>Efficacy Category</td>
-                        <td>LED Manufacturer</td>
-                        <td>Surge Protection</td>
-                        <td>Dimming</td>
-                        <td>Mounting Type</td>
+                        <td>Група світлової віддачі</td>
+                        <td>Виробник світлодіодів</td>
+                        <td>Модуль захисту від перенапруг</td>
+                        <td>Тип регулювання потоку</td>
+                        <td>Тип кріплення</td>
                         <td width="130px" class="empty-cell"></td>
                     </tr>
                     <tr>
@@ -558,24 +550,24 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>(empty)<br>
+                        <td>(пусто)<br>
                             T1<br>
                             F1<br>
                             F2<br>
                             F3<br>
-                            Fw<br>
+                            Fw<br><br>
                             R<br>
                             Rx2
                         </td>
                         <td class="config-descr-cell" colspan="12">
-                            console mounting<br>
-                            for span wire, 3d<br>
-                            narrow floodlight type, 2d<br>
-                            narrow floodlight type, 3d<br>
-                            wide floodlight type<br>
-                            wide floodlight type, separate<br>
-                            eye nut<br>
-                            eye nut, 2pcs
+                            встановлення на консоль<br>
+                            підвіс на трос, 3d<br>
+                            прожектор вузький, 2d<br>
+                            прожектор вузький, 3d<br>
+                            прожектор широкий, ліра<br>
+                            прожектор широкий, роздільний<br>
+                            підвіс рим гайка<br>
+                            підвіс рим гайка, 2шт
                         </td>
                     <tr>
                         <td></td>
@@ -594,9 +586,9 @@
                         </td>
                         <td class="config-descr-cell" colspan="12">
                             DALI<br>
-                            0-10V dimming with emergency mode<br>
-                            emergency mode dimming<br>
-                            mains voltage dimming
+                            0-10V з аварійним режимом дімування<br>
+                            аварійний режим дімування<br>
+                            дімування значенням напруги мережі
                         </td>
                     </tr>
                     <tr>
@@ -652,14 +644,14 @@
                             U
                         </td>
                         <td class="config-descr-cell" colspan="12">
-                            ≥91 lm/W (tiny)<br>
-                            ≥101 lm/W (initial)<br>
-                            ≥111 lm/W (small)<br>
-                            ≥121 lm/W (medium)<br>
-                            ≥131 lm/W (large)<br>
-                            ≥141 lm/W (high)<br>
-                            ≥151 lm/W (extra)<br>
-                            ≥161 lm/W (ultra)
+                            ≥91 лм/Вт (tiny)<br>
+                            ≥101 лм/Вт (initial)<br>
+                            ≥111 лм/Вт (small)<br>
+                            ≥121 лм/Вт (medium)<br>
+                            ≥131 лм/Вт (large)<br>
+                            ≥141 лм/Вт (high)<br>
+                            ≥151 лм/Вт (extra)<br>
+                            ≥161 лм/Вт (ultra)
                         </td>
                     </tr>
                     <tr>
@@ -734,51 +726,51 @@
                             F7/125
                         </td>
                         <td class="config-descr-cell" colspan="12">
-                            asymmetrical glass lens 145°x65°<br>
-                            asymmetrical glass lens 170°x120°<br>
-                            asymmetrical glass lens 160°x80°<br>
-                            asymmetrical glass lens 150°x70°<br>
-                            28 LEDs asymmetrical lens arrays, type I (145°x80°)<br>
-                            28 LEDs asymmetrical lens arrays, type II (160°x50°)<br>
-                            28 LEDs asymmetrical lens arrays, type III (150°x60°)<br>
-                            28 LEDs asymmetrical lens arrays, type IV (165°x78°)<br>
-                            28 LEDs symmetrical lens arrays, type V (140°)<br>
-                            28 LEDs asymmetrical lens arrays, type II/III (long, 160°x65°)<br>
-                            symmetrical glass lens 45°x45°<br>
-                            symmetrical glass lens 60°x60°<br>
-                            symmetrical glass lens 90°x90°<br>
-                            symmetrical glass lens 120°x120°<br>
-                            28 LEDs symmetrical lens arrays 30°x30°<br>
-                            28 LEDs symmetrical lens arrays 65°x65°<br>
-                            28 LEDs symmetrical lens arrays 90°x90°<br>
-                            36 LEDs symmetrical lens arrays 18°x18°<br>
-                            36 LEDs symmetrical lens arrays 22°x22°<br>
-                            36 LEDs symmetrical lens arrays 30°x30°<br>
-                            36 LEDs symmetrical lens arrays 45°x45°<br>
-                            36 LEDs symmetrical lens arrays 18°x40°<br>
-                            36 LEDs matt symmetrical lens arrays 115°x115°<br>
-                            36 LEDs symmetrical lens arrays 125°x125°
+                            лінза скляна несиметрична 145°x65°<br>
+                            лінза скляна несиметрична 170°x120°<br>
+                            лінза скляна несиметрична 160°x80°<br>
+                            лінза скляна несиметрична 150°x70°<br>
+                            лінза групова 28 LEDs несиметрична тип I (145°x80°)<br>
+                            лінза групова 28 LEDs несиметрична тип II (160°x50°)<br>
+                            лінза групова 28 LEDs несиметрична тип III (150°x60°)<br>
+                            лінза групова 28 LEDs несиметрична тип IV (165°x78°)<br>
+                            лінза групова 28 LEDs симетрична тип V (140°)<br>
+                            лінза групова 28 LEDs несиметрична тип II/III (long, 160°x65°)<br>
+                            лінза скляна симетрична 45°x45°<br>
+                            лінза скляна симетрична 60°x60°<br>
+                            лінза скляна симетрична 90°x90°<br>
+                            лінза скляна симетрична 120°x120°<br>
+                            лінза групова 28 LEDs симетрична 30°x30°<br>
+                            лінза групова 28 LEDs симетрична 65°x65°<br>
+                            лінза групова 28 LEDs симетрична 90°x90°<br>
+                            лінза групова 36 LEDs симетрична 18°x18°<br>
+                            лінза групова 36 LEDs симетрична 22°x22°<br>
+                            лінза групова 36 LEDs симетрична 30°x30°<br>
+                            лінза групова 36 LEDs симетрична 45°x45°<br>
+                            лінза групова 36 LEDs симетрична 18°x40°<br>
+                            лінза групова 36 LEDs матова симетрична 115°x115°<br>
+                            лінза групова 36 LEDs симетрична 125°x125°
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
                         <td>
-                            20 W<br>
-                            30 W<br>
-                            40 W<br>
-                            60 W<br>
-                            80 W<br>
+                            20 Вт<br>
+                            30 Вт<br>
+                            40 Вт<br>
+                            60 Вт<br>
+                            80 Вт<br>
                         </td>
                         <td class="config-descr-cell" colspan="12">
-                            Possible power for single module
+                            Потужність світлового модуля
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td>1 to 5
                         <td class="config-descr-cell" colspan="12">
-                            From 1 to 5 modules per fixture
+                            Від 1 до 5 модулів на світильник
                         </td>
                     </tr>
                     <tr>
@@ -786,8 +778,8 @@
                             S
                         </td>
                         <td class="config-descr-cell" colspan="12">
-                            Console<br>
-                            Suspended
+                            Консольний<br>
+                            Підвісний
                         </td>
                     </tr>
                 </table>
@@ -799,7 +791,7 @@
     <!-- ------------------------- -->
     <script src="js/db.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/UI.js"></script>
+    <script src="js/UI-UA.js"></script>
 
 </body>
 
