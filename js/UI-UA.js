@@ -23,7 +23,7 @@ const MODULE_POWER_OPTIONS = [
 ];
 
 const LENS_OPTIONS = [
-    { id: "XX/XX", type: "Будь ласка, оберіть", label: "Будь ласка, оберіть варіант", beam: "Будь ласка, оберіть", image: "../noimg.jpg" },
+    { id: "XX/XX", type: "Будь ласка, оберіть", label: "Будь ласка, оберіть варіант", beam: "Будь ласка, оберіть варіант", image: "../noimg.jpg" },
     //COB вулична оптика
     { optgr: "COB вулична оптика", id: "S1", type: "COB", label: "S1 (145°x65°)", beam: "145°x65°", image: "S1.jpg" },
     { optgr: "COB вулична оптика", id: "S2", type: "COB", label: "S2 (170°x120°)", beam: "170°x120°", image: "S2.jpg" },
@@ -108,7 +108,7 @@ const DIMMING_OPTIONS = [
 ];
 
 const MOUNT_OPTIONS = [
-    { id: "", label: "Будь ласка, оберіть варіант", mounting: "Будь ласка, оберіть", image: "../noimg.jpg" },
+    { id: "", label: "Будь ласка, оберіть варіант", mounting: "Будь ласка, оберіть варіант", image: "../noimg.jpg" },
     { id: "Console", label: "Консольне (Горизонтально)", mounting: "Консольне", image: "C-hor.jpg" },
     { id: "Pole Top", label: "Торшерне", mounting: "Торшерне", image: "C-vert.jpg" },
     { id: "T1", label: "T1 - підвіс на трос, 3d", mounting: "T1", image: "T1.jpg" },
